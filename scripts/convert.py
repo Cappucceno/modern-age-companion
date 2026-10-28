@@ -1049,7 +1049,7 @@ def build_rules_reference(pdf, words):
         chapter_journal(pack, pdf, name, first, last)
     mod, pages, words_ = prose_book(pdf)
     ch6 = mod.chapter_sections(pages, 91, 95, words_, stop_at=("Digital Arcana",)) \
-        + [("Psychic Powers", h) for _, h in mod.chapter_sections(pages, 101, 101, words_, stop_at=("Cryokinesis",))]
+        + [("Psychic Powers", "".join(h for _, h in mod.chapter_sections(pages, 101, 101, words_, stop_at=("Cryokinesis",))))]
     journal_doc(pack, "Chapter 6: Extraordinary Powers", ch6)
     journal_doc(pack, "Rules Tables", rules_tables_pages(pdf))
     return pack

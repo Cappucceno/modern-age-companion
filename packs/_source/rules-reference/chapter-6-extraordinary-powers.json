@@ -203,7 +203,7 @@
       },
       "text": {
         "format": 1,
-        "content": "<h3>Arcane Barrier</h3><p><strong>RequireMent:</strong> protection arcana (Master) <strong>Cost:</strong> 10 pp <strong>TiMe:</strong> Major action <strong>TArGet NuMber:</strong> 18 <strong>Test:</strong> none</p><p>You surround a subject within 25 yards (which may be yourself) with a protective field of magical force. The arcane barrier lasts for 1 round and, during that time, the subject is completely immune to damage, but also cannot move from the spot (as the barrier is immobile), make melee or ranged attacks, or give or receive items. Effects that do not cause direct damage still affect the subject normally, and spells of all kinds can pass out of the barrier. You can extend the barrier<em> </em>by spending 5 PP for each additional round you would like it to last.</p>"
+        "content": "<h3>Arcane Barrier</h3><p><strong>RequireMent:</strong> protection arcana (Master) <strong>Cost:</strong> 10 pp <strong>TiMe:</strong> Major action <strong>TArGet NuMber:</strong> 18 <strong>Test:</strong> none</p><p>You surround a subject within 25 yards (which may be yourself) with a protective field of magical force. The arcane barrier lasts for 1 round and, during that time, the subject is completely immune to damage, but also cannot move from the spot (as the barrier is immobile), make melee or ranged attacks, or give or receive items. Effects that do not cause direct damage still affect the subject normally, and spells of all kinds can pass out of the barrier. You can extend the barrier<em> </em>by spending 5 PP for each additional round you would like it to last.</p><p><em>Modern AGE</em> characters might acquire the following psychic powers in campaigns where the paranormal is real, or where certain humans stand on the cusp of the next step in evolution. Each psychic discipline, such as Cryokinesis, is a power talent. Unless the GM specifies differently, tests to activate psychic powers use the Willpower ability along with the discipline’s power focus, such as Willpower (ESP).</p><p>In games where arcana and psychic powers exist side by side, consider using the optional rules on p. 92 to make them more distinct from one another. For example, you may decide psychic powers use the Power Fatigue optional rule, while arcana use power points as usual. Think of where these abilities come from in your game to suggest how they may differ. For example, if arcana represent powers gained through study, and psychic abilities represent inherited ability, you may require students of the arcana to use gestures and special words, while psychic powers only require silent concentration.</p>"
       },
       "sort": 900000,
       "ownership": {
@@ -211,30 +211,6 @@
       },
       "flags": {},
       "_key": "!journal.pages!64c8e7e91c4ce6ef.f60ef5aa6e7630e2",
-      "_stats": {
-        "coreVersion": "14",
-        "systemId": "age-system",
-        "systemVersion": "5.0.0"
-      }
-    },
-    {
-      "_id": "73a0c1ac7f8cedca",
-      "name": "Psychic Powers (2)",
-      "type": "text",
-      "title": {
-        "show": true,
-        "level": 1
-      },
-      "text": {
-        "format": 1,
-        "content": "<p><em>Modern AGE</em> characters might acquire the following psychic powers in campaigns where the paranormal is real, or where certain humans stand on the cusp of the next step in evolution. Each psychic discipline, such as Cryokinesis, is a power talent. Unless the GM specifies differently, tests to activate psychic powers use the Willpower ability along with the discipline’s power focus, such as Willpower (ESP).</p><p>In games where arcana and psychic powers exist side by side, consider using the optional rules on p. 92 to make them more distinct from one another. For example, you may decide psychic powers use the Power Fatigue optional rule, while arcana use power points as usual. Think of where these abilities come from in your game to suggest how they may differ. For example, if arcana represent powers gained through study, and psychic abilities represent inherited ability, you may require students of the arcana to use gestures and special words, while psychic powers only require silent concentration.</p>"
-      },
-      "sort": 1000000,
-      "ownership": {
-        "default": -1
-      },
-      "flags": {},
-      "_key": "!journal.pages!64c8e7e91c4ce6ef.73a0c1ac7f8cedca",
       "_stats": {
         "coreVersion": "14",
         "systemId": "age-system",
