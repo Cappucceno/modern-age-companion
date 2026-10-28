@@ -194,8 +194,8 @@
       }
     },
     {
-      "_id": "503035bb5782fd58",
-      "name": "Introduction",
+      "_id": "f60ef5aa6e7630e2",
+      "name": "Psychic Powers",
       "type": "text",
       "title": {
         "show": true,
@@ -210,7 +210,7 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!64c8e7e91c4ce6ef.503035bb5782fd58",
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.f60ef5aa6e7630e2",
       "_stats": {
         "coreVersion": "14",
         "systemId": "age-system",
@@ -218,8 +218,8 @@
       }
     },
     {
-      "_id": "f60ef5aa6e7630e2",
-      "name": "Psychic Powers",
+      "_id": "73a0c1ac7f8cedca",
+      "name": "Psychic Powers (2)",
       "type": "text",
       "title": {
         "show": true,
@@ -234,7 +234,7 @@
         "default": -1
       },
       "flags": {},
-      "_key": "!journal.pages!64c8e7e91c4ce6ef.f60ef5aa6e7630e2",
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.73a0c1ac7f8cedca",
       "_stats": {
         "coreVersion": "14",
         "systemId": "age-system",

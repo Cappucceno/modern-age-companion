@@ -978,8 +978,11 @@ def build_creation_tables(pdf, words):
 
 def journal_doc(pack, name, pages):
     jid = make_id(pack.name, name)
-    out = []
+    out, seen = [], {}
     for n, (title, html_) in enumerate(pages, 1):
+        seen[title] = seen.get(title, 0) + 1
+        if seen[title] > 1:
+            title = f"{title} ({seen[title]})"   # page ids come from the title, so they must be unique within a journal
         pid = make_id(jid, title)
         out.append({"_id": pid, "name": title, "type": "text", "title": {"show": True, "level": 1},
                     "text": {"format": 1, "content": html_}, "sort": n * 100000, "ownership": {"default": -1}, "flags": {},
@@ -1046,7 +1049,7 @@ def build_rules_reference(pdf, words):
         chapter_journal(pack, pdf, name, first, last)
     mod, pages, words_ = prose_book(pdf)
     ch6 = mod.chapter_sections(pages, 91, 95, words_, stop_at=("Digital Arcana",)) \
-        + mod.chapter_sections(pages, 101, 101, words_, stop_at=("Cryokinesis",))
+        + [("Psychic Powers", h) for _, h in mod.chapter_sections(pages, 101, 101, words_, stop_at=("Cryokinesis",))]
     journal_doc(pack, "Chapter 6: Extraordinary Powers", ch6)
     journal_doc(pack, "Rules Tables", rules_tables_pages(pdf))
     return pack
