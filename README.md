@@ -8,7 +8,8 @@ It follows the same layout as the [Expanse compendium](https://github.com/Cappuc
 40 weapons, 6 armors and 2 shields, 12 vehicles, 41 equipment items (adventuring gear and lifestyle), 33 sample adversaries,
 the Chapter 1 character creation data (4 social classes, 12 backgrounds, 24 professions, 12 drives as journals; 24 roll tables),
 and the running text of Chapters 1, 2, 4, 5 (rules), 7, 8, 9 (introduction), 10 and 11 as journals (108 pages).
-Still missing: rules tables as roll tables and the powers (Chapter 6).
+A "Rules Tables" journal with 9 clean lookup tables (test difficulty, cover, attitudes, chase difficulty, hazards, Resources score, XP by level,
+threat level, velocity classes) and two rollable tables (NPC attitude 3d6, hazard category 1d6). Still missing: the powers (Chapter 6).
 
 Journal text is rebuilt from the PDF by position and font (`scripts/prose.py`): headings, bold/italic, bullets and simple tables
 are recognised, but complex tables and sidebars can come out imperfect, and stat blocks inside the text are left out.
@@ -27,7 +28,7 @@ npm install
 python3 scripts/convert.py "/path/to/Modern_AGE_Basic_Rulebook.pdf"   # PDF -> packs/_source/*.json (not stored in the repo)
 npm run build                                                         # packs/_source -> packs/<pack> (LevelDB)
 ```
-`--only focuses,talents,weapons,armor,stunts,vehicles,equipment,adversaries,character-creation,creation-tables,rules-reference,gm-guide` converts a subset. The converter reads PDF pages directly, so it is tied to the
+`--only focuses,talents,weapons,armor,stunts,vehicles,equipment,adversaries,character-creation,creation-tables,rules-reference,gm-guide,rules-tables` converts a subset. The converter reads PDF pages directly, so it is tied to the
 GRR6301 edition of the book.
 
 Pack sources go in `packs/_source/<pack>/` (one JSON per document, `_folder-*.json` for folders, as in the Expanse module).

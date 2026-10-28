@@ -1034,6 +1034,7 @@ def build_rules_reference(pdf, words):
     pack = Pack("rules-reference", "JournalEntry")
     for name, first, last in (("Chapter 2: Basic Rules", 33, 52), ("Chapter 4: Equipment", 71, 80), ("Chapter 5: Stunts", 81, 84)):
         chapter_journal(pack, pdf, name, first, last)
+    journal_doc(pack, "Rules Tables", rules_tables_pages(pdf))
     return pack
 
 
@@ -1045,6 +1046,105 @@ def build_gm_guide(pdf, words):
         # the NPC stat blocks closing the sample adventure do not survive the conversion to running text
         chapter_journal(pack, pdf, name, first, last, skip_pages=("Adversaries & NPCs",), stop_at=("Action Adversaries",))
     return pack
+
+
+# --------------------------------------------------------------------------- rules tables
+
+def crop_lines(pdf, page, side):
+    x, w = (0, 300) if side == "left" else (300, 303)
+    return pdftotext(pdf, page, page, "-layout", "-x", str(x), "-y", "0", "-W", str(w), "-H", "783")[0].splitlines()
+
+
+def dash(s):
+    return s.replace("-", "–") if re.fullmatch(r"[-+–]?\d+", s.strip()) else s
+
+
+def split_example(lines, i, same):
+    """Example text of a table row: on the row itself, or centred on it (the row's line sits between two wrapped lines)."""
+    if same.strip():
+        return same.strip()
+    return (lines[i - 1].strip() + " " + lines[i + 1].strip()).strip()
+
+
+def parse_rules_tables(pdf):
+    t = {}
+    L = crop_lines(pdf, 120, "right")
+    t["Basic Test Difficulty"] = (["Test Difficulty", "Target Number"], [
+        (m.group(1), m.group(2)) for l in L for m in [re.match(r"^\s*(Routine|Easy|Average|Challenging|Hard|Formidable|Imposing|Nigh Impossible)\s+(\d+)\s*$", l)] if m], "")
+    L = [l[72:] for l in pdftotext(pdf, 40, 40, "-layout")[0].splitlines()]   # the table sits mid-page, across the column gap
+    bonus = [(m.group(1), m.group(2)) for l in L for m in [re.match(r"^\s*([123])\s+(\d)(?:\s+[–\-]\d)?\s*$", l)] if m]
+    pen = [m.group(1).replace("-", "–") for l in L for m in [re.match(r"^\s*(?:\d\s+\d\s+)?([–\-]\d)\s*$", l)] if m]
+    rows = [(r, b, p_) for (r, b), p_ in zip(bonus, pen)] + [("Total", "Can’t be attacked at range*", "Can’t make ranged attacks*")]
+    t["Cover"] = (["Rating", "Armor Bonus", "Ranged Attack Penalty"], rows,
+                  "* In Gritty mode, or when using attacks that do penetrating damage, attackers take a –3 penalty to ranged attack rolls "
+                  "but might shoot through your cover.")
+    L = crop_lines(pdf, 50, "right")
+    t["Attitudes"] = (["3d6 Roll", "Attitude", "Simple Interaction Modifier"], [
+        (m.group(1), m.group(2), dash(m.group(3))) for l in L
+        for m in [re.match(r"^\s*(3 or less|\d+–\d+|\d+\+)\s{2,}([A-Z][A-Za-z ]+?)\s{2,}([–\-+]\d)\s*$", l)] if m], "")
+    L = crop_lines(pdf, 126, "right")
+    chase = [(m.group(1), m.group(2), m.group(3).strip()) for l in L
+             for m in [re.match(r"^\s*(Ideal|Average|Rough|Hard)\s+(\d+)\s+(\S.*)$", l)] if m]
+    chase.append(("Almost Impossible", "18", "Running through a collapsing building during an earthquake."))
+    t["Chase Test Difficulties"] = (["Conditions", "TN", "Example"], chase, "")
+    L = crop_lines(pdf, 131, "left")
+    haz = []
+    for i, l in enumerate(L):
+        m = re.match(r"^\s*((?:Minor|Moderate|Major|Arduous|Harrowing|Murderous) Hazard)\s+(\dd6)\s*(.*)$", l)
+        if m:
+            haz.append((m.group(1), m.group(2), split_example(L, i, m.group(3))))
+    t["Hazard Category"] = (["Category", "Damage", "Example"], haz, "")
+    L = crop_lines(pdf, 26, "right")
+    t["Resources Score"] = (["Resources Score", "Financial Condition"], [
+        (m.group(1), m.group(2).strip()) for l in L
+        for m in [re.match(r"^\s*([–\-+]?\d+ to [–\-+]?\d+|\+\d+ or higher)\s{2,}(\S.*)$", l)] if m], "")
+    L = crop_lines(pdf, 31, "left")
+    xp = []
+    for l in L:
+        m = re.match(r"^\s*([\d,]+)\s+(\d+)\s+([\d,]+)\s+(\d+)\s*$", l)
+        if m:
+            xp.append((m.group(1), m.group(2)))
+            xp.append((m.group(3), m.group(4)))
+    xp.sort(key=lambda r: int(r[1]))
+    t["Experience Points by Level"] = (["XP Total", "Level"], xp, "")
+    L = crop_lines(pdf, 133, "left")
+    t["Adversary Threat Level"] = (["Threat Level", "PC Level Range"], [
+        (m.group(1), m.group(2)) for l in L
+        for m in [re.match(r"^\s*(Minor|Moderate|Major|Dire|Legendary)\s{2,}(Levels? [\d–]+)\s*$", l)] if m], "")
+    L = crop_lines(pdf, 77, "right")
+    vel = []
+    for i, l in enumerate(L):
+        m = re.match(r"^\s*(Standard|Fast|Very Fast|Extreme)\s+(\dd6)\s+(\dd[36])\s*(.*)$", l)
+        if m:
+            vel.append((m.group(1), m.group(2), m.group(3), split_example(L, i, m.group(4))))
+    t["Velocity Classes"] = (["Velocity Class", "Collision", "Sideswipe", "Example"], vel, "")
+    return t
+
+
+def build_rules_tables(pdf, words):
+    pack = Pack("rules-tables", "RollTable")
+    tables = parse_rules_tables(pdf)
+    att = tables["Attitudes"][1]
+    rows = []
+    for roll, name, mod in att:
+        lo = 3 if roll.startswith("3 or less") else int(re.match(r"\d+", roll).group(0))
+        hi = lo if roll.endswith("+") or roll.startswith("3 or") else int(re.split(r"–", roll)[-1])
+        if roll.startswith("3 or less"):
+            hi = 3
+        rows.append((lo, hi, f"{name} (simple interaction modifier {mod})"))
+    rows[-1] = (rows[-1][0], 18, rows[-1][2])
+    table_doc(pack, "NPC Attitude (3d6)", "3d6", "Chapter 2: roll 3d6 plus modifiers to set an NPC's attitude", rows, "Social")
+    haz = tables["Hazard Category"][1]
+    table_doc(pack, "Hazard Category (1d6)", "1d6", "Chapter 8: roll 1d6 for a random hazard category (the number is the number of damage dice)",
+              [(i, i, f"{n} – {dmg} damage ({ex})") for i, (n, dmg, ex) in enumerate(haz, 1)], "Hazards")
+    return pack
+
+
+def rules_tables_pages(pdf):
+    out = []
+    for name, (heads, rows, note) in parse_rules_tables(pdf).items():
+        out.append((name, table_html(heads, rows) + (p(note) if note else "")))
+    return out
 
 
 # --------------------------------------------------------------------------- stunts
@@ -1125,8 +1225,9 @@ BUILDERS = {"focuses": build_focuses, "talents": build_talents, "weapons": build
             "stunts": build_stunts, "vehicles": build_vehicles, "equipment": build_equipment,
             "adversaries": build_adversaries,
             "character-creation": build_creation, "creation-tables": build_creation_tables,
-            "rules-reference": build_rules_reference, "gm-guide": build_gm_guide}
-NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries", "character-creation", "creation-tables", "rules-reference", "gm-guide"}
+            "rules-reference": build_rules_reference, "gm-guide": build_gm_guide,
+            "rules-tables": build_rules_tables}
+NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries", "character-creation", "creation-tables", "rules-reference", "gm-guide", "rules-tables"}
 
 
 def main():

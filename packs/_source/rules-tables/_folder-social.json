@@ -1,0 +1,17 @@
+{
+  "name": "Social",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "ad54759a0ad1d919",
+  "_key": "!folders!ad54759a0ad1d919",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

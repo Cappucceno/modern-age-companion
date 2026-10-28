@@ -1,0 +1,163 @@
+{
+  "name": "NPC Attitude (3d6)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Chapter 2: roll 3d6 plus modifiers to set an NPC's attitude",
+  "results": [
+    {
+      "_id": "3c3072efc7358edf",
+      "type": "text",
+      "name": "Very Hostile (simple interaction modifier –3)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f8be388b94ab03ef.3c3072efc7358edf"
+    },
+    {
+      "_id": "e17ad590b0ccf7af",
+      "type": "text",
+      "name": "Hostile (simple interaction modifier –2)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        4,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f8be388b94ab03ef.e17ad590b0ccf7af"
+    },
+    {
+      "_id": "4c2be031f4ec5052",
+      "type": "text",
+      "name": "Standoffish (simple interaction modifier –1)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        6,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f8be388b94ab03ef.4c2be031f4ec5052"
+    },
+    {
+      "_id": "83f923d5f0c1ac39",
+      "type": "text",
+      "name": "Neutral (simple interaction modifier +0)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        9,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f8be388b94ab03ef.83f923d5f0c1ac39"
+    },
+    {
+      "_id": "a70b0a15b6ef75c2",
+      "type": "text",
+      "name": "Open (simple interaction modifier +1)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        12,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f8be388b94ab03ef.a70b0a15b6ef75c2"
+    },
+    {
+      "_id": "861c0dda8d434b56",
+      "type": "text",
+      "name": "Friendly (simple interaction modifier +2)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 3,
+      "range": [
+        15,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f8be388b94ab03ef.861c0dda8d434b56"
+    },
+    {
+      "_id": "6bbd8f21124bc475",
+      "type": "text",
+      "name": "Very Friendly (simple interaction modifier +3)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f8be388b94ab03ef.6bbd8f21124bc475"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "ad54759a0ad1d919",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "f8be388b94ab03ef",
+  "_key": "!tables!f8be388b94ab03ef"
+}
