@@ -1,0 +1,272 @@
+{
+  "name": "Police Officer",
+  "_id": "b3eab0ecb0a9b468",
+  "_key": "!actors!b3eab0ecb0a9b468",
+  "folder": "07abcc2d9c389398",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "speed": {
+      "base": 12
+    },
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 0
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 2,
+      "ballistic": 4
+    },
+    "health": {
+      "set": 13,
+      "value": 13
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 11,
+          "healthCur": 11,
+          "defense": 0,
+          "toughness": 1
+        },
+        "pulp": {
+          "health": 13,
+          "healthCur": 13,
+          "defense": 0,
+          "toughness": 1
+        },
+        "cinematic": {
+          "health": 18,
+          "healthCur": 18,
+          "defense": 0,
+          "toughness": 1
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Cop, Five-0, LEO, Uniform</p><p>In many cities, a uniform isn’t enough to inspire confidence in a beleaguered populace. Victims cannot trust the police to take a crime seriously, because sometimes the police allowed the crime to occur. Clean uniformed cops struggle to keep their chins above water as the city runs with filth. Dirty uniformed cops may be out-and-out criminals, taking a cut from a gang, selling drugs on the side, or leaking evidence from the lockup. Others look the other way out of fear, or reveal information to the newspapers to get the truth of the city’s corruption out into the open.</p><p><strong>Favored Stunts:</strong> Benefit of the Doubt, Good Cop Bad Cop, Short Burst</p><p><strong>Talents:</strong> Contacts (Novice), Intrigue (Novice)</p><p><strong>Equipment:</strong> Badge and ID, Bullet-Resistant Cloth Body Armor, SA Handgun, Stun Gun</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "d7119143c303a807",
+      "_key": "!actors.items!b3eab0ecb0a9b468.d7119143c303a807",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6835db775f7352ff",
+      "_key": "!actors.items!b3eab0ecb0a9b468.6835db775f7352ff",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Driving",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "d5eae7a11c050db1",
+      "_key": "!actors.items!b3eab0ecb0a9b468.d5eae7a11c050db1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "89701227235b1a45",
+      "_key": "!actors.items!b3eab0ecb0a9b468.89701227235b1a45",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Law",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "68c1b16bbc9a1f6a",
+      "_key": "!actors.items!b3eab0ecb0a9b468.68c1b16bbc9a1f6a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stun Gun",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "b2aeed8d8aba12aa",
+      "_key": "!actors.items!b3eab0ecb0a9b468.b2aeed8d8aba12aa",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 1d6.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 0,
+        "dmgAbl": "no-abl",
+        "dmgType": "stun",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "SA Handgun",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "9ca332593846468e",
+      "_key": "!actors.items!b3eab0ecb0a9b468.9ca332593846468e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+1.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 1,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+1",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Police Officer",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

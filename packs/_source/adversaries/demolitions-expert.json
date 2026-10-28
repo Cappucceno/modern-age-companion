@@ -1,0 +1,464 @@
+{
+  "name": "Demolitions Expert",
+  "_id": "4449e7ec6c92397e",
+  "_key": "!actors!4449e7ec6c92397e",
+  "folder": "07abcc2d9c389398",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "speed": {
+      "base": 12
+    },
+    "abilities": {
+      "acc": {
+        "value": 2
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 1
+      },
+      "int": {
+        "value": 4
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 3
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 6,
+      "ballistic": 6
+    },
+    "health": {
+      "set": 32,
+      "value": 32
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 22,
+          "healthCur": 22,
+          "defense": 0,
+          "toughness": 2
+        },
+        "pulp": {
+          "health": 32,
+          "healthCur": 32,
+          "defense": 1,
+          "toughness": 2
+        },
+        "cinematic": {
+          "health": 47,
+          "healthCur": 47,
+          "defense": 1,
+          "toughness": 3
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Bomber, Bomb Disposal Expert, EOD Technician</p><p>Others regard the demolitions expert as an individual without fear, or at the least without a sense of self-preservation. It takes a special kind of person to want to construct or dispose of complex explosive devices. Unlike many other professions, a simple slip-up can result in maiming or death. Demolitions experts are invaluable for both offensive and defensive operations, though the statistics above can also represent an obsessive amateur or terrorist who threatens innocent lives.</p><p><strong>Favored Stunts:</strong> Collateral Damage, Fuel Line, Maim, Taunt</p><p><strong>Talents:</strong> Expertise (Defusing) (Expert), Improvisation (Expert)</p><p><strong>Equipment:</strong> Assortment of Explosive Devices, Bomb Disposal Kit, Bomb-blast Suit</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Grenades",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "b27e98e978e2cce8",
+      "_key": "!actors.items!4449e7ec6c92397e.b27e98e978e2cce8",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "SMGs",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3d0702c4218dbf26",
+      "_key": "!actors.items!4449e7ec6c92397e.3d0702c4218dbf26",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Running",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "50b9b8b849b570a7",
+      "_key": "!actors.items!4449e7ec6c92397e.50b9b8b849b570a7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Sabotage",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4a07de08a3d3ff43",
+      "_key": "!actors.items!4449e7ec6c92397e.4a07de08a3d3ff43",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Chemistry",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "1258284cb4cdd0e5",
+      "_key": "!actors.items!4449e7ec6c92397e.1258284cb4cdd0e5",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Electronics",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6e71923bc8e2ee4c",
+      "_key": "!actors.items!4449e7ec6c92397e.6e71923bc8e2ee4c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Engineering",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "385cca3fb6f4c391",
+      "_key": "!actors.items!4449e7ec6c92397e.385cca3fb6f4c391",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Explosives",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a282b2d3275dba20",
+      "_key": "!actors.items!4449e7ec6c92397e.a282b2d3275dba20",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tactics",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "d2d9706c6762f81a",
+      "_key": "!actors.items!4449e7ec6c92397e.d2d9706c6762f81a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Courage",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "96090ebc89731322",
+      "_key": "!actors.items!4449e7ec6c92397e.96090ebc89731322",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Self-Discipline",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "bd945154f5c2a7b1",
+      "_key": "!actors.items!4449e7ec6c92397e.bd945154f5c2a7b1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Blast Grenade",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "9e1f33b5e1362b35",
+      "_key": "!actors.items!4449e7ec6c92397e.9e1f33b5e1362b35",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+2.</p>",
+        "useAbl": "acc",
+        "useFocus": "grenades",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Fragmentation Grenade",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "3e0503718ef3af31",
+      "_key": "!actors.items!4449e7ec6c92397e.3e0503718ef3af31",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 3d6+2.</p>",
+        "useAbl": "acc",
+        "useFocus": "grenades",
+        "nrDice": "3",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "3d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Incendiary Grenade",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "620baf2588ee722c",
+      "_key": "!actors.items!4449e7ec6c92397e.620baf2588ee722c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 3d6+2.</p>",
+        "useAbl": "acc",
+        "useFocus": "grenades",
+        "nrDice": "3",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "3d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "PDW",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "aa7adaa44f93f8ab",
+      "_key": "!actors.items!4449e7ec6c92397e.aa7adaa44f93f8ab",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 2d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "smgs",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Demolitions Expert",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

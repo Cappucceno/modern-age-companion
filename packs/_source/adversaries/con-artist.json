@@ -1,0 +1,259 @@
+{
+  "name": "Con Artist",
+  "_id": "80fee33dde726adc",
+  "_key": "!actors!80fee33dde726adc",
+  "folder": "65ddb119774693ce",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "speed": {
+      "base": 12
+    },
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 4
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 0,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 21,
+      "value": 21
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 17,
+          "healthCur": 17,
+          "defense": 0,
+          "toughness": 2
+        },
+        "pulp": {
+          "health": 21,
+          "healthCur": 21,
+          "defense": 0,
+          "toughness": 2
+        },
+        "cinematic": {
+          "health": 26,
+          "healthCur": 26,
+          "defense": 0,
+          "toughness": 2
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Grifter, Scam Artist, Swindler</p><p>The con artist has many identities and none. They become whoever they need to be to gain your trust, and then stab you in the back when they have the most to gain. They might steal your money, your bank accounts and identity, or even your loved ones out from under your nose…and the worst part is, you gave it all up willingly.</p><p><strong>Favored Stunts:</strong> Impress, Meddle, Oozing Confidence, Patter, Risky Business</p><p><strong>Talents:</strong> Improvisation (Novice), Intrigue (Expert), Misdi-rection (Novice)</p><p><strong>Equipment:</strong> Disguises, Fake Paperwork, Fake ID</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Deception",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "fef086ed4094e874",
+      "_key": "!actors.items!80fee33dde726adc.fef086ed4094e874",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Disguise",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "2c3087f993df349e",
+      "_key": "!actors.items!80fee33dde726adc.2c3087f993df349e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Expression",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "25439ddad2a63d17",
+      "_key": "!actors.items!80fee33dde726adc.25439ddad2a63d17",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Forgery",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "76154d5080a1b90a",
+      "_key": "!actors.items!80fee33dde726adc.76154d5080a1b90a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Sleight of Hand",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a7e24cdf31e560e7",
+      "_key": "!actors.items!80fee33dde726adc.a7e24cdf31e560e7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Empathy",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "7f6a94107635979a",
+      "_key": "!actors.items!80fee33dde726adc.7f6a94107635979a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "0450cf0c3e61480f",
+      "_key": "!actors.items!80fee33dde726adc.0450cf0c3e61480f",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +0, damage 1d3+0.</p>",
+        "useAbl": "fight",
+        "useFocus": "",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 0,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+0",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Con Artist",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "name": "Mutant",
+  "_id": "e22f1f8cb27d3db4",
+  "_key": "!actors!e22f1f8cb27d3db4",
+  "folder": "07abcc2d9c389398",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Dire",
+    "speed": {
+      "base": 24
+    },
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 5
+      },
+      "dex": {
+        "value": 4
+      },
+      "fight": {
+        "value": 5
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 4
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 6,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 100,
+      "value": 100
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 30,
+          "healthCur": 30,
+          "defense": 0,
+          "toughness": 5
+        },
+        "pulp": {
+          "health": 100,
+          "healthCur": 100,
+          "defense": 2,
+          "toughness": 6
+        },
+        "cinematic": {
+          "health": 145,
+          "healthCur": 145,
+          "defense": 3,
+          "toughness": 8
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Aberration, the Military’s Biggest Mistake, Test</p><p>Subject 666 Not all experiments go as planned. Sometimes a lab’s output melts on the slab, or dies shortly after the scientists remove the tube and allow the creature freedom to think. Other times, a mutant creation emerges, more aggressive and dangerous than anyone anticipates. Mutants occasionally emerge naturally due to unusual genetic sequencing, but more appear after scientific experiments go awry. Mutants are not prone to reason, possessing an innate ferocity toward the world and their creators. Many display unusual abilities scientists struggle to replicate in controlled circumstances.</p><p><strong>Favored Stunts:</strong> Instant Kill, Maim, Shock and Awe</p><p><strong>Mutations:</strong> This example mutant can run twice as fast as a human (already calculated in Speed), and has chameleonlike skin providing a +2 bonus to Dexterity (Stealth) checks if they have 1 round to adapt to their environment. Other mutants may have different abilities.</p><p><strong>Talents:</strong> Improvisation (Novice), Living on the Fringe (Master), Overwhelm (Master)</p><p><strong>Equipment:</strong> Fragmented Metal Armor (Mail), Rusty Knives</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Running",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "2ce73dfcbc44fa33",
+      "_key": "!actors.items!e22f1f8cb27d3db4.2ce73dfcbc44fa33",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "164db6d5196f1058",
+      "_key": "!actors.items!e22f1f8cb27d3db4.164db6d5196f1058",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "db0c9a27d21c3164",
+      "_key": "!actors.items!e22f1f8cb27d3db4.db0c9a27d21c3164",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stealth",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "69ac9a61d3434770",
+      "_key": "!actors.items!e22f1f8cb27d3db4.69ac9a61d3434770",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Bite",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f60b866e17972e11",
+      "_key": "!actors.items!e22f1f8cb27d3db4.f60b866e17972e11",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "5a97139366ff9066",
+      "_key": "!actors.items!e22f1f8cb27d3db4.5a97139366ff9066",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Claw",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "e25a330c462addb2",
+      "_key": "!actors.items!e22f1f8cb27d3db4.e25a330c462addb2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Biology",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "e7ef2bbc12a34522",
+      "_key": "!actors.items!e22f1f8cb27d3db4.e7ef2bbc12a34522",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6abd148486a9ade1",
+      "_key": "!actors.items!e22f1f8cb27d3db4.6abd148486a9ade1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Smelling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "5149746b9969610d",
+      "_key": "!actors.items!e22f1f8cb27d3db4.5149746b9969610d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tracking",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "adca8d00b482c129",
+      "_key": "!actors.items!e22f1f8cb27d3db4.adca8d00b482c129",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a8038250f600c190",
+      "_key": "!actors.items!e22f1f8cb27d3db4.a8038250f600c190",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Might",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3de573dcee8f6ab8",
+      "_key": "!actors.items!e22f1f8cb27d3db4.3de573dcee8f6ab8",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Talons",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "bee856c8b72a7d03",
+      "_key": "!actors.items!e22f1f8cb27d3db4.bee856c8b72a7d03",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +7, damage 1d6+4.</p>",
+        "useAbl": "fight",
+        "useFocus": "",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 4,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+4",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Mutant",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

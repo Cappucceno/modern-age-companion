@@ -1,0 +1,304 @@
+{
+  "name": "Survivalist",
+  "_id": "7550c55c943ae4f5",
+  "_key": "!actors!7550c55c943ae4f5",
+  "folder": "07abcc2d9c389398",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "speed": {
+      "base": 12
+    },
+    "abilities": {
+      "acc": {
+        "value": 3
+      },
+      "comm": {
+        "value": 1
+      },
+      "cons": {
+        "value": 3
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 2
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 0,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 33,
+      "value": 33
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 18,
+          "healthCur": 18,
+          "defense": 0,
+          "toughness": 3
+        },
+        "pulp": {
+          "health": 33,
+          "healthCur": 33,
+          "defense": 0,
+          "toughness": 4
+        },
+        "cinematic": {
+          "health": 48,
+          "healthCur": 48,
+          "defense": 1,
+          "toughness": 4
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Frontiersman, Hunter, Outlander</p><p>Survivalists come in three varieties. Hobby survivalists are just a bit more serious than campers. They spend extended periods in harsh climates, but most go back to town in the end. Some choose to leave behind urban comfort to survive using primitive tools, but just as many bring special food, clothes, and gear to enjoy a bit of civilized luxury in the wild. More serious survivalists keep permanent compounds stocked some distance from civilization. If they think a major catastrophe’s about to happen, that’s where they’ll go, to hole up with all the gear and guns they need to ride out the apocalypse. The most disciplined go through practice runs regularly to enhance their survival skills. Finally, some choose to live a well-prepared off-grid lifestyle full time. They come to town as little as they can manage to stock up on odds and ends, but would rather earn their meals with planting, hunting, and gathering as much as possible. Some of them believe the modern world is too corrupt to live in, while others choose a hermit’s life to fight off personal demons—or hide from dogged enemies. Some survivalists live in groups, in walled compounds or distant cabins. Hardcore survivalists don’t like visitors, and in groups, might reinforce each other’s animosity toward mainstream society. Singly or in isolated communities, survivalists mainly want the freedom to live as they wish, but their privacy inspires questions. What are they doing out there?</p><p><strong>Favored Stunts:</strong> Called Shot, Compound’s Ready (2 SP), Efficient Gunner, Skirmish Stunt - Compound’s Ready: If confronted in their cabin or established shelter, the survivalist can spend 2 SP to pick up a useful item, including a weapon, as a free action.</p><p><strong>Talents:</strong> Expertise (Trapping) (Expert), Living on the Fringe (Expert), Theory and Practice (Novice)</p><p><strong>Equipment:</strong> Crossbow, Bolts, Dagger, Hunting Rifle (Carbine), Survival Gear</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Bows",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f9a2f01a578ddfb4",
+      "_key": "!actors.items!7550c55c943ae4f5.f9a2f01a578ddfb4",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Longarms",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "da6c22b755a83b28",
+      "_key": "!actors.items!7550c55c943ae4f5.da6c22b755a83b28",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "9d0f38e93952abb3",
+      "_key": "!actors.items!7550c55c943ae4f5.9d0f38e93952abb3",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Light Blades",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4d5cc848bc4174ad",
+      "_key": "!actors.items!7550c55c943ae4f5.4d5cc848bc4174ad",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tracking",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "24f87c26bf66011a",
+      "_key": "!actors.items!7550c55c943ae4f5.24f87c26bf66011a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Crossbow",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "f8ec33a480ce749d",
+      "_key": "!actors.items!7550c55c943ae4f5.f8ec33a480ce749d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 2d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "bows",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Carbine",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "3ecdbb4395f39a36",
+      "_key": "!actors.items!7550c55c943ae4f5.3ecdbb4395f39a36",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 2d6+4.</p>",
+        "useAbl": "acc",
+        "useFocus": "longarms",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 4,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+4",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "e25052e21634e1f0",
+      "_key": "!actors.items!7550c55c943ae4f5.e25052e21634e1f0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +4, damage 1d6+2.</p>",
+        "useAbl": "fight",
+        "useFocus": "light blades",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Survivalist",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

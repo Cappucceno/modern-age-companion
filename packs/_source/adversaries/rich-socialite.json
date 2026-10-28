@@ -1,0 +1,217 @@
+{
+  "name": "Rich Socialite",
+  "_id": "43938d690a9a497a",
+  "_key": "!actors!43938d690a9a497a",
+  "folder": "65ddb119774693ce",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "speed": {
+      "base": 11
+    },
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 1
+      },
+      "fight": {
+        "value": -1
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 0,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 13,
+      "value": 13
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 11,
+          "healthCur": 11,
+          "defense": 0,
+          "toughness": 1
+        },
+        "pulp": {
+          "health": 13,
+          "healthCur": 13,
+          "defense": 0,
+          "toughness": 1
+        },
+        "cinematic": {
+          "health": 18,
+          "healthCur": 18,
+          "defense": 0,
+          "toughness": 1
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Celebrity, Dignitary, Rock Star</p><p>The rich socialite leverages their wealth and fame wherever they go. They think they’re better than you, and they’ll go to any lengths trying to prove it. Their only loyalty is to themself, but hordes of admirers and sycophants still clamor for any scrap of attention they can get. Adoring fans and paparazzi always surround a socialite unless something has gone wrong, and the celebrity won’t hesitate to use these bystanders as blunt social weapons when need be.</p><p><strong>Favored Stunts:</strong> Class Clown, Click “Share,” Filthy Rich (3 SP), Flirt, Impress, Meddle, On the Fence, Oozing Confidence</p><p><strong>Stunt - Filthy Rich:</strong> For 3 SP, the socialite can throw their wealth around. They can immediately produce one piece of equipment, hireling, or other resource no matter how expensive it would be to own or procure, or they may gain a +2 to the next Communication test they make that relies on a bribe.</p><p><strong>Talents:</strong> Attractive (Novice), Inspire (Novice), Party Animal (Novice) Promises, Promises: The socialite reduces the SP cost of the On the Fence stunt by 1. Anyone they convince this way gains the Willpower (Morale) focus for the rest of the scene as long as they remain on the socialite’s side, and the socialite may use the Meddle stunt for 3 SP instead of 5 if both targets are people they’ve already convinced via Promises, Promises.</p><p><strong>Sycophants:</strong> Any ally who performs the Blockade or Guardian Angel stunt on the socialite’s behalf reduces the SP cost by 1.</p><p><strong>Equipment:</strong> Cash, Cell Phone, Sports Car</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Etiquette",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f96fab24e71e7cb8",
+      "_key": "!actors.items!43938d690a9a497a.f96fab24e71e7cb8",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "fd40977108d7a53c",
+      "_key": "!actors.items!43938d690a9a497a.fd40977108d7a53c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seduction",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6f0fd0cc7a466397",
+      "_key": "!actors.items!43938d690a9a497a.6f0fd0cc7a466397",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Current Affairs",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "209ed8fb86302451",
+      "_key": "!actors.items!43938d690a9a497a.209ed8fb86302451",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "819c2c67c4b954c8",
+      "_key": "!actors.items!43938d690a9a497a.819c2c67c4b954c8",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +0, damage 1d3+0.</p>",
+        "useAbl": "fight",
+        "useFocus": "",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 0,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+0",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Rich Socialite",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

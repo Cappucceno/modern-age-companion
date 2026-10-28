@@ -1,0 +1,185 @@
+{
+  "name": "Corrupt Power Broker",
+  "_id": "151cd12fc52313fa",
+  "_key": "!actors!151cd12fc52313fa",
+  "folder": "65ddb119774693ce",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "speed": {
+      "base": 11
+    },
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 3
+      },
+      "cons": {
+        "value": 0
+      },
+      "dex": {
+        "value": 1
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 1
+      },
+      "str": {
+        "value": -2
+      },
+      "will": {
+        "value": 3
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 0,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 17,
+      "value": 17
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 15,
+          "healthCur": 15,
+          "defense": 0,
+          "toughness": 0
+        },
+        "pulp": {
+          "health": 17,
+          "healthCur": 17,
+          "defense": 0,
+          "toughness": 0
+        },
+        "cinematic": {
+          "health": 22,
+          "healthCur": 22,
+          "defense": 0,
+          "toughness": 0
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Ruthless CEO, Shady Politician, Slick Lawyer</p><p>No underhanded deal or cutthroat tactic is beneath the corrupt power broker. They might be in big business, politics, the courtroom, or some other arena where they wield authority like a bludgeon. They’re used to getting what they want, they demand respect rather than earning it, and they’re fiercely jealous of any competition. They always have a few lackeys nearby.</p><p><strong>Favored Stunts:</strong> And Another Thing, Cast Out, Filthy Rich (3 SP), Name-dropping, On the Fence, Sway the Crowd</p><p><strong>Stunt - Filthy Rich:</strong> For 3 SP, the power broker can throw their wealth around. They can immediately produce one piece of equipment, hireling, or other resource no matter how expensive it would be to own or procure; or they may gain +2 to the next Communication test they make that relies on a bribe.</p><p><strong>Talents:</strong> Inspire (Novice), Oratory (Expert)</p><p><strong>Large and in Charge:</strong> The power broker gains an extra 1 SP when they roll doubles on any test on which they can leverage an official position or any authority they hold.</p><p><strong>Equipment:</strong> Cash and Credit Cards, Cell Phone, Sports Car</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Bargaining",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "c5882f85a253e3a4",
+      "_key": "!actors.items!151cd12fc52313fa.c5882f85a253e3a4",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Etiquette",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "916ac433107d8be9",
+      "_key": "!actors.items!151cd12fc52313fa.916ac433107d8be9",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Persuasion",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "faa94662f7cc84b4",
+      "_key": "!actors.items!151cd12fc52313fa.faa94662f7cc84b4",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Business or Law",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f1d9140faf80f22e",
+      "_key": "!actors.items!151cd12fc52313fa.f1d9140faf80f22e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Corrupt Power Broker",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "name": "Smooth Operator",
+  "_id": "02e7bca0b1394690",
+  "_key": "!actors!02e7bca0b1394690",
+  "folder": "65ddb119774693ce",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "speed": {
+      "base": 12
+    },
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 4
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": -1
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": -1
+      },
+      "will": {
+        "value": 3
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 0,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 13,
+      "value": 13
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 11,
+          "healthCur": 11,
+          "defense": 0,
+          "toughness": 1
+        },
+        "pulp": {
+          "health": 13,
+          "healthCur": 13,
+          "defense": 0,
+          "toughness": 1
+        },
+        "cinematic": {
+          "health": 18,
+          "healthCur": 18,
+          "defense": 0,
+          "toughness": 1
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Heartbreaker, Inveigler, Seducer</p><p>The smooth operator uses their looks and charms to manipulate and woo people, but not for purely romantic reasons. Someone who just really likes to flirt is not really an adversary. Whether as part of a long con or just to distract them from more sinister activities elsewhere, the smooth operator knows how people tick. They might be in it for themself, or they might work as part of a team—the “face” for a group enacting a heist, for instance.</p><p><strong>Favored Stunts:</strong> Flirt, Impress, Making an Entrance, Oozing Confidence, Over Here!</p><p><strong>Talents:</strong> Attractive (Expert), Intrigue (Seduction; Novice), Party Animal (Expert)</p><p><strong>Equipment:</strong> Fashionable Clothing and Accessories, Pocket Pistol, Sports Car</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Persuasion",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "2ec0ce04c844fa83",
+      "_key": "!actors.items!02e7bca0b1394690.2ec0ce04c844fa83",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seduction",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "fc44e7797e0d4797",
+      "_key": "!actors.items!02e7bca0b1394690.fc44e7797e0d4797",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tolerance",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "067da72ec9028e72",
+      "_key": "!actors.items!02e7bca0b1394690.067da72ec9028e72",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Empathy",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4722e1500127a9b7",
+      "_key": "!actors.items!02e7bca0b1394690.4722e1500127a9b7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pocket pistol",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "a44abfa814dd3c5e",
+      "_key": "!actors.items!02e7bca0b1394690.a44abfa814dd3c5e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +1, damage 1d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Smooth Operator",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

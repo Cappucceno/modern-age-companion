@@ -1,0 +1,472 @@
+{
+  "name": "Cyborg",
+  "_id": "c48ca0da94e659f5",
+  "_key": "!actors!c48ca0da94e659f5",
+  "folder": "07abcc2d9c389398",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Dire",
+    "speed": {
+      "base": 12
+    },
+    "abilities": {
+      "acc": {
+        "value": 3
+      },
+      "comm": {
+        "value": 0
+      },
+      "cons": {
+        "value": 5
+      },
+      "dex": {
+        "value": 2
+      },
+      "fight": {
+        "value": 5
+      },
+      "int": {
+        "value": 1
+      },
+      "per": {
+        "value": 3
+      },
+      "str": {
+        "value": 5
+      },
+      "will": {
+        "value": 2
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 5,
+      "ballistic": 5
+    },
+    "health": {
+      "set": 110,
+      "value": 110
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 40,
+          "healthCur": 40,
+          "defense": 0,
+          "toughness": 5
+        },
+        "pulp": {
+          "health": 110,
+          "healthCur": 110,
+          "defense": 1,
+          "toughness": 7
+        },
+        "cinematic": {
+          "health": 155,
+          "healthCur": 155,
+          "defense": 3,
+          "toughness": 8
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Replicant, Synth, Test Subject 590</p><p>Cyborgs were once a feature of science fiction, but in some Modern AGE games, they are produced by secret labs or for elite forces. Some emerge from factories and look human, but every part is synthetic, and programmed for various tasks. In other cases, scientists get their hands on injured people and other experimental subjects, volunteers or otherwise. These cyborgs have body parts replaced with mechanical equivalents. Most cyborgs are designed to serve their creators or sponsors fearlessly, but some break programming to survive on their own, or fight their corrupt creators. In 18th- and 19th-century games, a cyborg might be a “creature” made of stitched together flesh, powered by captured lightning and alchemy. This may prompt an adjustment to their game statistics, starting with equipment.</p><p><strong>Favored Stunts:</strong> Armor Crush, Brutal Strike, High Tech Hustle, Jury Rig, Lethal Blow, Strafe</p><p><strong>Sensory Enhancement:</strong> The cyborg’s implants add +1 to Perception (Hearing) and Perception (Seeing) tests, and function as night vision goggles and sonar, eliminating penalties for darkness.</p><p><strong>Mechanical Toughness:</strong> The cyborg has innate armor (already calculated; Armor Rating stacks with worn armor) and additional Health.</p><p><strong>Talents:</strong> Observation (Master), Overwhelm (Master)</p><p><strong>Equipment:</strong> Combat Shotgun, Fake ID, SA Handgun</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Assault Rifles",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "2f121e41f49873ae",
+      "_key": "!actors.items!c48ca0da94e659f5.2f121e41f49873ae",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "5cfb4a293ec435d3",
+      "_key": "!actors.items!c48ca0da94e659f5.5cfb4a293ec435d3",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Shotguns",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f37294210c7674ac",
+      "_key": "!actors.items!c48ca0da94e659f5.f37294210c7674ac",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Running",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "460fe0531badb007",
+      "_key": "!actors.items!c48ca0da94e659f5.460fe0531badb007",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a9fa543dc608a13d",
+      "_key": "!actors.items!c48ca0da94e659f5.a9fa543dc608a13d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tolerance",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "05da63c42621200b",
+      "_key": "!actors.items!c48ca0da94e659f5.05da63c42621200b",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "df38abe0d8cdaf82",
+      "_key": "!actors.items!c48ca0da94e659f5.df38abe0d8cdaf82",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "8b2c5d361e343a96",
+      "_key": "!actors.items!c48ca0da94e659f5.8b2c5d361e343a96",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "c9ca8b176e3f7efc",
+      "_key": "!actors.items!c48ca0da94e659f5.c9ca8b176e3f7efc",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tracking",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a2a29cf2367691f7",
+      "_key": "!actors.items!c48ca0da94e659f5.a2a29cf2367691f7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "858a68bf325d85ab",
+      "_key": "!actors.items!c48ca0da94e659f5.858a68bf325d85ab",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "4adead0b71ac331e",
+      "_key": "!actors.items!c48ca0da94e659f5.4adead0b71ac331e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Might",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "fcfa2653697aee57",
+      "_key": "!actors.items!c48ca0da94e659f5.fcfa2653697aee57",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling Strike",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "d6532074e451a68b",
+      "_key": "!actors.items!c48ca0da94e659f5.d6532074e451a68b",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +7, damage 1d3+5.</p>",
+        "useAbl": "fight",
+        "useFocus": "brawling",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 5,
+        "dmgAbl": "no-abl",
+        "dmgType": "stun",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+5",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    },
+    {
+      "name": "SA Handgun",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "a038278c3ee03d1d",
+      "_key": "!actors.items!c48ca0da94e659f5.a038278c3ee03d1d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 2d6+2.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 2,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+2",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Combat Shotgun",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "65c5e7babd823cd0",
+      "_key": "!actors.items!c48ca0da94e659f5.65c5e7babd823cd0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +5, damage 2d6+5.</p>",
+        "useAbl": "acc",
+        "useFocus": "shotguns",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 5,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+5",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Cyborg",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

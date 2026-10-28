@@ -1,0 +1,217 @@
+{
+  "name": "Hustler",
+  "_id": "4307165236333925",
+  "_key": "!actors!4307165236333925",
+  "folder": "22afc7fd28c4a3f9",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Minor",
+    "speed": {
+      "base": 11
+    },
+    "abilities": {
+      "acc": {
+        "value": 0
+      },
+      "comm": {
+        "value": 4
+      },
+      "cons": {
+        "value": 1
+      },
+      "dex": {
+        "value": 1
+      },
+      "fight": {
+        "value": 1
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 0
+      },
+      "will": {
+        "value": 1
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 0,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 13,
+      "value": 13
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 11,
+          "healthCur": 11,
+          "defense": 0,
+          "toughness": 1
+        },
+        "pulp": {
+          "health": 13,
+          "healthCur": 13,
+          "defense": 0,
+          "toughness": 1
+        },
+        "cinematic": {
+          "health": 18,
+          "healthCur": 18,
+          "defense": 0,
+          "toughness": 1
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Card Sharp, Gambler</p><p>The hustler wants your money, and they’ve honed their gameplaying skills into a precision tool to get it. Whether they’re a card counter, a pool shark, or just an all-around cheater, it takes a sharp eye and a healthy dose of skepticism to avoid losing big when they at the table.</p><p><strong>Favored Stunts:</strong> Cast Out, Class Clown, Patter, With a Flourish</p><p><strong>Talents:</strong> Misdirection (Novice), Party Animal (Expert)</p><p><strong>Equipment:</strong> Cash, Loaded Dice, Playing Cards, Sports Car</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Deception",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3f6d1be7b7ec14af",
+      "_key": "!actors.items!4307165236333925.3f6d1be7b7ec14af",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Gambling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "8576b19c0be368d4",
+      "_key": "!actors.items!4307165236333925.8576b19c0be368d4",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Sleight of Hand",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "edb073afce0e28f0",
+      "_key": "!actors.items!4307165236333925.edb073afce0e28f0",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Empathy",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "3af10a39777cbf36",
+      "_key": "!actors.items!4307165236333925.3af10a39777cbf36",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Unarmed",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "66e19110a1a3a2e6",
+      "_key": "!actors.items!4307165236333925.66e19110a1a3a2e6",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +0, damage 1d3+0.</p>",
+        "useAbl": "fight",
+        "useFocus": "",
+        "nrDice": "1",
+        "diceType": "3",
+        "extraValue": 0,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d3+0",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Hustler",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

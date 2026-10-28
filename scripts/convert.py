@@ -532,6 +532,201 @@ def build_equipment(pdf, words):
     return pack
 
 
+# --------------------------------------------------------------------------- adversaries
+
+WEAPON_LINE = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z' \-]+?)\s{2,}(?P<atk>[+\u2013\-]\d+)\s{2,}(?P<dmg>\d+d\d+(?:[+\-]\d+)?)\s*$")
+LABEL = re.compile(r"^[A-Z][A-Za-z' \-/&()]{1,40}: ")
+ADV_SECTIONS = ("Action", "Exploration", "Social")
+ADV_ICON = "systems/age-system/resources/imgs/actor-icon/sensousness.svg"
+
+
+def adversary_lines(pdf):
+    """Both columns of PDF pages 134-152, left then right, in layout mode, footers removed."""
+    left = pdftotext(pdf, 134, 152, "-layout", "-x", "0", "-y", "0", "-W", "300", "-H", "783")
+    right = pdftotext(pdf, 134, 152, "-layout", "-x", "300", "-y", "0", "-W", "303", "-H", "783")
+    out = []
+    for a, b in zip(left, right):
+        out += clean_lines(a) + [""] + clean_lines(b) + [""]
+    return out
+
+
+def parse_adversaries(pdf, words):
+    lines = adversary_lines(pdf)
+    start = next(i for i, l in enumerate(lines) if l.strip() == "Action" and lines[i + 1].strip() == "Adversaries")
+    lines = lines[start:]
+    blocks, consumed = [], set()
+    for i, l in enumerate(lines):
+        if "Abilities (Focuses)" not in l:
+            continue
+        j = i - 1
+        while not lines[j].strip():
+            j -= 1
+        end = next((k for k in range(i, len(lines)) if lines[k].strip().startswith("Threat:")), None)
+        if end is None:
+            continue
+        blocks.append((lines[j].strip(), j, i, end))
+        consumed.update(range(j, end + 1))
+    section, desc, cur, out = None, {}, None, []
+    for i, l in enumerate(lines):
+        s = l.strip()
+        if i in consumed:
+            continue
+        if s in ADV_SECTIONS and lines[i + 1].strip() == "Adversaries":
+            section, cur = s, None
+            continue
+        if s == "Adversaries":
+            cur = None
+            continue
+        nxt = next((x.strip() for x in lines[i + 1:i + 3] if x.strip()), "")
+        if s and nxt.startswith("AKA:") and not s.startswith("AKA:"):
+            cur = desc.setdefault(s, {"section": section, "lines": []})
+            continue
+        if cur is not None and s:
+            cur["lines"].append(s)
+    for name, j, i, end in blocks:
+        b = lines[j:end + 1]
+        a = parse_statblock(name, b, words)
+        a["section"] = desc.get(name, {}).get("section") or section
+        d = desc.get(name, {}).get("lines", [])
+        aka = d[0][4:].strip() if d and d[0].startswith("AKA:") else ""
+        # the AKA line may wrap before the prose starts; the prose starts at the first line after a gap, so keep it simple
+        a["aka"], a["flavor"] = aka, paragraph(d[1:] if aka else d, words)
+        out.append(a)
+    return out
+
+
+def parse_statblock(name, b, words):
+    a = {"name": name, "abilities": {}, "focuses": {}, "weapons": [], "qualities": [], "threat": ""}
+    mode, entries = None, []
+    for l in b:
+        s = l.strip()
+        if mode == "abilities":
+            if re.match(r"^Speed\s+Health\s+Defense", s):
+                mode = None
+            elif s:
+                # a focus list can wrap, and the score can then sit on a line of its own
+                if re.fullmatch(r"[\u2013\-]?\d+", s):
+                    entries[-1]["num"] = num(s)
+                    continue
+                m = re.match(r"^(?:([\u2013\-]?\d+)\s+)?(" + "|".join(ABILITIES) + r")\b(.*)$", s)
+                if m:
+                    entries.append({"num": num(m.group(1)) if m.group(1) else None, "abl": m.group(2), "text": m.group(3)})
+                elif entries:
+                    entries[-1]["text"] += " " + s
+                continue
+        if "Abilities (Focuses)" in l:
+            mode, entries = "abilities", []
+            continue
+        if re.match(r"^Speed\s+Health\s+Defense", s):
+            mode = "derived"
+            continue
+        if mode == "derived":
+            t = s.split()
+            mm = re.match(r"(\d+)I/(\d+)B\+(\d+)", t[7]) if len(t) >= 10 else None
+            if mm:
+                a["speed"] = num(t[0])
+                a["health"] = [num(x) for x in t[1:4]]
+                a["defense"] = [num(x) for x in t[4:7]]
+                a["impact"], a["ballistic"] = int(mm.group(1)), int(mm.group(2))
+                a["toughness"] = [int(mm.group(3)), num(t[8]), num(t[9])]
+            else:  # "N/A" speed/defense or unusual layouts
+                a["speed"], a["health"], a["defense"] = 0, [num(x) for x in t[1:4]], [0, 0, 0]
+                mm = re.search(r"(\d+)I/(\d+)B\+(\d+)\s+\+(\d+)\s+\+(\d+)", s)
+                a["impact"], a["ballistic"] = int(mm.group(1)), int(mm.group(2))
+                a["toughness"] = [int(mm.group(3)), int(mm.group(4)), int(mm.group(5))]
+            mode = "weapons"
+            continue
+        if re.match(r"^Weapon\s+Attack Roll", s):
+            mode = "weapons"
+            continue
+        if s == "Special Qualities":
+            mode = "quality"
+            continue
+        if mode == "weapons":
+            m = WEAPON_LINE.match(l)
+            if m:
+                a["weapons"].append(m.groupdict())
+        elif mode == "quality":
+            if s.startswith("Threat:"):
+                a["threat"] = s[len("Threat:"):].strip()
+            elif s:
+                if LABEL.match(s) or not a["qualities"]:
+                    a["qualities"].append([s])
+                else:
+                    a["qualities"][-1].append(s)
+    for e in entries:
+        key = ABILITIES[e["abl"]]
+        a["abilities"][key] = e["num"] or 0
+        inner = ",".join(re.findall(r"\(([^)]*)\)", e["text"]))
+        a["focuses"][key] = [f.strip() for f in inner.split(",") if f.strip()]
+    if not a["threat"]:
+        a["threat"] = next((x.strip()[7:].strip() for x in b if x.strip().startswith("Threat:")), "")
+    a["qualities"] = [paragraph(q, words) for q in a["qualities"]]
+    return a
+
+
+def embedded(actor_id, name, type_, system, img):
+    iid = make_id(actor_id, name + type_)
+    return {"name": name, "type": type_, "img": ICON + img, "_id": iid, "_key": f"!actors.items!{actor_id}.{iid}",
+            "flags": {}, "effects": [], "folder": None, "sort": 0, "_stats": SYSTEM_STATS, "system": system}
+
+
+def build_adversaries(pdf, words):
+    pack = Pack("adversaries", "Actor")
+    focus_list = parse_focuses(pdf, words)
+    by_abl = {}
+    for f in focus_list:
+        by_abl.setdefault(ABILITIES[f["ability"]], []).append(f["name"])
+    book_weapons = {w["name"].lower(): w for w in parse_weapons(pdf)}
+    modes = ("gritty", "pulp", "cinematic")
+    for a in parse_adversaries(pdf, words):
+        aid = make_id("adversaries", a["name"])
+        dex = a["abilities"].get("dex", 0)
+        health, defense, tough = a["health"], a["defense"], a["toughness"]
+        features = (f"<p><strong>AKA:</strong> {esc(a['aka'])}</p>" if a["aka"] else "") + (p(a["flavor"]) if a["flavor"] else "")
+        for q in a["qualities"]:
+            m = LABEL.match(q)
+            features += f"<p><strong>{esc(q[:m.end() - 2])}:</strong> {esc(q[m.end():])}</p>" if m else p(q)
+        system = {
+            "threat": a["threat"], "speed": {"base": a.get("speed", 0)},
+            "abilities": {k: {"value": v} for k, v in a["abilities"].items()},
+            "defense": {"base": 10, "mod": (defense[0] - 10 - dex) if defense[0] else 0},
+            "armor": {"impact": a["impact"], "ballistic": a["ballistic"]},
+            "health": {"set": health[1], "value": health[1]},
+            "gameMode": {"selected": "pulp", "specs": {
+                m: {"health": health[i], "healthCur": health[i], "defense": defense[i] - defense[0], "toughness": tough[i]}
+                for i, m in enumerate(modes)}},
+            "features": features, "statBlockView": True,
+        }
+        items = []
+        for abl, names in a["focuses"].items():
+            for n in names:
+                full = next((x for x in by_abl.get(abl, []) if x == n or x == n + " Weapons" or x.startswith(n + " ")), n)
+                items.append(embedded(aid, full, "focus", {"useAbl": abl, "initialValue": 2, "longDesc": ""}, "gift-of-knowledge.svg"))
+        for w in a["weapons"]:
+            n, dtype = re.match(r"(\d+)d(\d+)", w["dmg"]).groups()
+            extra = re.search(r"\+(\d+)$", w["dmg"])
+            book = book_weapons.get(w["name"].lower()) or book_weapons.get(re.sub(r" Grenade$", "", w["name"]).lower())
+            ranged = bool(book and book["ranged"])
+            items.append(embedded(aid, w["name"], "weapon", {
+                "longDesc": p(f"Attack roll {w['atk']}, damage {w['dmg']}."),
+                "useAbl": "acc" if ranged else "fight", "useFocus": book["focus"].lower() if book else "", "nrDice": n,
+                "diceType": dtype, "extraValue": int(extra.group(1)) if extra else 0, "dmgAbl": "no-abl",
+                "dmgType": "stun" if book and book["sw"] == "S" else "wound", "dmgSource": "normalDamage",
+                "damageFormula": w["dmg"], "weight": 0, "cost": 0, "quantity": 1, "equiped": True,
+                **({"ranged": True} if ranged else {}),
+            }, "fist.svg"))
+        did = make_id("adversaries", a["name"])
+        pack.docs.append({
+            "name": a["name"], "_id": did, "_key": f"!actors!{did}",
+            "folder": pack.folder(f"{a['section']} Adversaries", 100000 * (len(pack.folders) + 1)) if a["section"] else None,
+            "sort": 0, "flags": {"core": {"sheetClass": "age-system.ageSystemSheetCharStatBlock"}}, "effects": [],
+            "_stats": SYSTEM_STATS, "type": "char", "img": ADV_ICON, "system": system, "items": items,
+            "prototypeToken": {"name": a["name"], "actorLink": False}, "ownership": {"default": 0},
+        })
+    return pack
+
+
 # --------------------------------------------------------------------------- stunts
 
 STUNT_SECTIONS = {
@@ -607,8 +802,9 @@ def build_stunts(pdf, words):
 # --------------------------------------------------------------------------- main
 
 BUILDERS = {"focuses": build_focuses, "talents": build_talents, "weapons": build_weapons, "armor": build_armor,
-            "stunts": build_stunts, "vehicles": build_vehicles, "equipment": build_equipment}
-NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment"}
+            "stunts": build_stunts, "vehicles": build_vehicles, "equipment": build_equipment,
+            "adversaries": build_adversaries}
+NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries"}
 
 
 def main():

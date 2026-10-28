@@ -1,0 +1,599 @@
+{
+  "name": "Spec Ops",
+  "_id": "e7a4ed418fe737ff",
+  "_key": "!actors!e7a4ed418fe737ff",
+  "folder": "07abcc2d9c389398",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Major",
+    "speed": {
+      "base": 13
+    },
+    "abilities": {
+      "acc": {
+        "value": 4
+      },
+      "comm": {
+        "value": 2
+      },
+      "cons": {
+        "value": 3
+      },
+      "dex": {
+        "value": 3
+      },
+      "fight": {
+        "value": 3
+      },
+      "int": {
+        "value": 2
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 3
+      },
+      "will": {
+        "value": 3
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 4,
+      "ballistic": 6
+    },
+    "health": {
+      "set": 58,
+      "value": 58
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 28,
+          "healthCur": 28,
+          "defense": 0,
+          "toughness": 3
+        },
+        "pulp": {
+          "health": 58,
+          "healthCur": 58,
+          "defense": 1,
+          "toughness": 4
+        },
+        "cinematic": {
+          "health": 88,
+          "healthCur": 88,
+          "defense": 2,
+          "toughness": 5
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Elite Ops, Paratrooper, Special Forces</p><p>To define an individual in spec ops is to miss the point of spec ops. An operative with these skills could be anything from an assassin to a spy to an agent designated with sabotaging an entire government or defusing a potentially nuclear situation. They are anonymous, highly proficient, and deadly. These soldiers emerge from the ranks of the Navy SEALs, French Foreign Legion, SAS, and Spetsnaz. Working in tight units with critical objectives, spec ops members move swiftly, efficiently, and unless stated in the briefing, take no prisoners. Elite soldiers existed in earlier periods too. To represent Hessian Jägers or other early spec ops, adjust game statistics using the guidelines listed for soldiers, previously. Instead of the Ammo Discipline ability, black powder weapon using elites will have talents related to close combat.</p><p><strong>Favored Stunts:</strong> Blockade, Overwatch, Group Tactics, Long Burst, Short Burst, Skirmish,</p><p><strong>Ammo Discipline:</strong> The spec ops soldier reloads all firearms except Black Powder weapons as a free action.</p><p><strong>Unshakeable:</strong> Between combat experience and SERE training (or the equivalent) to resist torture and hardship, the spec ops soldier never needs to make Morale tests to stand and fight unless the enemy has bizarre or supernatural characteristics. Tests to influence or extract information from this NPC with torture or threats of physical harm suffer a –2 penalty.</p><p><strong>Talents:</strong> Command (Expert), Improvisation (Expert), Linguistics (Novice), Tactical Awareness (Master)</p><p><strong>Equipment:</strong> Automatic Rifle, Ballistic Plate Body Armor, Blast Grenades, Disguise Kit, Map, SA Handgun, Tactical Gear</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Assault Rifles",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f835cd0d76650bea",
+      "_key": "!actors.items!e7a4ed418fe737ff.f835cd0d76650bea",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Grenades",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "494f7db39e6e6c63",
+      "_key": "!actors.items!e7a4ed418fe737ff.494f7db39e6e6c63",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Longarms",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "2f61088171b7dbb2",
+      "_key": "!actors.items!e7a4ed418fe737ff.2f61088171b7dbb2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Pistols",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a19beba89ce68ba1",
+      "_key": "!actors.items!e7a4ed418fe737ff.a19beba89ce68ba1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Shotguns",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "280da050fcea2108",
+      "_key": "!actors.items!e7a4ed418fe737ff.280da050fcea2108",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "acc",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Disguise",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "abef4888f812bb2d",
+      "_key": "!actors.items!e7a4ed418fe737ff.abef4888f812bb2d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Running",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6a536b83b3264843",
+      "_key": "!actors.items!e7a4ed418fe737ff.6a536b83b3264843",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Stamina",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "634078c0ac8be27a",
+      "_key": "!actors.items!e7a4ed418fe737ff.634078c0ac8be27a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Swimming",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "007e04d04a14c168",
+      "_key": "!actors.items!e7a4ed418fe737ff.007e04d04a14c168",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "cons",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Driving",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "496e5740142d40e2",
+      "_key": "!actors.items!e7a4ed418fe737ff.496e5740142d40e2",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Initiative",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "379f2c2f6f63d092",
+      "_key": "!actors.items!e7a4ed418fe737ff.379f2c2f6f63d092",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Sabotage",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "b046070f0e685008",
+      "_key": "!actors.items!e7a4ed418fe737ff.b046070f0e685008",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "dex",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Brawling",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a1dd9b8631f07046",
+      "_key": "!actors.items!e7a4ed418fe737ff.a1dd9b8631f07046",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Light Blades",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f881b7ef718f1d04",
+      "_key": "!actors.items!e7a4ed418fe737ff.f881b7ef718f1d04",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "fight",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Tactics",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "ebea0a89150f59c1",
+      "_key": "!actors.items!e7a4ed418fe737ff.ebea0a89150f59c1",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Seeing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "60a03b3d63ef69b5",
+      "_key": "!actors.items!e7a4ed418fe737ff.60a03b3d63ef69b5",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Climbing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "440411efdfc7a73a",
+      "_key": "!actors.items!e7a4ed418fe737ff.440411efdfc7a73a",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Courage",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "dc6f6cd47fd41136",
+      "_key": "!actors.items!e7a4ed418fe737ff.dc6f6cd47fd41136",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Morale",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "26b342ffa835c8ee",
+      "_key": "!actors.items!e7a4ed418fe737ff.26b342ffa835c8ee",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "SA Handgun",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "77f7ca71f8eb673e",
+      "_key": "!actors.items!e7a4ed418fe737ff.77f7ca71f8eb673e",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +6, damage 2d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "pistols",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Automatic Rifle",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "568ac71b23a00455",
+      "_key": "!actors.items!e7a4ed418fe737ff.568ac71b23a00455",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +6, damage 2d6+6.</p>",
+        "useAbl": "acc",
+        "useFocus": "assault rifles",
+        "nrDice": "2",
+        "diceType": "6",
+        "extraValue": 6,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "2d6+6",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    },
+    {
+      "name": "Blast Grenade",
+      "type": "weapon",
+      "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+      "_id": "d1384ed90650f00b",
+      "_key": "!actors.items!e7a4ed418fe737ff.d1384ed90650f00b",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "longDesc": "<p>Attack roll +6, damage 1d6+3.</p>",
+        "useAbl": "acc",
+        "useFocus": "grenades",
+        "nrDice": "1",
+        "diceType": "6",
+        "extraValue": 3,
+        "dmgAbl": "no-abl",
+        "dmgType": "wound",
+        "dmgSource": "normalDamage",
+        "damageFormula": "1d6+3",
+        "weight": 0,
+        "cost": 0,
+        "quantity": 1,
+        "equiped": true,
+        "ranged": true
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Spec Ops",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

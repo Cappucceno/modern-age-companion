@@ -1,0 +1,269 @@
+{
+  "name": "Psychic",
+  "_id": "f4af5a9c85369c2e",
+  "_key": "!actors!f4af5a9c85369c2e",
+  "folder": "65ddb119774693ce",
+  "sort": 0,
+  "flags": {
+    "core": {
+      "sheetClass": "age-system.ageSystemSheetCharStatBlock"
+    }
+  },
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "char",
+  "img": "systems/age-system/resources/imgs/actor-icon/sensousness.svg",
+  "system": {
+    "threat": "Moderate",
+    "speed": {
+      "base": 10
+    },
+    "abilities": {
+      "acc": {
+        "value": 1
+      },
+      "comm": {
+        "value": 3
+      },
+      "cons": {
+        "value": 2
+      },
+      "dex": {
+        "value": 0
+      },
+      "fight": {
+        "value": 0
+      },
+      "int": {
+        "value": 3
+      },
+      "per": {
+        "value": 2
+      },
+      "str": {
+        "value": 1
+      },
+      "will": {
+        "value": 5
+      }
+    },
+    "defense": {
+      "base": 10,
+      "mod": 0
+    },
+    "armor": {
+      "impact": 0,
+      "ballistic": 0
+    },
+    "health": {
+      "set": 27,
+      "value": 27
+    },
+    "gameMode": {
+      "selected": "pulp",
+      "specs": {
+        "gritty": {
+          "health": 17,
+          "healthCur": 17,
+          "defense": 0,
+          "toughness": 2
+        },
+        "pulp": {
+          "health": 27,
+          "healthCur": 27,
+          "defense": 0,
+          "toughness": 3
+        },
+        "cinematic": {
+          "health": 42,
+          "healthCur": 42,
+          "defense": 1,
+          "toughness": 3
+        }
+      }
+    },
+    "features": "<p><strong>AKA:</strong> Fortune Teller, Medium, Mind Reader, Seer</p><p>The psychic may work for someone else with big plans, or may simply be in the business of reading people’s minds to manipulate them for personal gain. If they don’t keep their powers secret, they are known for being spooky or sinister, and can take advantage of that reputation. In a setting without any supernatural powers, you can use this adversary as a phony who employs trickery to approximate the psychic powers’ effects. Give them the Communication (Performing) and Dexterity (Sleight of Hand) focuses instead of Telekinesis, and the Expertise Talent (Performing, Magic Tricks; Novice).</p><p><strong>Force:</strong> 15 (ESP)/18 (Telepathy) PP: 50</p><p><strong>Favored Stunts:</strong> Channel (4 SP), Fancy Meeting You Here, Flashback, Good Instincts, Intuition, Making an Entrance, Meddle, Read the Room, Whatever’s Handy (while possessed)</p><p><strong>Stunt - Channel:</strong> For 4 SP, the psychic can channel spirits, letting a ghost or other entity possess them. Choose four abilities. For a number of turns equal to their Willpower (5), the psychic gains +2 to those abilities. However, they suffer a –3 to the other five, and let the spirit dictate their actions. They must succeed at a TN 13 Willpower (Self-Discipline) test to end this effect early.</p><p><strong>Talents:</strong> ESP (Novice), Misdirection (Expert), Telekinesis (Novice), Telepathy (Expert)</p><p><strong>Bind Spirits:</strong> The psychic can make a TN 11 Communication (Telepathy) advanced test. Each roll takes 1 round in action time, with a success threshold of 10. If the psychic takes any damage during this time, they discard all progress and start over. If successful, they summon a ghost and bind it to a tether—an object, place, or willing person present in the scene, with some personal connection to the ghost’s previous life. The ghost can have statistics for any kind of adversary based on who it was, and various Extraordinary Talents or other powers. It doesn’t take damage from normal attacks and can be eliminated only by destroying its tether or using other paranormal powers. (You can find an example ghost in Chapter 12, under Adversaries and Non- Player Characters.)</p><p><strong>Uncanny Insight:</strong> The psychic reduces the SP cost of the Fancy Meeting You Here and Intuition stunts by 1, and adds +2 to Perception (Empathy) rolls they make due to the Read the Room stunt.</p><p><strong>Equipment:</strong> Crystal Ball, Mystical Tome, Tarot Deck</p>",
+    "statBlockView": true
+  },
+  "items": [
+    {
+      "name": "Deception",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "9eb11beca6830bed",
+      "_key": "!actors.items!f4af5a9c85369c2e.9eb11beca6830bed",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Telepathy",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "f3e535b395fefc71",
+      "_key": "!actors.items!f4af5a9c85369c2e.f3e535b395fefc71",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "comm",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Occultism",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "d6fac32fb619260c",
+      "_key": "!actors.items!f4af5a9c85369c2e.d6fac32fb619260c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "int",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Empathy",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "93a839e9544123d9",
+      "_key": "!actors.items!f4af5a9c85369c2e.93a839e9544123d9",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Hearing",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "6e624db9ea1f0f3c",
+      "_key": "!actors.items!f4af5a9c85369c2e.6e624db9ea1f0f3c",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "per",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Intimidation",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "667ee25f97861785",
+      "_key": "!actors.items!f4af5a9c85369c2e.667ee25f97861785",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "str",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Morale",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "465a6c998e53d9a7",
+      "_key": "!actors.items!f4af5a9c85369c2e.465a6c998e53d9a7",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    },
+    {
+      "name": "Self-Discipline",
+      "type": "focus",
+      "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+      "_id": "a988802672b6e01d",
+      "_key": "!actors.items!f4af5a9c85369c2e.a988802672b6e01d",
+      "flags": {},
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "system": {
+        "useAbl": "will",
+        "initialValue": 2,
+        "longDesc": ""
+      }
+    }
+  ],
+  "prototypeToken": {
+    "name": "Psychic",
+    "actorLink": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}
