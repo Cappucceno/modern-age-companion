@@ -734,6 +734,7 @@ BACKGROUND_NAMES = ["Bohemian", "Exile", "Outcast", "Military", "Laborer", "Urba
 DRIVE_NAMES = ["Achiever", "Builder", "Caregiver", "Ecstatic", "Judge", "Leader", "Networker", "Penitent", "Protector",
                "Rebel", "Survivor", "Visionary"]
 CLASS_OF = {"outsider": "Outsider", "lower": "Lower Class", "middle": "Middle Class", "upper": "Upper Class"}
+CREATION_SKIP = ("Social Class Descriptions", "Background Descriptions", "Profession Descriptions", "Drive Descriptions")
 STATE_LABELS = ("Ability", "Focus", "Talent", "Improvement")
 
 
@@ -990,6 +991,7 @@ def li(label, text):
 def build_creation(pdf, words):
     pack = Pack("character-creation", "JournalEntry")
     classes = parse_class_descriptions(pdf, words)
+    chapter_journal(pack, pdf, "Character Creation Guide", 11, 32, skip=CREATION_SKIP)
     journal_doc(pack, "Social Classes", [(c, p(d)) for c, d in classes.items()])
     bgs = parse_backgrounds(pdf, words)
     journal_doc(pack, "Backgrounds", [(b["name"], f"<p><em>{b['cls']}</em></p>" + p(b["desc"]) + "<ul>" + li("Ability", b["ability"])
@@ -1003,6 +1005,45 @@ def build_creation(pdf, words):
                                       for x in sorted(profs, key=lambda x: x["name"])])
     journal_doc(pack, "Drives", [(x["name"], p(x["desc"]) + "<ul>" + li("Talent", x["talent"]) + li("Improvement", x["improvement"]) + "</ul>")
                                  for x in sorted(parse_drives(pdf, words), key=lambda x: x["name"])])
+    return pack
+
+
+# --------------------------------------------------------------------------- prose chapters (journals)
+
+_PROSE = {}
+
+
+def prose_book(pdf):
+    """(pages, vocabulary) from the PDF layout, loaded once."""
+    if "pages" not in _PROSE:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import prose
+        pages = prose.load(pdf)
+        text = " ".join(re.sub(r"<[^>]+>", " ", e["html"]) for pg in pages.values() for e in pg)
+        _PROSE.update(pages=pages, words=prose.Words(text), mod=prose)
+    return _PROSE["mod"], _PROSE["pages"], _PROSE["words"]
+
+
+def chapter_journal(pack, pdf, name, first, last, skip=(), skip_pages=(), stop_at=()):
+    mod, pages, words = prose_book(pdf)
+    sections = mod.chapter_sections(pages, first, last, words, skip=skip, skip_pages=skip_pages, stop_at=stop_at)
+    journal_doc(pack, name, sections)
+
+
+def build_rules_reference(pdf, words):
+    pack = Pack("rules-reference", "JournalEntry")
+    for name, first, last in (("Chapter 2: Basic Rules", 33, 52), ("Chapter 4: Equipment", 71, 80), ("Chapter 5: Stunts", 81, 84)):
+        chapter_journal(pack, pdf, name, first, last)
+    return pack
+
+
+def build_gm_guide(pdf, words):
+    pack = Pack("gm-guide", "JournalEntry")
+    for name, first, last in (("Chapter 7: The Game Master", 111, 118), ("Chapter 8: Mastering the Rules", 119, 131),
+                              ("Chapter 9: Adversaries", 132, 134), ("Chapter 10: Rewards", 153, 161),
+                              ("Chapter 11: The Campaign Setting", 162, 188)):
+        # the NPC stat blocks closing the sample adventure do not survive the conversion to running text
+        chapter_journal(pack, pdf, name, first, last, skip_pages=("Adversaries & NPCs",), stop_at=("Action Adversaries",))
     return pack
 
 
@@ -1083,8 +1124,9 @@ def build_stunts(pdf, words):
 BUILDERS = {"focuses": build_focuses, "talents": build_talents, "weapons": build_weapons, "armor": build_armor,
             "stunts": build_stunts, "vehicles": build_vehicles, "equipment": build_equipment,
             "adversaries": build_adversaries,
-            "character-creation": build_creation, "creation-tables": build_creation_tables}
-NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries", "character-creation", "creation-tables"}
+            "character-creation": build_creation, "creation-tables": build_creation_tables,
+            "rules-reference": build_rules_reference, "gm-guide": build_gm_guide}
+NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries", "character-creation", "creation-tables", "rules-reference", "gm-guide"}
 
 
 def main():

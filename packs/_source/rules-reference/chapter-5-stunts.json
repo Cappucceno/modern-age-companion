@@ -1,0 +1,114 @@
+{
+  "name": "Chapter 5: Stunts",
+  "pages": [
+    {
+      "_id": "9c0338d2a63ded4a",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Now that you know all the basic rules for playing the game, you can put together scenes and encounters, and use the dice to help determine their outcomes. Your character can brawl with enemies, solve mysteries, and sway hearts and minds. This chapter introduces a way to make those encounters more exciting and dynamic, called stunts. With stunts, a hero can not only win an argument or defeat a foe, but do it with style. You can perform maneuvers to give yourself or your teammates extra advantages, and accomplish feats more complex than the basic rules cover. NPCs can use stunts too, so the GM can mix things up and make challenges more fun for you.</p><p>While <strong>Chapter 2: Basic Rules</strong> gave you a modest selection of stunts to choose from, to ease you into using them, this chapter contains a full listing of the stunts you’ll use in the game, with two exceptions. Power Stunts, which are in <strong>Chapter 6: Extraordinary Powers</strong>, apply only in games where extraordinary powers exist. Chase Stunts, found in <strong>Chapter 8: Mastering the Rules</strong> along with the rules for chases, and should be provided by the GM whenever relevant.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c9ebe6bab0b9b0e2.9c0338d2a63ded4a",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "8b9a7033488a8fac",
+      "name": "Generating Stunt Points",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The stunt system requires you to generate stunt points (SP), which you can spend to pull off stunts of varying potency. You generate stunt points in the following ways.</p><h3>Doubles</h3><p>Whenever you’re successful on an ability test and you roll doubles on any two of the dice (rolling the same number on all three dice has no extra benefit), you generate a number of SP equal to the value shown on the Stunt Die.</p><h3>Stunt Attack</h3><p>The Stunt Attack action (see <strong>Chapter 2: Basic Rules</strong>) generates 1 SP on a success whether you roll doubles or not, but does not cause damage or have other effects. If you roll doubles, you get this 1 SP in addition to the number on the Stunt Die.</p><h3>Ram</h3><p>A ram attack generates 1 or 2 SP automatically, depending on whether the attack is a sideswipe or collision, to be spent exclusively on Anti-Vehicle Stunts (unless the GM gives special permission to apply it to other stunts). If you roll doubles, you can add the result of the Stunt Die to this base.</p><h3>Relationships</h3><p>Relationships (see <strong>Chapter 10: Rewards</strong>) also provide SP without having to roll doubles. Once per game session, you can gain SP equal to a Relationship Bond’s Intensity to spend on stunts that support the Relationship—to save the loved one specified by the Bond, for instance. This stacks with other methods of generating stunt points.</p><h2>Spending Stunt Points</h2><p>Each stunt in this chapter has a point cost, and you can spend your points in any combination up to your total. You must use your SP right away; any left unused simply vanish. You may perform two or more stunts at the same time as long as you have enough SP to pay for them all and the effects don’t contradict each other. However, you can’t perform the same stunt twice with the points from a single test unless its description indicates otherwise. Some stunts have a variable cost, which means the more points you spend on them, the more powerful they become.</p><p>Once you’ve decided which stunts to perform and in what order, you can narrate how your character did it. This gives you a chance to make your protagonist really feel like a hero in a story rather than just numbers on a sheet! If your character performed multiple stunts at the same time, describe them all as part of or resulting from the action that generated the SP—don’t imagine them as separate actions. For instance, if you make an attack and perform the Skirmish and Knock Prone stunts with the SP it generates, you might say, “I swing from the chandelier to kick him squarely in the chest, sending him flying across the room. He slams into the wall and lands in a heap.”</p><p>A few kinds of tests don’t generate SP even when you roll doubles, such as initiative rolls and ammunition checks against Capacity for firearms. This is usually because it wouldn’t make sense to perform a maneuver at that point. For instance, an initiative roll is not really an action; it just determines the order of events. Tests (including attacks) called for by stunts and rolls you make to resist special attacks or effects also never generate SP. Other tests may not generate them at the GM’s discretion, but most of the time, if the characters have an opportunity to do something cool or dramatic, the GM should allow—and even encourage—gaining and using SP.</p><p>However, you may roll a test only when the GM calls for one. If you fish for SP by asking to roll actions at which your success is a foregone conclusion, the GM has every right to disallow the test.</p><p><em>Matthew makes a TN 11 Strength (Might) test for his character, Amy, to kick down a door. He rolls 3d6+2 and achieves a total of 12, with the dice reading 3, 3, and 4. The last die is the Stunt Die. Since the roll succeeds and contains doubles (two dice showing 3), and the Stunt Die shows 4, the test generates 4 SP. Matthew decides to spend 2 SP on Over Here!, making a ruckus to distract attention from Amy’s allies sneaking in the back window, and 2 SP on Pay Dirt to pick up some cash (for a temporary +2 Resources) in the process. Matthew describes how Amy’s kick rips the door from its flimsy hinges and makes a loud crash, and how she bursts into the room shouting threats to put all eyes on her. Matthew says one of the criminals— a minor NPC—offers up a substantial bribe in exchange for his life, which Amy accepts—knowing all the while that her teammates are busy breaking into the safe in the other room to get all the evidence they need to put these scum away for good.</em></p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c9ebe6bab0b9b0e2.8b9a7033488a8fac",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7ba450151533e5b6",
+      "name": "General Stunt Considerations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When a stunt’s description refers to “the object of your test,” it means whatever item or person the test interacts with or targets. A Perception test often has an object only the GM knows at first, since the objective of the test is to see whether the character noticed it.</p><p>If a stunt says its effects last “for the rest of the encounter,” it means they last until the focus of play jumps forward in time or changes venue, or until the heroes definitively succeed or fail at their current goal within the scene. If the GM switches gameplay focus between groups acting simultaneously, that doesn’t count as a time or venue change. The GM is the final arbiter of what constitutes the end of an encounter.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c9ebe6bab0b9b0e2.7ba450151533e5b6",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "462e113c7cc7a0cc",
+      "name": "Types of Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Stunts come in three major categories: Action, Exploration, and Social. With the GM’s permission and where it makes sense, you can use an exploration stunt during combat, or a social stunt during an investigation. You can even interrupt a social scene with an action stunt if you want to start a fight or run from someone who plans to chase you! The categories are there to indicate a stunt’s most common usage and to help you easily find what you’re looking for when you choose your stunts.</p><p>Each major stunt category has one or several core stunts. These are your go-to stunts when you have nothing specific in mind or you can’t decide what you want to spend your SP on. This helps keep the scene moving, and helps players avoid choice paralysis.</p><p>Each of these broad categories breaks down into smaller lists, indicating which set of rules or circumstances those stunts work with. For instance, the “Investigation Stunts” list contains stunts that grant leads or clues, or otherwise aid in an investigation. Some lists indicate that their stunts are designed to accompany particular circumstances. This means that in most cases, you can select those stunts only when they match those situations. However, if you can come up with an inventive explanation and the GM agrees, you might be able to use these stunts with other actions as well.</p><p>Some individual stunts work only in certain circumstances, indicated by tags. For instance, a stunt might say “Strafe (Automatic Weapons),” meaning you can choose it only when you earn the SP while making an attack with an automatic weapon; likewise, stunts marked with a campaign mode, like the “Gritty” tag, are for Gritty games only unless the GM says otherwise.</p><h2>Choosing Stunts</h2><p>Choosing a stunt can be daunting. There are so many options! Core stunts are always available if you just want to grab something and go; you can find them at the top of each list in this chapter, or look under the appropriate rules header in <strong>Chapter 2</strong> to easily see them for each broad category. If your test or goal falls into one of the listed smaller categories, such as firearms or investigation stunts, you can jump straight to that list to quickly narrow down your choices.</p><p><strong>sP cost stunt</strong></p><p>1–3<strong>(Core) Momentum:</strong> Gain +3 to initiative per SP spent, until the end of the next round.</p><p>1–3<strong>(Core) Duck and Weave:</strong> Gain +1 to Defense per SP spent, until the beginning of your next turn.</p><p><strong>Adrenaline Rush:</strong> Temporarily regain 2 Health per SP spent (<strong>Gritty 2</strong>/<strong>Pulpy 4</strong>/<strong>Cinematic 6</strong>). You lose this Health 1–3 again at the end of your next turn, even if you would drop to 0.</p><p><strong>Take Cover:</strong> If you can find cover in your immediate vicinity, gain a cover rating equal to the SP spent, up to the 1–3 maximum rating available nearby.</p><p><strong>Guardian Angel:</strong> You stand ready to interpose yourself between an ally and danger. Choose a character within 5 1+yards of you. If they would take damage before your next turn, 1 point of damage per SP spent transfers to you instead. <strong>Skirmish:</strong> Move yourself or your attack’s target 2 yards in any direction for each 1 SP you spend; you can choose 1+ Skirmish more than once per turn.</p><p><strong>Whatever’s Handy:</strong> Immediately arm yourself with anything in your environment you can reasonably wield. It has the statistics of the closest weapon to its shape, size, and material, but attacks take a penalty of –1 or –2 1 from the Clumsy improvised weapon quality. The weapon also has the Fragile or Weak quality. See <strong>Chapter 4</strong>: <strong>Equipment</strong> for these improvised weapon qualities.</p><p><strong>Group Tactics:</strong> Pick one ally to move 2 yards in a direction they choose for each 2 SP spent; you can choose 2+ Group Tactics more than once per turn.</p><p>2<strong>Brutal Strike (Stun Damage):</strong> This attack deals wound damage instead.</p><p><strong>Collateral Damage:</strong> Destroy objects in your environment to create obstacles for your foes. Make the roll you 2used to generate the stunt again. A pursuer must beat that roll in an opposed test (using an ability and focus picked by the GM that fits the situation) to pursue you.</p><p><strong>Double-Team:</strong> Choose one ally to make an immediate attack on your target, who must be within range and sight 2 of the ally. Your ally must have a loaded missile weapon to attack at range.</p><p><strong>Knock Prone:</strong> Knock your enemy prone. Melee attacks against a prone foe gain a +1, but ranged attacks against a 2 prone foe suffer a –1.</p><p><strong>Lightning Attack:</strong> Make a second attack against the same target or a different one within range and sight; you 2 must have a loaded missile weapon to attack at range.</p><p>2<strong>Precise Force (Impact Damage):</strong> This attack ignores half the opponent’s equipment-based armor, rounded down.</p><p><strong>Taunt:</strong> Roll Communication (Deception) vs. Willpower (Self-Discipline) against any target within 10 yards of 2 you. If you win, they must attack or oppose you in some way on their next turn.</p><p>2<strong>Vicious Blow:</strong> Inflict an extra 1d6 of damage on this attack.</p><p><strong>Blockade:</strong> Move up to 3 yards to position yourself between a foe and something or someone else. Until the 3beginning of your next turn, that foe must succeed at a minor action Dexterity (Acrobatics) or Strength (Might) test vs. your Defense to reach whatever or whoever you’re protecting.</p><p><strong>Expose:</strong> Destroy or move any one object in weapon range, such as a door or crate, that could provide cover. This 3can take out small sections of larger objects like pillars or walls. Some heavy and/or tough objects can be moved or destroyed only in Cinematic mode, at the GM’s discretion. <strong>Play Dead:</strong> In the confusion, you drop to the ground and convince others you’re slain. No one may attack you 3 until the next round begins.</p><p><strong>Shock and Awe:</strong> When you succeed at a non-attack physical feat or take an opponent out, anyone who witnesses 3it rolls Willpower (Courage) or (Morale) vs. your Strength (Intimidation). If you win, they suffer a –1 to the next opposed roll they make against you, or a –1 to their Defense vs. your next attack against them, whichever comes first.</p><p><strong>Knock Out (Stun Damage) [Gritty]:</strong> If your opponent has less than half their Health left, you may roll an attack 4 opposed by your target’s Constitution (Stamina); if you win, they immediately fall unconscious.</p><p><strong>Seize the Initiative:</strong> Move to the top of the initiative order until someone else seizes the initiative. You may get to 4 take another turn before some others act again.</p><p><strong>Maim [Gritty]:</strong> Roll an attack opposed by your target’s Constitution (Stamina). If you win, you remove (with 5blades) or disable (with other weapons) one of their limbs or an organ (such as an eye). They take a –5 to relevant actions and the GM may rule that some actions become impossible.</p><p>5<strong>Lethal Blow:</strong> Inflict an extra 2d6 damage on this attack.</p><p><strong>Instant Kill (Wound Damage) [Gritty]:</strong> If your opponent has less than half their Health left, you may roll an 5 attack opposed by your target’s Constitution (Stamina) roll; if you win, they immediately die.</p><p>If you know what general sort of effect you want your stunt to accomplish but you’re not sure where to look, describe it to the GM—they can either point you in the right direction, or quickly make up a basic stunt effect on the fly to help you out. A bonus to a relevant test on your next turn or action equal to the number of SP you spend is one simple guideline for improvised stunts.</p><p>Finally, it might be useful to make a short list of half a dozen or so “favored stunts” for your character, like this book does for NPCs (see <strong>Chapter 9: Adversaries</strong>). Doing so can help give your character “signature tactics,” plus help you choose stunts, which your character may even gain a reputation for with other characters who see them in action. Some talents and specializations will also modify or add stunts. You should always make a note of these. The GM may award players with Reputation if they use their favored stunts to spectacular effect.</p><h2>Action Stunts</h2><p>Action stunts are most commonly used during encounters that take place in action timing. This includes combat, chases, and other physical contests.</p><p>In some cases, the mechanical effect of an action stunt differs depending on the game’s mode of play. The description indicates these differences by listing them with slashes, like this: (Gritty effects/Pulpy effects/Cinematic effects), in that order. Combat stunts from <strong>Chapter 2: Basic Rules</strong> are repeated here, so you don’t have to flip between two chapters to find every stunt.</p><p>When a stunt says, “apply this attack,” or uses similar wording, this means the attack roll and damage roll of the original attack apply to another target or circumstance.</p><h3>General Combat Stunts</h3><p>General combat stunts can be used when you earn SP from virtually any attack type, if you can describe the action in a way that justifies the stunt’s effects. A notable exception is attacks against vehicles, where you should use Anti-Vehicle stunts, since vehicles don’t have Health.</p><h3>Melee Stunts</h3><p>Stunts from this list are designed to be used when you earn the SP while making a melee attack. Both unarmed strikes and close combat weapons (knives, swords, etc.) are suited to Melee Stunts.</p><h3>Firearms Stunts</h3><p>Stunts from this list are designed to be used when you earn the SP while making an attack with a firearm.</p><h3>Grappling Stunts</h3><p>Stunts from this list are designed to be used when you earn the SP while making a Fighting (Grappling) attack.</p><h3>Anti-Vehicle Stunts</h3><p>Stunts from this list are designed to be used when attacking or sabotaging a vehicle. Note that vehicles don’t have Health, so these stunts are what you must use to damage or disable a vehicle in combat.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!c9ebe6bab0b9b0e2.462e113c7cc7a0cc",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "c9ebe6bab0b9b0e2",
+  "_key": "!journal!c9ebe6bab0b9b0e2",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}
