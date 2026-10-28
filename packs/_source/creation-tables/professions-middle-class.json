@@ -1,0 +1,143 @@
+{
+  "name": "Professions: Middle Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 4: Profession",
+  "results": [
+    {
+      "_id": "b4fd12f9d2516be0",
+      "type": "text",
+      "name": "Pilot",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c9415840432ebc.b4fd12f9d2516be0"
+    },
+    {
+      "_id": "1b21397766773e50",
+      "type": "text",
+      "name": "Soldier",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c9415840432ebc.1b21397766773e50"
+    },
+    {
+      "_id": "a7f5f12d1bb23230",
+      "type": "text",
+      "name": "Investigator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c9415840432ebc.a7f5f12d1bb23230"
+    },
+    {
+      "_id": "7ef43fb918b48073",
+      "type": "text",
+      "name": "Technician",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c9415840432ebc.7ef43fb918b48073"
+    },
+    {
+      "_id": "57379b5a023950a9",
+      "type": "text",
+      "name": "Clergy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c9415840432ebc.57379b5a023950a9"
+    },
+    {
+      "_id": "ed6dd8a73c4ca4b3",
+      "type": "text",
+      "name": "Negotiator",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!56c9415840432ebc.ed6dd8a73c4ca4b3"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "0d1789835cb40bc6",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "56c9415840432ebc",
+  "_key": "!tables!56c9415840432ebc"
+}

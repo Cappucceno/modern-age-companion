@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Military",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Military benefit",
+  "results": [
+    {
+      "_id": "98ecb0763c328dca",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.98ecb0763c328dca"
+    },
+    {
+      "_id": "d9ef939d2b5d0375",
+      "type": "text",
+      "name": "Focus: Accuracy (Longarms)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.d9ef939d2b5d0375"
+    },
+    {
+      "_id": "8c591b69b13e410c",
+      "type": "text",
+      "name": "Focus: Communication (Leadership)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.8c591b69b13e410c"
+    },
+    {
+      "_id": "64182a5a951c806b",
+      "type": "text",
+      "name": "Focus: Intelligence (Security)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.64182a5a951c806b"
+    },
+    {
+      "_id": "c61d71b9ba00b775",
+      "type": "text",
+      "name": "+1 Strength",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.c61d71b9ba00b775"
+    },
+    {
+      "_id": "bded30ab08211496",
+      "type": "text",
+      "name": "Focus: Perception (Searching)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.bded30ab08211496"
+    },
+    {
+      "_id": "9744f6d29b8c7b4c",
+      "type": "text",
+      "name": "Focus: Fighting (Brawling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.9744f6d29b8c7b4c"
+    },
+    {
+      "_id": "020ea6406e41a0f0",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bdad5aaabcb0d6ad.020ea6406e41a0f0"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "bdad5aaabcb0d6ad",
+  "_key": "!tables!bdad5aaabcb0d6ad"
+}

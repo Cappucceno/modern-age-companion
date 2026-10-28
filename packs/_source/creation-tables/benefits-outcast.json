@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Outcast",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Outcast benefit",
+  "results": [
+    {
+      "_id": "23d8e2840ca133d7",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.23d8e2840ca133d7"
+    },
+    {
+      "_id": "3d853ffe71d00cdc",
+      "type": "text",
+      "name": "Focus: Perception (Seeing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.3d853ffe71d00cdc"
+    },
+    {
+      "_id": "c77236a43a4f78ca",
+      "type": "text",
+      "name": "Focus: Fighting (Light Blades)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.c77236a43a4f78ca"
+    },
+    {
+      "_id": "8568bd378499334f",
+      "type": "text",
+      "name": "Focus: Dexterity (Forgery)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.8568bd378499334f"
+    },
+    {
+      "_id": "c982cce936cbaf35",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.c982cce936cbaf35"
+    },
+    {
+      "_id": "1ec46ad65cbda313",
+      "type": "text",
+      "name": "Focus: Dexterity (Sabotage)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.1ec46ad65cbda313"
+    },
+    {
+      "_id": "b8c60ebe3ebad481",
+      "type": "text",
+      "name": "Focus: Willpower (Courage)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.b8c60ebe3ebad481"
+    },
+    {
+      "_id": "f2b7bbdc36e26e2c",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!823cb4a81eb73a4f.f2b7bbdc36e26e2c"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "823cb4a81eb73a4f",
+  "_key": "!tables!823cb4a81eb73a4f"
+}

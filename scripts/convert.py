@@ -727,6 +727,285 @@ def build_adversaries(pdf, words):
     return pack
 
 
+# --------------------------------------------------------------------------- character creation (Chapter 1)
+
+BACKGROUND_NAMES = ["Bohemian", "Exile", "Outcast", "Military", "Laborer", "Urban", "Academic", "Suburban", "Trade",
+                    "Aristocratic", "Corporate", "Cosmopolitan"]
+DRIVE_NAMES = ["Achiever", "Builder", "Caregiver", "Ecstatic", "Judge", "Leader", "Networker", "Penitent", "Protector",
+               "Rebel", "Survivor", "Visionary"]
+CLASS_OF = {"outsider": "Outsider", "lower": "Lower Class", "middle": "Middle Class", "upper": "Upper Class"}
+STATE_LABELS = ("Ability", "Focus", "Talent", "Improvement")
+
+
+def layout_columns(pdf, first, last, top=None):
+    """Layout-mode text of each page, left column then right column; `top` maps page -> y (points) below which to read."""
+    out = []
+    for pg in range(first, last + 1):
+        y = (top or {}).get(pg, 0)
+        cols = []
+        for x, w in ((0, 300), (300, 303)):
+            t = pdftotext(pdf, pg, pg, "-layout", "-x", str(x), "-y", str(y), "-W", str(w), "-H", str(783 - y))[0]
+            cols += clean_lines(t)
+        out += cols
+    return out
+
+
+def indent(l):
+    return len(l) - len(l.lstrip())
+
+
+def parse_labelled(lines, labels=STATE_LABELS):
+    """Return (prose lines, {label: text}) for blocks that end in 'Label: value' lines with indented wrap lines."""
+    prose, fields, cur = [], {}, None
+    for l in lines:
+        s = l.strip()
+        m = re.match(r"^(" + "|".join(labels) + r"):\s*(.*)$", s)
+        if m:
+            cur = m.group(1)
+            fields[cur] = [m.group(2)]
+        elif cur is not None and indent(l) >= 10 and s:
+            fields[cur].append(s)
+        elif s:
+            if cur is not None:
+                cur = None
+            prose.append(s)
+    return prose, fields
+
+
+def join_field(parts):
+    return " ".join(parts)
+
+
+def parse_backgrounds(pdf, words):
+    lines = layout_columns(pdf, 15, 19, top={17: 158})
+    head = re.compile(r"^\s{0,8}(" + "|".join(BACKGROUND_NAMES) + r")\s{2,}(Outsider|Lower|Middle|Upper)\s*$", re.I)
+    blocks, cur = [], None
+    for l in lines:
+        m = head.match(l)
+        if m:
+            cur = {"name": m.group(1), "cls": CLASS_OF[m.group(2).lower()], "lines": [], "rows": []}
+            blocks.append(cur)
+            continue
+        if cur is None or cur.get("done"):
+            continue
+        r = re.match(r"^\s*(\d+(?:[–\-]\d+)?)\s{2,}(\S.*)$", l)
+        if r and not cur["lines"] and not cur.get("fields"):
+            cur["rows"].append((r.group(1).replace("-", "–"), r.group(2).strip()))
+            continue
+        if re.match(r"^\s*2d6 Roll", l):
+            continue
+        cur["lines"].append(l)
+        if re.match(r"^\s*Talent:", l):
+            cur["fields"] = True
+        elif cur.get("fields") and indent(l) < 10:
+            cur["done"] = True
+    out = []
+    for b in blocks:
+        lines_ = b["lines"]
+        # the talent line's wrap line is the last one when not finished
+        prose, fields = parse_labelled(lines_)
+        out.append({"name": b["name"], "cls": b["cls"], "rows": b["rows"], "desc": paragraph(prose, words),
+                    "ability": join_field(fields.get("Ability", [])), "focus": join_field(fields.get("Focus", [])),
+                    "talent": join_field(fields.get("Talent", []))})
+    return out
+
+
+def parse_professions(pdf, words):
+    lines = layout_columns(pdf, 20, 24)
+    head = re.compile(r"^\s{0,8}([A-Z][A-Za-z ]+?)\s{2,}(Physical|Social|Skilled), (Outsider|Lower|Middle|Upper)\s*$")
+    blocks, cur = [], None
+    for l in lines:
+        m = head.match(l)
+        if m:
+            cur = {"name": m.group(1), "kind": m.group(2), "cls": CLASS_OF[m.group(3).lower()], "lines": []}
+            blocks.append(cur)
+        elif cur is not None and not cur.get("done"):
+            cur["lines"].append(l)
+            if re.match(r"^\s*Health:", l):
+                cur["done"] = True
+    out = []
+    for b in blocks:
+        body = [l for l in b["lines"] if not re.match(r"^\s*Health:", l)]
+        health = next((re.match(r"^\s*Health:\s*(.*?)\s+Resources:\s*(\d+)", l) for l in b["lines"] if l.strip().startswith("Health:")), None)
+        prose, fields = parse_labelled(body, ("Focus", "Talent"))
+        out.append({"name": b["name"], "kind": b["kind"], "cls": b["cls"], "desc": paragraph(prose, words),
+                    "focus": join_field(fields.get("Focus", [])), "talent": join_field(fields.get("Talent", [])),
+                    "health": health.group(1) if health else "", "resources": int(health.group(2)) if health else 0})
+    return out
+
+
+def parse_drives(pdf, words):
+    lines = layout_columns(pdf, 23, 25)
+    start = next(i for i, l in enumerate(lines) if l.strip() == "Achiever")
+    blocks, cur = [], None
+    for l in lines[start:]:
+        s = l.strip()
+        if s in DRIVE_NAMES and indent(l) < 8:
+            cur = {"name": s, "lines": []}
+            blocks.append(cur)
+        elif cur is not None and not cur.get("done"):
+            if s.startswith("Step ") or s.startswith("Resources"):
+                cur["done"] = True
+                continue
+            cur["lines"].append(l)
+            if s.startswith("Improvement:"):
+                cur["wrap"] = True
+            elif cur.get("wrap") and indent(l) < 10:
+                cur["done"] = True
+    out = []
+    for b in blocks:
+        prose, fields = parse_labelled(b["lines"], ("Talent", "Improvement"))
+        out.append({"name": b["name"], "desc": paragraph(prose, words), "talent": join_field(fields.get("Talent", [])),
+                    "improvement": join_field(fields.get("Improvement", []))})
+    return out
+
+
+def parse_class_descriptions(pdf, words):
+    lines = [l.strip() for l in layout_columns(pdf, 15, 16)]
+    out, cur = {}, None
+    names = list(CLASS_OF.values())
+    start = next(i for i, l in enumerate(lines) if l == "Descriptions" and lines[i - 1] == "Social Class")
+    for l in lines[start + 1:]:
+        if l in names:
+            cur = out.setdefault(l, [])
+        elif l == "Background":
+            break
+        elif cur is not None and l:
+            cur.append(l)
+    return {k: paragraph(v, words) for k, v in out.items()}
+
+
+# --- roll tables
+
+def parse_ranges(rows):
+    """[(range text, result)] -> [(lo, hi, result)]"""
+    out = []
+    for r, text in rows:
+        parts = [int(x) for x in re.split(r"[–\-]", r)]
+        out.append((parts[0], parts[-1], text))
+    return out
+
+
+def parse_creation_tables(pdf, backgrounds):
+    t = {}
+    # 3d6 ability table
+    page = pdftotext(pdf, 13, 13, "-layout", "-x", "0", "-y", "0", "-W", "300", "-H", "783")[0]
+    rows = []
+    for m in re.finditer(r"^\s*(\d+)\s+([–\-]?\d+)\s+(\d+)\s+([–\-]?\d+)\s*$", page, re.M):
+        rows += [(m.group(1), m.group(2).replace("–", "-")), (m.group(3), m.group(4).replace("–", "-"))]
+    t["Ability Score (3d6)"] = ("3d6", "Step 2: Determining Abilities", "Ability Scores", parse_ranges(rows))
+    # page 14: social class and background tables
+    lines = pdftotext(pdf, 14, 14, "-layout", "-x", "300", "-y", "0", "-W", "303", "-H", "783")[0].splitlines()
+    sc = [(m.group(1), m.group(2)) for l in lines for m in [re.match(r"^\s*(\d(?:[–\-]\d)?)\s{2,}(Outsider|Lower Class|Middle Class|Upper Class)\s*$", l)] if m]
+    t["Social Class"] = ("1d6", "Step 3: Background", "Social Class", parse_ranges(sc))
+    pair = re.compile(r"^\s*(\d(?:[–\-]\d)?)\s{2,}([A-Z][a-z]+)\s{2,}(\d(?:[–\-]\d)?)\s{2,}([A-Z][a-z]+)\s*$")
+    left, right = {}, {}
+    titles = None
+    for l in lines:
+        h = re.match(r"^\s*(Outsider|Lower Class|Middle Class|Upper Class)\s{2,}(Outsider|Lower Class|Middle Class|Upper Class)\s*$", l)
+        if h:
+            titles = (h.group(1), h.group(2))
+            continue
+        m = pair.match(l)
+        if m and titles:
+            left.setdefault(titles[0], []).append((m.group(1), m.group(2)))
+            right.setdefault(titles[1], []).append((m.group(3), m.group(4)))
+    for cls, rows in {**left, **right}.items():
+        t[f"Backgrounds: {cls}"] = ("1d6", "Step 3: Background", "Backgrounds", parse_ranges(rows))
+    # professions per class (right column of page 20 -> pdf page 19... printed 18)
+    lines = pdftotext(pdf, 19, 19, "-layout", "-x", "300", "-y", "0", "-W", "303", "-H", "783")[0].splitlines()
+    pair = re.compile(r"^\s*(\d)\s+([A-Z][a-z]+)\s+(\d)\s+([A-Z][a-z]+)\s*$")
+    titles = None
+    for l in lines:
+        h = re.match(r"^\s*(Outsider|Lower Class|Middle Class|Upper Class)\s{2,}(Outsider|Lower Class|Middle Class|Upper Class)\s*$", l)
+        h2 = re.match(r"^\s*(Middle Class)\s{2,}(Upper Class)\s*$", l)
+        if h or h2:
+            titles = ((h or h2).group(1), (h or h2).group(2))
+            continue
+        m = pair.match(l)
+        if m and titles:
+            t.setdefault(f"Professions: {titles[0]}", ("1d6", "Step 4: Profession", "Professions", []))[3].append((m.group(1), m.group(2)))
+            t.setdefault(f"Professions: {titles[1]}", ("1d6", "Step 4: Profession", "Professions", []))[3].append((m.group(3), m.group(4)))
+    for k, v in list(t.items()):
+        if k.startswith("Professions:"):
+            t[k] = (v[0], v[1], v[2], parse_ranges(v[3]))
+    # drives: choose the column with 1d6 (1-3 column 1, 4-6 column 2), then 1d6 in the column
+    lines = pdftotext(pdf, 23, 23, "-layout", "-x", "0", "-y", "0", "-W", "300", "-H", "783")[0].splitlines()
+    c1, c2 = [], []
+    for l in lines:
+        m = re.match(r"^\s*(\d)\s+([A-Z][a-z]+)\s+([A-Z][a-z]+)\s*$", l)
+        if m and m.group(2) in DRIVE_NAMES:
+            c1.append((m.group(1), m.group(2)))
+            c2.append((m.group(1), m.group(3)))
+    t["Drive: Column 1"] = ("1d6", "Step 5: Drive (roll 1-3 on 1d6)", "Drives", parse_ranges(c1))
+    t["Drive: Column 2"] = ("1d6", "Step 5: Drive (roll 4-6 on 1d6)", "Drives", parse_ranges(c2))
+    for b in backgrounds:
+        t[f"Benefits: {b['name']}"] = ("2d6", f"Step 3: {b['name']} benefit", "Benefits", parse_ranges(b["rows"]))
+    return t
+
+
+def table_doc(pack, name, formula, desc, rows, folder):
+    tid = make_id(pack.name, name)
+    results = []
+    for lo, hi, text in sorted(rows):
+        rid = make_id(tid, f"{lo}-{hi}-{text}")
+        results.append({"_id": rid, "type": "text", "name": text, "description": "", "img": "icons/svg/d20-black.svg",
+                        "weight": hi - lo + 1, "range": [lo, hi], "drawn": False, "flags": {}, "_stats": SYSTEM_STATS,
+                        "_key": f"!tables.results!{tid}.{rid}"})
+    pack.docs.append({"name": name, "img": "icons/svg/d20-grey.svg", "description": desc, "results": results,
+                      "formula": formula, "replacement": True, "displayRoll": True, "flags": {},
+                      "folder": pack.folder(folder, 100000 * (len(pack.folders) + 1)), "sort": 0,
+                      "ownership": {"default": 0}, "_stats": SYSTEM_STATS, "_id": tid, "_key": f"!tables!{tid}"})
+
+
+def build_creation_tables(pdf, words):
+    pack = Pack("creation-tables", "RollTable")
+    for name, (formula, desc, folder, rows) in parse_creation_tables(pdf, parse_backgrounds(pdf, words)).items():
+        table_doc(pack, name, formula, desc, rows, folder)
+    return pack
+
+
+def journal_doc(pack, name, pages):
+    jid = make_id(pack.name, name)
+    out = []
+    for n, (title, html_) in enumerate(pages, 1):
+        pid = make_id(jid, title)
+        out.append({"_id": pid, "name": title, "type": "text", "title": {"show": True, "level": 1},
+                    "text": {"format": 1, "content": html_}, "sort": n * 100000, "ownership": {"default": -1}, "flags": {},
+                    "_key": f"!journal.pages!{jid}.{pid}", "_stats": SYSTEM_STATS})
+    pack.docs.append({"name": name, "pages": out, "flags": {}, "folder": None, "sort": 0, "ownership": {"default": 0},
+                      "_id": jid, "_key": f"!journal!{jid}", "_stats": SYSTEM_STATS})
+
+
+def table_html(headers, rows):
+    head = "".join(f"<th>{esc(h)}</th>" for h in headers)
+    body = "".join("<tr>" + "".join(f"<td>{esc(c)}</td>" for c in r) + "</tr>" for r in rows)
+    return f"<table><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table>"
+
+
+def li(label, text):
+    return f"<li><strong>{label}:</strong> {esc(text)}</li>" if text else ""
+
+
+def build_creation(pdf, words):
+    pack = Pack("character-creation", "JournalEntry")
+    classes = parse_class_descriptions(pdf, words)
+    journal_doc(pack, "Social Classes", [(c, p(d)) for c, d in classes.items()])
+    bgs = parse_backgrounds(pdf, words)
+    journal_doc(pack, "Backgrounds", [(b["name"], f"<p><em>{b['cls']}</em></p>" + p(b["desc"]) + "<ul>" + li("Ability", b["ability"])
+                                       + li("Focus", b["focus"]) + li("Talent", b["talent"]) + "</ul>"
+                                       + f"<h2>{b['name']} Benefits</h2>" + table_html(["2d6 Roll", "Benefit"], b["rows"]))
+                                      for b in sorted(bgs, key=lambda x: x["name"])])
+    profs = parse_professions(pdf, words)
+    journal_doc(pack, "Professions", [(x["name"], f"<p><em>{x['kind']}, {x['cls']}</em></p>" + p(x["desc"]) + "<ul>"
+                                       + li("Focus", x["focus"]) + li("Talent", x["talent"]) + li("Health", x["health"])
+                                       + li("Resources", str(x["resources"])) + "</ul>")
+                                      for x in sorted(profs, key=lambda x: x["name"])])
+    journal_doc(pack, "Drives", [(x["name"], p(x["desc"]) + "<ul>" + li("Talent", x["talent"]) + li("Improvement", x["improvement"]) + "</ul>")
+                                 for x in sorted(parse_drives(pdf, words), key=lambda x: x["name"])])
+    return pack
+
+
 # --------------------------------------------------------------------------- stunts
 
 STUNT_SECTIONS = {
@@ -803,8 +1082,9 @@ def build_stunts(pdf, words):
 
 BUILDERS = {"focuses": build_focuses, "talents": build_talents, "weapons": build_weapons, "armor": build_armor,
             "stunts": build_stunts, "vehicles": build_vehicles, "equipment": build_equipment,
-            "adversaries": build_adversaries}
-NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries"}
+            "adversaries": build_adversaries,
+            "character-creation": build_creation, "creation-tables": build_creation_tables}
+NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries", "character-creation", "creation-tables"}
 
 
 def main():

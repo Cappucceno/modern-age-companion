@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Suburban",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Suburban benefit",
+  "results": [
+    {
+      "_id": "937b280ed3c52ef2",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.937b280ed3c52ef2"
+    },
+    {
+      "_id": "76176b9f9b137356",
+      "type": "text",
+      "name": "Focus: Intelligence (choose one)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.76176b9f9b137356"
+    },
+    {
+      "_id": "79806ad1a50a0f03",
+      "type": "text",
+      "name": "+2 Resources",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.79806ad1a50a0f03"
+    },
+    {
+      "_id": "2502fbee0e136cee",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.2502fbee0e136cee"
+    },
+    {
+      "_id": "979e0011bf6eaf53",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.979e0011bf6eaf53"
+    },
+    {
+      "_id": "0756300b76e095c3",
+      "type": "text",
+      "name": "Focus: Perception (choose one)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.0756300b76e095c3"
+    },
+    {
+      "_id": "4dec3d9a7de0c72f",
+      "type": "text",
+      "name": "Focus: Dexterity (Driving)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.4dec3d9a7de0c72f"
+    },
+    {
+      "_id": "fb043535cc6922f0",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!bc22b88ad40c4558.fb043535cc6922f0"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "bc22b88ad40c4558",
+  "_key": "!tables!bc22b88ad40c4558"
+}

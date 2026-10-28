@@ -1,0 +1,594 @@
+{
+  "name": "Professions",
+  "pages": [
+    {
+      "_id": "56eb72cfa1578a5e",
+      "name": "Artist",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Outsider</em></p><p>Your life is about expression, whether it is sharing your sense of beauty, or expressing pain or outrage in forms others can understand. You may or may not make a living at art, but you need to express yourself through it.</p><ul><li><strong>Focus:</strong> Communication (Expression) or Intelligence (Art)</li><li><strong>Talent:</strong> Artistry or Performance</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 2</li></ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.56eb72cfa1578a5e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "487f5675e76e43f5",
+      "name": "Athlete",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Lower Class</em></p><p>You pit yourself against physical challenges, whether from other teams and rival athletes or your own limits and personal bests. Your work involves a lot of training and practice to stay at the top of your game.</p><ul><li><strong>Focus:</strong> Constitution (Running or Swimming), Dexterity (Acrobatics), or Strength (Climbing or Jumping)</li><li><strong>Talent:</strong> Freerunning or Quick Reflexes</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 2</li></ul>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.487f5675e76e43f5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "1265c9ccf2993e0b",
+      "name": "Brawler",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Outsider</em></p><p>There are always opportunities for people willing and able to knock some heads together. It’s not fancy fighting, and it’s certainly not fair, but you’d much rather have a reputation for winning and surviving than anything else.</p><ul><li><strong>Focus:</strong> Grappling Style or Striking Style</li><li><strong>Talent:</strong> Fighting (Brawling) or Fighting (Grappling)</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 0</li></ul>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.1265c9ccf2993e0b",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "ea47d18959c41fb3",
+      "name": "Clergy",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Lower Class</em></p><p>People need faith, or at least someone to look after their hearts and souls just as much as their bodies and minds. You may have felt called to do this work, it might be a family tradition, or it might represent a life you’ve left behind. Do you keep the faith for others? How about yourself?</p><ul><li><strong>Focus:</strong> Intelligence (Theology) or Willpower (Faith)</li><li><strong>Talent:</strong> Inspire or Oratory</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 4</li></ul>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.ea47d18959c41fb3",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "015da1375271be57",
+      "name": "Commander",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Upper Class</em></p><p>You’re trained to lead soldiers in the field, as a noble calling or part of a professional elite. Your responsibility is to get the job done and ensure as many people under your command make it back as possible. Does a good commander prioritize the first goal or the second?</p><ul><li><strong>Focus:</strong> Communication (Leadership) or Intelligence (Tactics)</li><li><strong>Talent:</strong> Command or Tactical Awareness</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.015da1375271be57",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "148f21db6bbbefc0",
+      "name": "Criminal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Outsider</em></p><p>When you’re on the outside, you often bend and break the law to survive. You might feel you have no choice in the matter because of circumstances, or maybe you chose those circumstances, loving crime with professional pride, or to further some political or personal end. Either way, you know how to work around the law.</p><ul><li><strong>Focus:</strong> Communication (Deception) or Dexterity (Forgery, Sleight of Hand, or Stealth)</li><li><strong>Talent:</strong> Burglary or Scouting</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 2</li></ul>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.148f21db6bbbefc0",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "300c4e2a7ad2e88b",
+      "name": "Dilettante",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Upper Class</em></p><p>With so many possible things to learn and do, how can you choose? You’re happy to sample from the banquet of possibilities laid out before you, learning as much as you can about something before moving on to the next interest.</p><ul><li><strong>Focus:</strong> Intelligence (Research) or Perception (choose one)</li><li><strong>Talent:</strong> Improvisation or Theory and Practice</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 8</li></ul>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.300c4e2a7ad2e88b",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4a37a3d2ef6e66f2",
+      "name": "Executive",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Upper Class</em></p><p>You are the take-charge type, able to see the big picture or organize people to do great things. Your vision makes you a great leader, even if people don’t fully comprehend your ultimate goals. You decide whether it’s all about profit, power, or the thrill of command.</p><ul><li><strong>Focus:</strong> Communication (Leadership) or Intelligence (Business)</li><li><strong>Talent:</strong> Command or Intrigue</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 8</li></ul>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.4a37a3d2ef6e66f2",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "86e78e60910a2f86",
+      "name": "Expert",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Upper Class</em></p><p>There used to be a time when you could know everything about anything, or nearly so, but that era’s long gone. Still, you’re enough of an expert in your chosen field to get paid well for it. Experts tend to belong to complex fields like finance, law, medicine, and the sciences.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Theory and Practice</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 8</li></ul>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.86e78e60910a2f86",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "52d4521a7d0a7230",
+      "name": "Explorer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Upper Class</em></p><p>There may not be any new continents or civilizations to discover (or are there?), but there are still plenty of obscure places left, which few or none have seen. It’s your passion to explore them. You work to expand human knowledge, to satisfy your own need to discover someplace new, or for fame.</p><ul><li><strong>Focus:</strong> Intelligence (Cartography or Navigation) or Perception (choose one)</li><li><strong>Talent:</strong> Linguistics or Scouting</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.52d4521a7d0a7230",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "71f7fb884871eb97",
+      "name": "Fixer",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Outsider</em></p><p>You are good at getting things done in a less-than-legal fashion, or outside of the normal channels. While some fixers are motivated by profit, others do what they can to help people in a restrictive, corrupt system.</p><ul><li><strong>Focus:</strong> Communication (Bargaining) or Intelligence (Evaluation)</li><li><strong>Talent:</strong> Improvisation or Living on the Fringe</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 2</li></ul>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.71f7fb884871eb97",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "effbb221152da3e3",
+      "name": "Investigator",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Lower Class</em></p><p>People lie and keep secrets. They’ve been doing it since the dawn of time. Likewise, people like you, who know how to dig up the truth, have always dogged deceivers. You might bring criminals to justice, get information to the public, or find out what a client wants or needs to know.</p><ul><li><strong>Focus:</strong> Communication (Investigation) or Perception (choose one)</li><li><strong>Talent:</strong> Intrigue or Observation</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 4</li></ul>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.effbb221152da3e3",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "9af92733af462dcc",
+      "name": "Merchant",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Middle Class</em></p><p>Money runs the world, and you make money work for you. You know how to buy at a discount, sell at a profit, and conduct deals to come out ahead. You might be involved in trade, work in retail or wholesale, or deal in rarities that require knowledge to identify and eloquence to sell.</p><ul><li><strong>Focus:</strong> Communication (Bargaining) or Intelligence (Business)</li><li><strong>Talent:</strong> Affluent or Contacts</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.9af92733af462dcc",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "54bd2b3296ff7a37",
+      "name": "Negotiator",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Lower Class</em></p><p>The harder things are, the more people need each other to get by and the more likely it seems they are to disagree. You know how to get people together, settle disputes, find compromises, and grease the rusty wheels of conflicting agendas so they turn in unison once more.</p><ul><li><strong>Focus:</strong> Communication (Bargaining or Persuasion) or Perception (Empathy)</li><li><strong>Talent:</strong> Intrigue or Oratory</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 4</li></ul>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.54bd2b3296ff7a37",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "3bf40f51d2195779",
+      "name": "Pilot",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Middle Class</em></p><p>You’re at your best when at the controls, whether behind the wheel of a car or truck, in the cockpit of an aircraft, or piloting something even more exotic. You have the nerve and the skill needed to make your vehicle do what you need it to do. It becomes an extension of your body, its humming as essential as your heartbeat.</p><ul><li><strong>Focus:</strong> Dexterity (Driving or Piloting)</li><li><strong>Talent:</strong> Fast Fury or Speed Demon</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 4</li></ul>"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.3bf40f51d2195779",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "38766cf95cd2dbaf",
+      "name": "Politician",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Middle Class</em></p><p>From neighborhoods to nations, people need to be organized for society to function. You know the tricks it takes to get people to cooperate to that end. Your speeches help people devise collective political dreams, but behind closed doors you deal in the art of the possible. You might be virtuous or corrupt, but isn’t that a matter of perspective?</p><ul><li><strong>Focus:</strong> Communication (Deception or Persuasion) or Intelligence (Current Affairs or Law)</li><li><strong>Talent:</strong> Contacts or Oratory</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.38766cf95cd2dbaf",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "b4616e6062f88b76",
+      "name": "Professional",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Middle Class</em></p><p>Whether in a cubicle farm or an office, you know the whitecollar world. You might see it as a career path or a stepping stone toward something else, but you know your job and the skills and challenges that come with it.</p><ul><li><strong>Focus:</strong> Communication (Bargaining or Expression) or Intelligence (one of Business, Computers, or Research)</li><li><strong>Talent:</strong> Affluent or Expertise</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.b4616e6062f88b76",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "5f71e5dddcf58214",
+      "name": "Scavenger",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Outsider</em></p><p>Most people would be amazed at the things that get thrown away and forgotten, but not you. You’re all too familiar with that bounty—how to find it, salvage it, and make the best use of it.</p><ul><li><strong>Focus:</strong> Intelligence (Tinkering) or Perception (Searching)</li><li><strong>Talent:</strong> Living on the Fringe or Maker</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 2</li></ul>"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.5f71e5dddcf58214",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "a1b612bcd8a871f5",
+      "name": "Scholar",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Middle Class</em></p><p>Knowledge and understanding are your fields, focused on a specific area of interest. Whereas the expert profession tends to be about applied knowledge, you focus on knowledge for knowledge’s sake. You might work in a university, or have an amateur obsession. You look to gain greater understanding of your field and, in so doing, perhaps expand the world’s understanding as well.</p><ul><li><strong>Focus:</strong> Intelligence (choose one)</li><li><strong>Talent:</strong> Expertise or Knowledge</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 6</li></ul>"
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.a1b612bcd8a871f5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "5f5e03677670ef96",
+      "name": "Security",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Middle Class</em></p><p>You protect places, things, and people. You might keep watch over a sedate mall, or patrol a war zone. You could be a law enforcement officer, a private security guard, or a special consultant. No matter your job, you keep “bad guys” from getting what they want, and you keep your charges safe.</p><ul><li><strong>Focus:</strong> Intelligence (Security) or Perception (Empathy or Seeing)</li><li><strong>Talent:</strong> One Fighting Style or Protect</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 4</li></ul>"
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.5f5e03677670ef96",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "22287d87cc697be4",
+      "name": "Socialite",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Social, Upper Class</em></p><p>Life is a never-ending series of social engagements, from parties and receptions to fundraisers and even funerals, and you navigate them gracefully. Your social obligations might be a burden or a source of enjoyment for you but, whatever the case, you handle them with aplomb. You might lead a life of pure recreation, but your engagements could have political or charitable dimensions as well.</p><ul><li><strong>Focus:</strong> Communication (Etiquette or Seduction) or Constitution (Stamina)</li><li><strong>Talent:</strong> Attractive or Contacts</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 8</li></ul>"
+      },
+      "sort": 2100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.22287d87cc697be4",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "654141008d2a4d9e",
+      "name": "Soldier",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Lower Class</em></p><p>Your people need someone to defend them, to stand on the front lines and, sometimes, to go to war against their enemies. You’re trained to follow orders, fight, and do whatever’s needed to complete your mission. You could be part of a government’s armed forces, a revolutionary, or a soldier-forhire, working for clients who can meet your fee.</p><ul><li><strong>Focus:</strong> Accuracy (Assault Rifles) or Fighting (Brawling)</li><li><strong>Talent:</strong> One Fighting Style or Tactical Awareness</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 2</li></ul>"
+      },
+      "sort": 2200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.654141008d2a4d9e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "085fcebc6c42d3e4",
+      "name": "Survivalist",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Physical, Outsider</em></p><p>Survival is life’s most basic challenge, and you have learned how to meet it in extreme situations, either out of necessity or because you love the wilderness. You know how to make do without many of the products and social contacts people depend upon for their everyday lives.</p><ul><li><strong>Focus:</strong> Accuracy (Bows or Pistols) or Perception (Tracking)</li><li><strong>Talent:</strong> Living on the Fringe or Tactical Awareness</li><li><strong>Health:</strong> 20 + Con</li><li><strong>Resources:</strong> 0</li></ul>"
+      },
+      "sort": 2300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.085fcebc6c42d3e4",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "bd7ebf7860bca770",
+      "name": "Technician",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Skilled, Lower Class</em></p><p>You fix things. Whether you’re a mechanic, maintenance technician, or even work in information technologies, people depend on you to keep it all operational. You might work in vast server farms, in lightless sewers, in a massive factory, or in a nondescript office. Wherever you are, you maintain part of the modern era’s infrastructure.</p><ul><li><strong>Focus:</strong> Intelligence (Computers, Electronics, Engineering, or Tinkering)</li><li><strong>Talent:</strong> Expertise, Hacking, or Maker</li><li><strong>Health:</strong> 15 + Con</li><li><strong>Resources:</strong> 4</li></ul>"
+      },
+      "sort": 2400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!ad7e1acea4c3614b.bd7ebf7860bca770",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "ad7e1acea4c3614b",
+  "_key": "!journal!ad7e1acea4c3614b",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

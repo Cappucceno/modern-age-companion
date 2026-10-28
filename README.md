@@ -5,8 +5,9 @@ meant to carry the compendium content of **Modern AGE**, converted to AGE System
 It follows the same layout as the [Expanse compendium](https://github.com/Cappucceno/expanse-age-compendium).
 
 **Status: work in progress.** Converted so far from the *Modern AGE Basic Rulebook*: 89 ability focuses, 54 talents and
-specializations, 114 stunts, 40 weapons, 6 armors and 2 shields, 12 vehicles, 41 equipment items (adventuring gear and lifestyle), 33 sample adversaries. Still empty:
-character creation (backgrounds, professions, drives), roll tables and the journals.
+specializations, 114 stunts, 40 weapons, 6 armors and 2 shields, 12 vehicles, 41 equipment items (adventuring gear and lifestyle), 33 sample adversaries, and the Chapter 1 character creation data (4 social classes, 12 backgrounds, 24 professions, 12 drives
+as journals; 24 roll tables for ability scores, social class, backgrounds, benefits, professions and drives). Still empty:
+the prose journals (character creation steps, rules reference, GM chapters), the rules tables and the powers.
 
 | Compendium | Planned content (AGE type) |
 |---|---|
@@ -22,7 +23,7 @@ npm install
 python3 scripts/convert.py "/path/to/Modern_AGE_Basic_Rulebook.pdf"   # PDF -> packs/_source/*.json (not stored in the repo)
 npm run build                                                         # packs/_source -> packs/<pack> (LevelDB)
 ```
-`--only focuses,talents,weapons,armor,stunts,vehicles,equipment,adversaries` converts a subset. The converter reads PDF pages directly, so it is tied to the
+`--only focuses,talents,weapons,armor,stunts,vehicles,equipment,adversaries,character-creation,creation-tables` converts a subset. The converter reads PDF pages directly, so it is tied to the
 GRR6301 edition of the book.
 
 Pack sources go in `packs/_source/<pack>/` (one JSON per document, `_folder-*.json` for folders, as in the Expanse module).

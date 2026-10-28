@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Cosmopolitan",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Cosmopolitan benefit",
+  "results": [
+    {
+      "_id": "e2752ffad5714f06",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.e2752ffad5714f06"
+    },
+    {
+      "_id": "4f362d006fe48270",
+      "type": "text",
+      "name": "Focus: Intelligence (Anthropology)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.4f362d006fe48270"
+    },
+    {
+      "_id": "621740b176de72a6",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.621740b176de72a6"
+    },
+    {
+      "_id": "f0f2e761b11a7792",
+      "type": "text",
+      "name": "Focus: Intelligence (Art)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.f0f2e761b11a7792"
+    },
+    {
+      "_id": "4e1eaedf5a174e6f",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.4e1eaedf5a174e6f"
+    },
+    {
+      "_id": "db4b1f9f2232b523",
+      "type": "text",
+      "name": "Focus: Communication (Bargaining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.db4b1f9f2232b523"
+    },
+    {
+      "_id": "3e751154215d451b",
+      "type": "text",
+      "name": "Focus: Perception (Seeing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.3e751154215d451b"
+    },
+    {
+      "_id": "a81fb823d3f97503",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!26f25a888719086e.a81fb823d3f97503"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "26f25a888719086e",
+  "_key": "!tables!26f25a888719086e"
+}

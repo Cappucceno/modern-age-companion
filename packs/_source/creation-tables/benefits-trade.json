@@ -1,0 +1,183 @@
+{
+  "name": "Benefits: Trade",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Trade benefit",
+  "results": [
+    {
+      "_id": "2e80838e38d2859b",
+      "type": "text",
+      "name": "+1 Strength",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.2e80838e38d2859b"
+    },
+    {
+      "_id": "6765e32fd4df3759",
+      "type": "text",
+      "name": "Focus: Intelligence (Tinkering)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.6765e32fd4df3759"
+    },
+    {
+      "_id": "ffb0a942f32c39c5",
+      "type": "text",
+      "name": "Focus: Intelligence (Evaluation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.ffb0a942f32c39c5"
+    },
+    {
+      "_id": "0e7f2be8cc8bb623",
+      "type": "text",
+      "name": "Focus: Constitution (Tolerance)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.0e7f2be8cc8bb623"
+    },
+    {
+      "_id": "7e9d554ab5a8048e",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.7e9d554ab5a8048e"
+    },
+    {
+      "_id": "16f4abc4b4e734f1",
+      "type": "text",
+      "name": "Focus: Fighting (Grappling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.16f4abc4b4e734f1"
+    },
+    {
+      "_id": "b85e3a3efc8f7674",
+      "type": "text",
+      "name": "Focus: Constitution (Stamina)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.b85e3a3efc8f7674"
+    },
+    {
+      "_id": "64c58ea7343645f7",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5f05b14da573acfc.64c58ea7343645f7"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "5b4bcd2d2d368fa0",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "5f05b14da573acfc",
+  "_key": "!tables!5f05b14da573acfc"
+}

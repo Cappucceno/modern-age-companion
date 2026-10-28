@@ -1,0 +1,17 @@
+{
+  "name": "Social Class",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "dea382d4f8e92164",
+  "_key": "!folders!dea382d4f8e92164",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Ability Scores",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "5a9a8813416ea9c1",
+  "_key": "!folders!5a9a8813416ea9c1",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

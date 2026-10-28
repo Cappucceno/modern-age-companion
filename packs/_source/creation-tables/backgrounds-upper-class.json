@@ -1,0 +1,83 @@
+{
+  "name": "Backgrounds: Upper Class",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Step 3: Background",
+  "results": [
+    {
+      "_id": "3bcbbbc3db23f500",
+      "type": "text",
+      "name": "Aristocratic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!867cd05f65c87f72.3bcbbbc3db23f500"
+    },
+    {
+      "_id": "c21f0c95f2260ab1",
+      "type": "text",
+      "name": "Corporate",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!867cd05f65c87f72.c21f0c95f2260ab1"
+    },
+    {
+      "_id": "14eb3de40a8c1956",
+      "type": "text",
+      "name": "Cosmopolitan",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!867cd05f65c87f72.14eb3de40a8c1956"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e40bfc57fae3ea33",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "867cd05f65c87f72",
+  "_key": "!tables!867cd05f65c87f72"
+}

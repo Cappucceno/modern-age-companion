@@ -1,0 +1,114 @@
+{
+  "name": "Social Classes",
+  "pages": [
+    {
+      "_id": "7affa178c154cabb",
+      "name": "Outsider",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>More of a non-social class, outsiders tend to be outcasts, criminals, or non-conformists who can’t or won’t live according to society’s customs. They often lack access to things other people take for granted, and learn to get by on their own, sometimes forming their own support networks and structures outside mainstream society. Some outsiders reject the norm by choice, but in many cases, outsiders are pushed out by society’s biases.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!fc5eb98fea7bc1f9.7affa178c154cabb",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "d4a13edd95c92078",
+      "name": "Lower Class",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Hard work, usually physical, and precarious employment tend to rule the lives of lower class characters. Still, that labor is often all that separates them from becoming outsiders, so they cling to it. Lower class characters usually depend on family and friends to help keep them out of utter poverty. They might live in failing industrial towns, inner city apartments, or hardscrabble farms. In all cases, they make do with what is available and find ways to stretch resources until the next payday or job comes along.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!fc5eb98fea7bc1f9.d4a13edd95c92078",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "03a9b24cb5bc71a1",
+      "name": "Middle Class",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A measure of comfort and security comes with the middle class. A steady job, often skilled labor or “white collar,” supplies the means to afford a few luxuries or non-essentials. Middle class characters might start off as a bit insular. They often separate themselves from the struggles of the lower social classes, focusing on the climb toward upper class status. Sometimes that climb leads to a slip. They tumble down to the lower class or even become outsiders. Some settle for stability instead, and prefer not to rock the social boat.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!fc5eb98fea7bc1f9.03a9b24cb5bc71a1",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4d20c585516ff8b5",
+      "name": "Upper Class",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Upper class characters sit at a society’s summit, where they rarely need to worry about resources, except of course when they want more. Their concerns are often focused on the responsibilities and privileges associated with their status. Some are born into privilege, inheriting wealth and opportunity, while others worked their way into the elite. In some societies, it’s almost impossible to work your way to upper class status, and even if you do, you might get less respect compared to hereditary “old money” peers.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!fc5eb98fea7bc1f9.4d20c585516ff8b5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "fc5eb98fea7bc1f9",
+  "_key": "!journal!fc5eb98fea7bc1f9",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}
