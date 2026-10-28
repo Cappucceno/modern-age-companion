@@ -1,0 +1,129 @@
+{
+  "id": "modern-age-compendium",
+  "title": "Modern AGE Compendium for AGE System",
+  "description": "Compendium content of Modern AGE converted for the AGE System (age-system). Skeleton: packs are empty until content is added.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "14.367",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "age-system",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Green Ronin Publishing (Modern AGE)",
+      "url": "https://greenroninstore.com"
+    }
+  ],
+  "esmodules": [
+    "scripts/babele.js"
+  ],
+  "languages": [],
+  "packs": [
+    {
+      "name": "talents",
+      "label": "Talents",
+      "path": "packs/talents",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "focuses",
+      "label": "Ability Focuses",
+      "path": "packs/focuses",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "stunts",
+      "label": "Stunts",
+      "path": "packs/stunts",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "weapons",
+      "label": "Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "armor",
+      "label": "Armor",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
+      "name": "vehicles",
+      "label": "Vehicles",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "age-system"
+    },
+    {
+      "name": "adversaries",
+      "label": "Sample Adversaries",
+      "path": "packs/adversaries",
+      "type": "Actor",
+      "system": "age-system"
+    },
+    {
+      "name": "character-creation",
+      "label": "Character Creation Guide",
+      "path": "packs/character-creation",
+      "type": "JournalEntry",
+      "system": "age-system"
+    },
+    {
+      "name": "creation-tables",
+      "label": "Character Creation Tables",
+      "path": "packs/creation-tables",
+      "type": "RollTable",
+      "system": "age-system"
+    },
+    {
+      "name": "rules-reference",
+      "label": "Rules Reference",
+      "path": "packs/rules-reference",
+      "type": "JournalEntry",
+      "system": "age-system"
+    },
+    {
+      "name": "rules-tables",
+      "label": "Rules Tables",
+      "path": "packs/rules-tables",
+      "type": "RollTable",
+      "system": "age-system"
+    },
+    {
+      "name": "gm-guide",
+      "label": "Game Master Chapters",
+      "path": "packs/gm-guide",
+      "type": "JournalEntry",
+      "system": "age-system"
+    }
+  ],
+  "url": "https://github.com/Cappucceno/modern-age-compendium",
+  "license": "LICENSE.txt",
+  "manifest": "https://raw.githubusercontent.com/Cappucceno/modern-age-compendium/main/module.json",
+  "download": "https://github.com/Cappucceno/modern-age-compendium/releases/download/v0.1.0/module.zip",
+  "bugs": "https://github.com/Cappucceno/modern-age-compendium/issues"
+}
