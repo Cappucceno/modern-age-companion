@@ -1,0 +1,37 @@
+name: Release
+
+# Run manually from the Actions tab (or with the API) to publish module.zip as a GitHub release.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag (must match "version" in module.json)
+        default: v0.1.0
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check version
+        run: |
+          version=$(jq -r .version module.json)
+          [ "v$version" = "${{ inputs.tag }}" ] || { echo "module.json version $version does not match ${{ inputs.tag }}"; exit 1; }
+      - name: Build module.zip
+        run: |
+          mkdir -p build/modern-age-compendium/scripts build/modern-age-compendium/packs
+          cp module.json LICENSE.txt NOTICE.md README.md build/modern-age-compendium/
+          cp scripts/babele.js build/modern-age-compendium/scripts/
+          cp -r lang build/modern-age-compendium/
+          for d in packs/*/; do [ "$(basename "$d")" = "_source" ] || cp -r "$d" build/modern-age-compendium/packs/; done
+          cd build/modern-age-compendium && zip -qr ../../module.zip .
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${{ inputs.tag }}" module.zip module.json \
+            --target "${{ github.sha }}" --title "${{ inputs.tag }}" \
+            --notes "First Modern AGE compendium release for the AGE System: focuses, talents, stunts, powers, equipment, vehicles, adversaries, character creation, rules and GM journals. Not tested in Foundry yet."
