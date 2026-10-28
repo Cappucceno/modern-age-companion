@@ -1,0 +1,17 @@
+{
+  "name": "Psychic Projection",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "a469ad3894dd68bc",
+  "_key": "!folders!a469ad3894dd68bc",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

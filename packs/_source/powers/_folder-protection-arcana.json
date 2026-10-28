@@ -1,0 +1,17 @@
+{
+  "name": "Protection Arcana",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 800000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "2d76f5f1557ab88d",
+  "_key": "!folders!2d76f5f1557ab88d",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

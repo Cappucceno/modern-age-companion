@@ -1,0 +1,30 @@
+{
+  "name": "Tracker",
+  "_id": "287b6846fd1e6be6",
+  "_key": "!items!287b6846fd1e6be6",
+  "folder": "d09dd49be69f6906",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Digital Arcana (Novice)</p><p><strong>Cost:</strong> 3 PP</p><p><strong>Time:</strong> 1 minute</p><p><strong>Target Number:</strong> 9</p><p><strong>Test:</strong> None</p><p>You place an invisible arcane “tag” on an object, which remains until you choose to dismiss it as a free action. Once an object is tagged, you can track it with a GPS-enabled device and another casting of this spell (TN 11). The GPS device picks up the tag’s location as if it were an electronic transmitter.</p>",
+    "shortDesc": "",
+    "requirement": "Digital Arcana (Novice)",
+    "powerPointCost": 3,
+    "castTime": "oneMinute",
+    "targetNumber": 9,
+    "useAbl": "int",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

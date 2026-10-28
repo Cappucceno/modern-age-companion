@@ -1,0 +1,30 @@
+{
+  "name": "Sense Emotion",
+  "_id": "545f01e01d68be5a",
+  "_key": "!items!545f01e01d68be5a",
+  "folder": "10cc71c79842ae9e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Empathy (Novice)</p><p><strong>Cost:</strong> 2 PP</p><p><strong>Time:</strong> Minor action</p><p><strong>Target Number:</strong> 9</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You can psychically sense the emotions of others. If you win the test, you know the feelings and mood of a subject you can see. This grants you a +2 bonus on interaction tests with that subject, and you know their current Attitude (as per the social interaction rules in Chapter 2: Basic Rules) toward you and anyone else present. Additionally, you automatically know when the subject directly lies to you, although you do not detect half-truths or lies of omission. Finally, scoring a 5 or 6 in the Stunt Die when activating this power reveals the subject’s Drive, or their other subconscious motivations. This increases your interaction bonus to +3, and you may be able to predict their behavior. A use of sense emotion lasts for the whole encounter of interacting with the subject.</p>",
+    "shortDesc": "",
+    "requirement": "Empathy (Novice)",
+    "powerPointCost": 2,
+    "castTime": "minor",
+    "targetNumber": 9,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

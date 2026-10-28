@@ -1,0 +1,30 @@
+{
+  "name": "Unveil",
+  "_id": "0cf036c7c8bf695e",
+  "_key": "!items!0cf036c7c8bf695e",
+  "folder": "9fd9613fad700903",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Divination Arcana (Master)</p><p><strong>Cost:</strong> 10 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 15</p><p><strong>Test:</strong> None</p><p>When you successfully cast this spell, for the rest of the encounter you can perceive through all forms of magical deception or illusion. Invisible things are visible to you, illusions revealed as unreal, and even magical darkness or mist cannot hamper your sight. You remain aware of the presence of such things, but they have no effect on you and you can see them for what they really are. Magically transformed or shape-shifted beings show a ghostly overlay of their true form or appearance. In campaigns where the arcana are uncommon, the GM may decide that this power also functions on mundane darkness, mist, smoke, and intentional attempts to deceive you or conceal something from you. This would apply to someone trying to hide with a Dexterity (Stealth) test, but not someone who is simply sleeping out of your line of sight, and not trying to hide.</p>",
+    "shortDesc": "",
+    "requirement": "Divination Arcana (Master)",
+    "powerPointCost": 10,
+    "castTime": "major",
+    "targetNumber": 15,
+    "useAbl": "int",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

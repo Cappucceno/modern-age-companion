@@ -1,0 +1,39 @@
+{
+  "name": "Cryokinesis",
+  "_id": "804746c341804d8b",
+  "_key": "!items!804746c341804d8b",
+  "folder": "7bd87d41ad9e0e41",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can create super-cold temperatures with your mind by concentrating.</p>",
+    "shortDesc": "",
+    "requirement": "Power talent: Willpower (Cryokinesis) power focus at Expert",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain two Novice-degree Cryokinesis effects.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one Expert-degree Cryo-kinesis effect. You also gain the power focus Willpower (Cryokinesis).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one Master-degree Cryokinesis effect. You can also choose one power stunt you can perform with your Cryokinesis effects for –1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

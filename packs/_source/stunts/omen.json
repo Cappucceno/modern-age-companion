@@ -1,0 +1,27 @@
+{
+  "name": "Omen",
+  "_id": "75801c6bf237040d",
+  "_key": "!items!75801c6bf237040d",
+  "folder": "2beb11dfcb669855",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>The power attunes its user to occult sources of information: secret energy flows, whispering spirits, or prophetic visions, for instance. This automatically unlocks one lead in a relevant investigation, even creating a lead to unlock if one isn’t present, or it provides one piece of useful information determined by the GM.</p>",
+    "shortDesc": "",
+    "type": "Power",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

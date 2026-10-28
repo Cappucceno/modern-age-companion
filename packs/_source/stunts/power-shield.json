@@ -1,0 +1,27 @@
+{
+  "name": "Power Shield",
+  "_id": "598a890dfca58cef",
+  "_key": "!items!598a890dfca58cef",
+  "folder": "2beb11dfcb669855",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You use the residual energy of the power to set up a temporary protective shield. You gain a +2 bonus to Defense until the beginning of your next turn.</p>",
+    "shortDesc": "",
+    "type": "Power",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

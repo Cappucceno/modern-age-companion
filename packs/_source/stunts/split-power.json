@@ -1,0 +1,27 @@
+{
+  "name": "Split Power",
+  "_id": "c400651540eebfc0",
+  "_key": "!items!c400651540eebfc0",
+  "folder": "2beb11dfcb669855",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If the power affects only one target, you can have it affect two, so long as the second target is within the power’s range and no more than 6 yards from the original target. There is no additional PP cost. Targets test against the power separately.</p>",
+    "shortDesc": "",
+    "type": "Power",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Telepathy",
+  "_id": "18b1f3d8ffdc7ce2",
+  "_key": "!items!18b1f3d8ffdc7ce2",
+  "folder": "7bd87d41ad9e0e41",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can psychically communicate mind-to-mind.</p>",
+    "shortDesc": "",
+    "requirement": "Power talent: Willpower (Telepathy) power focus at Expert",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain two Novice-degree Telepathy effects.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one Expert-degree Telepathy effect. You also gain the power focus Willpower (Telepathy).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one Master-degree Telepathy effect. You can also choose one power stunt you can perform with your Telepathy effects for –1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

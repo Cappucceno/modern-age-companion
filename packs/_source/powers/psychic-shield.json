@@ -1,0 +1,30 @@
+{
+  "name": "Psychic Shield",
+  "_id": "b0ee931222ddd846",
+  "_key": "!items!b0ee931222ddd846",
+  "folder": "cc9f9f982cdead6d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Shielding (Novice)</p><p><strong>Cost:</strong> 0 PP</p><p><strong>Time:</strong> None</p><p><strong>Target Number:</strong> None</p><p><strong>Test:</strong> None</p><p>Your mind is shielded from unwanted psychic influence. When it is the target of any psychic power, you can make a Willpower (Shielding Arcana) test first. If your Willpower test exceeds the power’s Force, the attempt to affect you fails. If you fail the Willpower test, you still get the usual test against the psychic power, if any. So if your psychic shield fails to resist a hallucination, you still get the usual Willpower (Self-Discipline) test against it. Psychic shield costs no PP and is always in effect once you learn it. You can choose to “lower” your psychic shield to allow friendly psychic abilities to affect you, such as letting someone use psychic contact.</p>",
+    "shortDesc": "",
+    "requirement": "Shielding (Novice)",
+    "powerPointCost": 0,
+    "castTime": "minor",
+    "targetNumber": 10,
+    "useAbl": "will",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

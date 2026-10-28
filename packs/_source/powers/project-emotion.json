@@ -1,0 +1,30 @@
+{
+  "name": "Project Emotion",
+  "_id": "d369547721c16c90",
+  "_key": "!items!d369547721c16c90",
+  "folder": "10cc71c79842ae9e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Empathy (Master)</p><p><strong>Cost:</strong> 8 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 15</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You can impose emotions on others. You must touch or be able to see the subject or else be in psychic contact (see Telepathy). If you win the test, you can impose a chosen emotion. The subject acts on the emotion as if it were their own for 1 minute, paying attention to and being affectionate toward an object of love, for example, or furious toward an object of anger. If forced to act against their Drive, a subject gets a new Willpower test to shake off the influence. Success ends the effect. Project emotion requires a new use of the power to extend its duration for another minute.</p>",
+    "shortDesc": "",
+    "requirement": "Empathy (Master)",
+    "powerPointCost": 8,
+    "castTime": "major",
+    "targetNumber": 15,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

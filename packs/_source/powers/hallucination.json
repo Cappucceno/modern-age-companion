@@ -1,0 +1,30 @@
+{
+  "name": "Hallucination",
+  "_id": "87666c2d3778902a",
+  "_key": "!items!87666c2d3778902a",
+  "folder": "5772787d359d60b1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Illusion Arcana (Master)</p><p><strong>Cost:</strong> 10 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 17</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You seize control of the senses of a creature you can see within 20 yards of you. If the target fails the Willpower (Self-Discipline) test against your Force, you control everything they sense for as long as you concentrate, taking a minor action each round to do so. You can make the subject perceive anything, and the illusions can range from minor (like changing the color of any nearby flowers) to changing the entire environment, since the hallucination exists entirely in the subject’s mind. If a target of hallucination is given any reason to believe what they are experiencing is an illusion, they can make another Willpower test against your Force on their turn, with success ending the spell.</p>",
+    "shortDesc": "",
+    "requirement": "Illusion Arcana (Master)",
+    "powerPointCost": 10,
+    "castTime": "major",
+    "targetNumber": 17,
+    "useAbl": "int",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Lasting Power",
+  "_id": "a92ab50f8a0eb4e5",
+  "_key": "!items!a92ab50f8a0eb4e5",
+  "folder": "2beb11dfcb669855",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If the power has a duration beyond instantaneous, it remains in effect twice as long with no additional PP cost. Burning Shield would last 2 rounds per point of Willpower instead of 1, for example. Powers that last until the end of the encounter are extended by 1d6 minutes instead.</p>",
+    "shortDesc": "",
+    "type": "Power",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

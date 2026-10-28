@@ -1,0 +1,39 @@
+{
+  "name": "Psychic Projection",
+  "_id": "9e72a44b47679c50",
+  "_key": "!items!9e72a44b47679c50",
+  "folder": "7bd87d41ad9e0e41",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can project your will to influence others or as a forceful psychic attack.</p>",
+    "shortDesc": "",
+    "requirement": "Power talent: Willpower (Psychic Projection) power focus at Expert",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain two Novice-degree Psychic Projection effects.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one Expert-degree Psychic Projection effect. You also gain the power focus Willpower (Psychic Projection).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one Master-degree Psychic Projection effect. You can also choose one power stunt you can perform with your Psychic Projection effects for –1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

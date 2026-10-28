@@ -1,0 +1,30 @@
+{
+  "name": "Displacement",
+  "_id": "1115f5af508b8f3d",
+  "_key": "!items!1115f5af508b8f3d",
+  "folder": "5772787d359d60b1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Illusion Arcana (Novice)</p><p><strong>Cost:</strong> 3 PP</p><p><strong>Time:</strong> Minor action</p><p><strong>Target Number:</strong> 11</p><p><strong>Test:</strong> Perception (Seeing) vs. Force</p><p>You create the illusion that you—or another subject you touch when you cast this spell—are about a yard away from your actual position for the remainder of the encounter. You gain +2 Defense against melee attacks and +5 Defense against ranged attacks while under displacement; attacks targeting an area are unaffected so long as you are actually in the area. Any attacker who misses the subject at least once while displacement is in effect can make a Perception (Seeing) test against your Force as a free action on the start of their turn. Success means they see through the illusion and perceive the subject’s true position, although the spell remains in effect for others.</p>",
+    "shortDesc": "",
+    "requirement": "Illusion Arcana (Novice)",
+    "powerPointCost": 3,
+    "castTime": "minor",
+    "targetNumber": 11,
+    "useAbl": "int",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

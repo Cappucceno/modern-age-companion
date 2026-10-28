@@ -1,0 +1,258 @@
+{
+  "name": "Chapter 6: Extraordinary Powers",
+  "pages": [
+    {
+      "_id": "503035bb5782fd58",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>While some <em>Modern AGE</em> games limit characters to the abilities and talents described in the previous chapters of this book, some fantastic settings allow for characters who possess extraordinary powers of one sort or another. This chapter looks at the basic structure of these powers in game terms and at two specific examples: arcana and psychic powers.</p><p>Arcane powers (or arcana) are occult or supernatural abilities, tapping into arcane forces using intention and ritual, particularly incantations and symbolic gestures. In short, magic. Wielders of arcana are arcanists and their powers are spells. Although the potential to wield arcana is often inborn or inherited, it generally requires considerable training and knowledge to master.</p><p>Psychic powers (or disciplines) are the hidden abilities of the mind, the subject of pseudo-science, urban legend, and specu-lation. Users of these abilities are psychics and their powers are sometimes referred to as disciplines. Even more than arcana, psychic potential tends to be inborn, although there may be ways to help nurture and strengthen it.</p><p>As extraordinary powers are entirely optional, it is up to the GM whether the setting features arcana, psychic abilities, both, or neither. It is likewise the GM’s choice whether or not these extraordinary powers are available to the PCs. In some settings, such powers may belong solely to the foes the characters fight. In others, the PCs may have some access. The GM is also free to restrict or modify access in any way desired (see the <strong>GAINING POWERS</strong> section for options). Players should consult with their GM about the availability of extraordinary powers before choosing any for their characters.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.503035bb5782fd58",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e840ff6a1e42eb24",
+      "name": "Power Talents",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Each extraordinary power is divided into multiple power talents, representing different facets of that power. For example, arcane power includes the Fire Arcana talent for dealing with fire, as well as a Healing Arcana talent and a Digital Arcana talent that deals with computers. Likewise, psychic power includes an Extrasensory Perception talent as well as a Telekinesis and Telepathy talent, among others.</p><p>While each arcane and psychic power has its own talent, they all take the following form:</p><h3>Power Talent</h3><p><strong>Requirements:</strong> None</p><p>You possess an aspect of an extraordinary power.</p><p><strong>Novice:</strong> You gain the two novice effects associated with your power talent.</p><p><strong>Expert:</strong> You gain the Expert effect associated with your power talent. You also gain the power focus associated with your power talent (see <strong>POWER FOCUSES</strong>).</p><p><strong>Master:</strong> You gain the master effect associated with your power talent. You can also choose one power stunt (see <strong>POWER STUNTS</strong>) you can perform with the talent for –1 SP.</p><h2>Power Focuses</h2><p>Each power talent also has its own associated power focus, which is an ability focus for tests involving that talent. For example, the Fire Arcana talent also has an Intelligence (Fire Arcana) focus associated with it, which applies its bonus to Intelligence tests using Fire Arcana. Characters usually acquire a power talent’s associated focus at the Expert degree of the talent. This focus is free as part of the power and does not affect the character’s acquisition of other focuses by level. Power focuses are otherwise just like other ability focuses, as described in <strong>Chapter 3</strong>. The abilities associated with extraordinary powers can vary between campaigns or even individual power talents. The GM decides, but by default, the arcane talents listed here use Intelligence power focuses, and psychic talents use Willpower power focuses.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.e840ff6a1e42eb24",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "764eaf738a6c1871",
+      "name": "Gaining Powers",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Since extraordinary powers are based on talents, they can be acquired in the same way as other <em>Modern AGE</em> talents. The GM should choose one of the following options for power acquisition to suit the needs of the game:</p><ul><li><strong>Unlimited:</strong> Any time players are free to choose a new talent (or degree in a talent) for their characters, they may choose an available power talent.</li><li><strong>Substitution:</strong> Like unlimited, with the addition that players can choose to exchange one or more of their characters’ starting talents from Background, Profession, or Drive for power talents, allowing 1st-level characters to start out with extraordinary powers.</li><li><strong>Limited:</strong> There are limited circumstances when players may choose a power talent or degree in a power talent for their characters. This might be only every even- or odd-numbered level, or certain number of levels (such as every four or five), or the circumstances may require an in-game means of “unlocking” access to a new power talent degree, such as finding and studying specific sources of knowledge, learning from a suitable teacher, a measure of practice or study (like solitary meditation), or even access to specific materials like arcane potions, designer pharmaceuticals, or strange energy sources. Fulfilling the requirements for extraordinary power advancement could be an adventure in and of itself!</li><li><strong>Specialization:</strong> One version of limited acquisition of powers is to treat power talents like specializations (see <strong>SPECIALIZATIONS</strong> in <strong>Chapter 3</strong>), available to the characters only at certain levels. This greatly limits the availability of powers in the game and delays characters getting them until higher levels.</li></ul>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.764eaf738a6c1871",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "693cefdcd1a7875e",
+      "name": "Power Points",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Wielding extraordinary powers requires effort, measured in the form of power points (PP). A character with one or more power talents has a power points score, similar to the character’s Health, and each power has an associated power point cost, which is subtracted from the user’s current PP score when the power is used. If you run out of power points, you cannot use extraordinary powers until you have recovered some. Note that even if a character has both types of extraordinary powers, those powers both draw from the same power point “pool;” a character can still only manage so much effort!</p><h2>Acquiring</h2><p>When a character first gains a power talent, they also gain a PP score of 10 + Willpower + 1d6. Every level the character gains thereafter adds Willpower + 1d6 to their PP total, up to level 10. From levels 11 to 20, characters gain power points only equal to their Willpower (minimum of 1) with each increase in level.</p><h2>Spending</h2><p>Characters pay the PP cost of a power immediately when that power is used, before any test or determination of the power’s effect. If the character has insufficient power points to use the power, nothing happens. If the power usage fails, the power points remain spent.</p><h2>Regaining</h2><p>Characters regain expended power points by resting. For each full hour of rest, meditation, or similar restorative activity, a character regains 1d6 + Willpower power points. A character who gets a full 8 hours of rest, such as a full night’s sleep, regains all expended power points.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.693cefdcd1a7875e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4319a87b6ca26cdb",
+      "name": "Using Powers",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>You can use any power by spending the necessary PP and making the power test associated with it. If you have the power talent’s associated power focus, add its bonus to the test.</p><h3>Power test = 3d6 + ability + power</h3><p><strong>focus (if applicable)</strong></p><p>If your power test equals or exceeds the power’s target number, you use the power successfully. If not, the power fails, although you still spend the necessary PP on the attempt.</p><p>Note that extraordinary powers often bypass the usual systems for investigation or social interaction. A power that compels obedience, for example, does so regardless of the target’s attitude, while a power that provides information does so without regard for the usual limits of investigation. See the individual power descriptions for examples.</p><h2>Force</h2><p>For many powers, a successful power test is all that’s needed. For others, the subject’s natural resistance must be considered. Force is a measure of a character’s powers’ strength and effectiveness, and determines the target number to resist them. Certain powers allow the subject to test against Force to overcome or offset some of your power’s effects.</p><h3>Force = 10 + Willpower + power focus</h3><p><strong>(if applicable)</strong></p><p>The GM may wish to implement one or more of the following options concerning power points in the game. You should inform the players if any of these options are in use.</p><h2>Limited Power Point Gain</h2><p>Rather than gaining additional PP at every level after initially acquiring a power, characters may gain additional power points only when they acquire either a novice degree in a new power or an additional degree in a power they already possess. This means the ability to exert effort with powers only grows as the breadth of the character’s powers grow.</p><h2>Unlimited Power Point Gain</h2><p>Rather than first acquiring power points when they first acquire a power talent, <em>all</em> characters start with 10 + Willpower + 1d6 PP at 1st level and gain them with each level as given under Acquiring Power Points. However, only characters with power talents have any way to actually use their power points, so there’s no need for non-power users to track them. This means all characters of the same level have potentially the same number of power points, regardless of when they began acquiring and using extraordinary powers.</p><h2>Powers and Encumbrance</h2><p>Expending effort to use powers may be complicated by things like physical encumbrance and conditions limiting focus, concentration, and unrestricted movement. If so, the GM can apply an increase in PP cost for characters operating under adverse circumstances. This option may particularly apply to bulky worn armor and similar equipment (such as space suits, heavy packs, and so forth). For armor, the GM can simply use the armor penalty as a guideline for the additional PP cost. This tends to limit the combination of armor and power use.</p><h2>Power Fatigue</h2><p>In this variant, characters don’t have or use power points at all. Instead, when using a power, the player rolls a fatigue test for the character. This is a Willpower test with a target number of 9 + half the power’s listed cost (round down). Powers with a 0 PP cost do not cause fatigue or require a test.</p><h3>Fatigue test = 3d6 + Willpower + power focus (if applicable) vs.</h3><p><strong>TN 9 + one-half power’s listed cost (rounded down)</strong></p><p>If the test succeeds, using the power costs the character only negligible effort. If the fatigue test fails, the character gains a level of fatigue, becoming winded. Each additional failed fatigue test results in an additional level of fatigue.</p><h3>Fatigue Levels</h3><p>The four levels of fatigue progress as follows:</p><ul><li><strong>Winded: </strong>The character has a –1 penalty to all tests and cannot Run or Charge.</li><li><strong>Fatigued: </strong>The character has a –2 penalty to all tests, cannot Run or Charge, and moves at half normal speed.</li><li><strong>Exhausted: </strong>The character is nearly spent. An exhausted character has a –3 penalty to all tests, moves at half their normal speed, and cannot Run or Charge. Additionally, if the character loses more than half their Health while exhausted, they become unconscious for 1d6 hours, or until restored to greater than half their maximum Health. After 6 hours unconscious, they regain 10 + Constitution + Level Health and regain consciousness.</li><li><strong>Dying: </strong>The character’s Health drops to 0 and the character begins dying. If restored to at least 1 Health, the character becomes unconscious, but stable, regaining consciousness in 1d6 hours at level 3 fatigue.</li></ul><h3>Fatigue Recovery</h3><p>Characters can recover from fatigue by resting, as follows:</p><ul><li>Taking a 5-minute breather is enough to recover from being winded. You gain this benefit in addition to the normal amount of Health you recover from a breather.</li><li>Resting for at least 4 hours, with only light activity (talking, reading, and the like, but not standing or riding) allows you to recover from being fatigued, so long as you also eat and drink something during that time.</li><li>Sleeping for at least 6 hours allows you to recover from being exhausted, in addition to the Health benefits of such rest.</li></ul><p><strong>sP costP ower stunt</strong></p><p>1–3<strong> (Core) Powerful Manifestation:</strong> Increase the Force of your power by 1 per SP spent, to a maximum of 3.</p><p><strong>Skillful Power:</strong> Reduce the PP cost of the power by 1. This can reduce the cost to 0. If the power requires a 2 fatigue test, reduce its TN by 2.</p><p>2<strong>Mighty Power:</strong> If the power does damage, one target of your choice takes an extra 1d6 damage.</p><p><strong>Lasting Power:</strong> If the power has a duration beyond instantaneous, it remains in effect twice as long with no 3additional PP cost. Burning Shield would last 2 rounds per point of Willpower instead of 1, for example. Powers that last until the end of the encounter are extended by 1d6 minutes instead.</p><p><strong>Power Shield:</strong> You use the residual energy of the power to set up a temporary protective shield. You gain a +2 3 bonus to Defense until the beginning of your next turn.</p><p><strong>Fast Use:</strong> After you resolve this power, you can immediately use another. The second power must require a 4major action or a minor action’s worth of time to use. If you roll doubles on the roll to use the power, you do not get any more SP.</p><p><strong>Imposing Power:</strong> The power manifests in a much more dramatic fashion than usual, or perhaps radiates a sinister aura. Until the beginning of your next turn, anyone attempting to make a melee attack against you must make a 4 successful Willpower (Courage) test with a TN of 10 + your Willpower ability. Those who fail must take a move or defend action instead.</p><p><strong>Omen:</strong> The power attunes its user to occult sources of information: secret energy flows, whispering spirits, or 4prophetic visions, for instance. This automatically unlocks one lead in a relevant investigation, even creating a lead to unlock if one isn’t present, or it provides one piece of useful information determined by the GM.</p><p><strong>Split Power:</strong> If the power affects only one target, you can have it affect two, so long as the second target is within 4the power’s range and no more than 6 yards from the original target. There is no additional PP cost. Targets test against the power separately.</p><p><strong>Disrupt Power:</strong> In addition to its normal effects, your power disrupts another extraordinary effect (such as an arcana’s power) on the target. Roll an immediate test of your Intelligence (Occultism) vs. the Force of any one 5effect on the target. Success removes the effect. Doubles on the test do not generate SP. Note that the GM may decide that one type of extraordinary power may not disrupt another, so that, for example, arcana can’t disrupt psychic powers. <strong>Lethal Power:</strong> If the power does damage, one of its targets takes an extra 2d6 damage. Alternately, all targets of</p><p>5 the power take an additional 1d6 damage.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.4319a87b6ca26cdb",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "02f33092cfb482d3",
+      "name": "Power Format",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Extraordinary powers in the following sections use the following format:</p><ul><li><strong>Name:</strong> What the power is called. Characters and power users in the setting may refer to it by a different name, such as some arcanists calling a <em>flame blast</em> a “pyromantic strike,” or a psychic who calls <em>telekinesis</em> “psychokinesis” or “ghost hands.”</li><li><strong>Requirement(s):</strong> You must meet the necessary requirement(s) in order to acquire this power, usually a particular degree in its power talent.</li><li><strong>Cost:</strong> This is the cost in power points (PP) necessary to use the power.</li><li><strong>Time:</strong> This is the amount of time necessary to use the power. If the time is expressed in the form of a major or minor action, then the power can be used during action time (see <strong>ACTION TIME</strong> and <strong>TAKING ACTIONS</strong> in <strong>Chapter 2</strong>).</li><li><strong>Target Number:</strong> Your power test result must equal or exceed this number in order to use the power successfully.</li><li><strong>Test:</strong> Some powers require a test from the target or subject of the power, typically against the power’s</li></ul><p>Force. This entry details the type of test the power requires, if any. The effects of the test are given in the power’s description.</p><p>Each power concludes with a description of what the power does in detail, including the results of successful or failed tests.</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.02f33092cfb482d3",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "ad018bbb9585a841",
+      "name": "Power Stunts",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Like most mundane actions, the use of extraordinary powers can make stunts possible if the player rolls doubles. All the normal rules for acquiring and spending stunt points apply. By default, the player of the power user selects stunts from the <strong>POWER STUNTS</strong> table. The selected stunt must fit the power’s description, so that non-damaging powers can’t trigger stunts that inflict extra damage. The stunt must also fit the rationale for the power in the campaign. For example, in a setting where magic hides itself from the uninitiated, and appears to be a set of coincidences, it might not be possible to use Imposing Power.</p><p>The GM may allow a power user’s player to pick stunts from other tables as well, if it makes sense. For instance, using a power in combat may make a number of general combat stunts appropriate.</p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.ad018bbb9585a841",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "38d575cb9d9c68cd",
+      "name": "Arcana",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>An urban fantasy campaign might feature spellcasters of various kinds, using their abilities in secret—or in the strangest worlds, out in the open. The following are some arcane powers <em>Modern AGE</em> characters can learn. Each arcana is a group of spells with a common theme, learned as a power talent.</p><p>Unless the GM decides otherwise, all arcana have Intelligence power focuses, such as Intelligence (Divination Arcana).</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.38d575cb9d9c68cd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "503035bb5782fd58",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h3>Arcane Barrier</h3><p><strong>RequireMent:</strong> protection arcana (Master) <strong>Cost:</strong> 10 pp <strong>TiMe:</strong> Major action <strong>TArGet NuMber:</strong> 18 <strong>Test:</strong> none</p><p>You surround a subject within 25 yards (which may be yourself) with a protective field of magical force. The arcane barrier lasts for 1 round and, during that time, the subject is completely immune to damage, but also cannot move from the spot (as the barrier is immobile), make melee or ranged attacks, or give or receive items. Effects that do not cause direct damage still affect the subject normally, and spells of all kinds can pass out of the barrier. You can extend the barrier<em> </em>by spending 5 PP for each additional round you would like it to last.</p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.503035bb5782fd58",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "f60ef5aa6e7630e2",
+      "name": "Psychic Powers",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Modern AGE</em> characters might acquire the following psychic powers in campaigns where the paranormal is real, or where certain humans stand on the cusp of the next step in evolution. Each psychic discipline, such as Cryokinesis, is a power talent. Unless the GM specifies differently, tests to activate psychic powers use the Willpower ability along with the discipline’s power focus, such as Willpower (ESP).</p><p>In games where arcana and psychic powers exist side by side, consider using the optional rules on p. 92 to make them more distinct from one another. For example, you may decide psychic powers use the Power Fatigue optional rule, while arcana use power points as usual. Think of where these abilities come from in your game to suggest how they may differ. For example, if arcana represent powers gained through study, and psychic abilities represent inherited ability, you may require students of the arcana to use gestures and special words, while psychic powers only require silent concentration.</p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!64c8e7e91c4ce6ef.f60ef5aa6e7630e2",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "64c8e7e91c4ce6ef",
+  "_key": "!journal!64c8e7e91c4ce6ef",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

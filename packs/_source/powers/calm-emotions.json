@@ -1,0 +1,30 @@
+{
+  "name": "Calm Emotions",
+  "_id": "1fb990c5c2e903be",
+  "_key": "!items!1fb990c5c2e903be",
+  "folder": "10cc71c79842ae9e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Empathy (Expert)</p><p><strong>Cost:</strong> 4 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 13</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You clear a subject’s mind of intense emotion, creating a state of calm and clarity. You must touch or be able to see the subject or else be in psychic contact (see Telepathy). An unwilling subject makes a Willpower (Self-Discipline) test against your Force. A subject under the effects of calm emotions is free of any intense emotion and incapable of aggressive or violent action. Any aggressive action taken against the subject ends the effect. Calm emotions can also counteract any emotion-affecting power, such as project emotion (following) with a successful power test against the target power’s Force. Calm lasts for 1 minute and requires another use of the power to extend its duration.</p>",
+    "shortDesc": "",
+    "requirement": "Empathy (Expert)",
+    "powerPointCost": 4,
+    "castTime": "major",
+    "targetNumber": 13,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

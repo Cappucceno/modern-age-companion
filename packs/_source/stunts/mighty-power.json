@@ -1,0 +1,27 @@
+{
+  "name": "Mighty Power",
+  "_id": "dd7992519b106d42",
+  "_key": "!items!dd7992519b106d42",
+  "folder": "2beb11dfcb669855",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If the power does damage, one target of your choice takes an extra 1d6 damage.</p>",
+    "shortDesc": "",
+    "type": "Power",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

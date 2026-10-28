@@ -1,0 +1,30 @@
+{
+  "name": "Mind Reading",
+  "_id": "ead153597a516878",
+  "_key": "!items!ead153597a516878",
+  "folder": "5cbb676019a37370",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Telepathy (Expert)</p><p><strong>Cost:</strong> 5 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 13</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You can read a subject’s surface thoughts, “hearing” them within your own mind. You must see, touch, or already be in psychic contact with your subject. Mind reading transcends language; you comprehend the subject’s thoughts whether or not you share a common language. If you fail the test, you cannot read the subject’s mind and trying again within the same encounter gives the target a +1 cumulative bonus to their Willpower test against you. If you can interact with your subject, a successful opposed Communication (Deception) test against the target’s Willpower (Self-Discipline) causes the subject to think consciously about a particular piece of information—such as a password, name, or location—allowing you to read it from the subject’s surface thoughts.</p>",
+    "shortDesc": "",
+    "requirement": "Telepathy (Expert)",
+    "powerPointCost": 5,
+    "castTime": "major",
+    "targetNumber": 13,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

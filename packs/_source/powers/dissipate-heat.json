@@ -1,0 +1,30 @@
+{
+  "name": "Dissipate Heat",
+  "_id": "ff85cd95638ee26f",
+  "_key": "!items!ff85cd95638ee26f",
+  "folder": "18ba7f3ccad434c7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Cryokinesis (Expert)</p><p><strong>Cost:</strong> 2 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 13</p><p><strong>Test:</strong> None</p><p>You rapidly dissipate heat from an area within 20 yards that you can see. If successful, you can reduce the category (and You can use dissipate heat repeatedly on successive rounds to continue reducing a hazard’s category, eliminating it entirely if reduced below Minor. At the GM’s discretion, dissipate heat may also serve to address certain challenges, such as preventing a machine from overheating.</p>",
+    "shortDesc": "",
+    "requirement": "Cryokinesis (Expert)",
+    "powerPointCost": 2,
+    "castTime": "major",
+    "targetNumber": 13,
+    "useAbl": "will",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

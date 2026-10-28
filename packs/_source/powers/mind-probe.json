@@ -1,0 +1,30 @@
+{
+  "name": "Mind Probe",
+  "_id": "87cc3e863db550b5",
+  "_key": "!items!87cc3e863db550b5",
+  "folder": "5cbb676019a37370",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Telepathy (Master)</p><p><strong>Cost:</strong> 8 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 13</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You can psychically probe someone else’s mind for information. You must see, touch, or be in psychic contact with your subject. If you succeed, you can ask any one question and receive the answer from the subject’s mind. If the subject doesn’t know the answer, then you know that instead. Highly personal or guarded information grants the target a +1 or +2 bonus on the Willpower test, while information the target doesn’t consciously know, because it is subconscious or has been forgotten, grants a +3 to +5 bonus, at the GM’s discretion. You can maintain the mind probe and continue asking questions, one per round, so long as you take a major action and spend an additional 2 PP each round to maintain it. Once you stop, the probe ends.</p>",
+    "shortDesc": "",
+    "requirement": "Telepathy (Master)",
+    "powerPointCost": 8,
+    "castTime": "major",
+    "targetNumber": 13,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

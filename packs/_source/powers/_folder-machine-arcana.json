@@ -1,0 +1,17 @@
+{
+  "name": "Machine Arcana",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 600000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "b9177aa997297d35",
+  "_key": "!folders!b9177aa997297d35",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

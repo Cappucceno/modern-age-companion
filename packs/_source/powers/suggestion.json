@@ -1,0 +1,30 @@
+{
+  "name": "Suggestion",
+  "_id": "d8a4bea503327b34",
+  "_key": "!items!d8a4bea503327b34",
+  "folder": "a469ad3894dd68bc",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Psychic Projection (Expert)</p><p><strong>Cost:</strong> 8 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 15</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You can implant suggestions into the minds of others. The suggestion must be worded in such a manner as to make the activity sound reasonable. Asking a creature to stab itself, throw itself onto a spear, immolate itself, or carry out some other obviously harmful act automatically fails. However, a suggestion that a pool of acid is actually pure water and that a quick splash would be refreshing is another matter. If you win the opposed test, the suggested course of action is followed for up to 30 minutes or until the course of action is complete, whichever comes first. You can extend the duration by paying the cost again for each additional 30 minutes. You can also specify conditions that trigger a particular course of action, like a posthypnotic suggestion, in which case the duration is counted from when the triggering event occurs.</p>",
+    "shortDesc": "",
+    "requirement": "Psychic Projection (Expert)",
+    "powerPointCost": 8,
+    "castTime": "major",
+    "targetNumber": 15,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

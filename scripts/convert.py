@@ -75,7 +75,9 @@ def paragraph(lines, words):
         l = l.strip()
         if l:
             out = l if not out else words.join(out, l)
-    return out
+    out = re.sub(r"\s{2,}", " ", out)
+    # a hyphen left at a line end that the layout turned into "dimen- sional": join when the word is known
+    return re.sub(r"([A-Za-z]+)- ([a-z]+)", lambda m: m.group(1) + m.group(2) if (m.group(1) + m.group(2)).lower() in words.known else m.group(0), out)
 
 
 def esc(s):
@@ -110,8 +112,8 @@ class Pack:
             }
         return self.folders[name]["_id"]
 
-    def item(self, name, type_, system, img, folder=None, sort=0):
-        did = make_id(self.name, name)
+    def item(self, name, type_, system, img, folder=None, sort=0, uid=None):
+        did = make_id(self.name, uid or name)
         self.docs.append({
             "name": name, "_id": did, "_key": f"!items!{did}", "folder": self.folder(folder, 100000 * (len(self.folders) + 1)) if folder else None,
             "sort": sort, "flags": {}, "effects": [], "_stats": SYSTEM_STATS, "type": type_, "img": ICON + img,
@@ -274,6 +276,14 @@ def build_talents(pdf, words):
             system[f"degree{i}"] = {"desc": "".join(p(x) for x in t["deg"][d]), "isActive": True}
         pack.item(t["name"], "talent", system, "skills.svg", folder="Talents")
     build_specs(pack, pdf, words)
+    for t in power_talents(pdf, words):
+        system = {
+            "longDesc": p(t["flavor"]), "shortDesc": "", "requirement": "Power talent: " + ("Willpower" if t["psychic"] else "Intelligence")
+            + f" ({t['name']}) power focus at Expert", "type": "talent", "degree": 0, "activate": True,
+        }
+        for i, d in enumerate(("Novice", "Expert", "Master")):
+            system[f"degree{i}"] = {"desc": p(t["deg"].get(d, "")) if t["deg"].get(d) else "", "isActive": True}
+        pack.item(t["name"], "talent", system, "skills.svg", folder="Power Talents")
     return pack
 
 
@@ -1034,6 +1044,10 @@ def build_rules_reference(pdf, words):
     pack = Pack("rules-reference", "JournalEntry")
     for name, first, last in (("Chapter 2: Basic Rules", 33, 52), ("Chapter 4: Equipment", 71, 80), ("Chapter 5: Stunts", 81, 84)):
         chapter_journal(pack, pdf, name, first, last)
+    mod, pages, words_ = prose_book(pdf)
+    ch6 = mod.chapter_sections(pages, 91, 95, words_, stop_at=("Digital Arcana",)) \
+        + mod.chapter_sections(pages, 101, 101, words_, stop_at=("Cryokinesis",))
+    journal_doc(pack, "Chapter 6: Extraordinary Powers", ch6)
     journal_doc(pack, "Rules Tables", rules_tables_pages(pdf))
     return pack
 
@@ -1147,6 +1161,104 @@ def rules_tables_pages(pdf):
     return out
 
 
+# --------------------------------------------------------------------------- extraordinary powers (Chapter 6)
+
+ARCANA = ["Digital Arcana", "Divination Arcana", "Fire Arcana", "Healing Arcana", "Illusion Arcana", "Machine Arcana",
+          "Power Arcana", "Protection Arcana"]
+PSYCHIC = ["Cryokinesis", "Empathy", "Extrasensory Perception (ESP)", "Psychic Projection", "Pyrokinesis", "Shielding",
+           "Telekinesis", "Telepathy"]
+POWER_BOX = re.compile(r"Requirements?:\s*(?P<req>.*?)\s+Cost:\s*(?P<cost>.*?)\s+Time:\s*(?P<time>.*?)\s+Target Number:\s*(?P<tn>.*?)\s+Test:\s*(?P<test>.*)$")
+CAST_TIME = {"minor action": "minor", "major action": "major", "1 minute": "oneMinute", "5 minutes": "fiveMinutes",
+             "10 minutes": "tenMinutes", "20 minutes": "twentyMinutes", "1 hour": "oneHour", "4 hours": "fourHours",
+             "12 hours": "twelveHours"}
+
+
+def parse_powers(pdf, words):
+    lines = layout_columns(pdf, 95, 108)
+    schools, powers = [], []
+    cur = None
+    i = 0
+    while i < len(lines):
+        s = lines[i].strip()
+        nxt = lines[i + 1].strip() if i + 1 < len(lines) else ""
+        if s in ("Arcana", "Psychic Powers"):
+            cur = None
+        elif s == "Extrasensory" and nxt == "Perception (ESP)":
+            cur = {"kind": "school", "name": "Extrasensory Perception (ESP)", "lines": []}
+            schools.append(cur)
+            i += 1
+        elif s in ARCANA + PSYCHIC and any(x.strip().startswith("Novice:") for x in lines[i + 1:i + 9]):
+            cur = {"kind": "school", "name": s, "lines": []}
+            schools.append(cur)
+        elif nxt.startswith("Requirement") and s and not s.startswith("Requirement"):
+            j = i + 1
+            box = []
+            while j < min(len(lines), i + 6):
+                box.append(lines[j].strip())
+                if lines[j].strip().startswith("Test:"):
+                    break
+                j += 1
+            m = POWER_BOX.search(" ".join(box))
+            if not m:
+                print(f"warning: unreadable power box for {s!r}: {' '.join(box)}", file=sys.stderr)
+            school = schools[-1]["name"] if schools else ""
+            box_ = m.groupdict() if m else {}
+            lead = ""
+            t_ = re.match(r"(None|Special|See description|Power test vs\. Force|[A-Z][A-Za-z]+ \([A-Za-z\- ]+\) vs\. Force)(.*)$", box_.get("test", ""))
+            if t_:
+                box_["test"], lead = t_.group(1), t_.group(2).strip()
+            cur = {"kind": "power", "name": s, "school": school, "box": box_, "lines": [lead] if lead else []}
+            powers.append(cur)
+            i = j
+        elif cur is not None and s:
+            cur["lines"].append(s)
+        i += 1
+    for sc in schools:
+        text = paragraph(sc["lines"], words)
+        parts = re.split(r"\b(Novice|Expert|Master):\s*", text)
+        sc["flavor"] = parts[0].strip()
+        sc["degrees"] = {parts[k]: parts[k + 1].strip() for k in range(1, len(parts) - 1, 2)}
+        sc["psychic"] = sc["name"] in PSYCHIC
+    for pw in powers:
+        pw["desc"] = paragraph(pw["lines"], words)
+    return schools, powers
+
+
+def build_powers(pdf, words):
+    pack = Pack("powers")
+    schools, powers = parse_powers(pdf, words)
+    sch = {s["name"]: s for s in schools}
+    for pw in powers:
+        b = pw["box"]
+        cost = re.match(r"\d+", b.get("cost", "") or "")
+        time = b.get("time", "").strip()
+        test = b.get("test", "").strip()
+        tn = re.match(r"\d+", b.get("tn", "") or "")
+        school = sch[pw["school"]]
+        abl = "will" if school["psychic"] else "int"
+        facts = (f"<p><strong>Requirement:</strong> {esc(b.get('req', ''))}</p><p><strong>Cost:</strong> {esc(b.get('cost', ''))}</p>"
+                 f"<p><strong>Time:</strong> {esc(time)}</p><p><strong>Target Number:</strong> {esc(b.get('tn', ''))}</p>"
+                 f"<p><strong>Test:</strong> {esc(test)}</p>")
+        system = {
+            "longDesc": facts + p(pw["desc"]), "shortDesc": "", "requirement": b.get("req", ""),
+            "powerPointCost": int(cost.group(0)) if cost else 0, "castTime": CAST_TIME.get(time.lower(), "major" if "major" in time.lower() else "minor"),
+            "targetNumber": int(tn.group(0)) if tn else 10, "useAbl": abl,
+            "hasTest": test.lower() not in ("none", "", "n/a"), "testFocus": "",
+        }
+        pack.item(pw["name"], "power", system, "magic-swirl.svg", folder=pw["school"], uid=f"{pw['school']}:{pw['name']}")
+    return pack
+
+
+def power_talents(pdf, words):
+    """Talent items for the arcana and psychic disciplines, one per school."""
+    schools, _ = parse_powers(pdf, words)
+    out = []
+    for sc in schools:
+        deg = sc["degrees"]
+        out.append({"name": sc["name"], "flavor": sc["flavor"], "deg": deg, "psychic": sc["psychic"]})
+    return out
+
+
 # --------------------------------------------------------------------------- stunts
 
 STUNT_SECTIONS = {
@@ -1164,14 +1276,17 @@ STUNT_NAME = re.compile(r"^(?:\((?P<core>Core)\) )?(?P<name>[A-Z][^:]{1,50}?): (
 def parse_stunts(pdf, words):
     """Stunt tables are read in layout mode: the SP cost sits in the left cell (often vertically centred on its row)."""
     rows, section = [], None
-    for page in pdftotext(pdf, 83, 91, "-layout"):
+    pages = [(n, t) for n, t in zip(range(83, 92), pdftotext(pdf, 83, 91, "-layout"))] + [(94, pdftotext(pdf, 94, 94, "-layout")[0])]
+    for pg, page in pages:
         in_table, cur = False, None
+        if pg == 94:
+            section = "Power"
         for l in page.splitlines():
             s = l.strip()
             if s in STUNT_SECTIONS:
                 section = STUNT_SECTIONS[s]
                 continue
-            if re.match(r"^SP Cost\s+Stunt$", s):
+            if re.match(r"^SP Cost\s+(Power )?Stunt$", s):
                 in_table, cur = True, None
                 continue
             if not in_table:
@@ -1226,8 +1341,8 @@ BUILDERS = {"focuses": build_focuses, "talents": build_talents, "weapons": build
             "adversaries": build_adversaries,
             "character-creation": build_creation, "creation-tables": build_creation_tables,
             "rules-reference": build_rules_reference, "gm-guide": build_gm_guide,
-            "rules-tables": build_rules_tables}
-NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries", "character-creation", "creation-tables", "rules-reference", "gm-guide", "rules-tables"}
+            "rules-tables": build_rules_tables, "powers": build_powers}
+NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment", "adversaries", "character-creation", "creation-tables", "rules-reference", "gm-guide", "rules-tables", "powers"}
 
 
 def main():

@@ -1,0 +1,39 @@
+{
+  "name": "Machine Arcana",
+  "_id": "65ab9b4704fc177f",
+  "_key": "!items!65ab9b4704fc177f",
+  "folder": "7bd87d41ad9e0e41",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You wield arcane power over machines and mechanisms.</p>",
+    "shortDesc": "",
+    "requirement": "Power talent: Intelligence (Machine Arcana) power focus at Expert",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain two Novice-degree Machine Arcana spells.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one Expert-degree Machine Arcana spell. You also gain the power focus Intelligence (Machine Arcana).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one Master-degree Machine Arcana spell. You can also choose one power stunt you can perform with your Machine Arcana spells for –1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

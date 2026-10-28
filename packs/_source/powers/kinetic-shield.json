@@ -1,0 +1,30 @@
+{
+  "name": "Kinetic Shield",
+  "_id": "38e42f9b4f61f451",
+  "_key": "!items!38e42f9b4f61f451",
+  "folder": "088aac4e42cbf803",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Telekinesis (Expert)</p><p><strong>Cost:</strong> 1+ PP</p><p><strong>Time:</strong> Minor action</p><p><strong>Target Number:</strong> 9</p><p><strong>Test:</strong> None</p><p>You surround your body with a telekinetic field that shunts aside kinetic impacts, providing you with an armor rating gain an AR equal to the PP spent for 1 minute. You can extend kinetic shield’s duration by another minute by spending the cost again. Kinetic field does not protect against energy damage or penetrating damage and armor-defeating stunts work against it normally.</p>",
+    "shortDesc": "",
+    "requirement": "Telekinesis (Expert)",
+    "powerPointCost": 1,
+    "castTime": "minor",
+    "targetNumber": 9,
+    "useAbl": "will",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

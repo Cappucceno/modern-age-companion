@@ -1,0 +1,39 @@
+{
+  "name": "Shielding",
+  "_id": "181d44e9c3aa5c7c",
+  "_key": "!items!181d44e9c3aa5c7c",
+  "folder": "7bd87d41ad9e0e41",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can block, deflect, and shield against psychic influences.</p>",
+    "shortDesc": "",
+    "requirement": "Power talent: Willpower (Shielding) power focus at Expert",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain two Novice-degree Shielding effects.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one Expert-degree Shielding effect. You also gain the power focus Willpower (Shielding).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one Master-degree Shielding effect. You can also choose one power stunt you can perform with your Shielding effects for –1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

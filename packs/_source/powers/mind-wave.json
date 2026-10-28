@@ -1,0 +1,30 @@
+{
+  "name": "Mind Wave",
+  "_id": "fd1360cecf083496",
+  "_key": "!items!fd1360cecf083496",
+  "folder": "a469ad3894dd68bc",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Psychic Projection (Master)</p><p><strong>Cost:</strong> 8 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 15</p><p><strong>Test:</strong> Willpower (Self-Discipline) vs. Force</p><p>You unleash a wave of psychic force, blasting the minds of all targets of your choosing in a 4-yard radius in an area you can see up to 20 yards away. Targets in the area take 3d6 penetrating damage and are stunned for 1 round, unable to take action. Any target succeeding on a Willpower (Self-Discipline) test against the Force of your mind wave takes only 2d6 penetrating damage and is not stunned.</p>",
+    "shortDesc": "",
+    "requirement": "Psychic Projection (Master)",
+    "powerPointCost": 8,
+    "castTime": "major",
+    "targetNumber": 15,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

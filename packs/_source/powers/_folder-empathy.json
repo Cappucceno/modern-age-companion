@@ -1,0 +1,17 @@
+{
+  "name": "Empathy",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1000000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "10cc71c79842ae9e",
+  "_key": "!folders!10cc71c79842ae9e",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

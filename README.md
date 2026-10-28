@@ -9,7 +9,9 @@ It follows the same layout as the [Expanse compendium](https://github.com/Cappuc
 the Chapter 1 character creation data (4 social classes, 12 backgrounds, 24 professions, 12 drives as journals; 24 roll tables),
 and the running text of Chapters 1, 2, 4, 5 (rules), 7, 8, 9 (introduction), 10 and 11 as journals (108 pages).
 A "Rules Tables" journal with 9 clean lookup tables (test difficulty, cover, attitudes, chase difficulty, hazards, Resources score, XP by level,
-threat level, velocity classes) and two rollable tables (NPC attitude 3d6, hazard category 1d6). Still missing: the powers (Chapter 6).
+threat level, velocity classes) and two rollable tables (NPC attitude 3d6, hazard category 1d6). The powers of Chapter 6 are in the `powers` pack (64 `power` items in 16 folders: 8 arcana and 8 psychic disciplines),
+with 16 power talents in `talents`, 11 power stunts in `stunts` and the rules text in the Rules Reference. Nothing from the Basic Rulebook is left out except
+Chapter 3's talent/focus lists (already converted as items) and the appendices.
 
 Journal text is rebuilt from the PDF by position and font (`scripts/prose.py`): headings, bold/italic, bullets and simple tables
 are recognised, but complex tables and sidebars can come out imperfect, and stat blocks inside the text are left out.
@@ -28,7 +30,7 @@ npm install
 python3 scripts/convert.py "/path/to/Modern_AGE_Basic_Rulebook.pdf"   # PDF -> packs/_source/*.json (not stored in the repo)
 npm run build                                                         # packs/_source -> packs/<pack> (LevelDB)
 ```
-`--only focuses,talents,weapons,armor,stunts,vehicles,equipment,adversaries,character-creation,creation-tables,rules-reference,gm-guide,rules-tables` converts a subset. The converter reads PDF pages directly, so it is tied to the
+`--only focuses,talents,weapons,armor,stunts,vehicles,equipment,adversaries,character-creation,creation-tables,rules-reference,gm-guide,rules-tables,powers` converts a subset. The converter reads PDF pages directly, so it is tied to the
 GRR6301 edition of the book.
 
 Pack sources go in `packs/_source/<pack>/` (one JSON per document, `_folder-*.json` for folders, as in the Expanse module).

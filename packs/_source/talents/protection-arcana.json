@@ -1,0 +1,39 @@
+{
+  "name": "Protection Arcana",
+  "_id": "20572c3e98b797a2",
+  "_key": "!items!20572c3e98b797a2",
+  "folder": "7bd87d41ad9e0e41",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can use arcane energies to protect yourself and others from harm.</p>",
+    "shortDesc": "",
+    "requirement": "Power talent: Intelligence (Protection Arcana) power focus at Expert",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain two Novice-degree Protection Arcana spells.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one Expert-degree Protection Arcana spell. You also gain the power focus Intelligence (Protection Arcana).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one Master-degree Protection Arcana spell. You can also choose one power stunt you can perform with your Protection Arcana spells for –1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

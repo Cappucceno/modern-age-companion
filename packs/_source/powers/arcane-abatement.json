@@ -1,0 +1,30 @@
+{
+  "name": "Arcane Abatement",
+  "_id": "e39fb1f81d2fc36d",
+  "_key": "!items!e39fb1f81d2fc36d",
+  "folder": "755b069a8f3ab9e3",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Power Arcana (Expert)</p><p><strong>Cost:</strong> Special</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> Target Force</p><p><strong>Test:</strong> None</p><p>You can use the same skills you use to weave magic to unweave it. You attempt to end an ongoing spell or magical effect within 20 yards of you. Make a power test against the Force of the target spell. If it is successful, you can spend power points equal to the original cost of the spell or effect to negate it. If either the power test fails or you do not have sufficient PP to cover the cost, you cannot cancel the target effect.</p>",
+    "shortDesc": "",
+    "requirement": "Power Arcana (Expert)",
+    "powerPointCost": 0,
+    "castTime": "major",
+    "targetNumber": 10,
+    "useAbl": "int",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

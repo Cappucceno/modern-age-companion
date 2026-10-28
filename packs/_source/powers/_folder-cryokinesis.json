@@ -1,0 +1,17 @@
+{
+  "name": "Cryokinesis",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 900000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "18ba7f3ccad434c7",
+  "_key": "!folders!18ba7f3ccad434c7",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

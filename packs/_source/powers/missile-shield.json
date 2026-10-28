@@ -1,0 +1,30 @@
+{
+  "name": "Missile Shield",
+  "_id": "134a759e2700bfa4",
+  "_key": "!items!134a759e2700bfa4",
+  "folder": "2d76f5f1557ab88d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Protection Arcana (Expert)</p><p><strong>Cost:</strong> 3 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 14</p><p><strong>Test:</strong> None</p><p>An invisible aura of protection wraps a subject you choose within 6 yards of you (including yourself). For the remainder of the encounter, whenever the subject is the target of a ranged attack with a physical missile weapon, you can spend 1 PP per missile to harmlessly turn the attack aside, subtly deflecting the missile so it just misses the target. This affects all physical missile weapons, regardless of size, and includes magical attacks involving physical missiles, but not purely energy attacks like arcane bolt or fire blast. You have to be able to see your subject to use this effect. If you cannot perceive the subject of your missile shield spell or take a free action at the time, you cannot deflect an attack.</p>",
+    "shortDesc": "",
+    "requirement": "Protection Arcana (Expert)",
+    "powerPointCost": 3,
+    "castTime": "major",
+    "targetNumber": 14,
+    "useAbl": "int",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

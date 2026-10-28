@@ -1,0 +1,30 @@
+{
+  "name": "Arcane Shield",
+  "_id": "f1748f476c5cb663",
+  "_key": "!items!f1748f476c5cb663",
+  "folder": "2d76f5f1557ab88d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Protection Arcana (Novice)</p><p><strong>Cost:</strong> 2 PP</p><p><strong>Time:</strong> Minor action</p><p><strong>Target Number:</strong> 12</p><p><strong>Test:</strong> None</p><p>You can shape the raw energies of magic to protect yourself from physical harm. You create an arcane aura of protection around yourself. For 1 round, your Defense becomes equal to your Force (10 + Willpower + Protection Arcana Focus). You can extend the duration by spending an additional 1 PP per round you want it to last.</p>",
+    "shortDesc": "",
+    "requirement": "Protection Arcana (Novice)",
+    "powerPointCost": 2,
+    "castTime": "minor",
+    "targetNumber": 12,
+    "useAbl": "int",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

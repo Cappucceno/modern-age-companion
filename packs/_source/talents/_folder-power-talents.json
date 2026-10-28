@@ -1,0 +1,17 @@
+{
+  "name": "Power Talents",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "7bd87d41ad9e0e41",
+  "_key": "!folders!7bd87d41ad9e0e41",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Forewarning",
+  "_id": "35a9e3afa0ef5010",
+  "_key": "!items!35a9e3afa0ef5010",
+  "folder": "9fd9613fad700903",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Divination Arcana (Novice)</p><p><strong>Cost:</strong> 2 PP</p><p><strong>Time:</strong> Minor action</p><p><strong>Target Number:</strong> 9</p><p><strong>Test:</strong> Dexterity (Stealth) vs. Force</p><p>Arcane awareness warns you of immediate danger. For the rest of the encounter after successfully casting this spell, you or another subject you touch cannot be surprised (see Surprise in Chapter 8) except by attackers who are concealed by extraordinary means, in which case they must succeed on a Dexterity (Stealth) test against your Force in order to surprise you. Additionally, you gain a +2 bonus for the rest of the encounter on all tests to avoid hazards where a moment’s forewarning can aid you (see Hazards in Chapter 8).</p>",
+    "shortDesc": "",
+    "requirement": "Divination Arcana (Novice)",
+    "powerPointCost": 2,
+    "castTime": "minor",
+    "targetNumber": 9,
+    "useAbl": "int",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

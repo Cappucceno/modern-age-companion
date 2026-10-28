@@ -1,0 +1,30 @@
+{
+  "name": "Arcane Blast",
+  "_id": "e0146dfeb2c022cd",
+  "_key": "!items!e0146dfeb2c022cd",
+  "folder": "755b069a8f3ab9e3",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Power Arcana (Novice)</p><p><strong>Cost:</strong> 1 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 9</p><p><strong>Test:</strong> None</p><p>You can project a blast of arcane power from your outstretched hand. With a successful power test, you can make a ranged attack using Accuracy against a target within 20 yards. If you have the Power Arcana focus, you may add its bonus to the attack test. A successful attack inflicts 1d6 + Willpower damage on the target.</p>",
+    "shortDesc": "",
+    "requirement": "Power Arcana (Novice)",
+    "powerPointCost": 1,
+    "castTime": "major",
+    "targetNumber": 9,
+    "useAbl": "int",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

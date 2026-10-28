@@ -1,0 +1,39 @@
+{
+  "name": "Pyrokinesis",
+  "_id": "456ab5126bf036d0",
+  "_key": "!items!456ab5126bf036d0",
+  "folder": "7bd87d41ad9e0e41",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can mentally speed up molecular motion to create heat and cause things to catch fire.</p>",
+    "shortDesc": "",
+    "requirement": "Power talent: Willpower (Pyrokinesis) power focus at Expert",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You gain two Novice-degree Pyrokinesis effects.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You gain one Expert-degree Pyrokinesis effect. You also gain the power focus Willpower (Pyrokinesis).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You gain one Master-degree Pyrokinesis effect. You can also choose one power stunt you can perform with your Pyrokinesis effects for –1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Remote Sensing",
+  "_id": "1163403f7d6d624d",
+  "_key": "!items!1163403f7d6d624d",
+  "folder": "054a6ebeab9cd718",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> ESP (Expert)</p><p><strong>Cost:</strong> 8 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 13+</p><p><strong>Test:</strong> Perception (Empathy) vs. Force</p><p>You can use remote sensing to sense a particular place, creature, or thing known to you using the TN from the following Remote Sensing table. If the power test is successful, you can observe the subject as if you were physically present. The vision lasts for as long as you concentrate, taking a minor action each round to do so, but your ordinary senses are overridden, so you are unaware of what is happening near you while you are observing events elsewhere. Remote sensing creates a psychic disturbance, which creatures with Intelligence 1 or greater can sense. Any such creature under observation can make a Perception (Empathy) test against your power’s Force. Creatures with no psychic talents get the intense feeling of being watched. Those with psychic talents see a glowing or shadowy image of you observing them. At master degree in ESP, you can deliberately allow this image to appear to others, if you wish, and speak through it to them as if you were present. Remote Sensing TN Subject is… Very Familiar: A close friend or relative; an item you made or owned and used for at least a year; a place where you spent at least a year’s time. Familiar: A subject you have been acquainted with for at least 3 months; a casual friend. Somewhat Familiar: A subject you have been acquainted with for at least a week. Casually Familiar: A subject you have been acquainted with only briefly. Slightly Familiar: A subject you have only seen briefly or had described in detail.</p>",
+    "shortDesc": "",
+    "requirement": "ESP (Expert)",
+    "powerPointCost": 8,
+    "castTime": "major",
+    "targetNumber": 13,
+    "useAbl": "will",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

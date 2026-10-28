@@ -51,6 +51,13 @@
       "system": "age-system"
     },
     {
+      "name": "powers",
+      "label": "Extraordinary Powers",
+      "path": "packs/powers",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
       "name": "weapons",
       "label": "Weapons",
       "path": "packs/weapons",

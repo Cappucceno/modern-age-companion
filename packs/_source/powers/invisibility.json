@@ -1,0 +1,30 @@
+{
+  "name": "Invisibility",
+  "_id": "b512d74e264ea875",
+  "_key": "!items!b512d74e264ea875",
+  "folder": "5772787d359d60b1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Illusion Arcana (Expert)</p><p><strong>Cost:</strong> 8 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 14</p><p><strong>Test:</strong> Perception (Seeing) vs. Force</p><p>You or a subject you touch becomes invisible for the remainder of the encounter. While invisible, the subject can still be detected using other senses. The invisible creature can be targeted only by attackers with some idea where the creature is and, even then, gains a +5 bonus to Defense. An invisible creature that makes an attack of any kind becomes visible until the start of the creature’s next turn, whereupon they become invisible again.</p>",
+    "shortDesc": "",
+    "requirement": "Illusion Arcana (Expert)",
+    "powerPointCost": 8,
+    "castTime": "major",
+    "targetNumber": 14,
+    "useAbl": "int",
+    "hasTest": true,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}

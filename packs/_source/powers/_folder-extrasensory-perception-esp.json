@@ -1,0 +1,17 @@
+{
+  "name": "Extrasensory Perception (ESP)",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "054a6ebeab9cd718",
+  "_key": "!folders!054a6ebeab9cd718",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

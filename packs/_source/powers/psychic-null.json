@@ -1,0 +1,30 @@
+{
+  "name": "Psychic Null",
+  "_id": "515e7677870e4846",
+  "_key": "!items!515e7677870e4846",
+  "folder": "cc9f9f982cdead6d",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/magic-swirl.svg",
+  "system": {
+    "longDesc": "<p><strong>Requirement:</strong> Shielding (Master)</p><p><strong>Cost:</strong> 15 PP</p><p><strong>Time:</strong> Major action</p><p><strong>Target Number:</strong> 17</p><p><strong>Test:</strong> None</p><p>Choose an area up to 10 yards across within 20 yards of you that you can see. If your power test succeeds, that area becomes psychically “null,” deadened to any use of psychic powers. For the remainder of the encounter or until you dismiss it, any psychic talent used in the null area automatically fails. Ongoing psychic effects in that area are suppressed until moved outside the area or the psychic null effect ends.</p>",
+    "shortDesc": "",
+    "requirement": "Shielding (Master)",
+    "powerPointCost": 15,
+    "castTime": "major",
+    "targetNumber": 17,
+    "useAbl": "will",
+    "hasTest": false,
+    "testFocus": ""
+  },
+  "ownership": {
+    "default": 0
+  }
+}
