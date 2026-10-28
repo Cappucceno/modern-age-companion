@@ -1,0 +1,27 @@
+{
+  "name": "Morale",
+  "_id": "a9331c6a62e7e61f",
+  "_key": "!items!a9331c6a62e7e61f",
+  "folder": "dc9ca11fb047d002",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Maintaining good spirits and confidence in yourself or your group. NPCs tend to use this focus more than PCs.</p>",
+    "shortDesc": "",
+    "useAbl": "will",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Performing",
+  "_id": "df67b483f72f2174",
+  "_key": "!items!df67b483f72f2174",
+  "folder": "17738bf6dd61e910",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Entertaining an audience with an artistic talent.</p>",
+    "shortDesc": "",
+    "useAbl": "comm",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

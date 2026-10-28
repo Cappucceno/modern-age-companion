@@ -1,0 +1,39 @@
+{
+  "name": "Pistol Style",
+  "_id": "0b6f84652666c38a",
+  "_key": "!items!0b6f84652666c38a",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Between the quick and the dead, you tend toward the former.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy (Pistols) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You are deadlier when you’re closer. You gain a +1 bonus to damage with pistols against targets within 6 yards.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your weapon’s small size helps you respond quickly to threats. You can roll your initiative with an Accuracy (Pistols) test instead of a Dexterity (Initiative) test if you have a pistol in your hand, or if it’s holstered and you draw it as your first action. You can generate stunt points with this special test.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Double-tap is the only way to be sure. When hitting a target with a pistol, you can add your Dexterity to the damage total. Each time you do this, the Capacity of your pistol (see when it returns to its normal value.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

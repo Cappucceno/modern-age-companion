@@ -1,0 +1,27 @@
+{
+  "name": "Tolerance",
+  "_id": "37b3ea67d5902653",
+  "_key": "!items!37b3ea67d5902653",
+  "folder": "7a7f780c8ecee704",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Withstanding the effects of potentially toxic substances, whether consumed recreationally or after involuntary exposure.</p>",
+    "shortDesc": "",
+    "useAbl": "cons",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

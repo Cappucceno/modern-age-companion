@@ -1,0 +1,44 @@
+{
+  "name": "Crossbow",
+  "_id": "4b6e72d4f2eb2c21",
+  "_key": "!items!4b6e72d4f2eb2c21",
+  "folder": "aac71a01d9e32475",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Bows. Minimum Strength 1. Resources TN 14.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "bows",
+    "minStr": 1,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "ballistic",
+    "damageFormula": "2d6+1",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "ranged": true,
+    "range": 50,
+    "rangeMax": 75,
+    "rof": "singleShot",
+    "capacity": 0,
+    "reload": "major"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

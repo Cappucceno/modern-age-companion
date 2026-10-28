@@ -1,0 +1,27 @@
+{
+  "name": "Searching",
+  "_id": "53cf42c49c78f164",
+  "_key": "!items!53cf42c49c78f164",
+  "folder": "978bfcc8ae9ed2ad",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Finding things that are hidden or obscured, such as secret compartments.</p>",
+    "shortDesc": "",
+    "useAbl": "per",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

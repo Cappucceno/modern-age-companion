@@ -1,0 +1,27 @@
+{
+  "name": "Enrage",
+  "_id": "76c19d00362e80db",
+  "_key": "!items!76c19d00362e80db",
+  "folder": "a7eaf3a981654930",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Choose one character present whose attitude toward you is Neutral or worse, or a negative variant of a more positive attitude. They must immediately either attack you or storm out of the scene. If they attack, it needn’t be deadly (though it can be).</p>",
+    "shortDesc": "",
+    "type": "General Social",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

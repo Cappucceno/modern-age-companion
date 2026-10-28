@@ -1,0 +1,17 @@
+{
+  "name": "Brawling",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "2947f41f789eb664",
+  "_key": "!folders!2947f41f789eb664",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

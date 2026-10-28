@@ -1,0 +1,39 @@
+{
+  "name": "Tactical Awareness",
+  "_id": "27205a8dabff99ef",
+  "_key": "!items!27205a8dabff99ef",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "",
+    "shortDesc": "",
+    "requirement": "Dexterity and Perception 1 or higher You move in combat calmly and expertly.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can seemingly attack from all directions. On foot, you can take the Melee Attack or Ranged Attack action at any point of your movement. (Normally, you’d have to attack at the beginning or end of your movement.)</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You have eyes in the back of your head. When you perform the Take One for the Team exploration stunt, you take only half the damage from a trap or hazard and your ally remains unscathed.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are hard to pin down in combat. Opponents do not gain an attack bonus for outnumbering you in melee. If you also have the Master degree in the Single Weapon Style, your Defense bonus increases to +3 when fighting in that style.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

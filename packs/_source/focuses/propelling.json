@@ -1,0 +1,27 @@
+{
+  "name": "Propelling",
+  "_id": "815b69af2ce613fc",
+  "_key": "!items!815b69af2ce613fc",
+  "folder": "7a7f780c8ecee704",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Moving a muscle-powered vehicle such as a bicycle or rowboat.</p>",
+    "shortDesc": "",
+    "useAbl": "cons",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

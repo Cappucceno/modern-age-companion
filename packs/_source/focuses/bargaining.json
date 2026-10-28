@@ -1,0 +1,27 @@
+{
+  "name": "Bargaining",
+  "_id": "2a6a1bdf2a422ea4",
+  "_key": "!items!2a6a1bdf2a422ea4",
+  "folder": "17738bf6dd61e910",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Negotiating with others and making deals.</p>",
+    "shortDesc": "",
+    "useAbl": "comm",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

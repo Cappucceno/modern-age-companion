@@ -1,0 +1,27 @@
+{
+  "name": "Blockade",
+  "_id": "ec0623076f6b0ae2",
+  "_key": "!items!ec0623076f6b0ae2",
+  "folder": "5905993f12458e24",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Move up to 3 yards to position yourself between a foe and something or someone else. Until the beginning of your next turn, that foe must succeed at a minor action Dexterity (Acrobatics) or Strength (Might) test vs. your Defense to reach whatever or whoever you’re protecting.</p>",
+    "shortDesc": "",
+    "type": "General Combat",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

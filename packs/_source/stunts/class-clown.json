@@ -1,0 +1,27 @@
+{
+  "name": "Class Clown",
+  "_id": "18fa05fde2259c4c",
+  "_key": "!items!18fa05fde2259c4c",
+  "folder": "a7eaf3a981654930",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your words lighten the mood, imposing a –2 penalty to all enemies’ initiative rolls if a fight breaks out during this encounter.</p>",
+    "shortDesc": "",
+    "type": "General Social",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

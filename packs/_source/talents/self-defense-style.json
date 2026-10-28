@@ -1,0 +1,39 @@
+{
+  "name": "Self-Defense Style",
+  "_id": "7ce95220dade73c8",
+  "_key": "!items!7ce95220dade73c8",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are trained in martial arts that are focused on defense and deflection.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting (Brawling) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You use your opponent’s momentum against them. When a melee attack misses you, you can use the Grapple action stunt as a reaction without spending any SP. In addition, you can perform the Knock Prone action stunt for 1 SP instead of the usual 2 against an opponent you have grappled.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your grip is like a steel vise. If you fail a Fighting (Grappling) test, you can re-roll it, but you must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can counter your opponent with grace and skill. When you perform the Disarm stunt, you can keep the weapon.In addition, when you spend SP on Knock Prone after making a Fighting (Grappling) attack, you may automatically move your opponent 2 yards for no additional SP cost. You may increase this distance with the Skirmish stunt. The enemy falls prone after being moved.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

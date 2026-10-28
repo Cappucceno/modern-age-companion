@@ -1,0 +1,27 @@
+{
+  "name": "Sway the Crowd",
+  "_id": "71d3aa6aae03ed7a",
+  "_key": "!items!71d3aa6aae03ed7a",
+  "folder": "a7eaf3a981654930",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your words affect one additional person of your choice. You may choose this stunt multiple times per roll, but if someone opposed your test, you can’t expand the effect to anyone with a higher ability + focus total than the original target.</p>",
+    "shortDesc": "",
+    "type": "General Social",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

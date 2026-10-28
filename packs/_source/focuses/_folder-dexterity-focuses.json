@@ -1,0 +1,17 @@
+{
+  "name": "Dexterity Focuses",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "456df91c36b041b6",
+  "_key": "!folders!456df91c36b041b6",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

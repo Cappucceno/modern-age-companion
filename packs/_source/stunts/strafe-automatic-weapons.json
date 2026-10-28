@@ -1,0 +1,27 @@
+{
+  "name": "Strafe (Automatic Weapons)",
+  "_id": "7e7205ba35353b76",
+  "_key": "!items!7e7205ba35353b76",
+  "folder": "22c3859ce3ea730e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Immediately move up to 1 yard per SP spent in any direction, and apply this attack to anyone within 1 yard per SP spent of your original target. You can’t selectively exclude anyone in the area. Halve the damage dealt to these additional targets (round up).</p>",
+    "shortDesc": "",
+    "type": "Firearms",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

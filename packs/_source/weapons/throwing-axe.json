@@ -1,0 +1,44 @@
+{
+  "name": "Throwing Axe",
+  "_id": "0cd994e37b9a4d3b",
+  "_key": "!items!0cd994e37b9a4d3b",
+  "folder": "9b3933749c18329a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Thrown. Minimum Strength 1. Resources TN 11.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "thrown",
+    "minStr": 1,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "ballistic",
+    "damageFormula": "1d6+1",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 11,
+    "ranged": true,
+    "range": 15,
+    "rangeMax": 22,
+    "rof": "singleShot",
+    "capacity": 0,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Cards on the Table",
+  "_id": "bb141e4e3ec58f21",
+  "_key": "!items!bb141e4e3ec58f21",
+  "folder": "a7eaf3a981654930",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If you were completely honest when making this test, your target must be completely honest in the next social test they make against you during this encounter. (This doesn’t stop either character from omitting information.)</p>",
+    "shortDesc": "",
+    "type": "General Social",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

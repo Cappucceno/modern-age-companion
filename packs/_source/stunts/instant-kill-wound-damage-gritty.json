@@ -1,0 +1,27 @@
+{
+  "name": "Instant Kill (Wound Damage) [Gritty]",
+  "_id": "f3f66b547fd521a8",
+  "_key": "!items!f3f66b547fd521a8",
+  "folder": "5905993f12458e24",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If your opponent has less than half their Health left, you may roll an attack opposed by your target’s Constitution (Stamina) roll; if you win, they immediately die.</p>",
+    "shortDesc": "",
+    "type": "General Combat",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

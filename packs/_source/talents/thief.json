@@ -1,0 +1,39 @@
+{
+  "name": "Thief",
+  "_id": "5d67c3d29acb5baa",
+  "_key": "!items!5d67c3d29acb5baa",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Sometimes things need to be stolen. Sometimes there’s only one way to redistribute the wealth. But to whom? Rob the rich and give to the poor? Rob everyone and keep it? You might work for a government agency or a private covert organization, or you might be a solo operator, motivated by greed, the thrill of the take, or some other goal. Maybe you’re a thief because you always have been, or because someone has dirt on you and forces your hand. Eras: Every era has its thief archetypes. These range from pickpockets and dandy highwaymen, to high-tech jewel thieves and burglars, both well-intentioned and selfish. Synergies: The Thief/Performer might be a street entertainer with a taste for picking pockets. Meanwhile, the Thief/ Academic, whether a relic hunter or a burglar with taste, knows exactly what to steal. A Thief/Executive might run a criminal network, or steal from peers. A Thief/Socialite might be the most charming of rogues, or a criminal whose tracks vanish under a veneer of genteel charm. A Thief/Gunfighter could be a bank robber or a freedom fighter.</p><p>You are adept at stealing things and not getting caught.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 or higher, the Dexterity (Stealth), and the Dexterity (Sleight of Hand) focus.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>The first thing a skilled thief perfects is the ability to fade from sight. You add +1 to all tests made with the Dexterity (Stealth) focus or the Dexterity (Sleight of Hand) focus. Choose which focus receives this benefit when you attain this degree.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>If you’re making a Dexterity-based test to hide or steal an object, can may re-roll the test if you choose, but you must keep the result of the second roll. You have become an expert in avoiding the eye of suspicion. You may perform the It Wasn’t Me stunt for 2 SP rather than the usual 4.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Add another +1 to tests using either Dexterity (Stealth) or Dexterity (Sleight of Hand), selecting the focus when you attain this degree. T he equipment listed in this chapter runs the gamut of weaponry, armor, functional items with mundane and specialist uses, and a range of vehicles. Whether characters appear in a heated warehouse shootout, a high-speed chase through the city, or a tense infiltration of a complex security system, the equipment used means the difference between success or failure. The campaign setting’s historical era, location, and exceptional elements all influence the availability and prices of equipment. Just because there’s a listed price for an item doesn’t mean a character can just get it with a Resources check. Some equipment may be illegal or restricted to members of certain professions. Finally, note that some pieces of equipment—especially weapons and armor—come with special rules. Read the description of each item to find out the details. Weapons Weapons fall into four groups: unarmed, hand-to-hand, firearms, and other ranged weapons. Though an unarmed attack may be less damaging than a high-powered rifle, weapons tend to fit into select scenarios. Weapons vary from commonly accessible items to military-grade hardware. All melee attacks rely on the Fighting ability, whereas all ranged attacks use the Accuracy ability. Unarmed attacks and hand-to-hand weapons add the attacker’s Strength ability to the base damage listed in the table, whereas firearms and other ranged weapons add the attacker’s Perception ability. Equipment Improvised Weapons There are times your character won’t have a fighting knife, but a cleaver lifted from a butcher’s block. Instead of a police baton, you might make do with half a broom handle. In these situations, the GM determines the closest equivalent weapon. In some cases, the improvised weapon is just as good as one built for combat—a stick is a stick, after all— but in others, the GM may wish to apply one or more of the following penalties: • Clumsy: The improvised weapon isn’t as easy to use as the real thing. Apply a –1 or –2 penalty to attack rolls. • Fragile: The improvised weapon breaks easily. When an attack with it misses and the Stunt Die rolls 3 or less, it breaks. • Weak: The improvised weapon can’t inflict injury as easily. Apply a –1 or greater penalty to damage rolls. If characters have time to reinforce their improvised weapons, they might remove penalties with Dexterity (Crafts) tests, with TNs set by the GM. Complex improvised weapons like firearms and electroshock weapons take time and the right materials to build. They usually can’t have their penalties removed (or rather, anything that would do that would be equivalent to just building the weapon properly), and can carry a range of other penalties, including the potential to injure their users with misapplied chemistry and physics.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

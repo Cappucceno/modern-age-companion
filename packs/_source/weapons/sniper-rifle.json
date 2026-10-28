@@ -1,0 +1,44 @@
+{
+  "name": "Sniper Rifle",
+  "_id": "503219fd7bcc49c7",
+  "_key": "!items!503219fd7bcc49c7",
+  "folder": "157a3913431eb231",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Longarms. Minimum Strength 1. Resources TN 14.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "longarms",
+    "minStr": 1,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "ballistic",
+    "damageFormula": "2d6+2",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "ranged": true,
+    "range": 600,
+    "rangeMax": 900,
+    "rof": "semiAuto",
+    "capacity": 3,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

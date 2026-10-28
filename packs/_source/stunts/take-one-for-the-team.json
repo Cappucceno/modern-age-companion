@@ -1,0 +1,27 @@
+{
+  "name": "Take One for the Team",
+  "_id": "00a0bebe85f7f844",
+  "_key": "!items!00a0bebe85f7f844",
+  "folder": "e6a09dfc5152643c",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>When you successfully avoid damage from a trap or hazard but an ally doesn’t, you may take the damage for that ally while they remain unscathed.</p>",
+    "shortDesc": "",
+    "type": "Infiltration",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

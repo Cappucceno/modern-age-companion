@@ -1,0 +1,39 @@
+{
+  "name": "Striking Style",
+  "_id": "a3840089acd485b2",
+  "_key": "!items!a3840089acd485b2",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Whether throught intense training or raw talent, your fists leave a lasting impression.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting (Brawling) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your hands are as tough as iron. When you attack with your fist, you inflict 1d6 damage instead of 1d3.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your punch can drop the toughest opponents. You can perform the Knock Prone stunt for 1 SP instead of the usual 2 when attacking with your fists or brawling aids.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can perform the Brutal Strike action stunt for 1 SP instead of the usual 2 when attacking unarmed.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

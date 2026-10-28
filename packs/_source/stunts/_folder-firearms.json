@@ -1,0 +1,17 @@
+{
+  "name": "Firearms",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "22c3859ce3ea730e",
+  "_key": "!folders!22c3859ce3ea730e",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

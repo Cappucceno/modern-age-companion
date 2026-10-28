@@ -1,0 +1,27 @@
+{
+  "name": "Speed Demon",
+  "_id": "da7cc50e7eb1546f",
+  "_key": "!items!da7cc50e7eb1546f",
+  "folder": "5abc8d2c694b22f5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You complete your test in half the time it would otherwise take.</p>",
+    "shortDesc": "",
+    "type": "General Exploration",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

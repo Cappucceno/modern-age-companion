@@ -1,0 +1,27 @@
+{
+  "name": "Faith",
+  "_id": "89929642b6e45c5f",
+  "_key": "!items!89929642b6e45c5f",
+  "folder": "dc9ca11fb047d002",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Deriving inner strength through spiritual or moral belief.</p>",
+    "shortDesc": "",
+    "useAbl": "will",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

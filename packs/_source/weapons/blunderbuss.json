@@ -1,0 +1,44 @@
+{
+  "name": "Blunderbuss",
+  "_id": "7941610f296a04fc",
+  "_key": "!items!7941610f296a04fc",
+  "folder": "2d1276263e2ce0c1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Black Powder Weapons. Minimum Strength 1. Resources TN 15.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "black powder weapons",
+    "minStr": 1,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "impact",
+    "damageFormula": "1d6+2",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 15,
+    "ranged": true,
+    "range": 15,
+    "rangeMax": 22,
+    "rof": "singleShot",
+    "capacity": 0,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

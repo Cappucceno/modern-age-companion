@@ -1,0 +1,27 @@
+{
+  "name": "Cast Out",
+  "_id": "f0aafb844adf9965",
+  "_key": "!items!f0aafb844adf9965",
+  "folder": "d4cdcee684a7d10b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your action shames or embarrasses a present character whom you target, imposing a –2 penalty on their next social roll against anyone but you in this encounter (Simple), or worsening the attitude of one other present character toward your target by one shift (Detailed).</p>",
+    "shortDesc": "",
+    "type": "Attitude",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

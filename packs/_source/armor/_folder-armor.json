@@ -1,0 +1,17 @@
+{
+  "name": "Armor",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "36212464834d9b5a",
+  "_key": "!folders!36212464834d9b5a",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

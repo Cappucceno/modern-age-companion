@@ -1,0 +1,27 @@
+{
+  "name": "With a Flourish",
+  "_id": "1d0201ce0630eb84",
+  "_key": "!items!1d0201ce0630eb84",
+  "folder": "5abc8d2c694b22f5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You impress everyone who watches you with your showmanship. Gain a +1 to opposed tests against them for the rest of the encounter.</p>",
+    "shortDesc": "",
+    "type": "General Exploration",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

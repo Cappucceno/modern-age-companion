@@ -1,0 +1,27 @@
+{
+  "name": "It Wasn’t Me",
+  "_id": "dbd9cdf37d0ec0e5",
+  "_key": "!items!dbd9cdf37d0ec0e5",
+  "folder": "e6a09dfc5152643c",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You leave evidence that another character is responsible for the results of your test, such as breaking and entering, cheating at cards, or uploading a computer virus. All failed tests to investigate the truth reveal that person as the culprit, and such tests suffer a –2.</p>",
+    "shortDesc": "",
+    "type": "Infiltration",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Speed Demon",
+  "_id": "e458a264c003da30",
+  "_key": "!items!e458a264c003da30",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Your extraordinary skill makes any mount or vehicle under your control almost an extension of yourself. This talent must be purchased separately for living mounts, aircraft, and land or water vehicles.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity (Driving), Dexterity (Riding), or Dexterity (Piloting) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You are quick to get onto your new means of transportation. Mounting an animal or climbing into a vehicle (and starting it!) are free actions for you.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You push the performance of your means of transportation. When you control a mount or Standard Velocity vehicle, add +3 to its Speed. When controlling a vehicle with a higher Velocity class, add +1 to its Velocity.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>If you fail an ability test to control a mount or a vehicle, you can re-roll it, but you must keep the results of the second roll. In addition, if your means of transport is moving at half or more of its top Speed or Velocity while you act as its operator, you and your mount or vehicle both gain +2 to Defense.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

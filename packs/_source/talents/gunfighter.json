@@ -1,0 +1,39 @@
+{
+  "name": "Gunfighter",
+  "_id": "f6e399d3a70bd39b",
+  "_key": "!items!f6e399d3a70bd39b",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>When the ace of spades flies up in the air at the other end of the street, it’s your shot that drills it right through the spade. You can shoot a cigarette out of a man’s mouth. You can drop four men before they’ve even drawn. You might be a swashbuckling revolutionary, a talented private soldier, a bodyguard, or a cop. Perhaps you trained your whole life, or maybe it’s a knack. Do you regret the lives you’ve taken, or are have you only ever hit the bullseye on paper, or during door-busting tactical drills? Maybe you’ve killed, and don’t sleep easy—or maybe you sleep just fine, which could be a problem of its own. Eras: From buccaneers with a brace of pistols to six-gun cowboys and counterterrorist commandos, guns define gunfighters in their respective eras. Synergies: A Gunfighter/Sniper is as deadly taking quiet, patient aim as when leaping into the fray, guns blazing. A Gunfighter/Driver has one hand on the wheel, and the other shooting out a driver’s side window. A Gunfighter/Socialite could be a level-headed duelist.</p><p>No one shoots as quickly or as accurately as you.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity 2 and Accuracy 2 or higher.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your accuracy is instinctive. Pick a focus from Accuracy (Assault Rifles), Accuracy (Black Powder), Accuracy (Pistols), Accuracy (Shotguns), or Accuracy (SMGs). You gain a +1 to attack and damage rolls made using your chosen focus.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You’re fast and precise. You may pick a new focus from the Novice list and apply the Novice talent benefit to it, or improve the bonus for the focus you picked at Novice rank to +2 to your attack roll and damage roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You’re one with the gun. When using a firearm that falls under the list of focuses in the Novice degree, choose one of the following stunts: Lightning Attack, Lethal Blow, Overwatch, or (in Gritty games only) Instant Kill. You can perform the chosen stunt for 1 SP less than usual. In the case of Overwatch, spending 1 SP gives you the effects of spending 2 SP, and spending 2 SP is equivalent to the 3 SP effect.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

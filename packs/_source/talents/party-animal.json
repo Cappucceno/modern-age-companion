@@ -1,0 +1,39 @@
+{
+  "name": "Party Animal",
+  "_id": "5ab97e1639d586c1",
+  "_key": "!items!5ab97e1639d586c1",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "",
+    "shortDesc": "",
+    "requirement": "Communication and Constitution 1 or higher You take your fun seriously.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can drink other people under the table. You gain +1 to Constitution (Tolerance) tests.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You are intimate with the party crowd. Choose one of the following focuses: Communication (Seduction) or Perception (Empathy). If you fail a test with your chosen focus, you can re-roll it, but you must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you’re having a good time, (you think) you’re invincible! Choose one of the following social stunts: Flirt or Benefit of the Doubt. You can perform that stunt for 1 SP less than its normal cost.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

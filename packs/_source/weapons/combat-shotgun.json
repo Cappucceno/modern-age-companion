@@ -1,0 +1,44 @@
+{
+  "name": "Combat Shotgun",
+  "_id": "f8de1b6cbf975b83",
+  "_key": "!items!f8de1b6cbf975b83",
+  "folder": "bf148c4cfb95b53c",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Shotguns. Minimum Strength 1. Resources TN 13.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "shotguns",
+    "minStr": 1,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "ballistic",
+    "damageFormula": "2d6+2",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 13,
+    "ranged": true,
+    "range": 75,
+    "rangeMax": 112,
+    "rof": "semiAuto",
+    "capacity": 3,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

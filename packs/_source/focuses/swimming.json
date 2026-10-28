@@ -1,0 +1,27 @@
+{
+  "name": "Swimming",
+  "_id": "4fd0a0ff34aca996",
+  "_key": "!items!4fd0a0ff34aca996",
+  "folder": "7a7f780c8ecee704",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Moving across water and staying afloat.</p>",
+    "shortDesc": "",
+    "useAbl": "cons",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

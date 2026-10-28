@@ -1,0 +1,17 @@
+{
+  "name": "Specializations",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "80ce7cbdc4864d90",
+  "_key": "!folders!80ce7cbdc4864d90",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

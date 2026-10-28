@@ -1,0 +1,39 @@
+{
+  "name": "Club",
+  "_id": "1519187ef1f2e441",
+  "_key": "!items!1519187ef1f2e441",
+  "folder": "ef7a973be1b1f379",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Short Hafted. Minimum Strength –1. Resources TN —.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "useFocus": "short hafted",
+    "minStr": -1,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "stun",
+    "dmgSource": "impact",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 0,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

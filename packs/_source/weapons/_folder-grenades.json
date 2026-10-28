@@ -1,0 +1,17 @@
+{
+  "name": "Grenades",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 1600000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "1144c14e1a28e8de",
+  "_key": "!folders!1144c14e1a28e8de",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

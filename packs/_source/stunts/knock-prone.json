@@ -1,0 +1,27 @@
+{
+  "name": "Knock Prone",
+  "_id": "a55be0f5d7db7a79",
+  "_key": "!items!a55be0f5d7db7a79",
+  "folder": "5905993f12458e24",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Knock your enemy prone. Melee attacks against a prone foe gain a +1, but ranged attacks against a prone foe suffer a –1.</p>",
+    "shortDesc": "",
+    "type": "General Combat",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Maker",
+  "_id": "1b7a917a06a64594",
+  "_key": "!items!1b7a917a06a64594",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You don’t need stores when you can make things using a manufacturing focus. A manufacturing focus is any focus with a description that starts with “Making” or “Knowing and Making,” such as Dexterity (Crafting) and Intelligence (Chemistry).</p>",
+    "shortDesc": "",
+    "requirement": "Any manufacturing focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Do-it-yourself is your way of life. You can use a manufacturing focus to make any item with the appropriate tools and access to a workshop. Making an item is an advanced test using your manufacturing focus with a TN equal to the item’s cost – 2 (see Chapter 4: Equipment for item costs and Chapter 8: Mastering the Rules for advanced tests). The GM determines the success threshold of the test based on how complicated the item in question is. An easy item like a table or a LED flashlight can have a success threshold of 5, while a more complex item like a sculpture or a clock can have a success threshold of 10 or 15. Truly complex items like cellphones and computers can have a threshold as high as 25. Each roll for the test represents 6 hours of work, which need not be consecutive, and you can stop making the item for days and resume the advanced test later (just make sure to note how many successes you have achieved toward the threshold). Raw materials can be an award or can be purchased with a Resources test with a TN equal to the item’s cost – 5.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your workmanship is reliable and steady. If you fail a test with a manufacturing focus, you can re-roll it, but you must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you perform an advanced test with a manufacturing focus, you gain a +1 bonus to the result of each Stunt Die for the purpose of reaching the success threshold.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

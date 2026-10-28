@@ -1,0 +1,39 @@
+{
+  "name": "Martial Artist",
+  "_id": "129da3cf56bce077",
+  "_key": "!items!129da3cf56bce077",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>To you, close combat is an art, with a brutal beauty you can express through many weapons, from your fists to a flashing sword. The study of the martial arts could be just a hobby, or it could be an integral part of your training, perhaps as a special forces operative or a secret agent. It might be something you’ve trained in since you were a child, as part of your heritage. Eras: Martial arts belong to all eras and virtually all cultures. Different periods and locations define the training that’s available to you. If you’re English in the 19th Century, you likely master bare-knuckle boxing and wrestling, or French Savate, along with fencing and stick fighting. In the 21st Century, it’s not hard to find styles from many cultures, each with their own traditions and social ties. Synergies: A Martial Artist/Thief might be a skilled warrior of the night, while a Martial Artist/Agent could be a spy fashioned as a living weapon or the deadliest of assassins. As a Martial Artist/Driver, you might be as graceful behind the wheel as you are on your feet.</p><p>You are a master of hand-to-hand combat.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting 2 or better and at least Novice rank in one hand-to-hand combat style, including Dual Weapon Style, Grappling Style, Self-Defense Style, Single Weapon Style, Striking Style, and Two-handed Style. New talents like these may also provide prerequisites, at the GM’s discretion.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You are skilled in the art of close combat. When you make a Fighting-based attack roll, add +1 to damage on a successful hit.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You have excellent speed and timing. When you perform the Momentum stunt with SP gained from a Fightingbased attack roll, you gain a bonus to your initiative as if you have spent one more SP than you have. So, if you spend 1 SP, you gain a +8 bonus to initiative; if you spend 2 SP, you gain a bonus of +12.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You know a host of special techniques. When you perform the stunt attack action with a Fighting-based attack roll, you automatically generate 2 SP, not 1.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

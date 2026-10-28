@@ -1,0 +1,17 @@
+{
+  "name": "Pistols",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 900000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "746fdfef8f42fae6",
+  "_key": "!folders!746fdfef8f42fae6",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

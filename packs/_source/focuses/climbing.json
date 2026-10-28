@@ -1,0 +1,27 @@
+{
+  "name": "Climbing",
+  "_id": "12ed194cedb58898",
+  "_key": "!items!12ed194cedb58898",
+  "folder": "11ff6574662e7595",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Scaling walls and other vertical obstacles.</p>",
+    "shortDesc": "",
+    "useAbl": "str",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

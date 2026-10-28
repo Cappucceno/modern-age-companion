@@ -1,0 +1,39 @@
+{
+  "name": "Protect",
+  "_id": "5287765f5bc0e009",
+  "_key": "!items!5287765f5bc0e009",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "",
+    "shortDesc": "",
+    "requirement": "Perception and Willpower 1 or higher You are the shield that will protect your friends.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your desire to protect others gives you speed. When you perform the Blockade action stunt, you can move up to 6 yards instead of 3.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You react quickly to put yourself between a friend and harm. When you perform the Guardian Angel action stunt, the amount of damage you take instead of your ally is equal to the number of SP spent + 2.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You become the shadow of those who would hurt others. If you are standing next to an opponent and that opponent moves near one of your allies, you can move adjacent to the opponent before they finish their turn, even if it would surpass your Speed. Your Speed is 0 on your next turn.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

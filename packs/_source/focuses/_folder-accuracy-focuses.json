@@ -1,0 +1,17 @@
+{
+  "name": "Accuracy Focuses",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "89800b98d0202574",
+  "_key": "!folders!89800b98d0202574",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

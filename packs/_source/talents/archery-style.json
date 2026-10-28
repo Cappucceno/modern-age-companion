@@ -1,0 +1,39 @@
+{
+  "name": "Archery Style",
+  "_id": "1a064cba78703575",
+  "_key": "!items!1a064cba78703575",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are experienced with bows and crossbows.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy (Bows) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>When you take the Aim action, your next attack with a bow or crossbow inflicts +1 damage in addition to the normal benefits of aiming.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>When you attack from hiding with a bow or crossbow and fail, you remain hidden. If the attack is successful, you can immediately make a new Dexterity (Stealth) test if there is cover within 4 yards and you have not moved yet in your turn. You can enjoy each benefit only once in the same combat.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When shooting a bow or crossbow, you can perform the Called Shot, Hamstring, and Maim stunts for 1 SP less than their normal cost.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Seize the Initiative",
+  "_id": "bb0a0da47aa6f553",
+  "_key": "!items!bb0a0da47aa6f553",
+  "folder": "5905993f12458e24",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Move to the top of the initiative order until someone else seizes the initiative. You may get to take another turn before some others act again.</p>",
+    "shortDesc": "",
+    "type": "General Combat",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

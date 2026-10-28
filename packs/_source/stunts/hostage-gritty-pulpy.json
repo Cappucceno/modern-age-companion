@@ -1,0 +1,27 @@
+{
+  "name": "Hostage [Gritty/Pulpy]",
+  "_id": "0d16888bb157fe8a",
+  "_key": "!items!0d16888bb157fe8a",
+  "folder": "2f16f3061def0478",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You and your target make opposed Fighting (Grappling) rolls; if you win, you maneuver them into a vulnerable position. If they do anything other than a free action on their next turn, or if anyone attacks you or your allies before the beginning of your next turn, you may make an immediate attack against your target with a +2 bonus.</p>",
+    "shortDesc": "",
+    "type": "Grappling",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

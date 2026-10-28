@@ -1,0 +1,27 @@
+{
+  "name": "Armor Crush",
+  "_id": "862bea20cabf53dc",
+  "_key": "!items!862bea20cabf53dc",
+  "folder": "39317e98651d4677",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Against an opponent wearing armor (as equipment, instead of natural armor) convert up to 3 points of damage you would inflict on your foe with this attack into an armor penalty (a penalty to Speed and Dexterity—see Chapter 4: Equipment) of equal size instead. This stacks with any current armor penalty. This additional penalty lasts until the target takes a major action to readjust their armor.</p>",
+    "shortDesc": "",
+    "type": "Melee",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

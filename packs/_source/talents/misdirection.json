@@ -1,0 +1,39 @@
+{
+  "name": "Misdirection",
+  "_id": "db0b329bb81e03fd",
+  "_key": "!items!db0b329bb81e03fd",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can sow confusion among friends and foes alike.</p>",
+    "shortDesc": "",
+    "requirement": "Communication (Deception) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You confound people so much they cannot react appropriately. As a major action, you can make a Communication (Deception) test opposed by an opponent’s Willpower (Self-Discipline); if you succeed, your opponent cannot use stunts until the end of your next turn.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your targets become too focused on you to do anything else. When you use the Over Here! exploration talent, the bonus your allies gain from the stunt is +2 instead of +1, and you also gain a +1 bonus.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your guile can help you through sticky situations. When you use a Communication focus in combat and roll doubles, you gain +1 SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

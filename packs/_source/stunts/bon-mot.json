@@ -1,0 +1,27 @@
+{
+  "name": "Bon Mot",
+  "_id": "6023e8fee13da0c7",
+  "_key": "!items!6023e8fee13da0c7",
+  "folder": "3d084f53612d0832",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> You tag the perfect witty remark onto the end of your action. If you can’t think of one, let the group brainstorm and pick one among their ideas. Gain a temporary honorific you can use for passive Reputation only, for the rest of the session.</p>",
+    "shortDesc": "",
+    "type": "Membership & Reputation",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

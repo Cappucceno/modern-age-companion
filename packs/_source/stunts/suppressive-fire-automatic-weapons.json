@@ -1,0 +1,27 @@
+{
+  "name": "Suppressive Fire (Automatic Weapons)",
+  "_id": "37180c188d3cc835",
+  "_key": "!items!37180c188d3cc835",
+  "folder": "22c3859ce3ea730e",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You pepper an area with bullets. If anyone, friend or foe, stands or moves within (Gritty 1/Pulpy 3/Cinematic 5) yards of where your target was positioned when you attacked between now and your turn next round, roll a new attack against that individual, whether you want to or not, to a maximum of one attack per target in that zone.</p>",
+    "shortDesc": "",
+    "type": "Firearms",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

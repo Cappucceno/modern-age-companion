@@ -1,0 +1,39 @@
+{
+  "name": "Observation",
+  "_id": "b4833b357642efa9",
+  "_key": "!items!b4833b357642efa9",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have an eye for detail.</p>",
+    "shortDesc": "",
+    "requirement": "Perception 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You notice things others do not. Choose one of the following Perception focuses: Empathy or Seeing. If you fail a Perception test with your chosen focus, you can re-roll it but you must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Analysis of your observation often leads to insight. On a successful Perception test, you can spend 2 SP to make a second, immediate Perception test with the same TN but with a different focus than the first one, and gain additional information (if any) from a successful test with the second focus. This includes additional information when you uncover the clue within a lead.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Nothing escapes your scrutiny. On a successful Perception test, you can spend 2 SP and gain a +2 bonus to all Perception tests on the same object or subject as the first test.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

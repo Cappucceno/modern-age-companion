@@ -1,0 +1,39 @@
+{
+  "name": "Light Chain",
+  "_id": "013205cfb30520bc",
+  "_key": "!items!013205cfb30520bc",
+  "folder": "eb7d51b23498224b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Flexible. Minimum Strength 1. Resources TN 7.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "useFocus": "flexible",
+    "minStr": 1,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "str",
+    "dmgType": "stun",
+    "dmgSource": "impact",
+    "damageFormula": "1d6",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 7,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

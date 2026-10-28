@@ -1,0 +1,39 @@
+{
+  "name": "Hurled Weapon Style",
+  "_id": "029a777a77ce62b7",
+  "_key": "!items!029a777a77ce62b7",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are adept with weapons you throw by hand.</p>",
+    "shortDesc": "",
+    "requirement": "None",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your accuracy is uncanny. You gain a +1 bonus on attack rolls with weapons from the Thrown Weapons and Grenades group.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can grab a throwing weapon in an instant. You Ready a throwing weapon or grenade as a free action instead of a minor action.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You master your own leverage to throw further. You can add your Accuracy to the range of throwing weapons and grenades.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

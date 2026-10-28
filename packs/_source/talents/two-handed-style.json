@@ -1,0 +1,39 @@
+{
+  "name": "Two-Handed Style",
+  "_id": "df1e5c8cbf17ec5f",
+  "_key": "!items!df1e5c8cbf17ec5f",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "",
+    "shortDesc": "",
+    "requirement": "Strength 3 or higher and Fighting 1 or higher You are deadly with two-handed melee weapons.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can force foes to yield ground. When you hit with a melee attack with a two-handed weapon, you can move the target 2 yards in any direction. If the weapon is from the Long-Hafted weapon group, you treat opponents standing up to 4 yards away as if they were adjacent to you. This stacks with the Skirmish stunt</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can strike fearsome blows with your weapon. You can perform the Vicious Blow stunt for 1 SP instead of the usual 2 when wielding a two-handed weapon.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You and your weapon are as one. When wielding a two-handed weapon, when you gain SP, you gain +2 SP to use exclusively on the following stunts, depending on the weapon you’re wielding: Armor Crush (heavy blades), Collateral Damage (heavy blades), Expose (any), Hamstring (flexible), Knock Prone (long hafted and flexible), Lightning Attack (long hafted), and Maim (heavy blades).</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

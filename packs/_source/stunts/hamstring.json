@@ -1,0 +1,27 @@
+{
+  "name": "Hamstring",
+  "_id": "cfecd595e8f034a6",
+  "_key": "!items!cfecd595e8f034a6",
+  "folder": "39317e98651d4677",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Reduce your target’s Speed by 4 for the rest of the encounter. You may select this stunt multiple times, reducing the target’s Speed by 4 each time. If the target’s Speed is reduced to 0, they can’t move from where they are. In Gritty games, they are also knocked prone and can only stand up by succeeding at a TN 12 Dexterity (Acrobatics) test.</p>",
+    "shortDesc": "",
+    "type": "Melee",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

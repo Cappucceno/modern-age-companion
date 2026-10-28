@@ -1,0 +1,27 @@
+{
+  "name": "Piloting",
+  "_id": "62075753b064d0be",
+  "_key": "!items!62075753b064d0be",
+  "folder": "456df91c36b041b6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Operating complex vehicles like aircraft, military drones, yachts, or tanks.</p>",
+    "shortDesc": "",
+    "useAbl": "dex",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

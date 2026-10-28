@@ -1,0 +1,44 @@
+{
+  "name": "Revolver",
+  "_id": "25b463d3b8aa37e7",
+  "_key": "!items!25b463d3b8aa37e7",
+  "folder": "746fdfef8f42fae6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Pistols. Minimum Strength 1. Resources TN 12.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "pistols",
+    "minStr": 1,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "ballistic",
+    "damageFormula": "2d6",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 12,
+    "ranged": true,
+    "range": 65,
+    "rangeMax": 97,
+    "rof": "singleShot",
+    "capacity": 3,
+    "reload": "major"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

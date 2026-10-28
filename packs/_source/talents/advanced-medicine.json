@@ -1,0 +1,39 @@
+{
+  "name": "Advanced Medicine",
+  "_id": "2768ac0273f91e50",
+  "_key": "!items!2768ac0273f91e50",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can repair broken bodies and treat the roots of a disease.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence (Medicine) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You react to unexpected complications when treating a patient. You can re-roll any dice with a result of 1 or 2 when making an Intelligence (Medicine) test, but you must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your skill in surgery can save lives from the brink of death. You can operate on another character with the proper tools and/or location for 1 hour. After the operation, the treated character recovers an amount of Health equal to 10 + your total Intelligence (Medicine) bonus. In Gritty games, the treated character must rest for at least 6 hours after the operation, or the recovered Health is lost.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can remedy the crippling effects of most injuries. When you use the First Aid action and roll doubles, you can spend SP to remove a special effect caused by a hazard or another injury. If the special effect is a penalty, each SP spent reduces the penalty by 1. Otherwise 1 SP removes the condition entirely. If you treat a character with a 1-hour operation as above, you do not need to spend any SP. In Gritty games, this relief lasts until the end of the encounter, at which point the effect returns and can be removed only with a 1-hour operation as described above.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

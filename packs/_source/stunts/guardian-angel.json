@@ -1,0 +1,27 @@
+{
+  "name": "Guardian Angel",
+  "_id": "2d663a3a40a0731f",
+  "_key": "!items!2d663a3a40a0731f",
+  "folder": "5905993f12458e24",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You stand ready to interpose yourself between an ally and danger. Choose a character within 5 yards of you. If they would take damage before your next turn, 1 point of damage per SP spent transfers to you instead.</p>",
+    "shortDesc": "",
+    "type": "General Combat",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

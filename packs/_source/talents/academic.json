@@ -1,0 +1,39 @@
+{
+  "name": "Academic",
+  "_id": "054fe01a348b321f",
+  "_key": "!items!054fe01a348b321f",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You’re the one who knows where the bodies are buried (and what’s buried with them). You found the blueprints of the underground spy base. You discovered the secret incantation that can banish the Nameless God before it brings about Armageddon. Whether wading through dusty volumes of lore or discovering hidden secrets on the net, the Academic is always useful. Eras: Academics suit any period of history. From a priest, laden with tomes, accompanying a witch hunter, to a naturalist who finds himself on a pirate ship, to a scientist with a Stacked Talents a Typically, if more than one talent or specialization provides a One exception is when such advancements provide multiple you have more than one opportunity to re-roll, each opportu your second roll. This both increases your roll (you count this that you roll doubles. Another exception is when stacked talents and specializations m the stunt’s cost is still 1 SP, but you gain +1 SP to use as you see laptop and a talent for interpreting data, Academics are often essential to the success of an enterprise. Synergies: An Academic/Gunfighter might be a well-read cowboy, or a pirate who knows Scripture. An Academic/ Performer might be a celebrity scientist, or a popstar with a secret PhD. An Academic/Executive might be the head of a government agency with access to all the information in the world.</p><p>You are trained in finding knowledge and using it.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 3 or higher and the Intelligence (Research) focus.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You have a real skill in not only finding facts, but knowing where else to look if you hit a dead end. If you fail an Intelligence (Research) test, you can re-roll it, but you must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You have become adept at remembering relevant information. When you perform the Ah-Ha! stunt, you gain one free extra use of it (that is, if you spend 1 SP, you can perform the stunt twice, if you spend 2 SP, you can use it three times, and so on).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your fact-finding abilities are unparalleled. When you make an Intelligence (Research) test as part of an advanced test, you gain a +1 bonus to the result of each Stunt Die. This increases your roll, and allows you to reach the success threshold faster.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

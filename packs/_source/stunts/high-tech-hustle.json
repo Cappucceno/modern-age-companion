@@ -1,0 +1,27 @@
+{
+  "name": "High Tech Hustle",
+  "_id": "ffc95c00ed1190e0",
+  "_key": "!items!ffc95c00ed1190e0",
+  "folder": "e6a09dfc5152643c",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>With an injection of technobabble or a quick mod to a device, you sidestep one minor complication impeding your current goal, or give yourself the ability to perform one task you otherwise couldn’t in the current situation, at the GM’s discretion.</p>",
+    "shortDesc": "",
+    "type": "Infiltration",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Steel Plate",
+  "_id": "34b3861990f0e33d",
+  "_key": "!items!34b3861990f0e33d",
+  "folder": "36212464834d9b5a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Armor rating 8I/1B, armor penalty -4, Resources TN 16.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 16,
+    "modifiers": {
+      "043bfc82ff4ccab9": {
+        "type": "impactArmor",
+        "formula": "8",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "043bfc82ff4ccab9"
+      },
+      "6cc58e6ca8bfa615": {
+        "type": "ballisticArmor",
+        "formula": "1",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "6cc58e6ca8bfa615"
+      },
+      "5914bf16adf26151": {
+        "type": "armorPenalty",
+        "formula": "4",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "5914bf16adf26151"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

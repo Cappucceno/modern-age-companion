@@ -1,0 +1,39 @@
+{
+  "name": "Living on the Fringe",
+  "_id": "5cb875168470741a",
+  "_key": "!items!5cb875168470741a",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>The edges of mainstream society are your hunting grounds.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 1 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>There is very little information available about you. Other characters suffer a penalty of –2 to any tests to find information about you or your activities. This stacks with the Cover Your Tracks exploration stunt.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You know where the black market sets up shop. Once per session, you can gain a +2 bonus on a Resources test by using black market channels, but your Resources are depleted by 1 regardless of the test result and the cost of the item.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are a true denizen of the underworld. The penalty for tests to find information about you is increased by an additional –1, and when you buy in the black market, your Resources may be depleted following normal rules.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

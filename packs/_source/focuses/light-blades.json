@@ -1,0 +1,27 @@
+{
+  "name": "Light Blades",
+  "_id": "4ed94b8d92923662",
+  "_key": "!items!4ed94b8d92923662",
+  "folder": "1711e156e51752db",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with weapons in the Light Blades weapon group.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

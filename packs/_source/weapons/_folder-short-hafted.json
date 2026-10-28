@@ -1,0 +1,17 @@
+{
+  "name": "Short Hafted",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "ef7a973be1b1f379",
+  "_key": "!folders!ef7a973be1b1f379",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

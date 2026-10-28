@@ -1,0 +1,27 @@
+{
+  "name": "Brawling",
+  "_id": "f6344575745b0f4d",
+  "_key": "!items!f6344575745b0f4d",
+  "folder": "1711e156e51752db",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with weapons in the Brawling weapon group.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

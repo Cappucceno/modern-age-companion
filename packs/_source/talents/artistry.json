@@ -1,0 +1,39 @@
+{
+  "name": "Artistry",
+  "_id": "9b9d69e3468fed75",
+  "_key": "!items!9b9d69e3468fed75",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "",
+    "shortDesc": "",
+    "requirement": "Communication 1 or higher and the Dexterity (Crafting) focus or Communication (Expression) focus You can create fine works of art.",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Choose a field of visual (painting, sculpture, digital illustration, 2D or 3D animation, video editing, photography, and so on) or literary (poetry, fiction, scriptwriting, copywriting, journalism, and the like) arts. You are trained in the use of the tools and tricks of your trade and can use the Dexterity (Crafting) or Communication (Expression) focuses to create works of art. The GM determines the time and TN of the test depending on your intentions, and the Stunt Die determines your work’s quality if you succeed. You can sell your work if you know a buyer, giving you a temporary bonus to Resources tests equal to half the result of the Stunt Die (minimum 1); this bonus disappears upon your first successful Resources test to purchase something, or at the end of the current story if you have not used it. Alternatively, you can waive the bonus to Resources and gain a Reputation instead. This Reputation fades over time if you don’t produce any other works of similar quality. Any Reputation derived from your art fades away after a number of months equal to the result of the Stunt Die.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You grow as an artist, either deepening your mastery of your craft or diversifying your talents. You learn the techniques of a new artistic field or gain a +1 bonus to ability tests to create works of art in a field you are trained in. This bonus also applies to the Stunt Die result to determine the quality of your work.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You become an undisputed master in your craft. You learn the tools and tricks of a number of artistic fields equal to your Communication, or select one of the fields you are trained in and add your Willpower to the Stunt Die to determine the quality of your works. Upon successfully creating a work of art, you can re-roll the Stunt Die to determine its quality, but you must keep the result of the second roll.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

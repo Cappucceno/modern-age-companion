@@ -1,0 +1,27 @@
+{
+  "name": "Good Instincts",
+  "_id": "c181060e16d83a1e",
+  "_key": "!items!c181060e16d83a1e",
+  "folder": "e6a09dfc5152643c",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Core stunt.</em> Make a Perception (appropriate focus) test with the same TN as the test you just made to learn the most likely immediate consequence of the action you just performed.</p>",
+    "shortDesc": "",
+    "type": "Infiltration",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Driving",
+  "_id": "748c97d9595963a1",
+  "_key": "!items!748c97d9595963a1",
+  "folder": "456df91c36b041b6",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Pushing the performance of everyday motorized vehicles like cars, SUVs, motorcycles, or powerboats.</p>",
+    "shortDesc": "",
+    "useAbl": "dex",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

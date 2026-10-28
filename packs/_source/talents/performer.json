@@ -1,0 +1,39 @@
+{
+  "name": "Performer",
+  "_id": "303de7a915ba5c35",
+  "_key": "!items!303de7a915ba5c35",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You love an audience, even when you’re supposed to be hiding, and however you do it—music, acting, rhetoric, magic—you’ve got a knack with getting that audience on your side, which is harder than it seems. You never make excuses for your performance. A bad day might see you torn to pieces on the internet or pelted with tomatoes. But you’re already one of the best. You might never be famous, but without doubt you have the talent and you have the skills. Eras: Every era and culture has a place for Performers, from music hall singers and street magicians to rock stars and pop scientists. Synergies: A Performer/Executive could be a politician with the considerable powers of a demagogue. A Performer/ Martial Artist performs balletic, acrobatic movements— maybe you’re a street dancer or an actor in martial arts movies. A Performer/Gunfighter might be a trick shooter at a rodeo or a lone traveling musician with more than just a guitar in their guitar case. A Performer/Thief could be an expert escapologist or theatrical pickpocket.</p><p>You move people’s emotions with your music, song, or speech.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 3 or higher and the Communication (Performance) focus.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know how to sing, play an instrument, act, or otherwise perform in a way that inspires profound emotions. When you are using the Communication (Performance) focus, you may perform the Sway the Crowd stunt for 1 SP rather than the usual 2.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>A good performance opens doors, and makes people want to know you. You can perform the Oozing Confidence stunt for 2 SP instead of the usual 4.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you need to, you can pull out all the stops with a performance. When you attempt a social grand gesture (see Chapter 2), your success threshold for each shift is one less than it would normally be.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

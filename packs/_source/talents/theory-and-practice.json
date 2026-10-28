@@ -1,0 +1,39 @@
+{
+  "name": "Theory and Practice",
+  "_id": "7af589c73b801848",
+  "_key": "!items!7af589c73b801848",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can bring the weight of your knowledge focus to bear on any situation. A knowledge focus is any Intelligence focus with a description that begins with “Knowing.”</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can do the thing, in theory. You can attempt a test using a knowledge focus related to the test at hand, but with a –1 penalty (e.g., using Intelligence (Security) instead of Dexterity (Sabotage) to bypass an alarm). If this would be a tangential investigation focus, you do not suffer the +1 increase in TN.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You leverage every bit of trivia for clues. You can perform the Breakthrough exploration stunt for 2 SP instead of the usual 3.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>When you succeed at an ability test with a knowledge focus, you gain a +1 bonus to the result of each Stunt Die on tests using related focuses until the time or venue change. For example, Intelligence (Law) can benefit Communication (Oratory) tests in a courtroom, or an Intelligence (Medicine) test can benefit an Accuracy (Surgery) test.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

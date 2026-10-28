@@ -1,0 +1,27 @@
+{
+  "name": "Grenades",
+  "_id": "73f07c883a8d1c9a",
+  "_key": "!items!73f07c883a8d1c9a",
+  "folder": "89800b98d0202574",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with weapons in the Grenades weapon group.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

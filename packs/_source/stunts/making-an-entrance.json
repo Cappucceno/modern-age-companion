@@ -1,0 +1,27 @@
+{
+  "name": "Making an Entrance",
+  "_id": "bca22417bbcc3361",
+  "_key": "!items!bca22417bbcc3361",
+  "folder": "a7eaf3a981654930",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>As long as this is your first action of the encounter, gain +1 to your next opposed roll against one character who witnessed it. You can choose this stunt multiple times per roll.</p>",
+    "shortDesc": "",
+    "type": "General Social",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

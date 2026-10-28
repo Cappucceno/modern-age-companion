@@ -1,0 +1,27 @@
+{
+  "name": "Leadership",
+  "_id": "08ea69eb3ec3792b",
+  "_key": "!items!08ea69eb3ec3792b",
+  "folder": "17738bf6dd61e910",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Guiding, directing, and inspiring others.</p>",
+    "shortDesc": "",
+    "useAbl": "comm",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Black Powder",
+  "_id": "aec33024a72c1ac1",
+  "_key": "!items!aec33024a72c1ac1",
+  "folder": "89800b98d0202574",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Proficiency with weapons in the Black Powder weapon group.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

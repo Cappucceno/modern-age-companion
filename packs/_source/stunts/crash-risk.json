@@ -1,0 +1,27 @@
+{
+  "name": "Crash Risk",
+  "_id": "d2dbe851fdee7127",
+  "_key": "!items!d2dbe851fdee7127",
+  "folder": "3f3366ff07ecc9a5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your attack strikes with such power or precision that the operator must make a TN 15 test to maintain control, using the appropriate focus, or crash.</p>",
+    "shortDesc": "",
+    "type": "Anti-Vehicle",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Oratory",
+  "_id": "de110343e44640af",
+  "_key": "!items!de110343e44640af",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are a skilled public speaker who can sway others with your words.</p>",
+    "shortDesc": "",
+    "requirement": "Communication (Persuasion) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know how to work a crowd. If you fail a Communication (Persuasion) test when trying to convince a group (not an individual), you can re-roll it, but you must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your words are like magic. Each time you perform the Sway the Crowd social stunt, you affect three additional people instead of one.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can agitate a crowd. If you make a successful Communication (Persuasion) test when addressing a group and the result of your Stunt Die is 5 or 6, you rouse them to immediate action. You can’t necessarily control what they do, though you can try with Communication (Leadership) tests, but they take your words to heart and act on them.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

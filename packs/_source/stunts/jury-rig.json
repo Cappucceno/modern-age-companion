@@ -1,0 +1,27 @@
+{
+  "name": "Jury Rig",
+  "_id": "b1c39afc4415f219",
+  "_key": "!items!b1c39afc4415f219",
+  "folder": "5abc8d2c694b22f5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You find or improvise a piece of equipment you need to be more effective. Negate any situational penalties you would suffer for lacking proper equipment on tests appropriate to the improvisation, for the rest of the encounter.</p>",
+    "shortDesc": "",
+    "type": "General Exploration",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

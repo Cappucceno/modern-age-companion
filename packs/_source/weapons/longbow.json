@@ -1,0 +1,44 @@
+{
+  "name": "Longbow",
+  "_id": "fba92ad38474c28e",
+  "_key": "!items!fba92ad38474c28e",
+  "folder": "aac71a01d9e32475",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>Focus: Bows. Minimum Strength 2. Resources TN 13.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "bows",
+    "minStr": 2,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "ballistic",
+    "damageFormula": "1d6+3",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 13,
+    "ranged": true,
+    "range": 200,
+    "rangeMax": 300,
+    "rof": "singleShot",
+    "capacity": 0,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

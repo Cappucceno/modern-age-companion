@@ -1,0 +1,27 @@
+{
+  "name": "Take Cover",
+  "_id": "674265e040c7bbf9",
+  "_key": "!items!674265e040c7bbf9",
+  "folder": "5905993f12458e24",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>If you can find cover in your immediate vicinity, gain a cover rating equal to the SP spent, up to the maximum rating available nearby.</p>",
+    "shortDesc": "",
+    "type": "General Combat",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

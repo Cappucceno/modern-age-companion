@@ -1,0 +1,39 @@
+{
+  "name": "Agent",
+  "_id": "040a64d2971afc0e",
+  "_key": "!items!040a64d2971afc0e",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You hide in plain sight; you deal in secrets. You work undercover and make few friends, and lying is second nature to you. You might have been in place for years, even gaining authority in the group you were supposed to subvert, or starting a family. You don’t have to be a government Agent. You might work for an organized crime family, infiltrating a rival organization, or you might be a lone maverick infiltrating the agents of the French Terror to rescue aristocrats. You might be a vampire posing as a human, or an alien android infiltrating humanity. You are not who they think you are. You may not even be who you think you are. Eras: The secret agent might seem to be a modern idea at first, but spies have been with us since the Elizabethan era and before. An Agent of the Crown could be found investigating Age of Sail pirates, or in a Victorian setting, as much as in a modern world. and Specializations a bonus to the same test, these benefits stack. e opportunities to re-roll a test and keep the second result. If unity beyond the first adds +1 to the result on the Stunt Die to s as part of your total) and provides additional SP in the event might reduce the cost of a stunt to 0 Stunt Points. If that happens, e fit, provided you can perform a stunt in the first place. Synergies: An Agent/Sniper is a peerless assassin. An Agent/Socialite is the suave sophisticate, as much at home in a casino or ballroom as in the field. An Agent/Driver is a great getaway artist, while an Agent/Investigator is the classic spy catcher, or a delver into mysteries the police cannot touch. An Agent/Thief is a shadowy chameleon who avoids detection.</p><p>You’re a spy.</p>",
+    "shortDesc": "",
+    "requirement": "Perception 2 or higher and the Perception (Empathy) and Communication (Deception) focuses.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You build your life on lies, and it becomes second nature to you. You can cover up for yourself when you’re caught out in a lie. If you fail a Communication (Deception) test, you can re-roll it, but you must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You are as uncannily adept at seeing through deception as you are at lying. When you use the Read the Room stunt, add +3 to your Perception (Empathy) roll when the stunt is opposed.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are an extremely competent agent. You gain two of the following focuses if you don’t have them already: Communication (Disguise), Communication (Investigation), Dexterity (Sabotage), Dexterity (Stealth), Intelligence (Cryptography), and Intelligence (Security). If you already have all these, pick two and add +1 to all rolls made using them.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

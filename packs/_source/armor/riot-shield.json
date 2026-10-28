@@ -1,0 +1,40 @@
+{
+  "name": "Riot Shield",
+  "_id": "2ddf0b8acada4961",
+  "_key": "!items!2ddf0b8acada4961",
+  "folder": "2f2cc041c9077237",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Shield bonus +2 to Defense; restricts you to one-handed weapons. Resources TN 13.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 13,
+    "modifiers": {
+      "516e6c54601c3a36": {
+        "type": "defense",
+        "formula": "2",
+        "flavor": "",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "516e6c54601c3a36"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

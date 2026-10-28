@@ -1,0 +1,39 @@
+{
+  "name": "Animal Training",
+  "_id": "9b5496a3abf3fd90",
+  "_key": "!items!9b5496a3abf3fd90",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You know how to train animals.</p>",
+    "shortDesc": "",
+    "requirement": "None",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know the basics of dealing with animals. With a week of training, you can teach an animal to follow a simple one-word command like “heel,” “follow,” or “attack.” You can teach a single animal a number of commands equal to your Communication.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can train animals to follow more complex commands, like “guard this place” or “return to me when strangers approach.” Teaching a complex command takes 2 weeks of training and the total number of commands a single animal can learn is equal to your Communication + 2.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your training can turn animals into prime examples of their kind. With a month of training, you can increase an animal’s Dexterity or Strength by 1. It also gains the Willpower (Morale) focus. An animal can receive such training only once.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Pierce Hull",
+  "_id": "a272720d52be1f58",
+  "_key": "!items!a272720d52be1f58",
+  "folder": "3f3366ff07ecc9a5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your attack penetrates a vehicle’s exceptionally tough outer shell. If a vehicle has a Hull rating, you must spend SP equal to it on this stunt before spending other SP. This stunt has no other effect.</p>",
+    "shortDesc": "",
+    "type": "Anti-Vehicle",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}
