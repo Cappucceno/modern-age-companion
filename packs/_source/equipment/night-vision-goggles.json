@@ -1,0 +1,29 @@
+{
+  "name": "Night Vision Goggles",
+  "_id": "2fed85710913528e",
+  "_key": "!items!2fed85710913528e",
+  "folder": "b1274aecd0984c80",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>Battery-powered goggles allowing users greater vision in darkness, illuminating anything within the goggles’ range in shades of gray or green hues.</p><p>Resources TN 14.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

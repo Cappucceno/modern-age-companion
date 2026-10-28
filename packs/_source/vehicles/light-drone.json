@@ -1,0 +1,42 @@
+{
+  "name": "Light Drone",
+  "_id": "79c1a833976fa114",
+  "_key": "!actors!79c1a833976fa114",
+  "folder": "490e334ac9fbed3a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 4,
+      "useFocus": "piloting",
+      "useAbl": "dex"
+    },
+    "capacity": 0,
+    "velocity": {
+      "category": "fast",
+      "catMod": 0
+    },
+    "ramDmg": 0,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>This is a multi-rotor drone of the type that would be used by filmmakers, photographers, and high-end hobbyists. It is capable of recording video and sound, and may be equipped with night vision and additional sensors— or given a light, remotely operated weapon (no larger than a handgun) by a less ethical owner. Any collision with or attack on a light drone automatically destroys it, though it might be possible to salvage components such as its camera memory.</p><p>Resources TN 10.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Light Drone",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

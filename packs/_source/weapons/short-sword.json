@@ -21,7 +21,7 @@
     "minStr": -1,
     "nrDice": "1",
     "diceType": "6",
-    "extraValue": 0,
+    "extraValue": 2,
     "dmgAbl": "str",
     "dmgType": "wound",
     "dmgSource": "impact",

@@ -1,0 +1,42 @@
+{
+  "name": "Sports Car",
+  "_id": "076557a5a1c40c8b",
+  "_key": "!actors!076557a5a1c40c8b",
+  "folder": "f7eb2126c8e40b09",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 1,
+      "useFocus": "driving",
+      "useAbl": "dex"
+    },
+    "capacity": 2,
+    "velocity": {
+      "category": "veryFast",
+      "catMod": 0
+    },
+    "ramDmg": 2,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>A high-end vehicle built for performance. An even higher end class of “supercars” adds +1 to Velocity and the Resources difficulty to purchase. Both types turn heads when they’re seen on the road.</p><p>Resources TN 15.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Sports Car",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

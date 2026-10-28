@@ -1,0 +1,29 @@
+{
+  "name": "Chaff Grenades",
+  "_id": "75a643e17b56b128",
+  "_key": "!items!75a643e17b56b128",
+  "folder": "b1274aecd0984c80",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>When thrown within a 15-yard proximity of electronics, a chaff grenade disrupts the operations of any non-insulated device for 2d6 rounds, using a combination of conductive foil and an electromagnetic pulse. These are usually available only in Pulpy or Cinematic campaigns.</p><p>Resources TN 15.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 15,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Light Truck",
+  "_id": "99b9847e808f4147",
+  "_key": "!actors!99b9847e808f4147",
+  "folder": "f7eb2126c8e40b09",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": -2,
+      "useFocus": "driving",
+      "useAbl": "dex"
+    },
+    "capacity": 4,
+    "velocity": {
+      "category": "fast",
+      "catMod": -1
+    },
+    "ramDmg": 3,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>A “box truck” or large van. Its listed capacity is only for the cabin; far more people could easily ride in the back. It can haul two or three tons, though if loaded close to its maximum capacity, its Handling penalty increases</p><p>Resources TN 14.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Light Truck",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

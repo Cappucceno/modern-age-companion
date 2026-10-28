@@ -1,0 +1,17 @@
+{
+  "name": "Lifestyle",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "ecf2ba276406706d",
+  "_key": "!folders!ecf2ba276406706d",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

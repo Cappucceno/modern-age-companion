@@ -118,6 +118,14 @@ class Pack:
             "system": system, "ownership": {"default": 0},
         })
 
+    def actor(self, name, type_, system, folder=None):
+        did = make_id(self.name, name)
+        self.docs.append({
+            "name": name, "_id": did, "_key": f"!actors!{did}", "folder": self.folder(folder, 100000 * (len(self.folders) + 1)) if folder else None,
+            "sort": 0, "flags": {}, "effects": [], "_stats": SYSTEM_STATS, "type": type_, "img": ACTOR_ICON,
+            "system": system, "prototypeToken": {"name": name, "actorLink": True}, "ownership": {"default": 0},
+        })
+
     def write(self, root):
         d = Path(root) / self.name
         d.mkdir(parents=True, exist_ok=True)
@@ -323,7 +331,7 @@ FOCUS_ROW = re.compile(r"^\s*Focus: (.+?)\s*$")
 
 
 def num(s):
-    s = s.replace("–", "-").replace("−", "-")
+    s = s.replace("–", "-").replace("−", "-").lstrip("+")
     return int(s) if re.fullmatch(r"-?\d+", s) else 0
 
 
@@ -423,6 +431,107 @@ def build_armor(pdf):
     return armor
 
 
+# --------------------------------------------------------------------------- vehicles
+
+VEHICLE_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z\- ]+?)\s{2,}(?P<hand>[+\u2013\-]?\d+)\s+(?P<cap>\d+)\s+(?P<vel>(?:Standard|Fast|Very Fast|Extreme)/\S+)\s+"
+                         r"(?P<ram>\d+d6|0)\s+(?P<hull>\d+)\s+(?P<tn>\d+|N/A\*{0,2})")
+VELOCITY = {"Standard": "standard", "Fast": "fast", "Very Fast": "veryFast", "Extreme": "extreme"}
+ACTOR_ICON = "icons/svg/mystery-man.svg"
+
+
+def parse_vehicles(pdf, words):
+    focus_abl = {f["name"]: ABILITIES[f["ability"]] for f in parse_focuses(pdf, words)}
+    rows, focus = [], None
+    for l in pdftotext(pdf, 79, 79, "-layout")[0].splitlines():
+        m = FOCUS_ROW.match(l[:140])
+        if m:
+            focus = m.group(1)
+            continue
+        m = VEHICLE_ROW.match(l)
+        if m and focus:
+            d = m.groupdict()
+            d["focus"], d["abl"] = focus, focus_abl.get(focus, "dex")
+            rows.append(d)
+    # descriptions: "Name: text" paragraphs after the "Vehicle Descriptions" heading, in column order
+    lines = [l.strip() for l in column_pages(pdf, 79, 79)[0]]
+    start = next(i for i, l in enumerate(lines) if l == "Vehicle Descriptions")
+    names = [r["name"] for r in rows]
+    desc, cur = {}, None
+    for l in lines[start + 1:]:
+        m = re.match(r"^([A-Z][A-Za-z\- ]+): (.*)$", l)
+        if m and m.group(1) in names:
+            cur = desc.setdefault(m.group(1), [m.group(2)])
+        elif cur is not None and l and not cur[-1].endswith("."):
+            cur.append(l)
+    for r in rows:
+        r["desc"] = paragraph(desc.get(r["name"], []), words)
+    return rows
+
+
+def build_vehicles(pdf, words):
+    pack = Pack("vehicles", "Actor")
+    for v in parse_vehicles(pdf, words):
+        cls, mod = v["vel"].split("/")
+        pack.actor(v["name"], "vehicle", {
+            "handling": {"mod": num(v["hand"]), "useFocus": v["focus"].lower(), "useAbl": v["abl"]},
+            "capacity": int(v["cap"]), "velocity": {"category": VELOCITY[cls], "catMod": num(mod)},
+            "ramDmg": int(v["ram"].split("d")[0]), "hull": int(v["hull"]), "cost": 0,
+            "description": p(v["desc"]) + (p(f"Resources TN {v['tn']}.") if v["tn"][0].isdigit() else p("Cannot be purchased under ordinary circumstances.")), "gmNotes": "", "coverRating": 0, "armorRating": 0,
+        }, v["focus"])
+    return pack
+
+
+# --------------------------------------------------------------------------- equipment
+
+GEAR_CELL = re.compile(r"([A-Z][A-Za-z'\u2019/ ()\-]*?[A-Za-z)])\s{2,}(\d+)(?=\s|$)")
+GEAR_NOTES = {"Chaff Grenades", "Flash Grenades", "Magnifying Scope", "Night Vision Goggles", "Smoke Grenades",
+              "Suppressor", "Thermal Goggles"}
+
+
+def parse_gear(pdf, words):
+    page = pdftotext(pdf, 80, 80, "-layout")[0]
+    lines = page.splitlines()
+    items = {"Lifestyle": [], "Adventuring Gear": []}
+    section = None
+    for l in lines:
+        s = l.strip()
+        if s == "Lifestyle":
+            section = "Lifestyle"
+        elif s == "Adventuring Gear":
+            section = "Adventuring Gear"
+        elif section and l.startswith((" ", "\t")) and re.search(r"\s{2,}\d+(\s|$)", l) and not s.startswith("Gear "):
+            if len(l) - len(l.lstrip()) < 20 or section == "Adventuring Gear":
+                items[section] += [(n.strip(), int(tn)) for n, tn in GEAR_CELL.findall(l)]
+    # "Night Vision Goggles" wraps over three lines in the table
+    if not any(n.startswith("Night Vision") for n, _ in items["Adventuring Gear"]):
+        items["Adventuring Gear"].append(("Night Vision Goggles", 14))
+    # descriptions of a few gear items, from the prose on the same page
+    text = [l.strip() for l in column_pages(pdf, 80, 80)[0]]
+    desc, cur = {}, None
+    for l in text:
+        m = re.match(r"^([A-Z][A-Za-z ]+?)(?: \[[^\]]+\])?: (.*)$", l)
+        if m and m.group(1) in GEAR_NOTES:
+            cur = desc.setdefault(m.group(1), [m.group(2)])
+        elif cur is not None and l:
+            # an entry ends at a full stop, except for the "Gritty:"/"Pulpy/Cinematic:" variants that follow it
+            if not cur[-1].endswith(".") or l.startswith(("Gritty:", "Pulpy")):
+                cur.append(l)
+    return items, {k: paragraph(v, words) for k, v in desc.items()}
+
+
+def build_equipment(pdf, words):
+    pack = Pack("equipment")
+    items, desc = parse_gear(pdf, words)
+    for folder, rows in items.items():
+        for name, tn in sorted(set(rows)):
+            text = desc.get(name, "")
+            pack.item(name, "equipment", {
+                "longDesc": (p(text) if text else "") + p(f"Resources TN {tn}."), "shortDesc": "", "weight": 0, "cost": 0,
+                "quantity": 1, "equiped": False, "purchaseTN": tn, "modifiers": {},
+            }, "briefcase.svg", folder=folder)
+    return pack
+
+
 # --------------------------------------------------------------------------- stunts
 
 STUNT_SECTIONS = {
@@ -498,8 +607,8 @@ def build_stunts(pdf, words):
 # --------------------------------------------------------------------------- main
 
 BUILDERS = {"focuses": build_focuses, "talents": build_talents, "weapons": build_weapons, "armor": build_armor,
-            "stunts": build_stunts}
-NEEDS_WORDS = {"focuses", "talents", "stunts"}
+            "stunts": build_stunts, "vehicles": build_vehicles, "equipment": build_equipment}
+NEEDS_WORDS = {"focuses", "talents", "stunts", "vehicles", "equipment"}
 
 
 def main():

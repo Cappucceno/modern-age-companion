@@ -1,0 +1,42 @@
+{
+  "name": "Sedan",
+  "_id": "063660053d1ab299",
+  "_key": "!actors!063660053d1ab299",
+  "folder": "f7eb2126c8e40b09",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "driving",
+      "useAbl": "dex"
+    },
+    "capacity": 8,
+    "velocity": {
+      "category": "fast",
+      "catMod": 0
+    },
+    "ramDmg": 2,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>A large vehicle with plenty of space in the rear cabin, favored by executives and well-to-do families. Its statistics can also be used to represent civilian SUVs and small vans.</p><p>Resources TN 13.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Sedan",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

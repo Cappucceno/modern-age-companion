@@ -1,0 +1,42 @@
+{
+  "name": "Sports Bike",
+  "_id": "aa61731ef006269e",
+  "_key": "!actors!aa61731ef006269e",
+  "folder": "f7eb2126c8e40b09",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 2,
+      "useFocus": "driving",
+      "useAbl": "dex"
+    },
+    "capacity": 1,
+    "velocity": {
+      "category": "fast",
+      "catMod": 1
+    },
+    "ramDmg": 1,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>An agile motorcycle designed for speed over stability. If the cyclist is injured, they must succeed at a TN 13 Dexterity (Driving) test to avoid crashing.</p><p>Resources TN 13.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Sports Bike",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

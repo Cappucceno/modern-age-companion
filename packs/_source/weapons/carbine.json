@@ -21,7 +21,7 @@
     "minStr": 0,
     "nrDice": "2",
     "diceType": "6",
-    "extraValue": 0,
+    "extraValue": 2,
     "dmgAbl": "per",
     "dmgType": "wound",
     "dmgSource": "ballistic",

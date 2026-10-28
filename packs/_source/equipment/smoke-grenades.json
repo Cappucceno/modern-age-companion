@@ -1,0 +1,29 @@
+{
+  "name": "Smoke Grenades",
+  "_id": "42c9a1ed51f32061",
+  "_key": "!items!42c9a1ed51f32061",
+  "folder": "b1274aecd0984c80",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p>These bombs create a cloud of obscuring gas that expands up to 10 yards from detonation point. The cloud dissipates after 1d6 rounds.</p><p>Resources TN 14.</p>",
+    "shortDesc": "",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

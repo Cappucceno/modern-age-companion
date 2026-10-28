@@ -1,0 +1,42 @@
+{
+  "name": "Classic Motorbike",
+  "_id": "fd6abf1ca9be4a79",
+  "_key": "!actors!fd6abf1ca9be4a79",
+  "folder": "f7eb2126c8e40b09",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": -1,
+      "useFocus": "driving",
+      "useAbl": "dex"
+    },
+    "capacity": 2,
+    "velocity": {
+      "category": "fast",
+      "catMod": 0
+    },
+    "ramDmg": 1,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>A large touring motorcycle. If the cyclist is injured, they must succeed at a TN 13 Dexterity (Driving) test to avoid crashing.</p><p>Resources TN 11.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Classic Motorbike",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

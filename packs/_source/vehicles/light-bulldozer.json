@@ -1,0 +1,42 @@
+{
+  "name": "Light Bulldozer",
+  "_id": "9df356c27dd0f7ef",
+  "_key": "!actors!9df356c27dd0f7ef",
+  "folder": "57da6fd88ce2f7a0",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "steering",
+      "useAbl": "str"
+    },
+    "capacity": 1,
+    "velocity": {
+      "category": "standard",
+      "catMod": 0
+    },
+    "ramDmg": 5,
+    "hull": 2,
+    "cost": 0,
+    "description": "<p>This tracked vehicle is used to haul material, demolish things, and flatten terrain. It’s slow, moving at a Speed of 15, but crushes or smashes virtually anything in its path.</p><p>Resources TN 16.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Light Bulldozer",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

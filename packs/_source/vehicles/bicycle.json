@@ -1,0 +1,42 @@
+{
+  "name": "Bicycle",
+  "_id": "62ca2e426d2be176",
+  "_key": "!actors!62ca2e426d2be176",
+  "folder": "8c0b9e811fea65a5",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "vehicle",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "handling": {
+      "mod": 0,
+      "useFocus": "propelling",
+      "useAbl": "cons"
+    },
+    "capacity": 1,
+    "velocity": {
+      "category": "standard",
+      "catMod": 0
+    },
+    "ramDmg": 0,
+    "hull": 0,
+    "cost": 0,
+    "description": "<p>A pedal-powered bike. A bicycle moves at its operator’s speed +5. Any attack that hits a bicycle wrecks it, regardless of damage, and also inflicts damage on the cyclist.</p><p>Resources TN 8.</p>",
+    "gmNotes": "",
+    "coverRating": 0,
+    "armorRating": 0
+  },
+  "prototypeToken": {
+    "name": "Bicycle",
+    "actorLink": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}
