@@ -289,7 +289,7 @@ def table(rows):
     return f"<table><tbody>{body}</tbody></table>"
 
 
-def chapter_sections(pages, first, last, words, skip=(), skip_pages=(), stop_at=()):
+def chapter_sections(pages, first, last, words, skip=(), skip_pages=(), stop_at=(), drop=None):
     """[(title, html)] for PDF pages first..last, one entry per top-level (h1) heading."""
     blocks = []
     for n in range(first, last + 1):
@@ -301,6 +301,8 @@ def chapter_sections(pages, first, last, words, skip=(), skip_pages=(), stop_at=
             blocks = blocks[:i]
             break
     blocks = merge_paragraphs(blocks, words)
+    if drop:
+        blocks = [b for b in blocks if not drop(b)]
     sections, cur = [], ["Introduction", []]
     for b in blocks:
         if b[0] == "h" and b[1] == 1:

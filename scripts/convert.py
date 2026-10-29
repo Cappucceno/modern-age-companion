@@ -30,9 +30,56 @@ def section(body):
     return body[: next((i for i, b in enumerate(body) if b[0] == "h" and b[1] <= 2), len(body))]
 
 
-def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=()):
+def chapter_pages(pdf, first, last, skip=(), skip_pages=(), stop_at=(), drop=None):
     pages, words = book(pdf)
-    return prose.chapter_sections(pages, first, last, words, skip=set(skip), skip_pages=skip_pages, stop_at=stop_at)
+    return prose.chapter_sections(pages, first, last, words, skip=set(skip), skip_pages=skip_pages, stop_at=stop_at, drop=drop)
+
+
+def toks(s):
+    """Lowercase words without digits, so SP costs glued to a word ('1-3action') do not break the comparison."""
+    out = []
+    for w in re.split(r"[^a-z0-9]+", s.lower()):
+        w = re.sub(r"^\d+", "", w)
+        if w:
+            out.append(w)
+    return out
+
+
+_CORPUS = {}
+
+
+def stunt_corpus(pdf):
+    """3-grams of every stunt table of the book, to drop the garbled copies of those tables from the running text."""
+    if "grams" not in _CORPUS:
+        words, names = [], set()
+        for page in STUNT_PAGES:
+            for heading, themed, rows in stunt_tables(pdf, page):
+                words += toks(heading)
+                for r in rows:
+                    words += toks(r)
+                for e in parse_stunt_rows(rows, themed):
+                    names.add(" ".join(toks(squash(" ".join(e["text"])).split(": ", 1)[0])))
+        _CORPUS["grams"] = {tuple(words[i:i + 3]) for i in range(len(words) - 2)}
+        _CORPUS["names"] = names
+    return _CORPUS["grams"], _CORPUS["names"]
+
+
+def stunt_dropper(pdf):
+    grams, names = stunt_corpus(pdf)
+
+    def drop(b):
+        if b[0] not in ("p", "li"):
+            return False
+        t = text(b[1])
+        w = toks(t)
+        if not w:
+            return bool(re.fullmatch(r"[\d–\-+\s]+", t))
+        if " ".join(w) in names or t.lower().replace(" ", "") in ("spcoststunt", "stunt", "spcost"):
+            return True
+        if len(w) < 3:
+            return False
+        return all(tuple(w[i:i + 3]) in grams for i in range(len(w) - 2))
+    return drop
 
 
 def squash(s):
@@ -113,12 +160,15 @@ def build_talents(pdf):
 COST = re.compile(r"^(\d+)(?:[–-](\d+)|(\+))?$")
 NAME = re.compile(r"^[A-Z“][^:]{1,48}: ")
 # (PDF page, table heading override) -> stunt type; tables are found by their 'SP Cost ... Stunt' header
-STUNT_PAGES = {46: "Battle Map", 58: "General", 59: "Environmental", 60: "Environmental", 61: "Thematic", 73: "Intensity", 74: "Intensity"}
+STUNT_PAGES = {46: "Battle Map", 58: "General", 59: "Environmental", 60: "Environmental", 61: "Thematic", 73: "Intensity", 74: "Intensity",
+               84: "Organization", 85: "Organization"}
+CROP = {84: (300, 303), 85: (0, 300)}      # pages where the table sits in one column next to running text
 
 
 def stunt_tables(pdf, page):
     """[(heading, [(cost, setting, text)])] for each 'SP Cost / Stunt' table on a page, read from the layout text."""
-    lines = pdftotext(pdf, page, page, "-layout")[0].splitlines()
+    x, w = CROP.get(page, (0, 612))
+    lines = pdftotext(pdf, page, page, "-layout", "-x", str(x), "-y", "0", "-W", str(w), "-H", "783")[0].splitlines()
     out, i = [], 0
     while i < len(lines):
         if re.match(r"^\s*SP(\s*Cost\b|\s{2,}Stunt\s*$)", lines[i]) or lines[i].strip() == "SP":
@@ -189,6 +239,8 @@ def build_stunts(pdf):
                     folder, desc = "General Stunts", esc(desc)
                 elif kind == "Intensity":
                     folder, desc = "Intensity Stunts", esc(desc)
+                elif kind == "Organization":
+                    folder, desc = "Organization Stunts", esc(desc)
                 else:
                     folder, desc = "Battle Map Stunts", esc(desc)
                 if kind == "Environmental":
@@ -285,6 +337,7 @@ def build_weapons(pdf):
             "damageFormula": "0" if grenade else d["dmg"], "weight": 0, "cost": 0, "quantity": 1, "equiped": False, "purchaseTN": int(d["tn"]),
             "ranged": True, "rof": "singleShot", "range": int(d["range"]), "rangeMax": int(d["range"]) * 2, "capacity": 0, "reload": reload_,
         }, "fist.svg", folder=focus)
+    age_of_sail_weapons(pdf, pack)
     return pack
 
 
@@ -404,7 +457,288 @@ def build_creation_tables(pdf):
     return pack
 
 
-BUILDERS = {"talents": build_talents, "stunts": build_stunts, "character-creation": build_creation, "creation-tables": build_creation_tables, "weapons": build_weapons,
+# --------------------------------------------------------------------------- journals: rules, organizations, events, genres
+
+def merge_lists(pdf, bl):
+    """List items that run on in the next block (a lowercase start) are joined back into one item."""
+    words = book(pdf)[1]
+    out = []
+    for b in bl:
+        if b[0] == "li" and out and out[-1][0] == "li" and re.match(r"[a-z]", prose.plain(b[1]).lstrip()[:1] or "A"):
+            out[-1] = ("li", words.join(out[-1][1], b[1]))
+        else:
+            out.append(b)
+    return out
+
+
+def split_pages(bl, level=1, intro="Introduction"):
+    """[(title, blocks)] with one entry per heading of `level`; blocks before the first one go under `intro`."""
+    out, cur = [], [intro, []]
+    for b in bl:
+        if b[0] == "h" and b[1] == level:
+            if cur[1]:
+                out.append(cur)
+            cur = [b[2], []]
+        else:
+            cur[1].append(b)
+    if cur[1]:
+        out.append(cur)
+    return out
+
+
+def tidy_page(html_, cut_after=None):
+    """Remove the leftovers of stunt tables from a page; `cut_after` ends the page after the paragraph that contains the marker."""
+    if cut_after and cut_after in html_:
+        html_ = html_[: html_.index("</p>", html_.index(cut_after)) + 4]
+    return re.sub(r"\s*sP Cost(?:Genre/setting)?\s*stunt\s*|\s*sP Cost\s*", " ", html_)
+
+
+def html_pages(bl, level=1, skip=(), intro="Introduction", cut_after=None):
+    return [(squash(t), tidy_page(render(prose._drop_sections(b, set(skip))), cut_after)) for t, b in split_pages(bl, level, intro) if prose._drop_sections(b, set(skip))]
+
+
+def talent_headings(pdf):
+    """Headings of Chapter 2 whose text lives in talent items."""
+    out = set()
+    for title, parent, body in entries(blocks(pdf, 22, 33), 3):
+        if title and parent in ("Existing Talents", "New Talents"):
+            out.add(title)
+    for t, _, _ in entries(blocks(pdf, 22, 33), 2):
+        pass
+    return out
+
+
+SPECS = ("Controller", "Communicator", "Field Researcher", "Hunter", "Liaison", "Special Forces", "Technician")
+
+
+def build_rules_reference(pdf):
+    pack = Pack("rules-reference", "JournalEntry")
+    drop = stunt_dropper(pdf)
+    names = talent_headings(pdf) | set(SPECS)
+    journal_doc(pack, "Introduction", html_pages(blocks(pdf, 4, 5), 1))
+    journal_doc(pack, "Chapter 2: Talents and Specializations", html_pages(blocks(pdf, 22, 33), 1, skip=names | {"Artificer"}))
+    journal_doc(pack, "Chapter 3: Rules", html_pages([b for b in blocks(pdf, 34, 55) if not drop(b)], 1))
+    journal_doc(pack, "Chapter 4: Stunts", html_pages([b for b in blocks(pdf, 56, 61) if not drop(b)], 1, cut_after="Thematic stunts may apply all the time"))
+    enh = {t for t, par, _ in entries(blocks(pdf, 62, 71), 3) if par in ("Sample Enhancements", "Sample Items")}
+    journal_doc(pack, "Chapter 5: Extraordinary Abilities", html_pages([b for b in blocks(pdf, 62, 72) if not drop(b)], 1, skip=enh | {"Artificer"}))
+    journal_doc(pack, "Chapter 6: Social Options", html_pages([b for b in blocks(pdf, 72, 79) if not drop(b)], 1))
+    journal_doc(pack, "Chapter 7: Technology", html_pages([b for b in blocks(pdf, 90, 98) if not drop(b)], 1))
+    return pack
+
+
+# --------------------------------------------------------------------------- weapons of the Age of Sail (p118)
+
+AOS_ROW = re.compile(r"^\s*(?P<name>[A-Z][A-Za-z/]+(?: [A-Z][a-z]+)?)\s{2,}(?P<dmg>\d+d6(?:\+\d+| – \d+)?)\s+(?P<str>\d+)\s+(?P<src>[IPB])\s+(?P<sw>[SW])\s+(?P<tn>\d+)\s+(?P<rof>\S+)\s+(?P<range>.+?)\s{2,}(?P<cap>\S+)\s+(?P<reload>.+?)\s*$")
+
+
+def age_of_sail_weapons(pdf, pack):
+    desc = {}
+    for b in blocks(pdf, 118, 118):
+        if b[0] == "p":
+            m = re.match(r"^(Dragon|Flintlock Pistol|Broadsword/Cutlass): (.*)$", text(b[1]))
+            if m:
+                desc[m.group(1)] = m.group(2)
+    focus = None
+    for line in pdftotext(pdf, 118, 118, "-layout")[0].splitlines():
+        m = re.search(r"Focus: (.+?)\s*$", line)
+        if m:
+            focus = m.group(1)
+        m = AOS_ROW.match(line)
+        if not m:
+            continue
+        d = m.groupdict()
+        ranged = d["rof"] != "N/A"
+        dmg = d["dmg"].replace(" – ", "-")
+        n = int(dmg[0])
+        extra = int(re.search(r"([+-]\d+)$", dmg).group(1)) if re.search(r"[+-]\d+$", dmg) else 0
+        s_ = {
+            "longDesc": p(desc[d["name"]]) + p(f"Focus: {focus}. Minimum Strength {d['str']}. Resources TN {d['tn']}." + (f" Range {d['range'].rstrip('*')} yards. Reload: {d['reload']}." if ranged else "")),
+            "shortDesc": "", "useAbl": "acc" if ranged else "fight", "useFocus": focus.lower(), "minStr": int(d["str"]), "nrDice": str(n), "diceType": "6",
+            "extraValue": extra, "dmgAbl": "per" if ranged else "str", "dmgType": "wound", "dmgSource": "impact", "damageFormula": dmg,
+            "weight": 0, "cost": 0, "quantity": 1, "equiped": False, "purchaseTN": int(d["tn"]), "ranged": ranged,
+        }
+        if ranged:
+            s_.update({"rof": "singleShot", "range": 10, "rangeMax": 20, "capacity": 0, "reload": "minor"})
+        pack.item(d["name"], "weapon", s_, "fist.svg", folder=focus)
+
+
+# --------------------------------------------------------------------------- organization focuses (p82)
+
+ORG_ABILITIES = ("Might", "Wealth", "Influence", "Intrigue", "Phenomena")
+
+
+def build_focuses(pdf):
+    pack = Pack("focuses")
+    for title, _, body in entries(blocks(pdf, 82, 82), 2):
+        m = re.match(r"^(" + "|".join(ORG_ABILITIES) + r") Focuses$", title or "")
+        if not m:
+            continue
+        for t in paras(section(body)):
+            # a block holds one or several 'Name: description' entries run together
+            name_re = r"[A-Z][A-Za-z’'-]*(?: (?:and|of|the|[A-Z][A-Za-z’'-]*))*"
+            found = re.findall(rf"({name_re}): (.*?)(?= {name_re}: |$)", t)
+            assert found and " ".join(f"{n}: {d}" for n, d in found) == t, f"unparsed organization focuses: {t!r}"
+            found = [list(x) for x in found]
+            for k in range(1, len(found)):
+                if found[k][0].startswith("Scope "):       # 'within the organization’s Scope' ends the previous description
+                    found[k - 1][1] += " Scope"
+                    found[k][0] = found[k][0][len("Scope "):]
+            for name, desc in found:
+                pack.item(name, "focus", {
+                    "longDesc": p(desc), "shortDesc": "", "useAbl": "", "initialValue": 2, "improved": False, "isOrg": True,
+                }, "gift-of-knowledge.svg", folder=f"{m.group(1)} Focuses", uid=f"{m.group(1)}:{name}")
+    return pack
+
+
+# --------------------------------------------------------------------------- roll tables: events (p103) and misfortunes (p84)
+
+EVENT_TABLES = {
+    "Crime and Punishment": ["Arrest", "Corruption", "Matter of Justice", "Notorious Crime", "Organized Crime", "Terrorist Attack"],
+    "Culture": ["Artwork", "Failure", "Innovation", "Religious Movement", "Scandal", "Sporting Event"],
+    "Economics": ["Bubble", "Corporate Shift", "Economic Downturn", "Espionage", "Inequality", "Prosperity"],
+    "Politics": ["Appointment/Election", "Corruption", "Coup", "Espionage", "Militant Politics", "Political Crisis"],
+    "War and Peace": ["Coup", "Espionage", "Military Action", "Militant Politics", "Peacemaking", "Terrorist Attack"],
+    "Miscellaneous Incidents": ["Disease", "Ecological Event", "Industrial Accident", "Infrastructure Failure", "Natural Disaster", "Weirdness"],
+}
+EVENT_PROGRESS = [
+    (1, 1, "No event or change"), (2, 2, "New minor event"),
+    (3, 3, "Existing event intensity increases by one step or new minor event*"), (4, 4, "New moderate event"),
+    (5, 5, "Existing event intensity increases by two steps or new moderate event*"),
+    (6, 6, "New major event and roll again. If the second roll is a 6, it’s a new epic event instead."),
+]
+
+
+def build_campaign_events(pdf):
+    pack = Pack("campaign-events", "RollTable")
+    listed = {e["name"] for e in event_listings(pdf)}
+    table_doc(pack, "Event Progress & Intensity", "1d6", "Roll for progress or intensity of a campaign event. * If an event is active, increase its intensity as noted; if no events are active, create a new event of the listed intensity.",
+              EVENT_PROGRESS, "Campaign Events")
+    table_doc(pack, "Event Categories", "1d6", "Category of a new campaign event.",
+              [(i + 1, i + 1, c) for i, c in enumerate(EVENT_TABLES)], "Campaign Events")
+    for cat, evs in EVENT_TABLES.items():
+        missing = [e for e in evs if e not in listed]
+        assert not missing, f"events not found in the listings: {missing}"
+        table_doc(pack, f"{cat} Events", "1d6", f"Specific event of the {cat} category. See the Campaign Event Listings journal for the intensity levels and campaign hooks of each.",
+                  [(i + 1, i + 1, e) for i, e in enumerate(evs)], "Event Tables")
+    return pack
+
+
+def build_rules_tables(pdf):
+    pack = Pack("rules-tables", "RollTable")
+    lines = pdftotext(pdf, 84, 84, "-layout")[0].splitlines()
+    start = next(i for i, l in enumerate(lines) if re.match(r"^\s*2d6 Roll\s+Misfortune", l))
+    rows = []
+    for l in lines[start + 1:]:
+        if not l.strip():
+            break
+        rows.append(l)
+    mis = parse_stunt_rows(rows, False)
+    assert len(mis) == 7, f"expected 7 misfortunes, got {len(mis)}"
+    res = []
+    for e in mis:
+        m = COST.match(e["cost"].replace("–", "-"))
+        lo = int(m.group(1))
+        hi = int(m.group(2)) if m.group(2) else lo
+        res.append((lo, hi, squash(" ".join(e["text"]))))
+    table_doc(pack, "Organization Misfortunes", "2d6", "Misfortune that befalls an organization after a failed growth check.", res, "Organizations")
+    return pack
+
+
+EVENT_TAGS = {"C&P": "Crime & Punishment", "CUL": "Culture", "Econ": "Economics", "POL": "Politics", "W&P": "War & Peace", "MISC": "Miscellaneous"}
+EVENT_START = re.compile(r"^(?P<name>[A-Z][A-Za-z/&’' ]+?) (?P<tags>(?:(?:C&P|CUL|Econ|POL|W&P|MISC)(?: |$))+)$")
+
+
+def event_listings(pdf):
+    """[{name, tags, blocks}] for the campaign events of Chapter 8."""
+    out, cur = [], None
+    for b in blocks(pdf, 105, 114):
+        if b[0] == "h" and b[1] == 2 and b[2].strip() == "Event Game Effects":
+            break
+        m = EVENT_START.match(text(b[1])) if b[0] == "p" else None
+        if m:
+            cur = {"name": m.group("name"), "tags": m.group("tags").split(), "blocks": []}
+            out.append(cur)
+        elif cur is not None:
+            cur["blocks"].append(b)
+    return out
+
+
+def events_journal(pdf):
+    pages = []
+    for e in event_listings(pdf):
+        cats = ", ".join(EVENT_TAGS[t] for t in e["tags"])
+        hooks = [b for b in e["blocks"] if b[0] == "h"]
+        pages.append((e["name"], f"<p><em>Category: {esc(cats)}</em></p>" + render(e["blocks"])))
+    return pages
+
+
+# --------------------------------------------------------------------------- organizations journal (p80-90) and gm guide (p99-127)
+
+SAMPLE_ORGS = ("Cult", "Paramilitary Group", "Street Gang", "Pyramid Scheme", "Crime Syndicate", "Aristocratic House")
+
+
+def org_stats(html_):
+    return re.sub(r"<p>(Might|Wealth|Influence|Intrigue|Phenomena)(-?\d+)", r"<p><strong>\1</strong> \2", html_)
+
+
+def build_organizations(pdf):
+    pack = Pack("organizations", "JournalEntry")
+    bl = merge_lists(pdf, blocks(pdf, 80, 90))
+    cut = next(i for i, b in enumerate(bl) if b[0] == "h" and b[2].strip() == "Making & Tinkering")
+    bl = bl[:cut]
+    pages = []
+    for title, body in split_pages(bl, 2, "Organizations"):
+        if title == "Sample Organizations":
+            for t3, body3 in split_pages(body, 3, "Sample Organizations"):
+                if t3 in SAMPLE_ORGS:
+                    pages.append((t3, org_stats(render(body3))))
+        else:
+            pages.append((title, render(body)))
+    out = []
+    for t, h in pages:
+        if t in ("Might Focuses", "Wealth Focuses", "Influence Focuses", "Intrigue Focuses"):
+            continue       # these lists are items of the focuses pack
+        if t == "Phenomena Focuses":       # two sidebars are printed next to this list
+            war, ex = h.index("<p>When players think"), h.index("<p><em>The players in Meghan")
+            out += [("When Organizations Go to War", h[war:ex]), ("Example Organization: The Locomotive Busters", h[ex:])]
+            continue
+        out.append((squash(t), h))
+    journal_doc(pack, "Organizations", [(t, h) for t, h in out if h])
+    return pack
+
+
+GENRES = ("Pirates, Swashbucklers", "Nevermore:", "From Outer Space!", "Agents of ACRONYM:", "Wired & Watched")
+
+
+def build_gm_guide(pdf):
+    pack = Pack("gm-guide", "JournalEntry")
+    ch8 = merge_lists(pdf, blocks(pdf, 99, 115))
+    first = next(i for i, b in enumerate(ch8) if b[0] == "p" and EVENT_START.match(text(b[1])))
+    last = next(i for i, b in enumerate(ch8) if b[0] == "h" and b[2].strip() == "Event Game Effects")
+    journal_doc(pack, "Chapter 8: The Modern Campaign", html_pages(ch8[:first] + ch8[last:], 1))
+    journal_doc(pack, "Campaign Event Listings", events_journal(pdf))
+    ch9 = merge_lists(pdf, blocks(pdf, 116, 126))
+    pages, cur = [], ["Introduction", []]
+    for b in ch9:
+        if b[0] == "h" and b[1] == 2 and b[2].lower().startswith(tuple(g.lower() for g in GENRES)):
+            pages.append(cur)
+            cur = [squash(b[2]), []]
+        else:
+            cur[1].append(b)
+    pages.append(cur)
+    fixed = []
+    for t, body in pages:
+        if body and body[0][0] == "p" and re.match(r"^\d{4}s ", text(body[0][1])):
+            t = f"{t} {text(body[0][1])}"
+            body = body[1:]
+        if body:
+            fixed.append((t, render(body)))
+    journal_doc(pack, "Chapter 9: Genres", fixed)
+    return pack
+
+
+BUILDERS = {"talents": build_talents, "focuses": build_focuses, "campaign-events": build_campaign_events,
+            "organizations": build_organizations, "gm-guide": build_gm_guide, "rules-tables": build_rules_tables, "stunts": build_stunts, "rules-reference": build_rules_reference, "character-creation": build_creation, "creation-tables": build_creation_tables, "weapons": build_weapons,
             "enhancements": build_enhancements, "extraordinary-items": build_extraordinary_items}
 
 
