@@ -25,6 +25,11 @@ from common import (ABILITIES, Pack, crop_lines, esc, journal_doc, li, make_id, 
 ABL_PATTERN = "|".join(ABILITIES)
 
 
+def section(body):
+    """Blocks of an entry up to the next chapter or section heading (the last entry of a section runs on into it)."""
+    return body[: next((i for i, b in enumerate(body) if b[0] == "h" and b[1] <= 2), len(body))]
+
+
 def squash(s):
     return re.sub(r"\s+", " ", s).strip()
 
@@ -75,6 +80,11 @@ def build_talents(pdf):
             pack.item(title, "talent", talent_system("talent", "", desc + [note], deg), "skills.svg", folder="Existing Talents")
         elif parent == "New Talents":
             req, desc, deg = parse_talent(body)
+            pack.item(title, "talent", talent_system("talent", req, desc, deg), "skills.svg", folder="Talents")
+    # the Artificer talent of the extraordinary items chapter
+    for title, parent, body in entries(blocks(pdf, 71, 72), 3):
+        if title == "Artificer":
+            req, desc, deg = parse_talent(section(body))
             pack.item(title, "talent", talent_system("talent", req, desc, deg), "skills.svg", folder="Talents")
     # specializations: an H2 per specialization (after 'New Specializations'), with an Eras H3 and a '<Name> Talent' H3
     started = False
@@ -187,7 +197,94 @@ def build_stunts(pdf):
     return pack
 
 
-BUILDERS = {"talents": build_talents, "stunts": build_stunts}
+# --------------------------------------------------------------------------- enhancements (p62-70) and extraordinary items (p70-71)
+
+ENH_TITLE = re.compile(r"^(?P<name>.+?) (?P<source>Biology|Magic|Technology|Superpower|Any) - (?P<cost>\d+) EN$")
+ENH_MODS = {
+    "Blessing of Deflection": [("defense", "1", "+1 Defense")],
+    "Dermal Armor": [("toughness", "1", "+1 Toughness")],
+}
+
+
+def build_enhancements(pdf):
+    pack = Pack("enhancements")
+    ents = entries(blocks(pdf, 62, 71), 3)
+    for title, parent, body in ents:
+        if parent != "Sample Enhancements" or not title:
+            continue
+        m = ENH_TITLE.match(title)
+        assert m, f"unexpected enhancement heading {title!r}"
+        name, source, cost = m.group("name"), m.group("source"), m.group("cost")
+        mods = dict(modifier(k, v) for k, v, _ in ENH_MODS.get(name, []))
+        for mid, mod in mods.items():
+            mod["flavor"] = next(n for k, v, n in ENH_MODS[name] if k == mod["type"])
+        pack.item(name, "power", {
+            "longDesc": f"<p><strong>Source:</strong> {esc(source)}. <strong>Cost:</strong> {cost} EN.</p>" + render(section(body)), "shortDesc": f"{cost} EN",
+            "activate": False, "hasRoll": False, "modifiers": mods,
+        }, "gift-of-knowledge.svg", folder=f"{source} Enhancements" if source != "Any" else "Any Source")
+    return pack
+
+
+ITEM_TITLE = re.compile(r"^(?P<name>.+?) (?P<rarity>Common|Uncommon|Rare|Unique)$")
+
+
+def build_extraordinary_items(pdf):
+    pack = Pack("extraordinary-items")
+    for title, parent, body in entries(blocks(pdf, 70, 72), 3):
+        if parent != "Sample Items" or not title:
+            continue
+        m = ITEM_TITLE.match(title)
+        assert m, f"unexpected item heading {title!r}"
+        name, rarity = m.group("name"), m.group("rarity")
+        mods = {}
+        if name == "Steelcoat":
+            mods = dict([modifier("impactArmor", 6), modifier("ballisticArmor", 2)])
+        pack.item(name, "equipment", {
+            "longDesc": f"<p><strong>Rarity:</strong> {rarity}.</p>" + render(section(body)), "shortDesc": rarity, "weight": 0, "cost": 0,
+            "quantity": 1, "equiped": False, "modifiers": mods,
+        }, "briefcase.svg", folder=f"{rarity} Items")
+    return pack
+
+
+# --------------------------------------------------------------------------- explosives weapons (p96)
+
+LAUNCHER_ROW = re.compile(r"^\s*(?P<name>Grenade Launcher|Rocket Launcher)\s+(?P<dmg>\(grenade\)|\d+d6\+\d+)\s+(?P<str>\d+)\s+(?P<src>[IPB](?:/B)?)\s+(?P<sw>[SW])\s+(?P<rof>\w+)\s+(?P<range>\d+) yards\s+\S+\s+(?P<reload>.+?)\s+(?P<tn>\d+)\s*$")
+
+
+def build_weapons(pdf):
+    pack = Pack("weapons")
+    bl = blocks(pdf, 96, 96)
+    desc = {}
+    for b in bl:
+        if b[0] == "p":
+            m = re.match(r"^(Grenade Launcher|Rocket Launcher): (.*)$", text(b[1]))
+            if m:
+                desc[m.group(1)] = m.group(2)
+    focus = None
+    for line in pdftotext(pdf, 96, 96, "-layout")[0].splitlines():
+        m = re.search(r"Focus: (.+?)\s*$", line)
+        if m:
+            focus = m.group(1)
+        m = LAUNCHER_ROW.match(line)
+        if not m:
+            continue
+        d = m.groupdict()
+        grenade = d["dmg"] == "(grenade)"
+        n, dt, extra = (1, 6, 0) if grenade else (int(d["dmg"][0]), 6, int(d["dmg"].split("+")[1]))
+        reload_ = "major" if "Major" in d["reload"] else "minor"
+        note = "<p>Damage is the same as the equivalent thrown grenade.</p>" if grenade else ""
+        pack.item(d["name"], "weapon", {
+            "longDesc": p(desc[d["name"]]) + note + p(f"Focus: {focus}. Minimum Strength {d['str']}. Range {d['range']} yards. Reload: {d['reload']}. Resources TN {d['tn']}."),
+            "shortDesc": "", "useAbl": "acc", "useFocus": focus.lower(), "minStr": int(d["str"]), "nrDice": "0" if grenade else str(n), "diceType": str(dt),
+            "extraValue": extra, "dmgAbl": "no-abl", "dmgType": "wound", "dmgSource": "ballistic" if grenade else "impact",
+            "damageFormula": "0" if grenade else d["dmg"], "weight": 0, "cost": 0, "quantity": 1, "equiped": False, "purchaseTN": int(d["tn"]),
+            "ranged": True, "rof": "singleShot", "range": int(d["range"]), "rangeMax": int(d["range"]) * 2, "capacity": 0, "reload": reload_,
+        }, "fist.svg", folder=focus)
+    return pack
+
+
+BUILDERS = {"talents": build_talents, "stunts": build_stunts, "weapons": build_weapons,
+            "enhancements": build_enhancements, "extraordinary-items": build_extraordinary_items}
 
 
 def main():
