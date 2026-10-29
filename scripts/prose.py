@@ -14,6 +14,8 @@ LINE_TOL = 7          # elements within this many units vertically are on the sa
 PARA_GAP = 21         # a vertical step bigger than this between two lines starts a new paragraph
 CELL_GAP = 22         # horizontal gap between two elements of a line above which they are table cells
 FOOTER_TOP = 1095
+ACCENT = ("#0076a7", "#9d0651")   # accent colour of the book (blue in Modern AGE, magenta in the Cyberpunk Slice)
+BODY = ("#1d1d1b", "#231f20")
 
 TEXT = re.compile(r'<text top="(-?\d+)" left="(-?\d+)" width="(\d+)" height="(\d+)" font="(\d+)">(.*?)</text>', re.S)
 FONT = re.compile(r'<fontspec id="(\d+)" size="(\d+)" family="([^"]*)" color="([^"]*)"')
@@ -49,7 +51,7 @@ def heading_level(el):
         return 1
     if s == 30 or s == 21:
         return 2
-    if s == 18 and el["color"] == "#0076a7":
+    if s == 18 and el["color"] in ACCENT:
         return 6   # a formula shown in blue
     if s == 18:
         return 3
@@ -76,7 +78,7 @@ def fix_small_caps(els):
             continue
         if e["size"] == 9:
             e["html"] = _case(e["html"], str.lower)
-        elif e["size"] == 14 and e["color"] in ("#0076a7", "#00638d", "#1d1d1b") and "<b>" in e["html"]:
+        elif e["size"] == 14 and e["color"] != "#ffffff" and re.fullmatch(r"\s*<b>[^<]*</b>\s*", e["html"]):
             e["html"] = _case(e["html"], str.upper)
 
 
@@ -155,6 +157,11 @@ def cells_of(ln):
 class Words:
     def __init__(self, text):
         self.known = set(re.findall(r"\b[a-z]{3,}\b", text))
+        try:   # a system word list (Debian: wamerican) decides line-end hyphens in words the book uses only once
+            with open("/usr/share/dict/words", encoding="utf-8") as f:
+                self.dictionary = {w.strip().lower() for w in f if w.strip().isalpha()}
+        except OSError:
+            self.dictionary = set()
 
     def join(self, left, right):
         l, r = left.rstrip(), right.lstrip()
@@ -163,7 +170,8 @@ class Words:
             stem = pl[:-1]
             first = re.match(r"[A-Za-z]*", pr).group(0).lower()
             last = re.split(r"[^A-Za-z]", stem)[-1].lower()
-            drop = (last + first) in self.known or not (last in self.known and first in self.known)
+            joined = last + first
+            drop = joined in self.known or joined in self.dictionary or not (last in self.known and first in self.known)
             if drop:
                 l = re.sub(r"-((?:</[a-z]+>)*)$", r"\1", l)
             return l + r
@@ -195,6 +203,14 @@ def blocks_from_page(els, words):
             if not plain(text).strip():
                 continue
             lvl = heading_level(ln["els"][0])
+            if lvl and len(ln["els"]) > 1 and all(e["color"] == "#ffffff" and e["size"] <= 12 for e in ln["els"][1:]):
+                # sidebar entry: heading plus a small prerequisite line on the same row
+                flush_para()
+                flush_rows()
+                out.append(("h", 4, plain(convert_markup(ln["els"][0]["html"])).strip()))
+                out.append(["p", "<em>" + " ".join(plain(convert_markup(e["html"])).strip() for e in ln["els"][1:]) + "</em>"])
+                prev_top = ln["top"]
+                continue
             if lvl and all(heading_level(e) for e in ln["els"]):
                 flush_para()
                 flush_rows()

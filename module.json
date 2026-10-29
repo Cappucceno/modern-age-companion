@@ -1,7 +1,7 @@
 {
-  "id": "modern-age-compendium",
-  "title": "Modern AGE Compendium for AGE System",
-  "description": "Compendium content of Modern AGE converted for the AGE System (age-system). Skeleton: packs are empty until content is added.",
+  "id": "modern-age-companion-compendium",
+  "title": "Modern AGE Companion Compendium for AGE System",
+  "description": "Compendium content of the Modern AGE Companion converted for the AGE System (age-system): talents, specializations, stunts, enhancements, extraordinary items, backgrounds, organizations, campaign events and optional rules.",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "14.367",
@@ -31,65 +31,37 @@
   "packs": [
     {
       "name": "talents",
-      "label": "Talents",
+      "label": "Companion Talents",
       "path": "packs/talents",
       "type": "Item",
       "system": "age-system"
     },
     {
-      "name": "focuses",
-      "label": "Ability Focuses",
-      "path": "packs/focuses",
-      "type": "Item",
-      "system": "age-system"
-    },
-    {
       "name": "stunts",
-      "label": "Stunts",
+      "label": "Companion Stunts",
       "path": "packs/stunts",
       "type": "Item",
       "system": "age-system"
     },
     {
-      "name": "powers",
-      "label": "Extraordinary Powers",
-      "path": "packs/powers",
+      "name": "enhancements",
+      "label": "Enhancements",
+      "path": "packs/enhancements",
       "type": "Item",
       "system": "age-system"
     },
     {
       "name": "weapons",
-      "label": "Weapons",
+      "label": "Explosives and Weapons",
       "path": "packs/weapons",
       "type": "Item",
       "system": "age-system"
     },
     {
-      "name": "armor",
-      "label": "Armor",
-      "path": "packs/armor",
+      "name": "extraordinary-items",
+      "label": "Extraordinary Items",
+      "path": "packs/extraordinary-items",
       "type": "Item",
-      "system": "age-system"
-    },
-    {
-      "name": "equipment",
-      "label": "Equipment",
-      "path": "packs/equipment",
-      "type": "Item",
-      "system": "age-system"
-    },
-    {
-      "name": "vehicles",
-      "label": "Vehicles",
-      "path": "packs/vehicles",
-      "type": "Actor",
-      "system": "age-system"
-    },
-    {
-      "name": "adversaries",
-      "label": "Sample Adversaries",
-      "path": "packs/adversaries",
-      "type": "Actor",
       "system": "age-system"
     },
     {
@@ -121,16 +93,30 @@
       "system": "age-system"
     },
     {
+      "name": "organizations",
+      "label": "Organizations",
+      "path": "packs/organizations",
+      "type": "JournalEntry",
+      "system": "age-system"
+    },
+    {
+      "name": "campaign-events",
+      "label": "Campaign Events",
+      "path": "packs/campaign-events",
+      "type": "RollTable",
+      "system": "age-system"
+    },
+    {
       "name": "gm-guide",
-      "label": "Game Master Chapters",
+      "label": "Campaign and Genre Chapters",
       "path": "packs/gm-guide",
       "type": "JournalEntry",
       "system": "age-system"
     }
   ],
-  "url": "https://github.com/Cappucceno/modern-age-compendium",
+  "url": "https://github.com/Cappucceno/modern-age-companion-compendium",
   "license": "LICENSE.txt",
-  "manifest": "https://raw.githubusercontent.com/Cappucceno/modern-age-compendium/main/module.json",
-  "download": "https://github.com/Cappucceno/modern-age-compendium/releases/download/v0.1.0/module.zip",
-  "bugs": "https://github.com/Cappucceno/modern-age-compendium/issues"
+  "manifest": "https://raw.githubusercontent.com/Cappucceno/modern-age-companion-compendium/main/module.json",
+  "download": "https://github.com/Cappucceno/modern-age-companion-compendium/releases/download/v0.1.0/module.zip",
+  "bugs": "https://github.com/Cappucceno/modern-age-companion-compendium/issues"
 }

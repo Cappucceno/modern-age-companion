@@ -22,16 +22,16 @@ jobs:
           [ "v$version" = "${{ inputs.tag }}" ] || { echo "module.json version $version does not match ${{ inputs.tag }}"; exit 1; }
       - name: Build module.zip
         run: |
-          mkdir -p build/modern-age-compendium/scripts build/modern-age-compendium/packs
-          cp module.json LICENSE.txt NOTICE.md README.md build/modern-age-compendium/
-          cp scripts/babele.js build/modern-age-compendium/scripts/
-          cp -r lang build/modern-age-compendium/
-          for d in packs/*/; do [ "$(basename "$d")" = "_source" ] || cp -r "$d" build/modern-age-compendium/packs/; done
-          cd build/modern-age-compendium && zip -qr ../../module.zip .
+          mkdir -p build/modern-age-companion-compendium/scripts build/modern-age-companion-compendium/packs
+          cp module.json LICENSE.txt NOTICE.md README.md build/modern-age-companion-compendium/
+          cp scripts/babele.js build/modern-age-companion-compendium/scripts/
+          cp -r lang build/modern-age-companion-compendium/
+          for d in packs/*/; do [ "$(basename "$d")" = "_source" ] || cp -r "$d" build/modern-age-companion-compendium/packs/; done
+          cd build/modern-age-companion-compendium && zip -qr ../../module.zip .
       - name: Publish release
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh release create "${{ inputs.tag }}" module.zip module.json \
             --target "${{ github.sha }}" --title "${{ inputs.tag }}" \
-            --notes "First Modern AGE compendium release for the AGE System: focuses, talents, stunts, powers, equipment, vehicles, adversaries, character creation, rules and GM journals. Not tested in Foundry yet."
+            --notes "Work in progress release of the Modern AGE Companion compendium for the AGE System. Not tested in Foundry yet."
