@@ -93,7 +93,101 @@ def build_talents(pdf):
     return pack
 
 
-BUILDERS = {"talents": build_talents}
+# --------------------------------------------------------------------------- stunts (p46, p58-61, p73-74)
+
+COST = re.compile(r"^(\d+)(?:[–-](\d+)|(\+))?$")
+NAME = re.compile(r"^[A-Z“][^:]{1,48}: ")
+# (PDF page, table heading override) -> stunt type; tables are found by their 'SP Cost ... Stunt' header
+STUNT_PAGES = {46: "Battle Map", 58: "General", 59: "Environmental", 60: "Environmental", 61: "Thematic", 73: "Intensity", 74: "Intensity"}
+
+
+def stunt_tables(pdf, page):
+    """[(heading, [(cost, setting, text)])] for each 'SP Cost / Stunt' table on a page, read from the layout text."""
+    lines = pdftotext(pdf, page, page, "-layout")[0].splitlines()
+    out, i = [], 0
+    while i < len(lines):
+        if re.match(r"^\s*SP(\s*Cost\b|\s{2,}Stunt\s*$)", lines[i]) or lines[i].strip() == "SP":
+            j = i - 1
+            while j >= 0 and not lines[j].strip():
+                j -= 1
+            heading = lines[j].strip() if j >= 0 else ""
+            themed = "Genre/Setting" in lines[i]
+            rows = []
+            k = i + 1
+            if lines[i].strip() == "SP" or lines[i].strip().startswith("SP") and "Cost" not in lines[i]:       # the header wraps onto a second line ("Cost")
+                k += 1
+            while k < len(lines) and lines[k].strip() and not lines[k].strip().startswith("Chapter "):
+                rows.append(lines[k])
+                k += 1
+            out.append((heading, themed, rows))
+            i = k
+        i += 1
+    return out
+
+
+def parse_stunt_rows(rows, themed):
+    entries_, cur = [], None
+    starts = [len(r) - len(r.lstrip()) for r in rows if NAME.match(r.lstrip()) or re.match(r"^\s*\S+\s{2,}.*", r)]
+    # the text column starts where the first stunt name starts
+    col = None
+    for r in rows:
+        m = re.match(r"^(\s*(?:\S+\s{2,})?(?:[A-Z][A-Za-z/ ]+?\s{2,})?)([A-Z“][^:]{1,48}: .*)$", r)
+        if m and (col is None or len(m.group(1)) >= 6):
+            col = len(m.group(1)) if col is None else col
+            break
+    for r in rows:
+        left, right = r[:col].strip(), r[col:].strip()
+        if not right and left:
+            right = ""
+        new = NAME.match(right) and (cur is None or re.search(r"[.)”]$", cur["text"][-1]) and not cur["text"][-1].endswith("(General"))
+        if new:
+            cur = {"cost": "", "setting": "", "text": [right]}
+            entries_.append(cur)
+        elif cur is not None and right:
+            cur["text"].append(right)
+        parts = re.split(r"\s{2,}", left) if left else []
+        for part in parts:
+            if COST.match(part) and not cur["cost"]:
+                cur["cost"] = part
+            elif part:
+                cur["setting"] = (cur["setting"] + " " + part).strip()
+    return entries_
+
+
+def build_stunts(pdf):
+    pack = Pack("stunts")
+    for page, kind in STUNT_PAGES.items():
+        for heading, themed, rows in stunt_tables(pdf, page):
+            for e in parse_stunt_rows(rows, themed):
+                full = squash(" ".join(e["text"]))
+                name, desc = full.split(": ", 1)
+                m = COST.match(e["cost"])
+                assert m, f"no SP cost for {name!r} (page {page})"
+                lo = int(m.group(1))
+                hi = int(m.group(2)) if m.group(2) else lo
+                plus = bool(m.group(3))
+                if themed:
+                    folder, desc = "Thematic Stunts", f"<em>{esc(e['setting'])}.</em> " + esc(desc)
+                elif kind == "Environmental":
+                    folder, desc = "Environmental Stunts", esc(desc)
+                elif kind == "General":
+                    folder, desc = "General Stunts", esc(desc)
+                elif kind == "Intensity":
+                    folder, desc = "Intensity Stunts", esc(desc)
+                else:
+                    folder, desc = "Battle Map Stunts", esc(desc)
+                if kind == "Environmental":
+                    desc = f"<em>{esc(heading)}.</em> " + desc
+                if plus:
+                    desc += " <em>(Cost " + e["cost"] + " SP.)</em>"
+                pack.item(name, "stunts", {
+                    "longDesc": f"<p>{desc}</p>", "shortDesc": "", "type": folder, "stuntPoints": lo,
+                    "stuntPointsMax": hi, "costType": "variable" if hi > lo or plus else "fixed",
+                }, "split-cross.svg", folder=folder, uid=f"{heading}:{name}")
+    return pack
+
+
+BUILDERS = {"talents": build_talents, "stunts": build_stunts}
 
 
 def main():
