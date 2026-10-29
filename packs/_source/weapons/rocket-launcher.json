@@ -1,0 +1,44 @@
+{
+  "name": "Rocket Launcher",
+  "_id": "38966a9a3b83f09c",
+  "_key": "!items!38966a9a3b83f09c",
+  "folder": "157a3913431eb231",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>This represents a number of shoulder-fired missile launchers. The most sophisticated versions fire guided missiles. These provide a +1 to +3 bonus to attack rolls when the operator uses the Aim action before firing. This is in addition to the bonus granted by Aim itself. Examples: AT4, RPG-7 and successors. Note that the range is in the middle ground for these weapons. Newer weapons will have a longer range.</p><p>Focus: Longarms. Minimum Strength 3. Range 200 yards. Reload: 1d6 Minor. Resources TN 15.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "longarms",
+    "minStr": 3,
+    "nrDice": "3",
+    "diceType": "6",
+    "extraValue": 6,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "impact",
+    "damageFormula": "3d6+6",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 15,
+    "ranged": true,
+    "rof": "singleShot",
+    "range": 200,
+    "rangeMax": 400,
+    "capacity": 0,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

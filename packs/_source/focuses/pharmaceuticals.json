@@ -1,0 +1,27 @@
+{
+  "name": "Pharmaceuticals",
+  "_id": "c390ad120171b2ae",
+  "_key": "!items!c390ad120171b2ae",
+  "folder": "f5ec05e93ddc0560",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>An organization’s depth of medical supplies, either legal or illegal</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

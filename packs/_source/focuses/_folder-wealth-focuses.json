@@ -1,0 +1,17 @@
+{
+  "name": "Wealth Focuses",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "f5ec05e93ddc0560",
+  "_key": "!folders!f5ec05e93ddc0560",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

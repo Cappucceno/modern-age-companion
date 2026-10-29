@@ -1,0 +1,17 @@
+{
+  "name": "Existing Talents",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "67cbab7b9f8216ae",
+  "_key": "!folders!67cbab7b9f8216ae",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Intrigue Focuses",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "e5f2a0037b6e2262",
+  "_key": "!folders!e5f2a0037b6e2262",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

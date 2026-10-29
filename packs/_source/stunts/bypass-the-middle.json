@@ -1,0 +1,27 @@
+{
+  "name": "Bypass the Middle",
+  "_id": "82afb3b24b534804",
+  "_key": "!items!82afb3b24b534804",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>In addition to achieving a social goal with your target, your target will introduce you or step aside to allow you to contact someone they’re connected to. Either your target or the third party must be someone you share a Relationship with.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

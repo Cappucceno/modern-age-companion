@@ -1,0 +1,27 @@
+{
+  "name": "Risk",
+  "_id": "d2edea14efd597be",
+  "_key": "!items!d2edea14efd597be",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Regain the SP you spent on this stunt, plus 1 more, to spend on any other stunts that fit your action. In exchange, suffer a major drawback with consequences that persist beyond this encounter.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

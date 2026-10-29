@@ -1,47 +1,42 @@
-# Modern AGE Compendium for AGE System
+# Modern AGE Companion Compendium for AGE System
 
 A Foundry VTT v14 **module** for the [AGE System (unofficial)](https://github.com/vkdolea/age-system) (`age-system` 5.0.0+),
-meant to carry the compendium content of **Modern AGE**, converted to AGE System item and actor types.
-It follows the same layout as the [Expanse compendium](https://github.com/Cappucceno/expanse-age-compendium).
+with the content of the **Modern AGE Companion** (GRR6304) converted to AGE System item types, roll tables and journals.
+It is a companion to the [Modern AGE Compendium](https://github.com/Cappucceno/modern-age-compendium) (Basic Rulebook) and only holds Companion material.
 
-**Status: work in progress.** Converted so far from the *Modern AGE Basic Rulebook*: 89 ability focuses, 54 talents and specializations, 114 stunts,
-40 weapons, 6 armors and 2 shields, 12 vehicles, 41 equipment items (adventuring gear and lifestyle), 33 sample adversaries,
-the Chapter 1 character creation data (4 social classes, 12 backgrounds, 24 professions, 12 drives as journals; 24 roll tables),
-and the running text of Chapters 1, 2, 4, 5 (rules), 7, 8, 9 (introduction), 10 and 11 as journals (108 pages).
-A "Rules Tables" journal with 9 clean lookup tables (test difficulty, cover, attitudes, chase difficulty, hazards, Resources score, XP by level,
-threat level, velocity classes) and two rollable tables (NPC attitude 3d6, hazard category 1d6). The powers of Chapter 6 are in the `powers` pack (64 `power` items in 16 folders: 8 arcana and 8 psychic disciplines),
-with 16 power talents in `talents`, 11 power stunts in `stunts` and the rules text in the Rules Reference. Nothing from the Basic Rulebook is left out except
-Chapter 3's talent/focus lists (already converted as items) and the appendices.
+**Status: work in progress, not tested in Foundry yet.** Converted so far:
 
-Journal text is rebuilt from the PDF by position and font (`scripts/prose.py`): headings, bold/italic, bullets and simple tables
-are recognised, but complex tables and sidebars can come out imperfect, and stat blocks inside the text are left out.
-
-| Compendium | Planned content (AGE type) |
+| Compendium | Content |
 |---|---|
-| Talents / Ability Focuses / Stunts | `talent`, `focus`, `stunts` items |
-| Weapons / Armor / Equipment | `weapon` and `equipment` items |
-| Vehicles / Sample Adversaries | `spaceship`/vehicle and `char` actors |
-| Character Creation Guide / Tables, GM Chapters, Rules Reference / Tables | journals and roll tables |
+| Companion Talents | 9 new talents, the Artificer item talent, 7 new specializations (Novice to Apex degrees) and the Grandmaster/Apex degrees of Intrigue, Knowledge and Tactical Awareness |
+| Companion Stunts | 22 general, 14 environmental, 12 thematic, 7 battle-map, 14 intensity and 29 organization stunts (SP costs as items) |
+| Organization Focuses | 35 organization focuses (`isOrg`) for Might, Wealth, Influence, Intrigue and Phenomena |
+| Enhancements | 17 sample enhancements (two with Defense/Toughness modifiers) |
+| Extraordinary Items | 6 sample items (Steelcoat with armor modifiers) |
+| Explosives and Weapons | Grenade Launcher, Rocket Launcher and the Age of Sail weapons |
+| Character Creation Guide / Tables | Chapter 1 text, 8 origin backgrounds, 7 peoples, and 20 roll tables (benefit tables, social class and updated background tables) |
+| Rules Reference / Rules Tables | Chapters 2 to 7 as journals (with clean equipment quality tables) and the Organization Misfortunes table |
+| Organizations | Organization rules and the 6 sample organizations |
+| Campaign Events | Event progress, category and 6 event tables; 30 event listings with intensity levels and hooks are in the GM journals |
+| Campaign and Genre Chapters | Chapter 8 (complications, serendipity, events) and the five genre chapters of Chapter 9 |
+
+Journal text is rebuilt from the PDF by position and font (`scripts/prose.py`); complex tables and sidebars can come out imperfect
+(the damage conversion tables of Chapter 3 are the main example), and stat blocks inside the genre chapters are left as text.
 
 ## Building
-Requires `poppler-utils` (`pdftotext`), Python 3 and Node.
+Requires `poppler-utils` (`pdftotext`, `pdftohtml`), Python 3 and Node.
 ```bash
 npm install
-python3 scripts/convert.py "/path/to/Modern_AGE_Basic_Rulebook.pdf"   # PDF -> packs/_source/*.json (not stored in the repo)
-npm run build                                                         # packs/_source -> packs/<pack> (LevelDB)
+python3 scripts/convert.py "/path/to/Modern_AGE_Companion.pdf"   # PDF -> packs/_source/*.json
+npm run build                                                    # packs/_source -> packs/<pack> (LevelDB)
 ```
-`--only focuses,talents,weapons,armor,stunts,vehicles,equipment,adversaries,character-creation,creation-tables,rules-reference,gm-guide,rules-tables,powers` converts a subset. The converter reads PDF pages directly, so it is tied to the
-GRR6301 edition of the book.
-
-Pack sources go in `packs/_source/<pack>/` (one JSON per document, `_folder-*.json` for folders, as in the Expanse module).
-Compiled LevelDB packs go in `packs/<pack>/`.
+The converter reads PDF pages directly, so it is tied to the GRR6304 edition of the book.
 
 ## Install
-Manifest URL (once a release `v0.1.0` with `module.zip` exists):
-`https://raw.githubusercontent.com/Cappucceno/modern-age-compendium/main/module.json`
+Manifest URL (once release `v0.1.0` with `module.zip` exists):
+`https://raw.githubusercontent.com/Cappucceno/modern-age-companion-compendium/main/module.json`
 
-Manual install: put this folder in `Data/modules/` **named `modern-age-compendium`**.
+Manual install: put this folder in `Data/modules/` **named `modern-age-companion-compendium`**.
 
 ## Notes
-- Not tested inside Foundry. Empty packs are declared in `module.json`; Foundry creates them on first load.
-- See [NOTICE.md](NOTICE.md) for copyright and credits.
+- See [NOTICE.md](NOTICE.md) for copyright and credits. Do not make this repository public without permission to redistribute the book's content.

@@ -1,0 +1,27 @@
+{
+  "name": "High Morale",
+  "_id": "f5352efd86cc1f79",
+  "_key": "!items!f5352efd86cc1f79",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Gain a +2 bonus to the next action the organization takes.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

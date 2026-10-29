@@ -1,0 +1,183 @@
+{
+  "name": "Orc Cultural Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cultural benefits table of the Orc people.",
+  "results": [
+    {
+      "_id": "e895f60468bc98d0",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.e895f60468bc98d0"
+    },
+    {
+      "_id": "a72bb3de281c25cf",
+      "type": "text",
+      "name": "Focus: Strength (Intimidation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.a72bb3de281c25cf"
+    },
+    {
+      "_id": "3ad6b39b549e7ad9",
+      "type": "text",
+      "name": "Focus: Constitution (Stamina)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.3ad6b39b549e7ad9"
+    },
+    {
+      "_id": "7384a43057434f8e",
+      "type": "text",
+      "name": "Focus: Perception (Smelling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.7384a43057434f8e"
+    },
+    {
+      "_id": "d0df353784c816ac",
+      "type": "text",
+      "name": "+1 Fighting",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.d0df353784c816ac"
+    },
+    {
+      "_id": "3de079c24c27e9f1",
+      "type": "text",
+      "name": "Focus: Constitution (Running)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.3de079c24c27e9f1"
+    },
+    {
+      "_id": "d4fca957e4e2baf8",
+      "type": "text",
+      "name": "Focus: Fighting (Brawling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.d4fca957e4e2baf8"
+    },
+    {
+      "_id": "07b1aab518d95acb",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!eb89008217655f96.07b1aab518d95acb"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "2bbb2de98f10323e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "eb89008217655f96",
+  "_key": "!tables!eb89008217655f96"
+}

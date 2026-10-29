@@ -1,0 +1,27 @@
+{
+  "name": "Charm Offensive",
+  "_id": "d370ee1f98480c66",
+  "_key": "!items!d370ee1f98480c66",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You draw upon your Bond to lower your target’s defenses. They must share a Relationship either with you or with someone else who shares a Relationship with you. The target suffers a –2 modifier to Willpower tests for the remainder of the encounter.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

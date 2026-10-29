@@ -1,0 +1,27 @@
+{
+  "name": "Strafe (Automatic Weapons)",
+  "_id": "d511e77f4ca38c91",
+  "_key": "!items!d511e77f4ca38c91",
+  "folder": "49bfa21f5309a8c1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You gain 1 Move Point per SP spent which you must use to move in any direction, and apply your attack along a number of adjacent 1-inch square areas (such as squares or hexes) in a straight line, equal to the distance in map inches you moved using this stunt. You cannot exclude any target in that line. If these additional targets would be hit by your attack roll, they take half damage (rounded up).</p>",
+    "shortDesc": "",
+    "type": "Battle Map Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

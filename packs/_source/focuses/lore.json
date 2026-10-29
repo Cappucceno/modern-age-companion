@@ -1,0 +1,27 @@
+{
+  "name": "Lore",
+  "_id": "e72813b9d69ea8b5",
+  "_key": "!items!e72813b9d69ea8b5",
+  "folder": "16f91dce3cc40315",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used to research forbidden secrets and deal with otherworldly menaces</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Amphibious Specialists",
+  "_id": "338ad44f74ae913f",
+  "_key": "!items!338ad44f74ae913f",
+  "folder": "6b70b3472b97090b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Soldiers trained in attacking on and from bodies of water</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

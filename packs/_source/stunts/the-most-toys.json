@@ -1,0 +1,27 @@
+{
+  "name": "The Most Toys",
+  "_id": "13048dd8f27981b0",
+  "_key": "!items!13048dd8f27981b0",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Postapocalyptic.</em> You use your action to hoard resources or valuables—what passes for valuable these days, anyway. On your next test in this encounter that would require a social focus, you may substitute your current Resources instead. (General Stunt: Improvisation)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

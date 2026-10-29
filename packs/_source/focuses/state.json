@@ -1,0 +1,27 @@
+{
+  "name": "State",
+  "_id": "67044d9122c36893",
+  "_key": "!items!67044d9122c36893",
+  "folder": "1c0bfac73a080558",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used when dealing with politicians, aristocracy, or government bodies</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

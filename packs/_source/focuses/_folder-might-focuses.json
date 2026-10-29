@@ -1,0 +1,17 @@
+{
+  "name": "Might Focuses",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "6b70b3472b97090b",
+  "_key": "!folders!6b70b3472b97090b",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

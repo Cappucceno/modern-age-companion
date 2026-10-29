@@ -1,0 +1,17 @@
+{
+  "name": "Magic Enhancements",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "29168708aa8a74ad",
+  "_key": "!folders!29168708aa8a74ad",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

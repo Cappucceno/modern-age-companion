@@ -1,0 +1,143 @@
+{
+  "name": "Crime and Punishment Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Specific event of the Crime and Punishment category. See the Campaign Event Listings journal for the intensity levels and campaign hooks of each.",
+  "results": [
+    {
+      "_id": "bfe526c87315390f",
+      "type": "text",
+      "name": "Arrest",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!ff0bf892e202e0e4.bfe526c87315390f"
+    },
+    {
+      "_id": "7dfc4e8e2347d909",
+      "type": "text",
+      "name": "Corruption",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!ff0bf892e202e0e4.7dfc4e8e2347d909"
+    },
+    {
+      "_id": "cd0bac6a8eab4722",
+      "type": "text",
+      "name": "Matter of Justice",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!ff0bf892e202e0e4.cd0bac6a8eab4722"
+    },
+    {
+      "_id": "00aa9dd2195cd38e",
+      "type": "text",
+      "name": "Notorious Crime",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!ff0bf892e202e0e4.00aa9dd2195cd38e"
+    },
+    {
+      "_id": "8b07ff6a6648f607",
+      "type": "text",
+      "name": "Organized Crime",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!ff0bf892e202e0e4.8b07ff6a6648f607"
+    },
+    {
+      "_id": "625776c34def090f",
+      "type": "text",
+      "name": "Terrorist Attack",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!ff0bf892e202e0e4.625776c34def090f"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e52645d109d8620d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "ff0bf892e202e0e4",
+  "_key": "!tables!ff0bf892e202e0e4"
+}

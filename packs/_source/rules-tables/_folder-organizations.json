@@ -1,0 +1,17 @@
+{
+  "name": "Organizations",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "91057edc5c4e6ebc",
+  "_key": "!folders!91057edc5c4e6ebc",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

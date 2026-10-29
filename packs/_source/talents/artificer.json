@@ -1,0 +1,47 @@
+{
+  "name": "Artificer",
+  "_id": "1cd65d3c46117844",
+  "_key": "!items!1cd65d3c46117844",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can make extraordinary items associated with a particular source, such as magic, super-science, or alternative technology.</p>",
+    "shortDesc": "",
+    "requirement": "Maker talent (Expert degree or better)",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can produce temporary extraordinary items. The process is an advanced test of the appropriate manufacturing focus (see the MAKER talent in Modern AGE). The TN is 10 +1 per benefit the item grants, while the success threshold is 5 for a common item, 10 for an uncommon item, and 15 for a rare item. Each test requires 6 hours of work, and the process requires materials with a Resources test TN equal to the TN to make the item (10 + 1 per benefit). You can stop and resume work as you wish until the success threshold is achieved. If you fail more than two tests in a row, the item is ruined; any materials are lost, and you have to start the process again from the beginning.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can produce lasting extraordinary items. This process is also an advanced test of the appropriate manufacturing focus, with a TN of 12 + 1 per benefit the item grants and a success threshold of 10 for a common item or 15 for an uncommon item. You cannot make rare or unique items. Each test requires 40 hours of work, and the process requires materials with a Resources test TN equal to the TN to make the item. If you fail more than two tests in a row, the item is ruined; any materials are lost, and you have to start the process again from the beginning. Additionally, you can jury-rig common items, if that is an option in the setting (see JURY- RIGGING).</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>The same benefits as Expert, except you can also make rare items with a success threshold of 20 and unique items with a success threshold of 25. You can also jury-rig uncommon and rare items, if allowed.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

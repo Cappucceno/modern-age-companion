@@ -1,0 +1,27 @@
+{
+  "name": "Monkey Wrench",
+  "_id": "5c9b2d3a73eb8de6",
+  "_key": "!items!5c9b2d3a73eb8de6",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Clockwork Engine Stunts.</em> If you have the Intelligence (Tinkering) or Strength (Machining) focus, regain the SP you spent on this stunt, plus 1 more, to spend on any other stunts that fit your action. With this test, you halt the clockwork’s motion long enough to do what you must, but at the end of the next round, anyone (including you) within 5 yards of your location when you used this stunt takes 3d6 damage as the contraption whirls out of control. (General Stunt: Risk)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

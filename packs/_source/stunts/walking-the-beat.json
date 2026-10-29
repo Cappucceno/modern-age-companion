@@ -1,0 +1,27 @@
+{
+  "name": "Walking the Beat",
+  "_id": "1cd3ec625b805b19",
+  "_key": "!items!1cd3ec625b805b19",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>City Streets Stunts.</em> You know this neighborhood—and its regular scum—like the back of your hand. Make a Communication (Investigation) test with the same TN as the test you just made to learn one important connection a character present has in this city. You may choose this stunt multiple times per roll. (General Stunt: Acumen)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

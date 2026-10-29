@@ -1,0 +1,17 @@
+{
+  "name": "Background Tables",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 300000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "584b4ccda76f538e",
+  "_key": "!folders!584b4ccda76f538e",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

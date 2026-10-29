@@ -59,6 +59,8 @@ def stunt_corpus(pdf):
                     words += toks(r)
                 for e in parse_stunt_rows(rows, themed):
                     names.add(" ".join(toks(squash(" ".join(e["text"])).split(": ", 1)[0])))
+        for page in (92, 93):       # the equipment quality tables are rebuilt separately, their garbled copies are dropped too
+            words += toks(" ".join(pdftotext(pdf, page, page, "-layout")[0].splitlines()))
         _CORPUS["grams"] = {tuple(words[i:i + 3]) for i in range(len(words) - 2)}
         _CORPUS["names"] = names
     return _CORPUS["grams"], _CORPUS["names"]
@@ -515,14 +517,14 @@ def build_rules_reference(pdf):
     pack = Pack("rules-reference", "JournalEntry")
     drop = stunt_dropper(pdf)
     names = talent_headings(pdf) | set(SPECS)
-    journal_doc(pack, "Introduction", html_pages(blocks(pdf, 4, 5), 1))
-    journal_doc(pack, "Chapter 2: Talents and Specializations", html_pages(blocks(pdf, 22, 33), 1, skip=names | {"Artificer"}))
-    journal_doc(pack, "Chapter 3: Rules", html_pages([b for b in blocks(pdf, 34, 55) if not drop(b)], 1))
-    journal_doc(pack, "Chapter 4: Stunts", html_pages([b for b in blocks(pdf, 56, 61) if not drop(b)], 1, cut_after="Thematic stunts may apply all the time"))
+    journal_doc(pack, "Introduction", html_pages(merge_lists(pdf, blocks(pdf, 4, 5)), 1))
+    journal_doc(pack, "Chapter 2: Talents and Specializations", html_pages(merge_lists(pdf, blocks(pdf, 22, 33)), 1, skip=names | {"Artificer"}))
+    journal_doc(pack, "Chapter 3: Rules", html_pages([b for b in merge_lists(pdf, blocks(pdf, 34, 55)) if not drop(b)], 1))
+    journal_doc(pack, "Chapter 4: Stunts", html_pages([b for b in merge_lists(pdf, blocks(pdf, 56, 61)) if not drop(b)], 1, cut_after="Thematic stunts may apply all the time"))
     enh = {t for t, par, _ in entries(blocks(pdf, 62, 71), 3) if par in ("Sample Enhancements", "Sample Items")}
-    journal_doc(pack, "Chapter 5: Extraordinary Abilities", html_pages([b for b in blocks(pdf, 62, 72) if not drop(b)], 1, skip=enh | {"Artificer"}))
-    journal_doc(pack, "Chapter 6: Social Options", html_pages([b for b in blocks(pdf, 72, 79) if not drop(b)], 1))
-    journal_doc(pack, "Chapter 7: Technology", html_pages([b for b in blocks(pdf, 90, 98) if not drop(b)], 1))
+    journal_doc(pack, "Chapter 5: Extraordinary Abilities", html_pages([b for b in merge_lists(pdf, blocks(pdf, 62, 72)) if not drop(b)], 1, skip=enh | {"Artificer"}))
+    journal_doc(pack, "Chapter 6: Social Options", html_pages([b for b in merge_lists(pdf, blocks(pdf, 72, 79)) if not drop(b)], 1))
+    journal_doc(pack, "Chapter 7: Technology", html_pages(merge_lists(pdf, blocks(pdf, 90, 91) + blocks(pdf, 94, 98)), 1) + [("Equipment Qualities", qualities_html(pdf))])
     return pack
 
 
@@ -735,6 +737,75 @@ def build_gm_guide(pdf):
             fixed.append((t, render(body)))
     journal_doc(pack, "Chapter 9: Genres", fixed)
     return pack
+
+
+# --------------------------------------------------------------------------- equipment qualities (p92-93)
+
+MOD = re.compile(r"^(?:\+\d+(?:[–-]\d+)?|Varies)$")
+
+
+def quality_tables(pdf):
+    """[(title, rows)] for the Positive, Negative and Variable equipment qualities tables; rows are (modifier, quality, description)."""
+    out = []
+    for page in (92, 93):
+        lines = pdftotext(pdf, page, page, "-layout")[0].splitlines()
+        i = 0
+        while i < len(lines):
+            m = re.match(r"^\s*(Positive|Negative|Variable) Equipment Qualities\s*$", lines[i])
+            if not m:
+                i += 1
+                continue
+            i += 1
+            header = {"Threshold", "Modifier", "Quality", "Description"}
+            while i < len(lines) and (not lines[i].strip() or set(lines[i].split()) <= header):
+                i += 1
+            body = []
+            while i < len(lines) and lines[i].strip() and not lines[i].strip().startswith("Chapter "):
+                body.append(lines[i])
+                i += 1
+            out.append((f"{m.group(1)} Equipment Qualities", parse_quality_rows(body)))
+    return out
+
+
+def parse_quality_rows(body):
+    toks_ = []
+    for l in body:
+        l = l.replace("Defensive/Thin +1/-1", "Defensive/Thin  +1/-1")       # a single space separates this name from its description
+        toks_.append([(m.start(), m.group(0)) for m in re.finditer(r"\S+(?: \S+)*", l)])
+    # the description column starts where the second text chunk of lines with a name and a description starts
+    cols = [t[-1][0] for t in toks_ if len(t) >= 2 and len(t[-1][1]) >= 24 and not MOD.match(t[-1][1])]
+    desc_col = min(cols)
+    mods, names, descs = [], [], []
+    for t in toks_:
+        for col, x in t:
+            if MOD.match(x) and col < 16:
+                mods.append(x)
+            elif col >= desc_col:
+                descs.append(x)
+            else:
+                names.append(x)
+    # names wrap after a slash ('Efficient/' + 'Clumsy')
+    merged = []
+    for n in names:
+        if merged and merged[-1].endswith("/"):
+            merged[-1] += n
+        else:
+            merged.append(n)
+    # a description ends at a full stop or bracket and the next one starts with a capital
+    blocks_, cur = [], ""
+    for d in descs:
+        if cur and re.search(r"([.)]|\d)$", cur) and cur.count("(") <= cur.count(")") and (d[:1].isupper() or d[:1] == "+"):
+            blocks_.append(cur)
+            cur = d
+        else:
+            cur = (cur + " " + d).strip()
+    blocks_.append(cur)
+    assert len(mods) == len(merged) == len(blocks_), f"quality table mismatch: {len(mods)} {len(merged)} {len(blocks_)}"
+    return list(zip(mods, merged, blocks_))
+
+
+def qualities_html(pdf):
+    return "".join(f"<h2>{esc(t)}</h2>" + table_html(["Threshold Modifier", "Quality", "Description"], rows) for t, rows in quality_tables(pdf))
 
 
 BUILDERS = {"talents": build_talents, "focuses": build_focuses, "campaign-events": build_campaign_events,

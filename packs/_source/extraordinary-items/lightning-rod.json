@@ -1,0 +1,28 @@
+{
+  "name": "Lightning Rod",
+  "_id": "fe3e5179260c5a51",
+  "_key": "!items!fe3e5179260c5a51",
+  "folder": "50196859f774618f",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Rarity:</strong> Uncommon.</p><p>A foot-long metallic rod that contains a powerful capacitor and the ability to discharge a bolt of electricity when a button on its side is depressed. The rod’s wielder uses a major action to make an Accuracy (Pistols) attack roll against a target within 20 yards. A successful attack inflicts 2d6 penetrating electricity damage. A lightning rod stores 15 power points, and each bolt fired drains 3 power points. It can be recharged in an hour with a source of electrical current.</p>",
+    "shortDesc": "Uncommon",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

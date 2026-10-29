@@ -1,0 +1,27 @@
+{
+  "name": "Prepare to Die",
+  "_id": "12135ed67cb952df",
+  "_key": "!items!12135ed67cb952df",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Pick someone you have a negative Relationship with or who has injured or killed someone you have or had a positive Relationship with. For the remainder of the encounter, you gain +1 to attack, +1 Defense, and +2 to damage in any combat actions involving this target.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 7,
+    "stuntPointsMax": 7,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

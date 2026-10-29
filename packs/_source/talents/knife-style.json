@@ -1,0 +1,47 @@
+{
+  "name": "Knife Style",
+  "_id": "077c6945b0bf0f57",
+  "_key": "!items!077c6945b0bf0f57",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You can work deadly miracles with a knife in your hands.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting 1 or higher and the Fighting (Light Blades) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know how to get inside your opponent’s defenses. When attacking with a knife or similar weapon, if you take the Activate action, you gain a +1 bonus to attack rolls until the end of the encounter while fighting in this style. In addition, your Speed is considered 1 higher if you take the Move, Run, or Charge action before or after attacking an opponent wielding a weapon from the Heavy Blades, Long Hafted, or Short Hafted groups, or any firearm.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You switch your knife from hand to hand to confound your enemy. You suffer no penalty for wielding a knife with either hand. You can take the Activate action to switch the knife to your other hand before making an attack with it; if the attack is successful, the Vicious Blow, Lethal Blow, and Precise Force stunts cost 1 SP less.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>With frightening speed and accuracy, you can wedge your knife where it hurts the most. You can use the Called Shot stunt with attacks made with a knife instead of a firearm.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You stab and slash with surgical precision. When you use any stunt while attacking with a knife, you can pay additional SP to hit sensitive areas in your enemy’s body. If your target fails a Constitution (Stamina) test with a TN equal to your attack roll result, they suffer a penalty equal to the additional SP you spent to all tests involving the area of the body you targeted. You don’t spend the additional SP if the target succeeds at the Constitution (Stamina) test.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You achieve the ultimate fighting stance with a knife. When you use the Activate action as per the Novice degree, you gain additional bonuses: +2 to Defense against melee attacks, +2 Speed when you are the target of any ranged attack between the end of your last turn and the beginning of your current turn, and +2 to the result of the Stunt Die on attack rolls for the purposes of gaining SP and resolving ties. Also, you may use Fighting (Light Blades) instead of Fighting (Grappling) to resist the effects of any grappling stunt used against you.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

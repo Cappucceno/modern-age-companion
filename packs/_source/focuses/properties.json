@@ -1,0 +1,27 @@
+{
+  "name": "Properties",
+  "_id": "20b59f9461c3ccfb",
+  "_key": "!items!20b59f9461c3ccfb",
+  "folder": "f5ec05e93ddc0560",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>The organization’s distribution via properties owned and mapped. These properties should be specified.</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

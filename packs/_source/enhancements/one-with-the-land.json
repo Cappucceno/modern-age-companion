@@ -1,0 +1,26 @@
+{
+  "name": "One with the Land",
+  "_id": "c072651dfde06f7d",
+  "_key": "!items!c072651dfde06f7d",
+  "folder": "29168708aa8a74ad",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Magic. <strong>Cost:</strong> 1 EN.</p><p>You have a supernatural connection with the land and nature. In a nonurban environment, you can perform a special One with the Land exploration stunt for 2 SP, allowing you to gain one extra insight about the local environment or to automatically avoid one hazard associated with it.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

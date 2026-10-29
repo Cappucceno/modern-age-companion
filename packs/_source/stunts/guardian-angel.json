@@ -1,0 +1,27 @@
+{
+  "name": "Guardian Angel",
+  "_id": "208cc1f2547141b5",
+  "_key": "!items!208cc1f2547141b5",
+  "folder": "49bfa21f5309a8c1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You stand ready to interpose yourself between an ally and danger. Choose a character within 3 map inches of you. If they would take damage before your next turn, 1 point of damage per SP spent transfers to you instead. If this damage kills or immobilizes you, the GM determines where you fall. Otherwise, you return to your original position. <em>(Cost 1+ SP.)</em></p>",
+    "shortDesc": "",
+    "type": "Battle Map Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

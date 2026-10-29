@@ -1,0 +1,738 @@
+{
+  "name": "Campaign Event Listings",
+  "pages": [
+    {
+      "_id": "4f9edf8ad3116a98",
+      "name": "Appointment/Election",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Politics</em></p><p>A political appointment or election alters the balance of power and creates new opportunities or conflicts for the protagonists.</p><p><strong>Minor:</strong> A new bureaucrat or group has been appointed into a supervisory position within an organization close to a hero.</p><p><strong>Moderate: </strong>New leadership enters a local government or other large organization, either bringing a dramatic ideological shift with it or upholding the status quo to a stronger degree. Both possibilities present problems or opportunities for the characters.</p><p><strong>Major:</strong> New leadership of a country or major international organization affects everyone’s lives, beyond that of the protagonists’ immediate circle, on a regular basis. This can be a reaffirmation of the status quo or an ideological shift away from what was the norm, offering both new challenges and new possibilities.</p><p><strong>Epic: </strong>There is a very public breakdown of the government when managing conflict with other organizations or governments (or sometimes even within itself). This can manifest in both overt and covert events that may entangle the heroes or impact their current narratives or campaigns.</p><h3>Appointment/Election Campaign Hooks</h3><ul><li>A new police supervisory position is created by the mayor; now contacts within the police force refuse to help or speak with characters or do so very reluctantly.</li><li>A new politician or bureaucrat makes it harder for characters (or their allied organization) to secure equipment and funding.</li><li>The new political climate empowers more “regular” people to report anything suspicious, resulting in many mistaken identities or, worse, a constant war against the characters and their activities.</li></ul>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.4f9edf8ad3116a98",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "71873f8284025e41",
+      "name": "Arrest",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Crime &amp; Punishment</em></p><p>One or more NPCs important to the characters, or to organizations and situations the characters care about, are arrested by the authorities.</p><p><strong>Minor: </strong>A local individual known to the protagonists gets hauled in by the authorities. Characters might not know about it right away, unless they check the local police blotter. While the NPC cools their heels, characters must make do without them. Was this person a nuisance or holding back someone even worse? Can they spill the beans on a secret? Do they have a decent lawyer?</p><p><strong>Moderate: </strong>The police bust a figure or a group of citywide importance. Is this the local mob boss or their neighborhood crew, or one or more community activists suffering harassment for their work? The event probably makes local news as a dedicated story.</p><p><strong>Major:</strong> An extensive investigation or violent chase brings down one or many people and probably makes national news. An arrest this serious often leads to other arrests, which could be bad news for heroes who’ve become entangled in it. Botched arrests leading to deaths spark inquiries and public outrage.</p><p><strong>Epic: </strong>The notoriety (and possibly blatant injustice) of this arrest makes international headlines, unless there’s some reason to keep it a secret. Authorities take down a vast conspiracy, an influential cabal, or a truly noteworthy person. If the arrest is unjust, heroes will have to work hard to set the record straight.</p><h3>Arrest Campaign Hooks</h3><ul><li>Police sweep through the arrestee’s community, apprehending other people the protagonists care about—or one or more of the protagonists themselves.</li><li>The arrestees are patsies, apprehended to cover up the misdeeds of a person or group who has sway over the police.</li><li>One or more of the heroes witness the crime or arrest. Someone wants them to shut up about it, get out of town, or lie. They offer bribes or threats to get it done. Alternately, one of the heroes’ friends or lovers is in the same situation. Will the police protect them, or are they either not up to the task or involved with witness tampering themselves?</li></ul>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.71873f8284025e41",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "9be2469642654bca",
+      "name": "Artwork",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Culture</em></p><p>From the exotic to the mundane, the artistic (and thus the overall) cultural tone of the setting is shifted or enhanced.</p><p><strong>Minor:</strong> The media hit the local creative art scene, and a person known to the protagonists gets their big break.</p><p><strong>Moderate:</strong> The citywide art scene explodes in a way that captures the heroes’ attention. It happens nearby and is renowned for either its excellence or its notoriety.</p><p><strong>Major: </strong>Nationally known stars or famous artists attend artistic events happening in the city or area. As these personalities descend on the protagonists’ turf, the heroes may get caught up in affairs they didn’t expect.</p><p><strong>Epic: </strong>A once-in-a-lifetime cultural event happens in the area the heroes find themselves in. This could be a never-before-seen collection of art on tour or even a giant multiday music concert or theatre performance.</p><h3>Artwork Campaign Hooks</h3><ul><li>A local artist’s work reveals the secrets of a violent group or challenges the political status quo. The creator gets persecuted, and their work might be destroyed.</li><li>A local arts collective attracts the attention of a generous patron, but there’s something <em>off</em> about this new friend to the arts scene. Are they trying to impress someone? Are the artists in the collective destined to be victims of some horrible crime or strange form of manipulation?</li><li>An eccentric multimillionaire funds a new museum to highlight their hobby. They commission a unique, impressive building and seek donors—and crooks see opportunities for money laundering, graft, et cetera.</li></ul>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.9be2469642654bca",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "97ddf2c3600575a5",
+      "name": "Bubble",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Economics</em></p><p>Speculators throw money at a hot industry or investment, changing the economic environment for the heroes.</p><p><strong>Minor: </strong>Money suddenly starts to flow into a very small niche market (coins, sports cards, comic books, or even old memorabilia) in which the protagonists or their circle of friends has an interest.</p><p><strong>Moderate:</strong> Investors identify a moneymaking opportunity in a city or area the characters are located in. This influx of capital changes the local economic landscape in positive and negative ways.</p><p><strong>Major: </strong>Banks and major investment groups across the country (overly) promote an industry, infusing it with money and attention.</p><p><strong>Epic: </strong>As investment heats up in one area, it influences others around the world. The global economy realigns to rely on this one industry’s or investment’s health. If it goes south, the world’s economy stumbles.</p><h3>Bubble Campaign Hooks</h3><ul><li>A fad drives up the price of some innocuous toy or trivial item, until people begin throwing their retirement savings into it and even committing crimes to pay for it.</li><li>The characters’ local area heats up with investment— and the stress of gentrification, new businesses, and increasing prices. Organized crime and political groups take an interest. Who’s pulling the strings behind them?</li><li>A national media pundit seems to have an uncanny ability to predict the market. Where are they getting their information?</li></ul>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.97ddf2c3600575a5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4b30172884628d03",
+      "name": "Corporate Shift",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Economics</em></p><p>One or more businesses change their operations. They may stop producing a vital product or jack up their prices. They change their hiring practices to favor certain groups or redress their old biases. There’s a change in leadership. A merger, acquisition, or bankruptcy hits. Many options are possible, each of which should matter to the protagonists to be worth generating as an event.</p><p><strong>Minor: </strong>One of the described corporate-shift events happens to one or more local businesses.</p><p><strong>Moderate:</strong> One of the described corporate-shift events happens to one or more city or area businesses.</p><p><strong>Major: </strong>One of the described corporate-shift events happens to one or more countrywide businesses.</p><p><strong>Epic: </strong>One of the described corporate-shift events affects a multinational business—and thanks to the scale involved, this necessarily affects other companies.</p><h3>CorporatE Shift Campaign Hooks</h3><ul><li>Two local businesses merge, driving out competition. They cut excess staff and raise prices. When a manager gets shot, it’s practically expected. Who’s responsible, and what’s their real motive?</li><li>A national media company gets purchased by an outspoken billionaire determined to present the news as they see it. As propaganda heats up, the corporation also chooses to suppress important stories, even resorting to using shadowy operatives to intimidate witnesses—including people the heroes know.</li><li>Confidential research reveals a common international consumer good is dangerous. It causes a disease or pollutes the environment. The cartel of producers doesn’t want the secret to get out. A hero’s connection shares the research before vanishing under sinister circumstances. What do the heroes do?</li></ul>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.4b30172884628d03",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7da74152c27e45d4",
+      "name": "Corruption",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Crime &amp; Punishment, Politics</em></p><p>Blackmail, graft, and other dirty tricks twist the political scene. Assassination might be among these. They propel certain candidates into office or turn them into figureheads, as real power passes to an unaccountable few.</p><p><strong>Minor: </strong>Local corruption affects the characters’ neighborhood or a place they’re visiting.</p><p><strong>Moderate: </strong>Graft infests one or more aspects of a city or regional government. It could be a web of corrupt officials across multiple departments, or one office might be completely compromised.</p><p><strong>Major: </strong>Corruption “owns” national representatives or law enforcement bodies. The conspirators might be after simple profit, but they could have ambitions to impose fascism or some other odious political system.</p><p><strong>Epic: </strong>International criminal cartels, corporations, and closely aligned governments may conspire to violate international agreements. Even if their goals seem superficially boring, such as influencing currency exchange rates, the effects can be catastrophic.</p><h3>Corruption Campaign Hooks</h3><ul><li>Local police officers have been getting kickbacks from organized crime to ignore their criminal activities or those of their associates. The heroes or their friends take notice and look for answers.</li><li>A nation’s search for a new jet fighter inexplicably leads to a no-bid process, which selects an unreliable plane with a crushing price tag. A whistle-blower tells the protagonists the objective is not just profiteering but crippling the country’s air capabilities in a future war. Who’s behind the plot?</li><li>When a multinational conglomerate virtually buys a small country, they close its borders to visitors, but a stream of valuable exports flows out. What’s happening, and why won’t major governments investigate?</li></ul>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.7da74152c27e45d4",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4f2f7dd1eff5ce18",
+      "name": "Coup",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Politics, War &amp; Peace</em></p><p>Coups occur when a group seizes control of a government by force. Some coups are “bloodless,” in that the threat of violence is never carried out, while others end in full-blown civil war. This depends on the power and support the coup can draw on.</p><p><strong>Minor: </strong>A local coup occurs when a violent group intimidates local officials to the point of dictating policy. Their members may not hold office, but everybody knows power comes from their headquarters, not the government building.</p><p><strong>Moderate: </strong>A city or region is terrorized by an armed force, such as a fascist movement or renegade military force. Local officials rubber-stamp whatever the force brings before them.</p><p>If the rest of the nation isn’t affected, its military may arrive to retake the area.</p><p><strong>Major: </strong>An armed faction seizes control of the national government, issuing statements to justify its actions. These groups rarely come out of nowhere and usually spring from existing political divisions and help from other countries that wish to see a regime change.</p><p><strong>Epic: </strong>A superpower or transnational body experiences a violent realignment. The process itself may constitute a significant war. After that, new leadership causes dramatic changes to the global political order.</p><h3>Coup Campaign Hooks</h3><ul><li>A gang seizes control of a small town. Deserted town meetings, garbage-strewn streets, and frightened locals hint at the problem, but if anyone says anything, gang members silence them. A desperate citizen visits the heroes, asking for help.</li><li>Long alienated from the central government, a border city declares independence from the rest of the country. Armed citizens overthrow the police and local military. The protagonists have been asked to negotiate terms with the central government.</li><li>A fascist party enjoys the patronage of a general and thousands of soldiers. The general arranges the assassination of a political leader, blames their enemies, and takes control, with plans for global war. But the heroes know a time and place where the general will be relatively unguarded.</li></ul>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.4f2f7dd1eff5ce18",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "f970c054eb64eaa4",
+      "name": "Disease",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Miscellaneous</em></p><p>New diseases, outbreaks of known diseases, treatments, quarantines, and cures all suggest various stories. In some campaigns, fictional diseases may have supernatural or horrific elements.</p><p><strong>Minor: </strong>The outbreak is a local phenomenon that can probably be traced to a single source.</p><p><strong>Moderate: </strong>Citywide illness strains hospitals and clinics. Specialists investigate the source and recommend precautions.</p><p><strong>Major: </strong>A disease spreads across the country, and its effects mandate changes in everything from hospital visits to travel.</p><p><strong>Epic: </strong>A disease spreads across multiple countries. The Spanish flu pandemic of 1918, which claimed about 5 percent of the world’s population, is an example of this.</p><h3>Disease Campaign Hooks</h3><ul><li>People staying at a local bed &amp; breakfast become violently ill. When a local official investigates, they turn up at the bottom of a lake. Why would someone kill to conceal what looks like a minor outbreak?</li><li>After escaping a secret research facility, someone exposed to a contagious and deadly virus flees cross-country. The heroes get caught</li></ul><p>up in the search for him or the conspiracy to cover up his origins.</p><ul><li>A mild illness with global reach turns deadly, and there are indications this mutant strain was deliberately engineered. Who’s responsible, and why?</li></ul>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.f970c054eb64eaa4",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "68eee5cea347010b",
+      "name": "Ecological Event",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Miscellaneous</em></p><p>A significant change in the natural environment produces problems. This may be the result of pollution, but invasive species, unusual weather, and other incidents can also be factors.</p><p><strong>Minor: </strong>The incident affects human well-being in a local area important to the protagonists.</p><p><strong>Moderate:</strong> A city or region experiences pollution or another change to the natural environment.</p><p><strong>Major: </strong>An environmental issue becomes a matter of national concern. Nature doesn’t follow borders, however, so these situations tend to cross into other countries.</p><p><strong>Epic: </strong>An ecological event of international importance may threaten global well-being.</p><h3>EcologicaL Event Campaign Hooks</h3><ul><li>All the rats in a neighborhood disappear. Then, small pets vanish when they’re left outside. The protagonists get involved when they run into a terrified city official who screams, “It’s hungry!”</li><li>A too-hot Summer kills crops, sparks wildfires, and puts water at a premium. Deprived citizens ask the characters for help dealing with food- and water-hoarding gangs.</li><li>It seems ridiculous for fish to bring two countries to the brink of war, but it’s happening. Both sides blame the other for overfishing, and their records indicate they’re following the rules. The heroes have been asked to follow rumors of huge black trawlers sighted in the area, which may be responsible.</li></ul>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.68eee5cea347010b",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "b9d6ea051f461ae5",
+      "name": "Economic Downturn",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Economics</em></p><p>Natural disasters, collapsing market bubbles, and simple mismanagement can all cause economic downturns. Ironically, these create opportunities for a few, while leaving the mass of people with less.</p><p><strong>Minor:</strong> Businesses start to close or relocate, or a neighborhood “renews” itself by increasing rents and prices to attract an elite population unaffected by economic woes.</p><p><strong>Moderate: </strong>A city’s key industries collapse or leave. Unemployment runs rampant.</p><p><strong>Major: </strong>A national economic downturn prompts bank collapses, unemployment increases, and predatory financial practices.</p><p><strong>Epic: </strong>Global productive forces slow due to imbalances in trade or manufacture, wars, political crises, flaws in the market economy, or natural disasters.</p><h3>EconomiC Downturn Campaign Hooks</h3><ul><li>A local factory closes, putting hundreds of people out of work. A local collective wants to reopen it and asks the heroes for the capital needed to take it over.</li><li>A tech magnate all but buys an entire city’s industrial base and rehires laid-off workers for a fraction of their old wages. A labor activist connected to the protagonists vanishes. What happened?</li><li>A conspiracy of market analysts has been lying about the stability of a popular investment. If the news goes public, millions will lose pensions and jobs. When the heroes find out, do they tell the truth or try to reengineer things secretly to avert the crisis?</li></ul>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.b9d6ea051f461ae5",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "a4b3b30d4d50bb62",
+      "name": "Espionage",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Economics, Politics, War &amp; Peace</em></p><p>Spies steal secrets to get an upper hand on the battlefield, in politics, or in corporate boardrooms.</p><p><strong>Minor: </strong>Secrets from a local institution or political group tempt would-be blackmailers and profiteers.</p><p><strong>Moderate: </strong>A city’s or region’s secrets may include organized crime actions, undercover police work, or industrial secrets held in an area facility.</p><p><strong>Major: </strong>National governments, businesses, law enforcement, and political parties all have secrets for the taking.</p><p><strong>Epic: </strong>International corporate, political, or military espionage shifts power balances.</p><h3>Espionage Campaign Hooks</h3><ul><li>An undercover cop who infiltrated a local gang has been exposed. Now they need replacements, in the form of the protagonists.</li><li>A drug company’s new pill could potentially cure a serious disease one of the heroes’ cherished allies suffers from, but studies leaked online indicate it may have lethal side effects. What’s the truth?</li><li>Before dying of a rare illness, an associate gives one of the protagonists a suitcase that contains a list of assets belonging to the “M Group.” When three people on the list die from the same illness, how will the heroes respond?</li></ul>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.a4b3b30d4d50bb62",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7c9c372a010b2b93",
+      "name": "Failure",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Culture</em></p><p>It’s offensive. It’s ugly. It uncovers a pattern of unsavory incidents, or worse. A culture shift occurs in response to a repellent creative work, cultural event, or trend.</p><p><strong>Minor: </strong>Creatively bankrupt or ethically questionable practices rack a local business or niche field.</p><p><strong>Moderate: </strong>This is the same as the minor situation, but on the scale of a city or larger area or a moderately well-known field.</p><p><strong>Major: </strong>The event is the same as the minor situation, but the issue has national play. This is the realm of box-office bombs and forged works from Renaissance masters.</p><p><strong>Epic: </strong>An international cultural industry is plagued with accusations of corruption.</p><h3>Failure Campaign Hooks</h3><ul><li>A science-fiction writer’s latest novel sells terribly. They lay the blame on a group of fans, who turn to the heroes to deal with anonymous death threats.</li></ul><p>Some <em>Modern AGE</em> games include secret realms, vast conspiracies, and other setting elements unknown to the general public. While events are geared toward the world we know, you can always adjust them to cover secret elements instead. For example, a notorious crime might be unknown to ordinary people but infamous within a globe-spanning society of psychics.</p><p>Alternately, you can decide that a secret setting’s forces lie behind any event. A newly elected leader may have really been installed due to the efforts of an AI who expects its candidate to approve radical new experiments in human-machine interfaces. Like the rest of these rules, the full facts of the matter are for you to create.</p><ul><li>A local musician and social activist has a seemingly overnight change in attitude, and their offensive diatribes mystify everyone but an associate who knows the heroes and says the musician is being forced to say these things and needs help getting away from the people controlling them.</li><li>A box-office bomb prompts an actual bombing when an organized crime syndicate, enraged at the loss on investment, begins eliminating the movie’s producers and stars. A group of those targeted asks the protagonists for protection.</li></ul>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.7c9c372a010b2b93",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "04bd3ddfe13c08a1",
+      "name": "Industrial Accident",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Miscellaneous</em></p><p>Prompted by carelessness or fate, an industrial accident endangers those living nearby or consuming the affected facility’s products, forcing the heroes into action.</p><p><strong>Minor: </strong>An accident produces local pollution or causes direct physical harm to anywhere from one to a handful of people.</p><p><strong>Moderate: </strong>An accident affects people outside the actual work facility immediately or gradually.</p><p><strong>Major: </strong>An accident affects hundreds of people throughout the region. It requires a national response.</p><p><strong>Epic: </strong>The accident has global ramifications.</p><h3>IndustriaL Accident Campaign Hooks</h3><ul><li>A local business is gutted by a fire, and investigators blame poor wiring. But a friend of the protagonists worked on that building and swears it can’t be the cause.</li><li>When a mine collapses, the owners want to let the trapped miners die rather than admit they used improper digging techniques. The heroes find out; they must save the miners and reveal the truth.</li><li>An experimental nuclear aircraft crashes in Antarctica. If its reactor goes critical, the meltdown will shatter glacial ice, accelerating rising sea levels. The heroes are sent to respond but face opposition from other teams who want to steal the aircraft’s plans.</li></ul>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.04bd3ddfe13c08a1",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "a70187a9f735d981",
+      "name": "Inequality",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Economics</em></p><p>The rich get richer, the poor get poorer, and people in the middle get kicked down with the poor.</p><p><strong>Minor: </strong>A local area becomes gentrified, forcing low-income residents out, or businesses leave as its economic fortunes tumble.</p><p><strong>Moderate:</strong> A small group of wealthy people hold inordinate sway over city or regional policy, reshaping it at the expense of the majority.</p><p><strong>Major: </strong>While those with established wealth and the leaders of a few new industries flourish, the majority in a nation must deal with unstable, low-income employment and cuts to vital services—services that the rich sell to them in newly privatized form.</p><p><strong>Epic: </strong>A small elite control most of the world’s wealth and pressure governments to lower labor costs by any means they can get away with.</p><h3>Inequality Campaign Hooks</h3><ul><li>In spite of vocal protests, a multimillionaire blocks access to a public beach near their home. When they turn up dead, police round up community activists. The heroes must clear their names.</li><li>Fed up with falling wages, workers for the city’s biggest employer go on strike. The company ships in brutal security professionals, ostensibly to defend their facilities but also to hassle and rough up strikers. The protagonists discover a plot to spark a riot, which would prompt violence from the security force.</li><li>A new “gig economy” business has people monitoring semiautomated cars and reporting on passengers’ activities to corporate headquarters. The company has developed a side business producing blackmailed operatives acquired this way, and one of the heroes’ friends has been recruited.</li></ul>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.a70187a9f735d981",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "1ee71ee65d9386e9",
+      "name": "Infrastructure Failure",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Miscellaneous</em></p><p>Bad planning, lack of upkeep, or possible malfeasance damage or destroy a public structure or facility.</p><p><strong>Minor: </strong>A basic service (such as sewage or electricity) or a necessary structure (like a bridge or tunnel) fails, inconveniencing people in an area.</p><p><strong>Moderate: </strong>This is the same as for a minor infrastructure failure but affects a city or region. The scale of the problem leads to more severe consequences. A minor failure may increase to a moderate one if the results go beyond inconvenience to serious illness and death.</p><p><strong>Major: </strong>Multiple regions or a large population must do without vital facilities or services.</p><p><strong>Epic: </strong>Part of the international infrastructure fails on a vast scale. Examples include flight control, GPS, telecommunications, and transnational electrical systems.</p><p>InfrastructurE Failure Campaign Hooks</p><ul><li>A series of sinkholes appears, trapping citizens in a small neighborhood, along with the protagonists. Tempers flare, and in a temporary state of lawlessness, some people decide it’s the perfect time to settle grudges.</li><li>An electrical fire paralyzes the subway system. The heroes must rescue people they care about who are trapped inside a halted subway car and lead them to safety, negotiating miles of tunnels, smoke, and other threats.</li><li>A solar flare disrupts radio signals worldwide. The protagonists are in the wilderness and can’t rely on many modern tools to find their way back.</li></ul>"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.1ee71ee65d9386e9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c65c2296071dc821",
+      "name": "Innovation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Culture</em></p><p>Innovation covers new discoveries or inventions and modifications to existing items, changing the technological environment for the protagonists.</p><p><strong>Minor: </strong>The innovation affects a small area or niche community, though it may have broader applicability.</p><p><strong>Moderate: </strong>The innovation rolls out in a city or area, and its fortunes will determine if it develops wider use.</p><p><strong>Major: </strong>The innovation changes some central facet of business or social life, though doing things the old-fashioned way remains viable.</p><p><strong>Epic: </strong>In five years, life without the innovation will be unimaginable.</p><h3>Innovation Campaign Hooks</h3><ul><li>A crowdsourced app tells blackjack enthusiasts the best strategies for specific casinos based on users’ reports. This bypasses rules against in-house computer assistance, since the app gets input after games and is used before games. It doesn’t take long for the inventor, an old friend of the protagonists, to have an “accident.”</li><li>The latest model of the world’s most popular smartphone offers lifecasting: a record of everything that happens around the user. The heroes are framed as killers in a murder victim’s lifecast, but they weren’t there. What happened?</li><li>A revolutionary AI harvests information from social media to convincingly replace someone for tedious online chats and sends back summaries of these conversations. Soon enough, these AIs handle most communication—and the heroes discover these AIs have been taking the place of murdered friends.</li></ul>"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.c65c2296071dc821",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "2ae9f0dc2f05a26a",
+      "name": "Matter of Justice",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Crime &amp; Punishment</em></p><p>An event in the criminal justice system or informal investigations and vigilante punishments affect the protagonists. Some civil actions might also qualify.</p><p><strong>Minor: </strong>A minor matter takes place that affects the heroes or a few allies.</p><p><strong>Moderate: </strong>An arrest, court case, or similar matter has citywide or regional impact.</p><p><strong>Major: </strong>A court case, arrest, or vigilante action gains nationwide attention.</p><p><strong>Epic: </strong>Issues in international law or matters that receive global attention take place.</p><h3>MatteR OF Justice Campaign Hooks</h3><ul><li>A friend of the heroes gets arrested. The friend did it, but their lawyer says if they don’t declare their innocence, bad things will happen to their family.</li><li>A wrongful arrest leads to public demonstrations. The protagonists witnessed what really happened, but when they try to set the record straight, a conspiracy tries to silence them.</li><li>Accused of a horrific crime, the heroes are the subjects of an international hunt.</li></ul>"
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.2ae9f0dc2f05a26a",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e6513de4517665bc",
+      "name": "Military Action",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: War &amp; Peace</em></p><p>Formal and informal armed forces make their presence known in the characters’ lives.</p><p><strong>Minor: </strong>A minor event might involve a local base or militia.</p><p><strong>Moderate: </strong>A moderate event may involve military exercises in a city or region or even minor action to keep order.</p><p><strong>Major: </strong>Major actions include brushfire conflicts and smaller police actions.</p><p><strong>Epic: </strong>An epic event brings war.</p><h3>MilitarY Action Campaign Hooks</h3><ul><li>A group of army buddies acts as hit men and mob enforcers in their spare time. When they attack an ally, the heroes must deal with this well-trained group and work with military police.</li><li>The protagonists find evidence that a citywide illness is the result of biological-weapons testing from a nearby military lab.</li><li>The invaders take out most resistance, but the heroes escape and must work with scattered allied forces to win back their home.</li></ul>"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.e6513de4517665bc",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "d29addf4a92d7d73",
+      "name": "Militant Politics",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Politics, War &amp; Peace</em></p><p>An outrageous event or a group of radicals initiates violent protests that require the heroes’ action. Are the protests justified? How far could they spread? How far should they spread?</p><p><strong>Minor: </strong>Minor events include acts of vandalism and minor violence related to a local issue.</p><p><strong>Moderate: </strong>Serious violence affects things across a city or region.</p><p><strong>Major: </strong>Coordinated or spontaneous events occur across the country.</p><p><strong>Epic: </strong>Epic events include international political violence.</p><h3>MilitanT Politics Campaign Hooks</h3><ul><li>Bigots target local refugees. The protagonists become targets, too, after fighting them off.</li><li>A close friend of the heroes vanishes in the middle of a politically driven riot. What happened?</li><li>A politician rouses fascists across the country with bigoted statements, so the protagonists are compelled to protect marginalized friends from a wave of violence.</li></ul>"
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.d29addf4a92d7d73",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "3123e4071790963d",
+      "name": "Natural Disaster",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Miscellaneous</em></p><p>A sudden natural event affects the heroes or their associates.</p><p><strong>Minor: </strong>Natural disasters that just affect a neighborhood or small community include sinkholes and the flooding of low-lying areas. Minor events may affect a larger area but must be more nuisances than true disasters. A city covered in slick ice after freezing rain might qualify.</p><p><strong>Moderate: </strong>A sudden natural event affects a city or comparable area.</p><p><strong>Major: </strong>The event affects a large swath of the country.</p><p><strong>Epic: </strong>A rare global event, such as a solar storm, takes place.</p><h3>NaturaL Disaster Campaign Hooks</h3><ul><li>During heavy rain, an entire building sinks with the protagonists in it—and their enemies, too. They need to fight their way free as floors flood and collapse.</li><li>Volcano! Ash and the threat of worse force heroes to evacuate their city.</li><li>Intense storms make their way from the Caribbean to Canada.</li></ul>"
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.3123e4071790963d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "cefe9c9af3b5eebe",
+      "name": "Notorious Crime",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Crime &amp; Punishment</em></p><p>A crime attracts public attention and is also important to the protagonists.</p><p><strong>Minor: </strong>A minor event could be a petty but strange crime.</p><p><strong>Moderate: </strong>Any crime whose intensity or weirdness is known throughout the city can be considered a moderate event.</p><p><strong>Major: </strong>This is the same as a moderate event, but the crime’s elements give it nationwide notoriety.</p><p><strong>Epic: </strong>A crime whose events cross national borders or that is so strange or horrific it garners worldwide attention would be considered epic.</p><h3>NotoriouS Crime Campaign Hooks</h3><ul><li>The “Hogtown Headsman” escapes a Canadian prison. The serial killer was captured on the verge of murdering an associate of the heroes and has vowed to finish the job.</li><li>Five months after the son of an associate of the protagonists is kidnapped, police find him sitting alone in the public library. He claims he was living with a superhero.</li><li>A famous actor is found dead in a hero’s car.</li></ul>"
+      },
+      "sort": 2100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.cefe9c9af3b5eebe",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "b4dcbefa1d656925",
+      "name": "Organized Crime",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Crime &amp; Punishment</em></p><p>From local gangs to international syndicates, organized crime groups act in ways that demand the protagonists’ attention. Escalation might involve an issue moving from a small organization to its parent company or boss.</p><p><strong>Minor: </strong>Local gangs complicate the characters’ lives.</p><p><strong>Moderate: </strong>A criminal group with citywide interests, or a rural equivalent, runs across the heroes.</p><p><strong>Major: </strong>The most influential syndicates in a nation entangle protagonists in their plots.</p><p><strong>Epic: </strong>A criminal organization of truly international Scope pursues active criminal operations (as opposed to just moving people and money) in multiple countries.</p><h3>Organized Crime Campaign Hooks</h3><ul><li>A local would-be thug tries to rob a character, but when they fail, they need help paying their debts to a loan shark in some other way.</li><li>An associate of the heroes is actually in witness protection, but appearing in news footage brings the mob down on them.</li><li>When the leader of a syndicate dies, the war for succession grips the city in violence.</li></ul>"
+      },
+      "sort": 2200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.b4dcbefa1d656925",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "a9871f3e7e46eb9d",
+      "name": "Peacemaking",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: War &amp; Peace</em></p><p>Minor to significant efforts to end a conflict attract the heroes’ interest. These can take the form of citizen political actions or represent direct peacemaking efforts between belligerent military or civil parties.</p><p><strong>Minor: </strong>A minor event includes a minor truce between small groups of belligerents or a small political event.</p><p><strong>Moderate: </strong>A moderate event might include larger political events or a truce between forces in a city.</p><p><strong>Major: </strong>A major event might include national demonstrations of peace and unity or a truce in a nation-spanning conflict.</p><p><strong>Epic: </strong>Multinational diplomatic efforts to end a major war or worldwide demonstrations would be considered epic events.</p><h3>Peacemaking Campaign Hooks</h3><ul><li>A conflict between two motorcycle gangs can only be ended by finding a hoard of stolen goods. They employ the heroes to find them, divide them, and broker a truce.</li><li>As diplomats from several countries meet for peace talks, the protagonists uncover a conspiracy to undo their efforts through assassinations made to look as if they were planned by the belligerents.</li><li>As a truce holds in a war-torn city, the heroes must escape without breaking it.</li></ul>"
+      },
+      "sort": 2300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.a9871f3e7e46eb9d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "311ece577e3872e9",
+      "name": "Political Crisis",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Politics</em></p><p>Events stretch normal political processes to their limit, and the protagonists must either deal with what happens or play a role in resolving the issue.</p><p><strong>Minor: </strong>A crisis in local political leadership or in a local organization, such as a small university, would be considered a minor event.</p><p><strong>Moderate: </strong>A moderate event might include a crisis at the city or regional level in a party, in a legislative body, or among political leaders.</p><p><strong>Major: </strong>Threats of a federal government shutdown, the loss of a national political figure, and other nationwide crises are potential major events.</p><p><strong>Epic: </strong>International governments fail to function.</p><h3>PoliticaL Crisis Campaign Hooks</h3><ul><li>When an ally of the heroes tries to run for their party’s local leadership, the executive blocks it through underhanded means and won’t tell them why. The incumbent has some mysterious hold over the process.</li><li>After losing, the president refuses to step down and rumbles about keeping their office with military aid. The protagonists know a general who could make or break these efforts.</li><li>During a hotly contested election, scandal-seeking operatives spy on the heroes, who know one of the candidates.</li></ul>"
+      },
+      "sort": 2400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.311ece577e3872e9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "bb4ab0fb86eda5bb",
+      "name": "Prosperity",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Economics</em></p><p>Increased productive forces, faddish consumption, and new industries and technological innovation can all improve prosperity for a time. The protagonists benefit from it or deal with the frictions that rise from it.</p><p><strong>Minor: </strong>A neighborhood or small town enjoys increased prosperity but may also suffer from inequality, depending on how new wealth is distributed.</p><p><strong>Moderate: </strong>This is the same as a minor event, but for a larger region such as a city or state.</p><p><strong>Major: </strong>National prosperity improves the lives of ordinary people.</p><p><strong>Epic: </strong>International prosperity benefits a number of nations with common economic ties.</p><h3>Prosperity Campaign Hooks</h3><ul><li>A new millionaire doesn’t fit in with their old-money neighbors and, in revenge, hires the protagonists to humiliate them.</li><li>Multiple cities compete to host a multinational corporation’s new national headquarters. Executives hire the heroes to find the skeletons in the closets of each city’s political establishment.</li><li>A forgotten investment wins a character a boost in Resources, along with new “friends” and “long-lost relatives” eager to benefit along with them.</li></ul>"
+      },
+      "sort": 2500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.bb4ab0fb86eda5bb",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "17f9a87723fbcc6c",
+      "name": "Religious Movement",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Culture</em></p><p>Activity from a new or established religious movement attracts heroes as enemies, entangled bystanders, allies, or adherents.</p><p><strong>Minor: </strong>A neighborhood congregation works locally.</p><p><strong>Moderate: </strong>A significant minority religious movement or the regional leadership of a mainstream religion acts.</p><p><strong>Major: </strong>National religious bodies make important statements or policy changes.</p><p><strong>Epic: </strong>A council of religions or an influential voice in a major religion makes significant statements.</p><h3>ReligiouS Movement Campaign Hooks</h3><ul><li>A new religious movement separates young people from their families, some of whom hire the protagonists to track them down.</li><li>A religious leader signals they’re on the verge of changing doctrines many believe are intolerant but suddenly pivots to a harder line. The heroes find information to suggest the leader is being blackmailed into submission.</li><li>An obscure religion buys most of the property in a run-down town and gets its people elected to local government. When the heroes visit the town, a few old-timers ask for help discovering the religion’s long-term goals.</li></ul>"
+      },
+      "sort": 2600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.17f9a87723fbcc6c",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "96f1b8946384b302",
+      "name": "Scandal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Culture</em></p><p>Criminal or social misdeeds rack elite circles. The effects reach the protagonists.</p><p><strong>Minor: </strong>The scandal affects a local community figure.</p><p><strong>Moderate: </strong>The scandal affects an important city or regional figure.</p><p><strong>Major: </strong>A nationally important individual is implicated.</p><p><strong>Epic: </strong>A global celebrity or figure of influence is implicated.</p><h3>Scandal Campaign Hooks</h3><ul><li>A local politician owes some hefty illegal gambling debts. Gangsters won’t go after the politician but will hurt the bookie, a friend of the protagonists.</li><li>An intoxicated princess shows up in a hotel lobby dressed as a nun, on a horse. She doesn’t remember anything, but her phone includes pictures of the heroes.</li><li>When the protagonists help a movie star get out of a drunken brawl with their former agent, the star brings them into their inner circle, and the heroes make enemies out of the agent and the agent’s clients.</li></ul>"
+      },
+      "sort": 2700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.96f1b8946384b302",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "b326af7ceb30f834",
+      "name": "Sporting Event",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Culture</em></p><p>A notable sporting event or series makes things interesting for the protagonists. Beyond the event itself, raucous fans, gambling, politics, and commerce all play their part.</p><p><strong>Minor: </strong>High school, small college, or minor league sports are typical minor events. Local athletes for bigger teams, charity events, and fan clubs can also have a minor impact.</p><p><strong>Moderate: </strong>Larger college and minor league events and less popular sports’ championships might be moderate events.</p><p><strong>Major: </strong>Playoffs for well-known sports and mid-level professional athletes can create a major impact.</p><p><strong>Epic: </strong>The World Cup, Olympics, Super Bowl, and comparable events are considered epic, along with top-level athletes.</p><h3>SPORTING EVENT Campaign Hooks</h3><ul><li>A team that hasn’t won the championship in a lifetime might just win this year! Their home city is ready to explode in joy or anger, depending on the result. In either case, an old enemy of the characters plans to use the chaos to disguise their revenge.</li><li>A local boxer asks the protagonists for protection when they’re told to throw their fight, or else.</li><li>The heroes must coach a gaggle of misfit high school students into a competent sports team.</li></ul>"
+      },
+      "sort": 2800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.b326af7ceb30f834",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "724b1dcc863871fa",
+      "name": "Terrorist Attack",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Crime &amp; Punishment, War &amp; Peace</em></p><p>A completed or attempted terrorist attack spurs the heroes into action.</p><p><strong>Minor: </strong>The attack is stopped early or, if successful, is related to obscure motives and targets or is limited to vandalism.</p><p><strong>Moderate: </strong>A significant attack is prevented, or an attack involves one or two casualties or hostages, at most.</p><p><strong>Major: </strong>A sophisticated or high-impact attack involves casualties or hostages in the double digits, or an even worse attack is barely thwarted.</p><p><strong>Epic: </strong>The attack causes a major shift in international policy. It may start wars or topple national governments.</p><h3>TerrorisT Attack Campaign Hooks</h3><ul><li>The heroes recognize a friend’s name in the list of attack suspects. There’s no way their friend did it, so why are they being accused?</li><li>The protagonists stumble upon evidence of a major attack while engaged in criminal misdeeds. How do they handle it?</li><li>An online hate group targets a hero and threatens to escalate to physical violence, but the authorities won’t take it seriously.</li></ul>"
+      },
+      "sort": 2900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.724b1dcc863871fa",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "2d2a4588d8ef0f7b",
+      "name": "Weirdness",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Category: Miscellaneous</em></p><p>Is it a paranormal phenomenon? The effects of secret scientific work? Or is it just a coincidence? Weirdness affects the heroes via any oddities you deem acceptable for your campaign.</p><p><strong>Minor: </strong>A small coincidence or a deniable phenomenon takes place.</p><p><strong>Moderate:</strong> A moderate event may include something many people witness or a citywide secret society.</p><p><strong>Major: </strong>High weirdness that would make the national news (if <em>they</em> allowed it) is taking place. Stupendous coincidences, like having a doppelgänger, have been reported.</p><p><strong>Epic: </strong>Very strange things indeed are happening. An epic event might introduce the supernatural to a campaign world or manifest as an alien invasion.</p><h3>Weirdness Campaign Hooks</h3><ul><li>The “alley frog” is just a piece of weird local folklore, until a friend of the heroes reports getting mugged by the giant amphibian.</li><li>I’m not saying it was aliens, but maybe it was <em>aliens</em>.</li><li>Stories of a man in a trucker hat and dirty flannels named “Bill,” who predicts the end of the world, spread across the country. The protagonists know someone who fits that description, has no idea what this is all about, and is steadily collecting worshippers and would-be assassins.</li></ul>"
+      },
+      "sort": 3000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!23170bb79ea84ea8.2d2a4588d8ef0f7b",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "23170bb79ea84ea8",
+  "_key": "!journal!23170bb79ea84ea8",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

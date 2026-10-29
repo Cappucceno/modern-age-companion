@@ -1,0 +1,143 @@
+{
+  "name": "Economics Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Specific event of the Economics category. See the Campaign Event Listings journal for the intensity levels and campaign hooks of each.",
+  "results": [
+    {
+      "_id": "9f518ba179435b48",
+      "type": "text",
+      "name": "Bubble",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fea76501fd822909.9f518ba179435b48"
+    },
+    {
+      "_id": "16b99d9d7f83865a",
+      "type": "text",
+      "name": "Corporate Shift",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fea76501fd822909.16b99d9d7f83865a"
+    },
+    {
+      "_id": "92326bae6976e7e0",
+      "type": "text",
+      "name": "Economic Downturn",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fea76501fd822909.92326bae6976e7e0"
+    },
+    {
+      "_id": "f74437054394699b",
+      "type": "text",
+      "name": "Espionage",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fea76501fd822909.f74437054394699b"
+    },
+    {
+      "_id": "2d8c0c34be97fef0",
+      "type": "text",
+      "name": "Inequality",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fea76501fd822909.2d8c0c34be97fef0"
+    },
+    {
+      "_id": "e44a2ccb393bebd8",
+      "type": "text",
+      "name": "Prosperity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fea76501fd822909.e44a2ccb393bebd8"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e52645d109d8620d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "fea76501fd822909",
+  "_key": "!tables!fea76501fd822909"
+}

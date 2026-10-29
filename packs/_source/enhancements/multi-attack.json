@@ -1,0 +1,26 @@
+{
+  "name": "Multi-Attack",
+  "_id": "c1be767d1209863a",
+  "_key": "!items!c1be767d1209863a",
+  "folder": "c9041474f977d8b8",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Biology. <strong>Cost:</strong> 2 EN.</p><p>Your speed in combat is a fearsome thing to behold. You can perform the Lightning Attack stunt at will, without spending SP, whenever you make an attack.</p>",
+    "shortDesc": "2 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

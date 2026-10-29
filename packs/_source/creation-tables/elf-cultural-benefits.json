@@ -1,0 +1,183 @@
+{
+  "name": "Elf Cultural Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cultural benefits table of the Elf people.",
+  "results": [
+    {
+      "_id": "1d8307639f12fe7c",
+      "type": "text",
+      "name": "+1 Fighting",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.1d8307639f12fe7c"
+    },
+    {
+      "_id": "c768eca71f0dcfc6",
+      "type": "text",
+      "name": "Focus: Communication (Performing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.c768eca71f0dcfc6"
+    },
+    {
+      "_id": "f1f751bcbf9224c3",
+      "type": "text",
+      "name": "Focus: Intelligence (Navigation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.f1f751bcbf9224c3"
+    },
+    {
+      "_id": "50b2524f9bfb7a60",
+      "type": "text",
+      "name": "Focus: Intelligence (Art)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.50b2524f9bfb7a60"
+    },
+    {
+      "_id": "9e70d592c5f5ad61",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.9e70d592c5f5ad61"
+    },
+    {
+      "_id": "c763cd7ebddc8e7b",
+      "type": "text",
+      "name": "Focus: Communication (Etiquette)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.c763cd7ebddc8e7b"
+    },
+    {
+      "_id": "437c25bc1f356e56",
+      "type": "text",
+      "name": "Focus: Perception (Empathy)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.437c25bc1f356e56"
+    },
+    {
+      "_id": "a3e2fe85ad26af86",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!f42917e98884bd54.a3e2fe85ad26af86"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "2bbb2de98f10323e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "f42917e98884bd54",
+  "_key": "!tables!f42917e98884bd54"
+}

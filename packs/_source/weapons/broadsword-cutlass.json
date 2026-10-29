@@ -1,0 +1,39 @@
+{
+  "name": "Broadsword/Cutlass",
+  "_id": "29eaba9e6373e7d9",
+  "_key": "!items!29eaba9e6373e7d9",
+  "folder": "a32b59c51f16f43a",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>A broadsword is a wide, straight, double-edged sword that can be held in one hand. A cutlass is curved and single edged. Many weapons are equivalent to these, from single-edged backswords to the double-edged Walloon sword. These weapons are thicker than other military sabers. Those with well-developed basket hilts (add +1 to the Resources cost) give their users +1 to Defense against hand-to-hand attacks, though they do nothing to protect against ranged threats.</p><p>Focus: Heavy Blades. Minimum Strength 1. Resources TN 11.</p>",
+    "shortDesc": "",
+    "useAbl": "fight",
+    "useFocus": "heavy blades",
+    "minStr": 1,
+    "nrDice": "2",
+    "diceType": "6",
+    "extraValue": -1,
+    "dmgAbl": "str",
+    "dmgType": "wound",
+    "dmgSource": "impact",
+    "damageFormula": "2d6-1",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 11,
+    "ranged": false
+  },
+  "ownership": {
+    "default": 0
+  }
+}

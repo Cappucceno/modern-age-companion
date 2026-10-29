@@ -1,0 +1,47 @@
+{
+  "name": "Field Researcher",
+  "_id": "7e1f9d2cc718f2ef",
+  "_key": "!items!7e1f9d2cc718f2ef",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>True answers can be found in the field, and you don’t hesitate to go look for them. Your goal may be knowledge, but you have a two-fisted disposition regarding the obstacles you’re likely to face. Armed with an undying curiosity and an ample supply of wits, you brave the dangers of the wild, as well as the people who would try to keep you away from the knowledge you seek.</p><p>You know how to avoid danger while searching for answers.</p><h3>Eras</h3><p>Field researchers are a mix of academics and adventurers, a blend best exemplified in the scientists of pulp adventures of the early to mid twentieth century. You can be a tough scholar fighting against an ancient conspiracy in the twenty-first century, a town doctor in the Wild West, or a treasure hunter in the world of Brass Lightning.</p>",
+    "shortDesc": "",
+    "requirement": "You must have Constitution 1 or higher and Dexterity or Strength 1 or higher. You also must have at least one Intelligence knowledge focus.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You are wary, know how to avoid danger, and might be a little bit lucky. When you make an ability test to avoid a hazard or a harmful effect, you can re-roll any die that comes up 1 or 2, but you must keep the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your specific knowledge of the dangers you might face helps you avoid potentially lethal obstacles. You can use an Intelligence-based test and knowledge focus to notice, figure out, and avoid or mitigate the effects of a hazard, instead of the usual required focus. The GM determines which focus applies. If you don’t have it, you may still use an Intelligence test to avoid the hazard instead of the ability test you’d normally need.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your field expertise applies to dealing with the people you encounter. You can apply your academic knowledge of their traditions and biases to confuse, confound, and delay them. You may make an Intelligence test with a relevant knowledge focus (determined by the GM) opposed by your target’s Willpower (Self-Discipline). If you succeed, your target cannot take their minor action until their next turn. You may spend 3 SP to deny your target their major action instead.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>Your applied knowledge helps people survive. When you use the Expert degree benefit and succeed, you may spend 1 SP per person to save others from the hazard, just as you saved yourself. They avoid or suffer fewer effects, just as you do. Also, you can grant the Novice degree benefit to an ally once per encounter.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You can notice danger in the background while you focus on more important issues. If the TN for tests to notice or avoid hazards is lower than half your level + your Intelligence, you notice or avoid them automatically and roll the Stunt Die to gain SP instantly. Furthermore, you can now grant the Novice degree benefit once per point of your Intelligence per encounter.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

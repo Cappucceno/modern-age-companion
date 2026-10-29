@@ -1,0 +1,17 @@
+{
+  "name": "Any Source",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 400000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "7945a417d1a3fd1b",
+  "_key": "!folders!7945a417d1a3fd1b",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

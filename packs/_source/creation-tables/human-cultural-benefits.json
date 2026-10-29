@@ -1,0 +1,183 @@
+{
+  "name": "Human Cultural Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cultural benefits table of the Human people.",
+  "results": [
+    {
+      "_id": "5a0de3c88e7d5ce9",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.5a0de3c88e7d5ce9"
+    },
+    {
+      "_id": "69e0f9d74fee2a75",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.69e0f9d74fee2a75"
+    },
+    {
+      "_id": "ded5265bebc2e506",
+      "type": "text",
+      "name": "Focus: Intelligence (Tactics)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.ded5265bebc2e506"
+    },
+    {
+      "_id": "48acbbdac43edcd3",
+      "type": "text",
+      "name": "Focus: Constitution (Stamina)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.48acbbdac43edcd3"
+    },
+    {
+      "_id": "5191263bd6b69869",
+      "type": "text",
+      "name": "+1 Fighting",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.5191263bd6b69869"
+    },
+    {
+      "_id": "40c37400ede44f27",
+      "type": "text",
+      "name": "Focus: Constitution (Tolerance)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.40c37400ede44f27"
+    },
+    {
+      "_id": "87dabe3669da4334",
+      "type": "text",
+      "name": "Focus: Willpower (Courage)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.87dabe3669da4334"
+    },
+    {
+      "_id": "61b6664182abf33a",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!dc95ab69ed0978d0.61b6664182abf33a"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "2bbb2de98f10323e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "dc95ab69ed0978d0",
+  "_key": "!tables!dc95ab69ed0978d0"
+}

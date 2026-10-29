@@ -1,0 +1,47 @@
+{
+  "name": "Hunter",
+  "_id": "a227c2fd48ad67c7",
+  "_key": "!items!a227c2fd48ad67c7",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>From the dawn of time, humans have learned to chase and capture their own food. You are the heir to this hunting legacy, trained to follow the trails left by your prey and to bring it down once you catch up. Your prey need not be limited to animals, and your goal might not be to kill; it’s the proverbial thrill of the hunt that fuels your efforts.</p><p>You know the ways of your prey inside and out; it will not escape you.</p><h3>Eras</h3><p>Whether hunting for sport or survival, hunters have had a role in society throughout history. You can play a jaded nineteenth-century big-game hunter, a US Marshal chasing a serial killer, a dinosaur wrangler in a weird genetics research laboratory, or a Witchfinder who hunts the supernatural monsters in the world of Brass Lightning.</p>",
+    "shortDesc": "",
+    "requirement": "You must have Accuracy 1, Perception 1 or higher, and the Perception (Tracking) focus, as well as any one Intelligence knowledge focus that studies creatures or people.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know everything there is to know about your target. Choose a kind of creature that exists in the story; this should be a group of species that share features, such as large cats, raptor birds, lycanthropes, undead, etc. You gain a special focus, named for the creature (such as Raptor Birds), called your target focus. The target focus applies to any ability test that involves this type of creature, though it does not stack with existing focuses. This includes attack rolls.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can recognize the traces left by your prey’s passing. When you make a simple or advanced test to follow a target’s trail (whether they are your target focus or not), you gain a +2 bonus to the result of the Stunt Die in a successful test. Furthermore, if you are stalking your target focus, you may re-roll a failed test, though you must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You know all the weak points of your prey. When you make a successful ability test or attack roll against the subject of your target focus, you gain 1 SP in addition to any SP gained from rolling doubles, and the cost of the following stunts is reduced by 1 SP (minimum cost of 1 SP): Brutal Strike, Taunt, Vicious Blow, Knock Out, Lethal Blow, Maim, Instant Kill, Restrain, Hamstring, Speed Demon, The Upper Hand, Intuition, and Breakthrough.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You are proficient in chasing more than one type of prey. You gain a number of additional target focuses equal to your Intelligence. In addition, the bonus to the Stunt Die result in the Expert degree becomes +3.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>There is no prey that can hide from you. You have a +1 bonus on all tests to locate or pursue creatures that are not the subjects of your target focuses. In addition, when you re-roll any opposed tests using your target focus, you may instead roll twice and keep the highest roll. If you succeed at both rolls and the highest roll scores doubles, add the Stunt Die results for both rolls to determine how many SP you gain.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

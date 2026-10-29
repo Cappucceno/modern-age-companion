@@ -1,0 +1,143 @@
+{
+  "name": "Culture Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Specific event of the Culture category. See the Campaign Event Listings journal for the intensity levels and campaign hooks of each.",
+  "results": [
+    {
+      "_id": "fa28da97075ed3bb",
+      "type": "text",
+      "name": "Artwork",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!4b51a4b631bab9bd.fa28da97075ed3bb"
+    },
+    {
+      "_id": "2f96a6b74c139d3a",
+      "type": "text",
+      "name": "Failure",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!4b51a4b631bab9bd.2f96a6b74c139d3a"
+    },
+    {
+      "_id": "43a5d2f7489ffb23",
+      "type": "text",
+      "name": "Innovation",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!4b51a4b631bab9bd.43a5d2f7489ffb23"
+    },
+    {
+      "_id": "f800d83fd828ae34",
+      "type": "text",
+      "name": "Religious Movement",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!4b51a4b631bab9bd.f800d83fd828ae34"
+    },
+    {
+      "_id": "239f6ae30be70366",
+      "type": "text",
+      "name": "Scandal",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!4b51a4b631bab9bd.239f6ae30be70366"
+    },
+    {
+      "_id": "4497274f689c49ec",
+      "type": "text",
+      "name": "Sporting Event",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!4b51a4b631bab9bd.4497274f689c49ec"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e52645d109d8620d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "4b51a4b631bab9bd",
+  "_key": "!tables!4b51a4b631bab9bd"
+}

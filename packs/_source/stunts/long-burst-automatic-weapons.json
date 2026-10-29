@@ -1,0 +1,27 @@
+{
+  "name": "Long Burst (Automatic Weapons)",
+  "_id": "de5ca4adb288d1bf",
+  "_key": "!items!de5ca4adb288d1bf",
+  "folder": "49bfa21f5309a8c1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Make a second attack against the same target or a different one within 3 map inches of the first; take a –2 to this attack roll but gain a +2 to the damage roll if you hit. You deal at least 1 point of damage no matter what, but you must reload your weapon afterward to continue using it.</p>",
+    "shortDesc": "",
+    "type": "Battle Map Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

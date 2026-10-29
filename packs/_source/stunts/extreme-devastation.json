@@ -1,0 +1,27 @@
+{
+  "name": "Extreme Devastation",
+  "_id": "e8205608069e4958",
+  "_key": "!items!e8205608069e4958",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Add +2d6 extra Stability loss to an opponent.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Blessed Bullets",
+  "_id": "32ecd1afa7f9688c",
+  "_key": "!items!32ecd1afa7f9688c",
+  "folder": "50196859f774618f",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Rarity:</strong> Uncommon.</p><p>This enchanted ammunition is blessed to hit the mark. When fired it grants a +1 bonus to the attack test and a +1 bonus to the total damage. Against some creatures, blessed bullets may also overcome special defenses.</p>",
+    "shortDesc": "Uncommon",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

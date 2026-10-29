@@ -1,0 +1,17 @@
+{
+  "name": "Cultural Benefits",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "2bbb2de98f10323e",
+  "_key": "!folders!2bbb2de98f10323e",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

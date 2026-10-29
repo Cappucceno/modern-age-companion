@@ -1,0 +1,27 @@
+{
+  "name": "Further Advantage",
+  "_id": "34d80f3b7e30f790",
+  "_key": "!items!34d80f3b7e30f790",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Gain a +2 bonus in the next plot action test against this same opponent.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 1,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

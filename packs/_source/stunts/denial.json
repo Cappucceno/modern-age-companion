@@ -1,0 +1,27 @@
+{
+  "name": "Denial",
+  "_id": "eb95c68946a7e6a7",
+  "_key": "!items!eb95c68946a7e6a7",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Choose one character present. They must immediately make a test with an ability + focus appropriate to opposing your action; if they fail to exceed your total on the test that generated this stunt, they may not target or affect you with the next action they take during this encounter. For 4 SP instead, no one present may do so if you succeed on a TN 13 test with an appropriate ability + focus.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 4,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Parkour",
+  "_id": "e18066d19cd13521",
+  "_key": "!items!e18066d19cd13521",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>City Streets Stunts.</em> You move with panache among clustered buildings with fire escapes and narrow alleys with tall fences. When you make a Chase Test in a foot chase or another kind of non-attack physical test, one opponent must exceed your total on this test to succeed the next time they make the same test in this encounter, as though you opposed it directly. (General Stunt: Clash)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

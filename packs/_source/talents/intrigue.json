@@ -1,0 +1,47 @@
+{
+  "name": "Intrigue",
+  "_id": "c6a6316b8f6ac8b6",
+  "_key": "!items!c6a6316b8f6ac8b6",
+  "folder": "67cbab7b9f8216ae",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You are a master of secrets.</p><p>Grandmaster and Apex degrees for the talent of the same name in the Modern AGE Basic Rulebook.</p>",
+    "shortDesc": "",
+    "requirement": "",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You have mastered all kinds of social interactions. The benefits of the Novice and Expert degrees now apply to all Etiquette, Deception, and Seduction tests.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>A word from you can move empires. The Cast Out and Oozing Confidence stunts only cost 1 SP each for you. You can spend additional SP when you use these stunts to target one additional person for each extra SP spent.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

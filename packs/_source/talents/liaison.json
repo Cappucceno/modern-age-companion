@@ -1,0 +1,47 @@
+{
+  "name": "Liaison",
+  "_id": "32edf5001fedda02",
+  "_key": "!items!32edf5001fedda02",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You see both sides of any conflict and find a middle path, walking the tightrope of competing interests to make sure all are satisfied, even if you favor one side over the other. You’re comfortable amid people who hardly trust you. It’s your job to build bridges between disparate interests.</p><p>You engineer better relationships between people and groups.</p><h3>Eras</h3><p>Liaisons work in any era where opposing forces need to settle their conflicts without violence. You can play an embassy attaché in a nineteenth-century murder mystery, a hostage negotiator in the mid-twentieth century, a social media manager in the twenty-first century, or an envoy to the Summer Court of Faerie in the Brass Lightning setting.</p>",
+    "shortDesc": "",
+    "requirement": "You must have Communication 1 or higher and the Communication (Bargaining) and Communication (Etiquette) focuses. You must also have at least one Membership at rank 1.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You know a broad cross section of people from various groups, and they’re at least dimly aware of your ability to deal with them fairly. Choose a number of groups or organizations in your campaign equal to your Communication. You gain a special focus, named after each group, such as CIA for the Central Intelligence Agency. These are known as organizational focuses. If your Communication increases, you gain a new organizational focus. You may use these focuses as a primary investigation focus when extracting information from these groups and as a substitute focus for Communication (Bargaining), Communication (Etiquette), Communication (Persuasion), and Intelligence (Current Affairs) when dealing with these groups and their members.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your words can smooth tempers and prevent misunderstandings—or aggravate tensions, if you prefer. If you are present at an event or action that would shift the attitude of an NPC in a direction you don’t want, you can cancel it out as a reaction. Make a Communication (Etiquette) test (you may use an organizational focus instead, if it applies) with the TN set by the GM or equal to the roll that caused the attitude shift. If the decrease was the result of a stunt such as Bad Form or Cast Out, you suffer a penalty to your roll equal to the stunt’s cost. If you still succeed, you negate the effect of the stunt completely.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You engender trust between members of groups you’re connected to. When you help members of at least two different groups for which you possess an organizational focus, each of them adds +1 to the Stunt Die when making basic or advanced tests toward a common goal, be it a cooperative test as described in Chapter 8 of Modern AGE or separate tests that nevertheless have a common purpose. You can grant this benefit to a number of applicable individuals equal to your Communication.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>Your cool words can delay violent conflict. When you roll initiative at the beginning of combat, you can also make a Communication (Bargaining) test (or any organizational focus, if applicable) as a reaction. If your result is higher than any initiative result except your own, everyone who can hear you is at least partly dissuaded from fighting. They incur a penalty equal to your Communication to attack and gain a +3 bonus to Defense against other witnesses to your words. This effect lasts for a number of rounds equal to your Stunt Die result, and you may exclude anyone you like from this effect or cancel it before it is scheduled to end.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>Your very presence changes social dealings. If you can communicate with people around you and they’re not engaged in combat, you automatically shift attitudes by 1 step of your choice. If you have an organizational focus that applies to an affected individual, you may automatically shift attitudes by up to 2 steps instead. In addition, you do not suffer any penalty from the use of stunts for the benefit of the Expert degree. Finally, you have a bonus to Defense equal to your Communication in any combat encounter, until you make your first attack roll or otherwise take an aggressive action.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

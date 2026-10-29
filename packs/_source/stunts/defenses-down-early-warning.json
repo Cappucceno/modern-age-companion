@@ -1,0 +1,27 @@
+{
+  "name": "Defenses Down/Early Warning",
+  "_id": "e931e561ea39a373",
+  "_key": "!items!e931e561ea39a373",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You convince a target you share a Relationship with that due to how you know them and how they think they know you, things aren’t going to turn violent or you don’t plan on escaping. When the encounter switches to action time, your target suffers a –3 penalty to initiative per SP spent. Alternately, you can subtly warn someone you share a Relationship with that you think action is imminent; they gain +3 to initiative per SP spent.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

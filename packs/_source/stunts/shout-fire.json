@@ -1,0 +1,27 @@
+{
+  "name": "Shout “Fire!”",
+  "_id": "3d9e1f1b30d3a02d",
+  "_key": "!items!3d9e1f1b30d3a02d",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Large Crowd Stunts.</em> When you make a social test, you follow it up with a related shout, brief speech, or flashy action that gets people’s attention and prompts them to act en masse in a way they could reasonably have acted on their own, given impetus. This only affects the masses, not individual important NPCs, unless those NPCs would waive their opposition. (General Stunt: Manipulation)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

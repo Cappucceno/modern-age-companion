@@ -1,0 +1,27 @@
+{
+  "name": "I’m a Mess, You’re Fantastic",
+  "_id": "45a273ad4c628f33",
+  "_key": "!items!45a273ad4c628f33",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You highlight your own weaknesses to contrast with your target’s virtues, to boost their confidence. You suffer a –2 penalty to your next roll, but they automatically gain +2 SP when they make their next roll.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

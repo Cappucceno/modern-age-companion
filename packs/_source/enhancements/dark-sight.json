@@ -1,0 +1,26 @@
+{
+  "name": "Dark Sight",
+  "_id": "1407393f2c2d06e5",
+  "_key": "!items!1407393f2c2d06e5",
+  "folder": "7945a417d1a3fd1b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Any. <strong>Cost:</strong> 1 EN.</p><p>Your eyes are specially adapted, allowing you to see in the dark as if it were normally lit out to a distance of 20 yards. Your Dark Sight might be from eye modifications or cybernetic replacements, biological adaptations, or innate magical abilities.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

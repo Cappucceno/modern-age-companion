@@ -1,0 +1,47 @@
+{
+  "name": "Controller",
+  "_id": "3347b0797378dc48",
+  "_key": "!items!3347b0797378dc48",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have a knack for helping others, either by giving the right advice or providing the right aid at the right time, but you may not be up to chasing and trading bullets with the enemy. You may not be action-hero material, but you can make sure your allies have the right tools and information to make it back home alive having accomplished their mission.</p><p>You don’t need to be there in person to lend a hand.</p><h3>Eras</h3><p>Controllers are more common in the Information Age, where communications and information technologies are advanced enough for you to sit at a console while radioing instructions to field agents, but every era sees the need for experts who can best coordinate the efforts of a group. You could as easily be a commissioned officer in World War II, an adventurous librarian in Brass Lightning, or a member of the royal house of a small (and fictional) kingdom.</p>",
+    "shortDesc": "",
+    "requirement": "You must have Communication 2 or higher, the Intelligence (Tactics) focus, and one of the following focuses: Communication (Leadership) or Communication (Persuasion).",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can point out an enemy’s weakness for your allies to leverage. You can make an Intelligence (Tactics) test instead of a normal attack roll when performing a Stunt Attack, with the target’s Defense as the test’s TN. You can make this test against any single target you can see, and if you use any stunt related to damage, it benefits the next successful attack your target receives. In addition, the Group Tactics, Double Team, Shock and Awe, and Over Here! stunts cost 1 SP less when you use this ability.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You don’t need to be there to lend a hand, but if you are, you can lend both. If you can somehow perceive your allies’ surroundings, you can cooperate in advanced tests even beyond the maximum number of characters who can cooperate in the test, provided your allies can hear your instructions or advice. In addition, you can re-roll a failed Intelligence or Perception test that would reveal information relevant to your allies’ current actions (such as spotting hidden attackers and finding leads in an investigation), but you must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can quickly make up for your allies’ mistakes. When an ally you can perceive fails a test, you can make an</p><p>Intelligence (Tactics) test with a TN equal to the original test’s TN +2. If you succeed, it counts as if your ally had succeeded, but this does not generate any SP. You can do this once per encounter.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You can coordinate the actions of entire squads. When you make a Stunt Attack (normally or as an Intelligence (Tactics) test), you automatically gain a number of SP equal to your Intelligence instead of only 1. In addition, when you use the Group Tactics, Double Team, Shock and Awe, and Over Here! stunts, you can spend extra SP to grant their benefits to 1 additional ally per additional SP spent.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>Your strategic awareness ensures a flawless operation. When an ally fails a breaching test, you can immediately make an Intelligence (Tactics) test with the same TN; if you succeed, the test still fails, but you avoid triggering consequences up to tier 2. In addition, when you re-roll a failed test as per the Expert degree or make a new roll as per the Master degree, Stunt Die results that are less than your Intelligence are increased to be equal to your Intelligence.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

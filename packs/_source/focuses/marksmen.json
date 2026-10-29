@@ -1,0 +1,27 @@
+{
+  "name": "Marksmen",
+  "_id": "0f93c1109f3f4f68",
+  "_key": "!items!0f93c1109f3f4f68",
+  "folder": "6b70b3472b97090b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used for the swift elimination of specific targets</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

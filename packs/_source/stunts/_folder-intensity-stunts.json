@@ -1,0 +1,17 @@
+{
+  "name": "Intensity Stunts",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 500000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "fe8e60768b6a0fdb",
+  "_key": "!folders!fe8e60768b6a0fdb",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Extended Arc",
+  "_id": "0e5a7bcb1dc6cae3",
+  "_key": "!items!0e5a7bcb1dc6cae3",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Zero-Gravity Stunts.</em> When you make an attack with the Thrown or Grenades focus, make the same roll again immediately and apply the attack that generated this stunt to one additional target; this may exceed the weapon’s range by yards equal to 10 times the Stunt Die’s value on this new roll. (General Stunt: Multiply)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Spray and Pray (Automatic Weapons; Cinematic)",
+  "_id": "8d4a6ac7914a4d03",
+  "_key": "!items!8d4a6ac7914a4d03",
+  "folder": "49bfa21f5309a8c1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Apply this attack to everyone within a 3-map-inch radius of your original target, including allies. All additional targets gain +1 to Defense against this attack.</p>",
+    "shortDesc": "",
+    "type": "Battle Map Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

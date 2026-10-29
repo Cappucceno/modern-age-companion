@@ -1,0 +1,183 @@
+{
+  "name": "Artificial Intelligence Cultural Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cultural benefits table of the Artificial Intelligence people.",
+  "results": [
+    {
+      "_id": "731d424e78c894c9",
+      "type": "text",
+      "name": "+1 Strength",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.731d424e78c894c9"
+    },
+    {
+      "_id": "22c8f574f10bf371",
+      "type": "text",
+      "name": "Focus: Dexterity (Running)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.22c8f574f10bf371"
+    },
+    {
+      "_id": "db234bb4f00d3d11",
+      "type": "text",
+      "name": "Focus: Strength (Jumping)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.db234bb4f00d3d11"
+    },
+    {
+      "_id": "33acf22f1c9db6d2",
+      "type": "text",
+      "name": "Focus: Fighting (Grappling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.33acf22f1c9db6d2"
+    },
+    {
+      "_id": "72bcec6ddefaa8d3",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.72bcec6ddefaa8d3"
+    },
+    {
+      "_id": "238402ee6b4dfd7d",
+      "type": "text",
+      "name": "Focus: Intelligence (Cryptography)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.238402ee6b4dfd7d"
+    },
+    {
+      "_id": "103e5fd976b06e01",
+      "type": "text",
+      "name": "Focus: Intelligence (Research)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.103e5fd976b06e01"
+    },
+    {
+      "_id": "d3421aa201204a16",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fb47cac8144da317.d3421aa201204a16"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "2bbb2de98f10323e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "fb47cac8144da317",
+  "_key": "!tables!fb47cac8144da317"
+}

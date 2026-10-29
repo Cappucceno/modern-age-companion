@@ -1,0 +1,27 @@
+{
+  "name": "Objects in Motion",
+  "_id": "1600b4b048122743",
+  "_key": "!items!1600b4b048122743",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Zero-Gravity Stunts.</em> When you make an attack or other physical test, you knock your opponent backward as far as they can go before they hit an obstacle. If the test has no target, or the target was an inanimate object, you may choose to go flying instead. (General Stunt: Positioning.</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

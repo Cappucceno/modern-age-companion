@@ -1,0 +1,17 @@
+{
+  "name": "General Stunts",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "e4502f3a6570f5f7",
+  "_key": "!folders!e4502f3a6570f5f7",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

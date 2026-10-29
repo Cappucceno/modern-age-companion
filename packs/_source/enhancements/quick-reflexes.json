@@ -1,0 +1,26 @@
+{
+  "name": "Quick Reflexes",
+  "_id": "279791060f09310d",
+  "_key": "!items!279791060f09310d",
+  "folder": "c9041474f977d8b8",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Biology. <strong>Cost:</strong> 1 EN.</p><p>You can perform the Momentum stunt for –1 SP cost, meaning you automatically gain +3 to initiative (for 0 SP) and can gain +6 or +9 to initiative for a round by spending 1 or 2 SP.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

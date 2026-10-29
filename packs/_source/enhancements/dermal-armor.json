@@ -1,0 +1,37 @@
+{
+  "name": "Dermal Armor",
+  "_id": "77545d6a88f2e364",
+  "_key": "!items!77545d6a88f2e364",
+  "folder": "b478cf5579f42758",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Technology. <strong>Cost:</strong> 1 EN.</p><p>You gain +1 Toughness due to subcutaneous reinforcement of your dermal layer using carbon fiber, antiballistic materials, and the like.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {
+      "2ddbf620ed2ef7a0": {
+        "type": "toughness",
+        "formula": "1",
+        "flavor": "+1 Toughness",
+        "isActive": true,
+        "valid": true,
+        "conditions": {},
+        "ftype": "",
+        "key": "2ddbf620ed2ef7a0"
+      }
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

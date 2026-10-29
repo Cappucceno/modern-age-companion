@@ -1,0 +1,26 @@
+{
+  "name": "Sign of the Cheetah",
+  "_id": "213e603e70e8edf6",
+  "_key": "!items!213e603e70e8edf6",
+  "folder": "29168708aa8a74ad",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Magic. <strong>Cost:</strong> 1 EN.</p><p>Your skin has been inscribed with an enchanted tattoo of a cheetah, allowing you to channel its natural totemic power. This mystic super-charging gives you a ×2 Force Multiplier, permitting you to move at up to 4 times your normal Speed when taking the Run action rather than twice your normal speed.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

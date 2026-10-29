@@ -1,0 +1,27 @@
+{
+  "name": "Spies",
+  "_id": "f2fbe27b05ab152e",
+  "_key": "!items!f2fbe27b05ab152e",
+  "folder": "e5f2a0037b6e2262",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used for surveillance, sabotage, and conducting various covert operations</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

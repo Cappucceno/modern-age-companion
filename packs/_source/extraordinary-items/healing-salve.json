@@ -1,0 +1,28 @@
+{
+  "name": "Healing Salve",
+  "_id": "b3e829e5a034036c",
+  "_key": "!items!b3e829e5a034036c",
+  "folder": "50196859f774618f",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Rarity:</strong> Uncommon.</p><p>This miraculous medicinal salve can rapidly heal injuries. When applied with an Activate action, it restores 6d6 + Constitution in lost Health. A single application of healing salve can be used in smaller amounts for less serious injuries—two applications restoring 3d6 Health each or three applications restoring 2d6 Health each. A container of healing salve usually has 1d6 applications.</p>",
+    "shortDesc": "Uncommon",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

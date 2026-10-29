@@ -1,0 +1,27 @@
+{
+  "name": "Achilles’ Heel",
+  "_id": "3ea4b21ebc9882c3",
+  "_key": "!items!3ea4b21ebc9882c3",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You understand the weaknesses of someone you share a Relationship with and how to deal with them socially. You either point out an emotional vulnerability for everyone to hear or cover it up so effectively it hinders people who might benefit from it. If you choose the first option, anyone exploiting it during the encounter gains +2 to any test that could take advantage of it. If you choose the second option, anyone whose actions would benefit from that vulnerability suffers a –2 penalty to applicable rolls instead.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

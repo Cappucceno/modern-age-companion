@@ -1,0 +1,27 @@
+{
+  "name": "Emotional Reversal",
+  "_id": "1cf0eeea8fc75260",
+  "_key": "!items!1cf0eeea8fc75260",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>An enemy or rival becomes a friend or lover, or vice versa. You flip a negative Relationship Bond you share with your target into a positive one or a positive one into a negative one, and it remains such for the rest of the session. The GM may allow this new Bond to persist, if it seems plausible.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 6,
+    "stuntPointsMax": 6,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

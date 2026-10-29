@@ -1,0 +1,28 @@
+{
+  "name": "Draft of Restoration",
+  "_id": "8efe11373d0e1867",
+  "_key": "!items!8efe11373d0e1867",
+  "folder": "ac19eddff97b06b9",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Rarity:</strong> Common.</p><p>This fizzing liquid seems to almost glow with an inner light. A character who drinks it as an Activate action regains 1d6 + Willpower power points. If the character has no power points, the draft has no effect other than making the drinker feel mildly jittery, like a strong cup of coffee.</p>",
+    "shortDesc": "Common",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Technician",
+  "_id": "5e1be7496d319602",
+  "_key": "!items!5e1be7496d319602",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>People trust you to keep things working. You are not a dazzling innovator or an out-of-the-box improviser, but if you weren’t around to keep everything operational, nobody would get to play around with their toys. You find joy in the purr of a machine performing at peak efficiency and effectiveness.</p><p>Under your care, no machine malfunctions unless you want it to.</p><h3>Eras</h3><p>Technicians grow common as technology advances. You’re the trusty mechanic that keeps your gang’s cars in top shape, the leader of a post-collapse community who keeps pre-collapse machines running, a specialist who maintains explorers’ vehicles, or a military engineer who keeps the Steam Homunculus Patrol’s robots operating in a setting like Brass Lightning.</p>",
+    "shortDesc": "",
+    "requirement": "You must have 1 or higher in Intelligence and Dexterity, the Intelligence (Engineering) focus, and any one technology focus as listed in the EQUIPMENT MODIFICATION rules in Chapter 7: Technology. Refer to that section for effects that deal with positive and negative qualities.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>The tricks of the trade are your standard operating procedure. Choose a technology focus you know. You can re-roll a failed test with your chosen focus, but you must keep the result of the second roll. Also, reduce the success threshold of an equipment modification test to remove a negative quality by 1 when using your chosen focus.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You have encountered certain malfunctions before and know how to handle them. Add +1 to the result of the Stunt Die in a successful test toward the success threshold to remove negative qualities or even to add them as sabotage.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You know which wires to cross and where to smack the box to get things going. Reduce the modifier value of negative qualities a piece of equipment would gain if you made an equipment modification test in action time by 2 and those acquired by cutting corners by 1. Also, reduce the success threshold by 2 when you are removing a positive quality through sabotage.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You learn to work with all manner of machines. You gain the Novice benefit on rolls to build or maintain any piece of technology. When it comes to the technology focus you chose as a novice, you may roll the test twice and keep the better of the two rolls.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>A single look tells you what’s wrong with a machine; a quick twist or tap fixes it. You can use the Activate action to make quick fixes to a piece of equipment with the proper tools. Until the beginning of your next turn, you suppress any negative quality in the equipment (even any you introduced yourself!) with a total threshold modifier equal to your Intelligence. In addition, if you wish it, the TN for any ability test to recognize that you modified or serviced a piece of equipment is increased by your Intelligence.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

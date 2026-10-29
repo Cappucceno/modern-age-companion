@@ -1,0 +1,27 @@
+{
+  "name": "It Was You All Along",
+  "_id": "2a92f112f0f7b0e1",
+  "_key": "!items!2a92f112f0f7b0e1",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Spy.</em> Your action reveals that one NPC present is a traitor to their apparent loyalties and was working for the other side the whole time—whether it’s yours or the enemy’s. (General Stunt: Good Fortune)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

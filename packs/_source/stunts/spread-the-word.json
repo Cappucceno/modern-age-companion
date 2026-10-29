@@ -1,0 +1,27 @@
+{
+  "name": "Spread the Word",
+  "_id": "1142dbe4e13da743",
+  "_key": "!items!1142dbe4e13da743",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You use your shared Relationship to urge the target to say something about you, even though they’re not consciously aware they’re doing so. Describe a general message about yourself, and your target will share that with people they speak to for a length of time determined by the GM, but always long enough to enter the rumor mill.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

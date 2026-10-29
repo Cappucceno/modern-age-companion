@@ -1,0 +1,27 @@
+{
+  "name": "Hit Men",
+  "_id": "5efbe0352196ebe8",
+  "_key": "!items!5efbe0352196ebe8",
+  "folder": "e5f2a0037b6e2262",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Nonaffiliated, disposable assassins for hire used for eliminating troublesome individuals through killing or abduction</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

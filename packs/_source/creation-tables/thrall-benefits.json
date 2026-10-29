@@ -1,0 +1,183 @@
+{
+  "name": "Thrall Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Thrall origin background (Lower Class).",
+  "results": [
+    {
+      "_id": "e2d782e898f781c0",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.e2d782e898f781c0"
+    },
+    {
+      "_id": "f7affdbde5d2b7bd",
+      "type": "text",
+      "name": "Focus: Strength (Intimidation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.f7affdbde5d2b7bd"
+    },
+    {
+      "_id": "4b933b43d57816c2",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.4b933b43d57816c2"
+    },
+    {
+      "_id": "2bf5e177d44ff269",
+      "type": "text",
+      "name": "Focus: Intelligence (Occultism)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.2bf5e177d44ff269"
+    },
+    {
+      "_id": "118406530c568791",
+      "type": "text",
+      "name": "+1 Fighting",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.118406530c568791"
+    },
+    {
+      "_id": "6533cae311db6108",
+      "type": "text",
+      "name": "Focus: Communication (Leadership)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.6533cae311db6108"
+    },
+    {
+      "_id": "5f2d494abdac2a3a",
+      "type": "text",
+      "name": "Focus: Willpower (Courage)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.5f2d494abdac2a3a"
+    },
+    {
+      "_id": "fa51cda976e56747",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!7f8df10f43d0446a.fa51cda976e56747"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "7f8df10f43d0446a",
+  "_key": "!tables!7f8df10f43d0446a"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Navigator",
+  "_id": "612e248e71d58dc1",
+  "_key": "!items!612e248e71d58dc1",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You always know where you are and where you’re going.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence (Navigation) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You were born with an internal compass. You always know which way north is, and you always remember how to return to any location you’ve been to, as long as you were aware of the route you took to go to or from it to reach a well-known location.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can always find the best path. You ignore all reductions to Speed from terrain, hazards, and obstacles. Also, on any exploration advanced test involving travel, add +2 to the Stunt Die result of your successful tests for the purpose of meeting the success threshold.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You are never lost, just alternatively oriented. If you fail an ability test to find the right way to go toward a desired destination (even if the destination is as vague as “the hidden archives in city hall”), you can re-roll it, but you must keep the results of the second roll. This includes tests to find hidden paths, secret doors, and other previously unknown pathways.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>No matter where you go, there you are. You always know the distance you have traversed in a day, and you always have a rough idea of the time of day, even without access to the sky. You can also automatically match your surroundings to any map or even a rough description of them.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You can find your way even under the most adverse circumstances. If the success threshold of any exploration advanced test involving travel is equal to or lower than half your level, you can resolve it as a simple Intelligence (Navigation) test. Also, you decrease the duration of time increments in any exploration advanced test by half, whether the individual test is successful or not (you realize quickly if you made a mistake).</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

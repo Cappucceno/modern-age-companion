@@ -1,0 +1,27 @@
+{
+  "name": "Take Cover",
+  "_id": "bf42922f48537978",
+  "_key": "!items!bf42922f48537978",
+  "folder": "49bfa21f5309a8c1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You gain 3 Move Points that you must spend to find cover, gaining a cover rating equal to SP spent. If you cannot find cover this way, you cannot use this stunt. You also nullify the Cover to Cover optional rule, if it is present, and attackers must attack you based on the position you’re in after using this stunt.</p>",
+    "shortDesc": "",
+    "type": "Battle Map Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "name": "Shapeshifter Cultural Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cultural benefits table of the Shapeshifter people.",
+  "results": [
+    {
+      "_id": "4a8d9c2e9a3bea27",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.4a8d9c2e9a3bea27"
+    },
+    {
+      "_id": "b79211f95c547838",
+      "type": "text",
+      "name": "Focus: Communication (Deception)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.b79211f95c547838"
+    },
+    {
+      "_id": "18b015c081a496ee",
+      "type": "text",
+      "name": "Focus: Dexterity (Sleight of Hand)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.18b015c081a496ee"
+    },
+    {
+      "_id": "344ef897574a4da1",
+      "type": "text",
+      "name": "Focus: Fighting (Light Blades)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.344ef897574a4da1"
+    },
+    {
+      "_id": "6b9b54275ca51c3d",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.6b9b54275ca51c3d"
+    },
+    {
+      "_id": "ee31f23ecfe5cd7a",
+      "type": "text",
+      "name": "Focus: Intelligence (Biology or Medicine)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.ee31f23ecfe5cd7a"
+    },
+    {
+      "_id": "f706a7aaaf40ea16",
+      "type": "text",
+      "name": "Focus: Dexterity (Stealth)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.f706a7aaaf40ea16"
+    },
+    {
+      "_id": "a7504cf76b8b1197",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!c52d8d1a86a569b3.a7504cf76b8b1197"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "2bbb2de98f10323e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "c52d8d1a86a569b3",
+  "_key": "!tables!c52d8d1a86a569b3"
+}

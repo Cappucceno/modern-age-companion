@@ -1,0 +1,143 @@
+{
+  "name": "Event Progress & Intensity",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Roll for progress or intensity of a campaign event. * If an event is active, increase its intensity as noted; if no events are active, create a new event of the listed intensity.",
+  "results": [
+    {
+      "_id": "c076a6425d306b26",
+      "type": "text",
+      "name": "No event or change",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!2370ffcd7263cd65.c076a6425d306b26"
+    },
+    {
+      "_id": "3a8199ba64adb1f2",
+      "type": "text",
+      "name": "New minor event",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!2370ffcd7263cd65.3a8199ba64adb1f2"
+    },
+    {
+      "_id": "9714505c6143e56e",
+      "type": "text",
+      "name": "Existing event intensity increases by one step or new minor event*",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!2370ffcd7263cd65.9714505c6143e56e"
+    },
+    {
+      "_id": "8d1f35a8520962f7",
+      "type": "text",
+      "name": "New moderate event",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!2370ffcd7263cd65.8d1f35a8520962f7"
+    },
+    {
+      "_id": "13a6592b5dca9949",
+      "type": "text",
+      "name": "Existing event intensity increases by two steps or new moderate event*",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!2370ffcd7263cd65.13a6592b5dca9949"
+    },
+    {
+      "_id": "a62b394b71813d19",
+      "type": "text",
+      "name": "New major event and roll again. If the second roll is a 6, it’s a new epic event instead.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!2370ffcd7263cd65.a62b394b71813d19"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "17ac400a0a3aaeb2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "2370ffcd7263cd65",
+  "_key": "!tables!2370ffcd7263cd65"
+}

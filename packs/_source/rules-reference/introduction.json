@@ -1,0 +1,90 @@
+{
+  "name": "Introduction",
+  "pages": [
+    {
+      "_id": "0b7f9e087792ecea",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The modern era contains an enormous number of campaign possibilities. In some of them, secret magical worlds lie across strange thresholds. Others feature cutting-edge technologies, superhuman abilities, and additional elements that expand human capabilities and ask questions about the consequences. Governments, corporations, and conspiracies influence events, forcing protagonists to deal with the fallout. <em>Modern AGE</em> attempts to cover as wide a range as possible, from the dawn of industrialization to the near future, but sometimes you’ll want tools to help define your campaign’s special features and genre. That’s what this book—the <em>Modern AGE Companion</em>—is for.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!73010d951b932139.0b7f9e087792ecea",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "d8fa87794caae8bd",
+      "name": "How to Use This Book",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>We used to assume a book like this was something the Game Master peered at alone, implementing whatever they liked. Truth be told, these optional rules can inspire players as well, especially when they involve new character options. A campaign is a collaborative process. The GM makes the sort of campaign world their players want to explore, and through their characters, players transform the world. Conspiracies collapse. Rivals suffer defeat, plot revenge, or revel in their triumphs.</p><p>Use this book in the same spirit of collaboration. Game Masters, don’t implement new rules players won’t enjoy. Players, be nice to the GM—respect what they want to run. Everyone should keep an open mind. Don’t assume a new option is one you have to stick with, unaltered, for all time. Beyond that, keep in mind the following advice.</p><h2>Hit the Ground Running</h2><p>If people are excited about a new rule, it’s better to add it to the game than debate how it might change the game. <em>Modern AGE</em> has straightforward rules, and the effects of new options should make themselves felt relatively quickly. The last thing you want is to delay playing. It’s all about the table, the dice, and the story. If elements end up presenting problems, don’t be afraid to adjust them later.</p><h2>Use the Casual Check-In</h2><p>Obviously, you should always talk about serious problems in an honest, straightforward fashion, but that’s different from a casual check-in, where everyone tries to talk about what they liked or felt could be better in a balanced, friendly way. Use the results to decide what changes you’ll make going forward. The GM shouldn’t seek praise and should be open to suggestions. Players should be generous, providing ideas instead of simple nitpicks.</p><h2>Defeat Paralysis with Purpose</h2><p>Both this book and the <em>Modern AGE</em> core provide many, many options. It’s easy to get stuck, both when designing a campaign and when making choices in the heat of the action. The solution is simple and may be too obvious: Do things for a reason. When you pick stunts, narrow choices down by how you want a character to express their luck and talents. When you peruse optional rules, do so with an eye toward what you want out of your campaign.</p><h2>Track Your Changes</h2><p>When you change rules or other options, make a note of what you did, when, and how. This produces a living document of your house rules that also explains why you wanted them. It helps you get to know your campaign, reconsider certain changes when the reasons no longer apply, or revive old ideas when they seem to fit a new situation.</p><h2>Embrace Inconsistency</h2><p><em>Modern AGE</em> isn’t designed to simulate the physics, the sociology, or any other aspect of an imaginary world. It’s supposed to produce danger, intrigue, and rewards for characters who throw themselves into the thick of it. It’s perfectly fine to implement rules that make combat deadlier for part of the campaign, then swap them out for more forgiving rules when it’s time to promote high adventure. Some players may be concerned they won’t know what to expect if you make these changes, so keep them in the loop whenever you alter things.</p><h2>Use the Rucksack Rule</h2><p>There’s a probably inaccurate story about how militaries test new equipment: They add it to soldiers’ gear and send them on maneuvers. If the troops drop the new equipment, it suggests it’s more of a burden than a help. To apply this principle to the rules, make an honest effort to learn a system, and if, after that, you find yourself forgetting or skipping it, it’s probably time to either abandon it or streamline it into something more manageable.</p><p>Throughout this book, you’ll read references to the <em>Brass Lightning</em> campaign. We’ve used this device to demonstrate how you’d apply the various options in this book to a specific game world. <em>Brass Lightning</em> is a steampunk Western setting where magic exists and rivals struggle along the frontier (and must reckon with people for whom it isn’t a frontier) using strange powers and stranger machines. There isn’t anything more detailed for this setting—at least, not unless you want to invent those details yourself. Look at the examples, and ask yourself how you’d perform similar customization for your own campaign.</p><p>Green Ronin produces several books using the <em>Adventure Game Engine</em> (<em>AGE</em>): the core system that powers <em>Modern AGE</em>. Each game customizes the <em>AGE</em> system to fit its own genre and world, but the core system and the central roles of stunts, talents, and other elements remain relatively consistent. It isn’t hard to convert rules you like from one <em>AGE</em> book to <em>Modern AGE</em> or vice versa, but in some cases, the same concepts have been adjusted to fit their native games. For instance, the vehicle rules in the <em>Fantasy AGE Companion</em> (this book’s “cousin,” designed for the <em>Fantasy AGE RPG</em>) differ slightly from those in the <em>Modern AGE</em> core. In addition, each book has options the others don’t, from ways to administer stunts to new magic systems.</p><p>Keeping this in mind, converting elements from other <em>AGE</em> system books is relatively straightforward. So, if you’d like to import the intelligent animals called rhydan from <em>Blue Rose: The AGE Roleplaying Game of Romantic Fantasy</em><strong>, </strong>go for it—and see the guidelines for converting fantasy peoples in this book, too. And, of course, you can bring elements from <em>Modern </em></p><p><em>AGE</em> into any other <em>AGE</em> game.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!73010d951b932139.d8fa87794caae8bd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "de1d423c3c4fc8f7",
+      "name": "What’s In This Book",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The <em>Modern AGE Companion</em> has nine chapters of options to offer. Take what you need and play.</p><h3>Chapter 1: Characters</h3><p><strong>Chapter 1: Characters</strong> provides numerous new options for characters. New backgrounds give you the option to play elves or aliens or people with a history bound to unusual forces. We also present guidelines for building brand-new backgrounds and professions, or creating characters without them, before talking about how to integrate characters with diverse capabilities into your game.</p><h3>Chapter 2: Talents &amp; Specializations</h3><p><strong>Chapter 2: Talents &AMP; Specializations </strong>provides new and expanded special abilities for characters, rewarding them for focus and perseverance. Learn about the fourth and fifth ranks of talents and the benefits of absolute mastery of a field, or consider new talents and specializations such as Demolitions or the Controller.</p><h3>Chapter 3: Rules</h3><p><strong>Chapter 3: Rules</strong> adds action, exploration, and social rules. Develop a fighting style, shudder in horror at a fearsome encounter, or run a game without Health points. Expanded hazards, rules for duels—take what you want from this chapter.</p><h3>Chapter 4: Stunts</h3><p><strong>Chapter 4: Stunts</strong> provides new ways to use the Adventure Game Engine’s signature system. Use stunts to support specific environments and genres, or build your own with the help of a succinct table of adaptable general stunts.</p><h3>Chapter 5: Extraordinary Abilities</h3><p><strong>Chapter 5: Extraordinary Abilities</strong> adds a new set of powers called enhancements to represent moderate superpowers and extraordinary items representing the gift of magic or unusual technologies.</p><h3>Chapter 6: Social Options</h3><p><strong>Chapter 6: Social Options </strong>provides expanded rules for the rise, fall, and use of Relationships, so the people characters love and hate drive stories forward. This chapter also includes new rules for social networks, specialist NPCs called companions, and organizations.</p><h3>Chapter 7: Technology</h3><p><strong>Chapter 7: Technology</strong> is for characters who like to make things and games where innovation is a powerful force. The rules give characters ways to slap together needed gear at a moment’s notice or work on projects to produce truly impressive devices.</p><h3>Chapter 8: The Modern Campaign</h3><p><strong>Chapter 8: The Modern Campaign</strong> starts off with systems for adjusting a campaign’s dramatic rhythm, so that every triumph carries the seeds of a new challenge, and vice versa. Then we move to a system for world events—elections, wars, scandals, and more—to generate a dynamic campaign world.</p><h3>Chapter 9: Genres</h3><p><strong>Chapter 9: Genres</strong> provides starting points for multiple campaigns based on a mixture of history and fiction. It includes suggestions for using <em>Modern AGE</em> to work within each genre, plot hooks, and sketches of notable NPCs.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!73010d951b932139.de1d423c3c4fc8f7",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "73010d951b932139",
+  "_key": "!journal!73010d951b932139",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

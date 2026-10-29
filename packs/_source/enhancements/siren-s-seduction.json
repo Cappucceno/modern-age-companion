@@ -1,0 +1,26 @@
+{
+  "name": "Siren’s Seduction",
+  "_id": "da0a71774f04f229",
+  "_key": "!items!da0a71774f04f229",
+  "folder": "29168708aa8a74ad",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Magic. <strong>Cost:</strong> 2 EN.</p><p>You are supernaturally seductive when you focus your wiles on another. You can perform the Flirt stunt for –1 SP cost, and you can perform the stunt regardless of the target’s initial attitude toward you. It should be noted that having a Hostile character become enamored with you can create all sorts of unexpected complications!</p>",
+    "shortDesc": "2 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

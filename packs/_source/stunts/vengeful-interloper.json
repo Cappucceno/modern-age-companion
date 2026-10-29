@@ -1,0 +1,27 @@
+{
+  "name": "Vengeful Interloper",
+  "_id": "85bd382a4841d817",
+  "_key": "!items!85bd382a4841d817",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Paranormal.</em> When you successfully oppose an offensive test against you with this roll, whether it’s an attack, an accusation, or intimidation, the event attracts the attention of a vengeful spirit that doesn’t like those who do whatever your opponent tried to do to you. It appears and immediately takes an offensive action of some kind against your opponent. It lingers for the rest of the encounter but isn’t loyal to you and does whatever it wants. (General Stunt: Good Fortune)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

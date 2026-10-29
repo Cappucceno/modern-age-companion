@@ -1,0 +1,906 @@
+{
+  "name": "Organizations",
+  "pages": [
+    {
+      "_id": "02b14462fbbf79dc",
+      "name": "Organizations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Organizations</h1><p>In <em>Modern AGE</em>, sizeable organizations may use the following rules to determine their capabilities and ability to affect the world and the people in it. These rules are simple so as to enable quick play, without the need to deliberate over the obscure workings of multifaceted corporations and secret societies.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.02b14462fbbf79dc",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "fb43dcb37818aae8",
+      "name": "Organizational Statistics",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Each organization, business, society, or club has a number of abilities representing its power and resources. These abilities are rated on a scale similar to a protagonist’s abilities, ranging from –2 or worse through 4 or greater. Most organizations possess scores in the 0 to 5 range, though powerful or weak assets, such as a paramilitary organization with a nuclear weapon and a way to fire it or a family store deep in debt to the mob and the banks, may find their ability scores above or below this range. There are five abilities for organizations: Might, Wealth, Influence, Intrigue, and Phenomena, though Phenomena only appears in campaigns where magic or future tech exist.</p><p>In addition to these abilities, organizations possess four secondary abilities: Stability, Structure, Focus, and Scope. Stability is similar to a character’s Health, representing how much damage can be done to an organization before it collapses. Structure is akin to a protagonist’s Armor Rating, representing how well constructed an organization is, making it harder to destabilize or undermine. Focus is the same as a character’s focus, reflecting an organization’s specialized traits, such as a weapons lab’s potential focus in chemistry, or biology if they specialize in the creation of dirty bombs. Other focus examples will be described later in the chapter, along with Scope, which measures an organization’s size.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.fb43dcb37818aae8",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "570e8febafe22cfb",
+      "name": "Might",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Might encompasses military power, armed guards, and other things an organization can use to attack others or defend itself or its holdings from physical assault. Might does not need to be a dedicated security force; a ruthless bunch of property magnates who can call in hired hitters for a street war, devaluing the property on the other side of town, would use its Might to reflect this. Large private security firms, mobs, paramilitary groups, and governmental organizations tend to have high Might.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.570e8febafe22cfb",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "b4d5f133fd298df2",
+      "name": "Wealth",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Wealth represents buying power, credit, and precious valuables. A bank balance with an impossible number of zeroes at the end of it, rare antiques, or bundles of unmarked notes all contribute to determining Wealth. Note that this score represents assets that can be actively used in play; a moneyed family with its wealth tied up in investments or with significant expenses, such as the upkeep of the family estate, might have low Wealth. Corporations and clandestine syndicates with many holdings usually have high</p><p>Wealth, though it’s unlikely all their employees or members can access the liquid cash.</p><p>In purely mechanical terms, an organization’s Wealth allows its powerful members to benefit from a reduction of difficulty on Resources checks. The Wealth rating subtracts from the TN on such a check when the hero uses their organization’s Wealth to assist in procuring goods or services. However, the hero’s rank (see Membership rules in <strong>Chapter 10 </strong>of the <em>Modern AGE Basic Rulebook</em>) affects the maximum by which this figure can affect the TN. For example, a character with Rank 1 can reduce the difficulty by 1 if the organization has a Wealth rating of 1 or more. A protagonist with Rank 3 can reduce the difficulty by 3 if the organization has a Wealth rating of 3 or more. This replaces the standard rules for Memberships and Resources. This is a mix of cash, credit, and assets on hand, so the GM can decide this advantage is reduced or doesn’t apply to purchases far divergent from the organization’s strengths and purpose.</p>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.b4d5f133fd298df2",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "28c9fc080d41ca47",
+      "name": "Influence",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Influence is a measure of political power and public sway. Influence may come from the possession of allies in various nations, secrets with political value, and friends among influential groups, such as the church, Freemasons, or US Republican Party. Influence only represents what an organization can call on swiftly to make things happen; a lobbyist group with one politician in its pocket might lose all Influence when that politician is indicted on corruption charges. Many large and successful organizations possess high Influence, with major political parties and billionaire-run corporations possessing particularly high scores.</p>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.28c9fc080d41ca47",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4bab448c10f9d395",
+      "name": "Intrigue",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Intrigue spans an organization’s ability to gather intelligence or perform reconnaissance, how many secrets an organization possesses, and whether it succeeds in clandestine operations. Intrigue takes place in the shadows of smoky barroom booths, behind closed doors, and in chat rooms buried in the Internet’s darkest corners. Spies, hard drives full of dirty secrets, and similar resources help determine Intrigue. Public organizations with no hidden arm, such as the city council or an open-book charity, have low Intrigue. Conversely, secret orders and covert organizations attached to more public entities have high Intrigue, as do many criminal organizations.</p>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.4bab448c10f9d395",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e13bb90ffa593d76",
+      "name": "Phenomena",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Phenomena is not present in every game of <em>Modern AGE</em>, but where this ability is used, it determines an organization’s mystical resources, psychic abilities, or uncommon and futuristic technologies. Arcanists and psychics each contribute to an organization’s Phenomena, along with any devices or persistent powers of a mystical or hyper-technological nature. Organizations not focused on magical or future-tech study and resources have low Phenomena, unless they receive the backing of a sponsor with investment in this area. The most phenomenal organizations may have a number of psychics or genius-level engineers on retainer to protect them from attacks of this nature. Tech-heavy organizations, such as the Midnight Corporation in the <em>Brass Lightning</em> setting, have high Phenomena.</p>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.e13bb90ffa593d76",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "4c102ee880449192",
+      "name": "Scope",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Organizations are not created equal. Compare a small street gang to an international crime syndicate. It’s possible the gang reports to the syndicate unknowingly through multiple layers of subterfuge, just as a drug dealer ultimately connects to the farmer running the plantations growing the poppies, but the two are unlikely to have much of an effect on each other. To use the street gang example, they might be a big deal among the locals, but they pale in comparison to a megacorporation in the same city or the organized criminal syndicate that, through various means, gets them their supply and takes a cut of their money. Some of this difference in power is represented in other ability scores, but there is also Scope.</p><p>Scope is rated in four categories: local, regional, national, or international. Scope determines how wide the organization’s reach is and acts as a bonus when an organization tries to affect smaller organizations than itself. The local category covers a town or small city, and regional covers part of a nation or a large city, like Berlin or Montreal. National deals with everything within the borders of a nation like the United States or China, while international is reserved for organizations that can affect large areas of the world with their power.</p>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.4c102ee880449192",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "71bdb39bf9f1f84e",
+      "name": "Stability",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Stability is an organization’s robustness. When looking at an organization’s membership, an attacker may look for weak links in the chain: the people with suspect motives and morals, those who can be bought, or, in the case of a military organization, those who don’t take safety and security precautions seriously. Stability will be lower for an organization containing little inner fortitude, which often comes down to principles, loyalty, and experience. Once an organization’s Stability runs dry, the organization ceases to function.</p>"
+      },
+      "sort": 900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.71bdb39bf9f1f84e",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "5bcc7d2add4e1438",
+      "name": "Structure",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Financial organizations might erect firewalls and have employee-dedicated cyber-defense teams, while secret societies may cloak their language in metaphors, code, and encrypted letters. Both forms of security contribute to the organization’s Structure. An organization with strong Structure is difficult to destabilize, as few can penetrate its outer shell. As examples, a national security service is likely to have a high Structure rating, whereas a gang of ex-convicts acting as security for a mildly charismatic leader’s cult will be far easier to undermine with its low Structure. The cult itself may have a high Structure if its members are brainwashed to the point of fanatical loyalty, or the Structure may be incredibly low if the cultists doubt their leader’s words.</p>"
+      },
+      "sort": 1000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.5bcc7d2add4e1438",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "0eb51e4b87c28f58",
+      "name": "Building Organizations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Unless the protagonists inherit or take over leadership in an existing organization, they will want to generate their organization’s abilities. There are three ways to do this.</p>"
+      },
+      "sort": 1100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.0eb51e4b87c28f58",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "60c0002e8a19e2d3",
+      "name": "Option 1: Free-Form",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Using this method, the players can work with the GM to assign abilities to their organizations as required. They shouldn’t take every ability at high levels, keeping some low for interesting stories and campaign goals to develop. Additionally, leaving some areas weak will provide room for growth and expansion. If everyone reaches a consensus, this is a quick and easy way to generate a protagonist-operated organization. Stability should be around 25 to 45 and Structure between 2 and 6 for most organizations. Select two focuses that make sense for the organization as envisioned by the players.</p>"
+      },
+      "sort": 1200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.60c0002e8a19e2d3",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "3e9cf1162724d44d",
+      "name": "Option 2: Assign Points",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The GM can vary the number of points provided but, as a standard, an organization should have 3 points in one primary ability, 2 in another, 1 in two more, and 0 in the final one. With the GM’s permission, players can also lower one ability by 1 to increase another by 1. Starting Structure is 3 and Stability is 25 + 2d6 + the organization’s highest ability score. An organization’s default Scope is local, unless the GM determines a larger Scope is warranted for the campaign. Select two focuses, one of which must be for the organization’s highest ability.</p>"
+      },
+      "sort": 1300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.3e9cf1162724d44d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "869c7c796fec7e61",
+      "name": "Option 3: Random Generation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>This option can provide the most interesting results for a campaign, likely leading to immediate engagement for the players when they realize one ability is staggeringly high or woefully low. With this option, the players roll for their abilities in order as if they were making a character. As with character creation, they can then switch two ability scores with each other. Starting Structure is 1d6 – 1 and Stability is 25 + 2d6 + the organization’s highest ability score. Scope is determined by a d6 roll: 1–4 is local and 5–6 is regional. Organizations won’t randomly have a larger Scope, though GMs might increase this as the campaign requires. Select two focuses, one of which must be for the organization’s highest ability.</p>"
+      },
+      "sort": 1400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.869c7c796fec7e61",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "47fb5f0a840b03e6",
+      "name": "Organizational Focuses",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>This section gives examples of organization focuses for the five abilities that can possess them. Each can be used as is, though GMs and players are encouraged to look at these as examples and come up with their own focuses.</p>"
+      },
+      "sort": 1500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.47fb5f0a840b03e6",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e58e6652c78cfa08",
+      "name": "When Organizations Go to War",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>When players think of the rank-and-file population making up an organization’s membership, they may think of anything from office drones to faceless ninja foot soldiers, or a mixture of the two! Sometimes in a campaign, an organization’s troops will need to fight for their employer, whether through words, with fists, using assault weapons, or hurling shuriken.</p><p>It is a simple process to calculate troop types and numbers. An organization can muster an approximate number of troops equal to the sum of its Might, Wealth, and Influence multiplied by a modifier determined by its Scope.</p><p>The exact numbers can be influenced by a number of factors, including the nature of the organization itself. A paramilitary unit likely has more troops at its disposal than a secret laboratory. While these numbers don’t necessarily represent every single soldier an organization can recruit, they do represent the largest force it can muster, supply, and mobilize within a time frame appropriate to the campaign.</p><p>An organization’s focuses and general concept help determine which and how many troops it has available. The Might (Specialty Troops) focus should definitely provide such troops, but if it makes sense, the GM can allow other focuses to provide soldiers as well.</p>"
+      },
+      "sort": 1600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.e58e6652c78cfa08",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "8398dccb629b7758",
+      "name": "Example Organization: The Locomotive Busters",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>The players in Meghan’s </em>Brass Lightning<em> game decide to form The Locomotive Busters. The Locomotive Busters excel at holding up trains and always aim to get away with a fair haul of stolen loot. Ideally, the theft comes at the expense of the wealthy rail owners at Smythe-Johnson Rail or the snobbish passengers in first class. The players and GM decide to generate the organization randomly and then explain what they get afterward. First, they roll 3d6 five times for abilities, getting 8, 14, 15, 9, and 12. They decide to switch their roll for Intrigue (9) and Influence (15), giving them Might 0, Wealth 2, Influence 1, Intrigue 3, and Phenomena 2. They roll a d6 – 1 for Structure, getting 3, and their Stability comes to 33. The players collaborate in providing narrative to these figures. They suggest their criminal enterprise has a lot of spies among the railroad companies, saboteurs on hire, and potentially the backing of a psychic. Their heists have procured a fair degree of wealth, but at this time they carry little fame. Finally, with their Might nonexistent, they decide the last heist went wrong and their main security forces were shot dead or arrested. A d6 roll for Scope gives them regional Scope, meaning the organization starts the campaign well-established over a large region. With the game set in the United States, they decide Dallas is where their group is currently based and consider their region the entire state of Texas. They then pick two focuses, one of which must be in their highest ability (Intrigue). They opt for Intrigue (Spies), so they can benefit from their informants in the railroad industry, and also select Wealth (Bank Account) to demonstrate the cash they’ve already gained through their criminal activity. The Locomotive Busters are now ready for play. They will grow, maintain their modest power, or fall into ruin based on the actions of their Player Character leaders and the challenges the organization encounters from here onward.</em></p><p><strong>scopenumber of troops Available</strong></p><p>Local(Might + Wealth + Influence) × 10</p><p>Regional(Might + Wealth + Influence) × 25</p><p>National(Might + Wealth + Influence) × 50</p><p>International(Might + Wealth + Influence) × 100</p>"
+      },
+      "sort": 1700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.8398dccb629b7758",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c25057e907a7373a",
+      "name": "Antagonist Organizations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>These rules are also suitable for GMs who wish to introduce antagonist-run organizations and societies. Free-form generation is the easiest option for most NPC-run organizations, but GMs should feel free to use the random-generation rules if they want to populate a campaign with multiple organizations possessing interesting aspects.</p><p>In creating an organization, the GM should consider the type they want, its strengths, its weaknesses, and how this organization will interact with the setting, the protagonists, and any other organizations. GMs should take the time to figure out exactly what role an introduced organization will fill and how it functions, avoiding the trap of making a group that will constantly obliterate the players’ efforts. A strict organizational chart or lengthy background is likely unnecessary, but GMs should know what their organizations do, what their capabilities are, who’s in charge, and what their goals are. For those GMs who enjoy charts and tables, they can of course go right ahead and stat out a bunch of organizations.</p>"
+      },
+      "sort": 1800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.c25057e907a7373a",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "0a3fe1ecfe76d933",
+      "name": "Incorporating Organizations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The players will want to introduce their organization to the campaign, and the GM should facilitate this, making such play fun and inspiring to the group. Organizations can perform actions like characters, though they perform them less frequently and often over a longer period of time. Organization actions come in two forms: growth checks and plot actions.</p>"
+      },
+      "sort": 1900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.0a3fe1ecfe76d933",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "429d4185acdbc82d",
+      "name": "Growth Checks",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>All organizations must combat natural wear and tear, the nipping teeth of rivals, overbearing politicians, and interested law enforcement that sometimes acts for virtuous</p><p><strong>2d6 roll misfortune</strong></p><p><strong>Hacker Attack:</strong> Hackers access and damage organization resources, maybe through theft, maybe through a 2 release of sensitive information.</p><p><strong>New Organization:</strong> A new group occupying a similar trade to the protagonists’ organization arrives from 3–4 elsewhere and draws resources and recruits away.</p><p><strong>Betrayal:</strong> Turncoat operatives within the organization defraud it of wealth or launch an attack on loyal 5–6 members to destabilize the organization.</p><p>7–8<strong>Rival Maneuvering:</strong> A rival organization undercuts the group’s power with their own actions.</p><p>9-10<strong>Political Upheaval:</strong> A shift in leadership within the local government weakens the organization’s power base.</p><p><strong>Out of Our Hands:</strong> Something occurs far away, maybe a war, economic crisis, or public tragedy, that somehow 11 negatively impacts the organization.</p><p><strong>Law Involvement: </strong>Whether the protagonists were aware or not, something in the organization is illegal, and the</p><p>12 law has just taken notice.</p><p>reasons and other times seeks a cut of profits or simple hush money. Day-to-day crises and opportunities such as these fall under growth checks. Growth is performed once per month and is a simple test (TN 10) using the organization’s highest ability. If successful, the organization maintains its current condition. If it fails, some ill fortune or event befalls the organization, causing it to lose 2d6 Stability or reduce one of its ability scores, Scope, or Structure by 1 rank. The only way to prevent this loss is for the protagonists to undertake an adventure to address the problem, by stopping the saboteurs attacking their organization, paying off the extortionists, distracting the journalist probing the organization’s shady dealings, or performing similar activities. Abilities cannot be reduced below –2 in this fashion, Structure can’t go below 0, and Scope cannot be less than local. GMs looking for guidance as to what misfortune struck the organization can roll 2d6 and consult the <strong>ORGANIZATION MISFORTUNES </strong>table or choose a preplanned calamity. GMs should strive to keep organizations in the players’ view, creating plot to surround their growth and survival.</p><p>If doubles are rolled on the growth check and it is a success, the organization grows in some way. This is done by spending stunt points in the same way as you would for a character. The <strong>ORGANIZATION GROWTH STUNTS </strong>table provides the list of how players can use these stunt points to grow their organization. GMs can add new stunts to provide even more resources and possibilities, though the really powerful and unique assets of an organization should come from the protagonists’ actions. Organizations are there to provide opportunities for adventure, for a different kind of roleplay, and for the characters to make a big mark on the world.</p>"
+      },
+      "sort": 2000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.429d4185acdbc82d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7cfa6284c2138981",
+      "name": "Plot Actions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Organizations may affect each other’s resources, territory, and power through initializing plots. Narratively, one organization may perform a cyberattack on another, ruin the reputation of an opponent with scandalous tabloid stories, steal clients from under opponents’ noses, or directly sabotage operations with bombs, guns, and ambushes.</p><p>Successful plots hurt their targets and often strengthen the plotting organization. Unsuccessful plots do the opposite.</p><p><strong>sP Costeffect</strong></p><p><strong>Rebuild/Expand:</strong> Add or replace Stability at the 1+ cost of 1 per SP spent.</p><p><strong>Equip:</strong> Supply one character with an important 1and significant piece of equipment or 1d3 minor items suitable to the organization.</p><p><strong>High Morale:</strong> Gain a +2 bonus to the next action 2 the organization takes.</p><p><strong>Obtained Secrets:</strong> The organization gains a valuable piece of information about a rival 2 group. Learn 2 exact ability scores or focuses of another organization in the campaign.</p><p>3<strong>Bolster Infrastructure:</strong> Increase Structure by 1.</p><p><strong>New Hire:</strong> A skilled or influential NPC joins the organization, reducing the SP cost of one Plot or 3Growth stunt by 1 SP. Should the individual be killed or removed, this bonus is lost. The players should name and briefly detail this character.</p><p><strong>Contacts:</strong> The organization forms a connection 3that will provide useful information from time to time.</p><p>4<strong>New Assets:</strong> Increase any ability rated 5 or less by 1.</p><p><strong>Significant Growth:</strong> Increase the Scope of the 4 organization from local to regional.</p><p>4<strong>New Focus:</strong> Add a focus.</p><p><strong>Talent Scouted:</strong> A skilled <em>and</em> influential NPC joins the organization, reducing the cost of two 5Growth or Plot stunts by 1 SP each. Should the individual be killed or removed, this bonus is lost. The players should design this character.</p><p><strong>Major Growth:</strong> Increase the Scope of the 5 organization from regional to national.</p><p><strong>Greater Assets:</strong> Increase any ability rated 6 or 6 more by 1.</p><p><strong>Rampant Growth:</strong> Increase the Scope of the 6 organization from national to international.</p><p><strong>sP Costeffect Reinforce:</strong> Add extra Stability equal to the 1+ number of SP spent.</p><p><strong>Further Advantage:</strong> Gain a +2 bonus in 1the next plot action test against this same opponent. <strong>Disorganize:</strong> Pick a focus; the opponent cannot 2 use it in their next plot action.</p><p><strong>Embarrass:</strong> The organization’s actions humiliate an opponent. Make an Influence vs. Influence test. If the protagonists’ organization 2 wins, the target’s members receive a –1 penalty to Communication tests until they roll doubles during a growth check.</p><p><strong>Undermine:</strong> The organization discovers an important secret about a foe. Make an Intrigue vs. Intrigue test. If the protagonists’ 2 organization wins, the target suffers a –2 penalty to their next plot action involving the protagonists. <strong>Devastate:</strong> Add +1d6 extra Stability loss to an 3 opponent.</p><p><strong>Steal Asset: </strong>The protagonists seize a notable 3asset from an opponent, such as a shipment of valuable goods. <strong>Surgical Strike:</strong> Ignore Structure when 3 determining the opponent’s Stability loss.</p><p><strong>Split Targets: </strong>Use the results from the plot action to target two organizations. These 4 need to be linked together in some way. Each organization rolls and resists separately.</p><p><strong>Two-Pronged Plot:</strong> Make another plot action immediately against the organization. This 4 must use a different ability than the current plot. <strong>Defection:</strong> An important individual in an opponent organization changes sides and 5brings significant resources with them. The protagonists’ organization gains a focus the opponent possesses (they still retain their focus).</p><p><strong>Extreme Devastation:</strong> Add +2d6 extra Stability 5 loss to an opponent.</p><p><strong>Overwhelm:</strong> Make another plot action 5immediately against the organization. This uses the same ability as the current plot. <strong>Power Shift:</strong> Lower one of the target organization’s ability scores by 1, and raise the 6 protagonists’ organization’s rating in the same ability by 1.</p><p><strong>Sabotage Operation:</strong> An important individual in the opponent’s organization changes sides. They bring many subordinates and resources 6and sabotage their former employer’s operations when they defect. Gain a focus the opponent has—and the opponent loses that focus.</p><p>To initialize a plot action, the organization makes an opposed test with its target. Any appropriate focuses give each party a +2 bonus to their rolls. If the attacking organization wins, it deals 2d6 + the ability used as damage to the defending organization’s Stability, with Structure acting as armor against the result. Structure rating therefore reduces Stability lost through the plot action. If the defender wins, the attacker takes the same damage to its Stability, with Structure again reducing damage. The winner of the test gains SP equal to their Stunt Die result (if they roll doubles) to spend on the <strong>PLOT STUNTS</strong> table.</p><p>Different plots require different abilities. Industrial espionage, spying on the CEO of a corporation, or assassinating a chief of security would use Intrigue, for instance. Making a show of an organization’s strength in the media or on the rumor mill of the underworld is more likely to use Influence. Blowing up another organization’s laboratory or launching a full-scale attack on another group’s headquarters uses Might. If an organization employs a third party to act for them, the GM makes the call between using Wealth as the defining ability, to illustrate the mercenary reliability of the third party being used, or using the organization’s appropriate ability with a modifier or reduction depending on their assessment of whether the third party aids or hinders ambitions.</p>"
+      },
+      "sort": 2100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.7cfa6284c2138981",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "70fb2f808340b23d",
+      "name": "Plot Frequency",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>GMs should determine how frequently they want to use plots. If the players love managing their organization and putting it through the highs and lows of public opinion, success, and failure, more than one plot in a session may be perfectly appropriate. If not, a limit of one plot action per session keeps the game at an individual level rather than at the level of the organization the characters control.</p>"
+      },
+      "sort": 2200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.70fb2f808340b23d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "7fc06aa81595dfcd",
+      "name": "Long Plots",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A plot between organizations may span an entire campaign. The Capulet and Montague feud lasted generations in <em>Romeo and Juliet</em>, crime families fiercely competed on the American East Coast during the Prohibition era, and video game companies actively engage in cut and thrust with each other until one rises to the top for a few years, only to eventually be supplanted.</p><p>If the players’ organization engages in a long-lasting feud or one that’s elaborate, the story is assisted through breaking it into various plot actions rather than making all fates depend on one roll. In this way, organizations can suffer setbacks only to recover for a devastating counterstrike later in the campaign. Alternatively, repeated successes can hammer home the domination an organization can exercise when on top of its market. Naturally, if one organization does experience repeated success, other organizations may band together to stop the danger of their own annihilation.</p>"
+      },
+      "sort": 2300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.7fc06aa81595dfcd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "466c5afdcf1dd110",
+      "name": "Other Actions",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Plots are aggressive by design, but sometimes players will want their organizations to do something outside the norm, whether acquiring resources through something mundane like mining or procurement on the market, or simply keeping the company cars serviced and fueled and the chauffeurs all trained in chase and evasion maneuvers.</p><p>The GM should look at the organization’s abilities, should the players wish to explore such tangential tasks. It is fine to limit an organization from owning a railgun if the organization is a family of stockbroking arcanists. Common sense holds sway here, allowing for communal storytelling in which GMs can feel free to impose limits or throw in twists if the players overreach. As an example, if the stockbroking arcanists did decide they wanted a railgun for the defense of their family mansion, the GM could narrate the cost of doing business, the negative attention it draws, and the lack of experience any of the characters have in operating such a weapon. The idea is not to stop fun but to complicate situations and provide more roleplay opportunity.</p>"
+      },
+      "sort": 2400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.466c5afdcf1dd110",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "216f9435ea26510d",
+      "name": "Scope and Plots",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Fundamental to organization plots are the Scopes of the organizations in question. Smaller organizations struggle against larger ones, just as larger organizations find it easier to succeed in crushing their smaller counterparts. Punching up is a good feeling, but often leads to messy results.</p><p>For every difference in Scope (local to regional, regional to national, national to international), the larger organization gets a +2 bonus to the plot action test. However, it also costs 2 additional stunt points per difference in Scope to perform a stunt. It’s easier for a large organization to overwhelm and push around smaller institutions, but they get less out of it when they do. Conversely, it’s harder for small organizations to affect larger ones.</p><p>The upside is that when a smaller organization gets the better of a larger organization, they get a bonus as their actions grow their power by attracting new allies, recruits, and aid. These victories rarely weaken the larger organization but often do wonders for the smaller. To reflect this, for every Scope they are below their opponent, the organization winning a plot action test gets a +2 bonus and receives 2 free SP to spend with their next growth check. This makes plots by small groups against larger organizations very attractive, but they also risk drawing the ire of an institution with far superior resources. It is a gamble to make an action like this, but the rewards for doing so are great.</p>"
+      },
+      "sort": 2500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.216f9435ea26510d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "29ece4de8136804c",
+      "name": "Organizational Absorption",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>If an organization reaches a Stability of 1 or 2 or has at least three of its abilities reduced to 0, a larger organization can step in and absorb it. Such an action is handled narratively. Some examples include when a large crime syndicate adopts a crew from a fallen Mafia family, a legitimate business is taken under the wing of the megacorporation monopolizing the industry, or a secret society merges with another to ensure lore is passed on. In such cases, the larger organization gains 1 rank in up to three abilities the smaller organization still held above 0 and 1d6 Stability.</p><p>Organizations can and often do move against particular individuals. A supporting character and a protagonist who constantly interfere with the running of an organization will find themselves the target of a plot. If this happens, the plot should be run as an encounter or even a whole adventure if the target is a protagonist. The organization might send assassins, attempt to have the character arrested, publicly disgrace the protagonist, or do whatever else seems dramatic. If the protagonist survives this plot, they’ve dodged the organization’s ire, for now.</p><p>If the target is a GM character, the GM should determine the likely outcome based on the power of the organization and its respective target. Making a plucky journalist vanish without a trace or ruining a small-time rival to the organization’s objectives should be pretty much automatic; destroying an organization of equivalent size and strength to the heroes’ group or killing the masters of a secret society should be far from easy.</p>"
+      },
+      "sort": 2600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.29ece4de8136804c",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "9273e5e3c25ceee0",
+      "name": "Organizational Ruin",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>In the rare case an organization loses all its Stability or has all its abilities reduced to 0 or less, the organization is in ruins. The organization will completely collapse unless the characters step in and succeed at some last desperate attempt to save it. Such actions are always the focus of a story, and protagonists might even be called to do this for organizations that aren’t theirs. If this final attempt to save it succeeds, the organization immediately gains 2d6 Stability and 1 rank in two abilities of the players’ choice. It’s in sorry shape, but it still exists.</p>"
+      },
+      "sort": 2700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.9273e5e3c25ceee0",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e5e8d21f6827bc64",
+      "name": "Keeping Track of Organizations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Organization statistics are minimal for ease of system and reference and can fit on an index card or within a single paragraph in a document. For this reason, GMs can make a lot of organizations for their game, which can be hugely beneficial to a political game with multiple blocs in play, a crime game where rival families and factions war for territory, or an espionage game with all its potential interested parties.</p><p>Listing organizations in one place such as a spreadsheet, perhaps ranking them in order of different ability values, allows a GM to keep a league table of the groups in their game. Players may enjoy referencing game lore in this manner, as it’s relatable and clearly demonstrates the shifts of power present in the campaign. They may especially enjoy it if they’re the instigators of these power shifts. Consider the looks on the players’ faces when the organization on top of the league for Wealth, Influence, and Intrigue plummets down to fourth place and their discussion when they realize they were instrumental to the organization’s fall, or their surprise due to their lack of involvement in that group. Stories may commence purely through investigation as to why the top dog fell and the identity of the persons responsible.</p>"
+      },
+      "sort": 2800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.e5e8d21f6827bc64",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "e18056b2444a48e2",
+      "name": "Example: The Midnight Corporation",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>The following example shows how a protagonist-run organization in the <em>Brass Lightning</em> setting handles both growth and plot actions.</p><p><em>The Midnight Corporation, a protagonist-run secret society, has been operating for several months in the London underworld. Having reached the end of another month in game, the GM calls for the organization to make a growth check. The TN for the check is 10, and the organization uses its highest ability, in this case its Phenomena of 3. One of the players rolls for the check, getting 4, 4, and 3 on the Stunt Die! The roll is only just a success on its own, but with doubles they gain stunt points. The players may spend the 3 SP they earned to grow their organization or keep them in reserve for the next time they get an opportunity to spend SP. After consulting the Organization Growth Stunts chart, they decide to Bolster Infrastructure by 1 for the full sum of their 3 SP.</em></p><p><em>Feeling better defended than before, the members of the Midnight Corporation decide they can now afford to be aggressive. They choose to target the mercantile family of Arthur Smythe-Johnson, aiming to physically disrupt the railroads the Smythe-Johnsons operate and prevent the traffic of illegal weapons and drugs to their part of the country. In particular, they intend to blow up one of the family’s trains in its siding, to deter others from using the Smythe-Johnsons’ enterprise for risk of a similar fate. The GM calls for a contested roll against the Smythe- Johnsons to determine the effects of this plot action. Both sides have Might 2, but the Smythe-Johnsons have regional Scope to the Midnight Corporation’s local, giving them a +2 bonus to their roll. This would be a deterrent to the Midnight Corporation but for their focus in Might (Specialty Troops), which the players had already defined as demolitions experts. This focus grants the Midnight Corporation a +2, effectively negating the Smythe-Johnsons’ bonus. The dice will determine the ultimate outcome. The players roll for the Midnight Corporation, getting a 2, 5, and a Stunt Die of 5 with a +4 bonus for a total of 16. The GM rolls for the Smythe-Johnsons, getting a 1, 3, and a Stunt Die of 2 with a +4 bonus for a total of 10. The Midnight Corporation’s plot succeeds! The organization’s saboteurs successfully destroy the Smythe-Johnson cross-country train in its station. The Smythe-Johnsons take 2d6+2 Stability damage from this, in this case a large 11 points of Stability after subtracting their Structure of 2. The Smythe-Johnsons have 19 Stability, having been the recent victims of several damaging plots. Remember, the Midnight Corporation rolled doubles, so they get to spend the value of their Stunt Die as SP on plot stunts. Three of those points go into Steal Asset, as the Midnight Corporation members decide they recover a cache of forbidden weapons from the train before its destruction. </em></p><p><em>The players elect to use the remaining two points to pay for an Embarrass plot stunt. The Midnight Corporation has 0 in Influence, so it’s a gamble against the 2 possessed by the Smythe-Johnsons. Additionally, the Smythe-Johnsons have a focus in Influence (Media) and are still regional to the Midnight Corporation’s local Scope, resulting in a +6 to the Smythe-Johnsons. Unsurprisingly, the players’ roll of 2, 3, and a Stunt Die of 1 does not beat the GM’s roll of 4, 4, and 2 with a +6 on top. Fortunately, the organization loses nothing for failing in this stunt test.</em></p><p><em>The Smythe-Johnsons are not stupid. The GM decides it’s likely the Smythe-Johnsons will push for reprisal using a plot of their own. They attempt to discredit the Midnight Corporation in the presses, using their Influence of 2. The protagonists try to defend with Wealth, saying they pay off the media with their rating of 1. The GM agrees to this decision. The Midnight Corporation only possesses a bonus of +1, while the Smythe-Johnsons receive a +2 bonus for their superior Scope, +2 for their Influence ability, and +2 for their aforementioned focus in Influence (Media). The GM rolls a 1, 2, and a Stunt Die of 3 with a +6 bonus (ability plus Scope and focus bonus) for a total of 12. The players rolling for the Midnight Corporation luckily get a 6, 5, and a Stunt Die of 3. With their +1 bonus (ability) they get a 15. Against the odds, the Midnight Corporation manages to withstand the Smythe-Johnson’s attack. Defeating a foe of superior Scope gives the Midnight Corporation an additional +2 bonus and 2 free SP on their next growth check, improving the chances of a good result. The Midnight Corporation’s next actions are up to the protagonists. They might continue to plot against the Smythe-Johnsons, trying to ruin them utterly, or move on to some other endeavor.</em></p>"
+      },
+      "sort": 2900000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.e18056b2444a48e2",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "8f6d036c63d3d7fc",
+      "name": "Cult",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Abilities (Focuses)</strong></p><p><strong>Might</strong>1</p><p><strong>Wealth</strong>0</p><p><strong>Influence</strong>2 (Fringe Group)</p><p><strong>Intrigue</strong>2</p><p><strong>Phenomena</strong>3 (Lore)</p><p><strong>Combat ratings</strong></p><table><tbody><tr><td><strong>structure</strong></td><td><strong>stability</strong></td><td><strong>scope</strong></td></tr><tr><td>2</td><td>30</td><td>Local</td></tr></tbody></table><p>This group represents a small cult dedicated to an esoteric form of belief. Neither rich nor powerful, their skills mainly gravitate around appealing to outsiders.</p>"
+      },
+      "sort": 3000000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.8f6d036c63d3d7fc",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "a4ae571c4feeafbd",
+      "name": "Paramilitary Group",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Abilities (Focuses)</strong></p><p><strong>Might</strong>4 (Marksmen, Paratroopers)</p><p><strong>Wealth</strong>2</p><p><strong>Influence</strong>2 (State)</p><p><strong>Intrigue</strong>3 (Spies)</p><p><strong>Phenomena</strong>0</p><p><strong>Combat ratings</strong></p><table><tbody><tr><td><strong>structure</strong></td><td><strong>stability</strong></td><td><strong>scope</strong></td></tr><tr><td>5</td><td>40</td><td>Regional</td></tr></tbody></table><p>This group represents a dangerous band of ex-soldiers with designs on power. Led by disenfranchised ex-military members, this group likely bristles with weapons and tactical expertise.</p>"
+      },
+      "sort": 3100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.a4ae571c4feeafbd",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c0562769aa02ce09",
+      "name": "Street Gang",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Abilities (Focuses)</strong></p><p><strong>Might</strong>2 (Security Force)</p><p><strong>Wealth</strong>1 <strong>Influence</strong>1 (Underworld)</p><p><strong>Intrigue</strong>2</p><p><strong>Phenomena</strong>0</p><p><strong>Combat ratings</strong></p><table><tbody><tr><td><strong>structure</strong></td><td><strong>stability</strong></td><td><strong>scope</strong></td></tr><tr><td>4</td><td>25</td><td>Local</td></tr></tbody></table><p>This group consists of petty criminals banding together for common security and mutual gain. Unlikely to make a dent at anything greater than a city level, they are still dangerous to people who fall afoul of them.</p>"
+      },
+      "sort": 3200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.c0562769aa02ce09",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "275a44fb97703f7f",
+      "name": "Pyramid Scheme",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Abilities (Focuses)</strong></p><p><strong>Might</strong>2</p><p>6 (Bank Account, <strong>Wealth</strong> Investments)</p><p>3 (Blue Collar, <strong>Influence</strong> White Collar)</p><p><strong>Intrigue</strong>3 (Secrets) <strong>Phenomena</strong>1</p><p><strong>Combat ratings</strong></p><table><tbody><tr><td><strong>structure</strong></td><td><strong>stability</strong></td><td><strong>scope</strong></td></tr><tr><td>6</td><td>45</td><td>International</td></tr></tbody></table><p>This financial consortium rewards those on top and punishes those at the bottom, all with the vain temptation that it might be possible to ascend the pyramid. Likely illegal in practice, this group will act as moneylenders, investors, and fraudsters of dubious character.</p>"
+      },
+      "sort": 3300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.275a44fb97703f7f",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "09c50f51eb94a066",
+      "name": "Crime Syndicate",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Abilities (Focuses)</strong></p><p><strong>Might</strong>4 (Marksmen)</p><p><strong>Wealth</strong>5 (Bank Account)</p><p><strong>Influence</strong>3 (Underworld)</p><p><strong>Intrigue</strong>3 (Hit Men, Secrets)</p><p><strong>Phenomena</strong>0</p><p><strong>Combat ratings</strong></p><table><tbody><tr><td><strong>structure</strong></td><td><strong>stability</strong></td><td><strong>scope</strong></td></tr><tr><td>5</td><td>35</td><td>National</td></tr></tbody></table><p>This nationwide group may one day exert influence across the globe. Comprising different crime families and a variety of areas of expertise, the crime syndicate can be called upon to perform any illegal action.</p>"
+      },
+      "sort": 3400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.09c50f51eb94a066",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "9fde763de14d3724",
+      "name": "Aristocratic House",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><strong>Abilities (Focuses)</strong></p><p><strong>Might</strong>2 (Security Force)</p><p><strong>Wealth</strong>3</p><p><strong>Influence</strong>4 (State) <strong>Intrigue</strong>1</p><p><strong>Phenomena</strong>1</p><p><strong>Combat ratings</strong></p><table><tbody><tr><td><strong>structure</strong></td><td><strong>stability</strong></td><td><strong>scope</strong></td></tr><tr><td>4</td><td>35</td><td>Regional</td></tr></tbody></table><p>Once upon a time, an aristocratic house may have held international, or at least national, sway. In the late modern era, the peerage is toothless but for symbolic power. That is not to say they cannot enact their will via proxies, which is where their power truly lies.</p>"
+      },
+      "sort": 3500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.9fde763de14d3724",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "50009a5dd9bf1fad",
+      "name": "Membership & Roles",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Organizations bestow ranks on their members, as defined in the <em>Modern AGE</em> core book. These ranks differ between organizations. Some are strictly hierarchical and divided between initiates, apprentices, experts, tutors, and masters, or administrators, managers, directors, and CEOs, while others have more nebulous terms like soldiers, captains, consiglieri, and bosses. While the titles themselves may change, for the purposes of game mechanics the functional ranks do not. A drug dealer in a gang may be considered a recruit by the core rules, while their superior as the moneyman in charge of several dealers can be considered a respected member, and so on.</p><p>To differentiate members beyond raw rank, you can give characters a Membership Role linked to one of the organization’s abilities. This is an additional benefit, sort of like a “phantom rank,” added to a Membership as an additional perk. Thus, some characters may have Memberships without them, but someone with a role related to political lobbying and a Rank 2 Membership in the Midnight Corporation would have it listed as Membership: Midnight Corporation 2 (Influence).</p><p>The GM can award one Membership Role on top of any rank. Additionally, the character can acquire a second Membership Role as a perk on top of Rank 3. A Rank 3 character with two Membership Roles occupies one of the top positions in the organization.</p><p>If characters adopt these Roles in an organization, the GM needs to throw complications their way based on their position from time to time.</p>"
+      },
+      "sort": 3600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.50009a5dd9bf1fad",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "5052f564ef1c00a9",
+      "name": "Membership Role Rules",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A character with a Membership Role adds half their score (rounded up) in the better of two key abilities to the Role’s organizational ability tests, provided they act in concert with the organization. If the score is negative, they’ll provide a negative modifier. Do not include bonuses from any focuses the character has. On the other hand, possessing a focus may provide additional key ability options. These will be listed as “Ability (Focus required).”</p><p>You should generally avoid giving characters the same Membership Roles in the same organizations. An organization has a capacity for as many Membership Roles in one ability as half its score rounded up. Thus, an organization with Might 3 can support two members with Might Roles. Members who cooperate fine-tune their results, as per the <strong>COOPERATION</strong> rules in <strong>Chapter 8 </strong>of the <em>Modern AGE Basic Rulebook</em>.</p><h3>Might Membership</h3><p>If a character becomes a might member of the organization, they may be a security officer, a former military expert, or just an effective bouncer at the door of a nightclub.</p><p><strong>Key Abilities:</strong> Fighting or Accuracy, Intelligence (Security or Tactics required)</p><h3>Wealth Membership</h3><p>A character responsible for an organization’s wealth may be a stockbroker, investment banker, or money launderer, or simply have access to a very big safe.</p><p><strong>Key Abilities:</strong> Communication or Intelligence</p><h3>Influence Membership</h3><p>An influence member may be media savvy, have good personal PR, or simply possess blackmail material on the opposition.</p><p><strong>Key Abilities:</strong> Communication or Willpower, Intelligence (Anthropology or Current Affairs required)</p><h3>Intrigue Membership</h3><p>Characters with an intrigue role could be retired (or maybe not-so-retired) spymasters, skilled extortionists, or successful criminals.</p><p><strong>Key Abilities:</strong> Intelligence or Perception, Communication (Deception or Investigation required)</p><h3>Phenomena Membership</h3><p>If they aren’t researchers into unusual abilities and technologies, characters who manage phenomena may have extraordinary gifts themselves.</p><p><strong>Key Abilities:</strong> Constitution or Willpower, Intelligence (Occult or another relevant knowledge focus required)</p><p>In a <em>Modern AGE</em> game, the level of ambient technology is often a core aspect of the setting. Even if it’s an urban fantasy game in which the setting is “our world but with magic,” the availability and advancement of our technologies strongly define our modern world and distinguish one era from another. Whoever has the more advanced tech has more power, more money, or at least more options.</p>"
+      },
+      "sort": 3700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!87ff912646707c0b.5052f564ef1c00a9",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "87ff912646707c0b",
+  "_key": "!journal!87ff912646707c0b",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

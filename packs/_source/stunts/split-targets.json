@@ -1,0 +1,27 @@
+{
+  "name": "Split Targets",
+  "_id": "910a7b2389464c1b",
+  "_key": "!items!910a7b2389464c1b",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Use the results from the plot action to target two organizations. These need to be linked together in some way. Each organization rolls and resists separately.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

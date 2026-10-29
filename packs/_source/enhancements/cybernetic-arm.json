@@ -1,0 +1,26 @@
+{
+  "name": "Cybernetic Arm",
+  "_id": "6c68671f7e255faf",
+  "_key": "!items!6c68671f7e255faf",
+  "folder": "b478cf5579f42758",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Technology. <strong>Cost:</strong> 1 EN.</p><p>One of your arms is replaced with a cybernetic prosthetic as effective as a real lim, which also gives you a x2 Force Multiplier for Strength tests and actions related solely to your arm and hand. More advanced Cybernetic Arms might have a higher Force Multiplier (for more enhancements) or one or more built-in Innate Attacks, such as a concealed gun or blade.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Whirligig",
+  "_id": "80740606275dfaf1",
+  "_key": "!items!80740606275dfaf1",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Clockwork Engine Stunts.</em> You and your target make opposed Dexterity (Acrobatics) rolls; if you win, you force them onto a turning gear. They immediately move 2 yards away from you and can’t target you with their next action unless they take 1d6 damage first to brave a shortcut back through the gears. (General Stunt: Denial/Positioning)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Politics Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Specific event of the Politics category. See the Campaign Event Listings journal for the intensity levels and campaign hooks of each.",
+  "results": [
+    {
+      "_id": "6ed960d227867599",
+      "type": "text",
+      "name": "Appointment/Election",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!85648f72bdb30097.6ed960d227867599"
+    },
+    {
+      "_id": "c4ce42f0bb6ab339",
+      "type": "text",
+      "name": "Corruption",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!85648f72bdb30097.c4ce42f0bb6ab339"
+    },
+    {
+      "_id": "6351e18a1da8a542",
+      "type": "text",
+      "name": "Coup",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!85648f72bdb30097.6351e18a1da8a542"
+    },
+    {
+      "_id": "16af8e9a730204d9",
+      "type": "text",
+      "name": "Espionage",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!85648f72bdb30097.16af8e9a730204d9"
+    },
+    {
+      "_id": "3c79ccdef1a5713b",
+      "type": "text",
+      "name": "Militant Politics",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!85648f72bdb30097.3c79ccdef1a5713b"
+    },
+    {
+      "_id": "fced70f1de5a37eb",
+      "type": "text",
+      "name": "Political Crisis",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!85648f72bdb30097.fced70f1de5a37eb"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e52645d109d8620d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "85648f72bdb30097",
+  "_key": "!tables!85648f72bdb30097"
+}

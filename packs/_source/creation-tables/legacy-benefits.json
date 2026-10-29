@@ -1,0 +1,183 @@
+{
+  "name": "Legacy Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Legacy origin background (Upper Class).",
+  "results": [
+    {
+      "_id": "f79fc90d92738a94",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.f79fc90d92738a94"
+    },
+    {
+      "_id": "3884cdcfa52383e9",
+      "type": "text",
+      "name": "Focus: Intelligence (Occultism or Research)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.3884cdcfa52383e9"
+    },
+    {
+      "_id": "48919275a0b97e73",
+      "type": "text",
+      "name": "Focus: Intelligence (Astronomy)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.48919275a0b97e73"
+    },
+    {
+      "_id": "f04b766081790258",
+      "type": "text",
+      "name": "Focus: Strength (Intimidation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.f04b766081790258"
+    },
+    {
+      "_id": "7f43d8e86098f7f4",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.7f43d8e86098f7f4"
+    },
+    {
+      "_id": "b6a98d17ed66f85e",
+      "type": "text",
+      "name": "Focus: Intelligence (Evaluation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.b6a98d17ed66f85e"
+    },
+    {
+      "_id": "4e67e43184e18d89",
+      "type": "text",
+      "name": "Focus: Dexterity (Piloting)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.4e67e43184e18d89"
+    },
+    {
+      "_id": "692b126929dd9586",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!efdc1ce56b894393.692b126929dd9586"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "efdc1ce56b894393",
+  "_key": "!tables!efdc1ce56b894393"
+}

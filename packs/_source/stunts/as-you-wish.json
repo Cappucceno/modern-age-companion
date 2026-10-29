@@ -1,0 +1,27 @@
+{
+  "name": "As You Wish",
+  "_id": "85337626df9d0b1d",
+  "_key": "!items!85337626df9d0b1d",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Pick a task you have promised someone you have a Relationship with you will perform. Gain a +2 bonus to tests directly related to completing this task until the end of the session.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 7,
+    "stuntPointsMax": 7,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

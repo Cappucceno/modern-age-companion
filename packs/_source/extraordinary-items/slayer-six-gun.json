@@ -1,0 +1,28 @@
+{
+  "name": "Slayer Six-Gun",
+  "_id": "432e66bf2ccfd4fe",
+  "_key": "!items!432e66bf2ccfd4fe",
+  "folder": "b93096ee45c7ee09",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "equipment",
+  "img": "systems/age-system/resources/imgs/item-icon/briefcase.svg",
+  "system": {
+    "longDesc": "<p><strong>Rarity:</strong> Rare.</p><p>A slayer six-gun is a revolver etched with arcane sigils and inlaid filigree. When its wielder takes the Aim action, the subsequent attack roll receives a +3 bonus rather than the usual +1. The wielder of a slayer six-gun can also perform the Called Shot stunt for 3 SP rather than the usual 4. The six-gun’s attacks are considered magical against targets vulnerable to such attacks.</p>",
+    "shortDesc": "Rare",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

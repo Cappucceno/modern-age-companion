@@ -1,0 +1,183 @@
+{
+  "name": "Jacked In Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Jacked In origin background (Upper Class).",
+  "results": [
+    {
+      "_id": "da3f4c8d3391da27",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.da3f4c8d3391da27"
+    },
+    {
+      "_id": "43e176993df714c2",
+      "type": "text",
+      "name": "Focus: Intelligence (Cryptography)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.43e176993df714c2"
+    },
+    {
+      "_id": "928414b204e55dd2",
+      "type": "text",
+      "name": "Focus: Intelligence (Current Affairs)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.928414b204e55dd2"
+    },
+    {
+      "_id": "179921df886d0564",
+      "type": "text",
+      "name": "Focus: Perception (Seeing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.179921df886d0564"
+    },
+    {
+      "_id": "c47892072fdcfa1a",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.c47892072fdcfa1a"
+    },
+    {
+      "_id": "aaf9bee9b2870de2",
+      "type": "text",
+      "name": "Focus: Willpower (Self-Discipline)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.aaf9bee9b2870de2"
+    },
+    {
+      "_id": "2a366dd50537bb02",
+      "type": "text",
+      "name": "Focus: Dexterity (Sabotage)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.2a366dd50537bb02"
+    },
+    {
+      "_id": "5ab0b5080f4507b1",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!b05b6947f729fc25.5ab0b5080f4507b1"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "b05b6947f729fc25",
+  "_key": "!tables!b05b6947f729fc25"
+}

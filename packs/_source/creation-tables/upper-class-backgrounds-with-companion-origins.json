@@ -1,0 +1,143 @@
+{
+  "name": "Upper Class Backgrounds (with Companion origins)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Background table for the Upper Class social class, updated with the Companion's origin backgrounds.",
+  "results": [
+    {
+      "_id": "52d48c45267c1137",
+      "type": "text",
+      "name": "Aristocratic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3ce29c6f43ed866f.52d48c45267c1137"
+    },
+    {
+      "_id": "508e37ae373d23d3",
+      "type": "text",
+      "name": "Corporate",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3ce29c6f43ed866f.508e37ae373d23d3"
+    },
+    {
+      "_id": "1478ca603370de53",
+      "type": "text",
+      "name": "Cosmopolitan",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3ce29c6f43ed866f.1478ca603370de53"
+    },
+    {
+      "_id": "7a6588fb8387fc82",
+      "type": "text",
+      "name": "Jacked In",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3ce29c6f43ed866f.7a6588fb8387fc82"
+    },
+    {
+      "_id": "b9368c2dbdadeed7",
+      "type": "text",
+      "name": "Legacy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3ce29c6f43ed866f.b9368c2dbdadeed7"
+    },
+    {
+      "_id": "899da96481674963",
+      "type": "text",
+      "name": "(Roll again)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!3ce29c6f43ed866f.899da96481674963"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "584b4ccda76f538e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "3ce29c6f43ed866f",
+  "_key": "!tables!3ce29c6f43ed866f"
+}

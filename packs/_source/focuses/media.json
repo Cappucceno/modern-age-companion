@@ -1,0 +1,27 @@
+{
+  "name": "Media",
+  "_id": "954d56404a43f9b2",
+  "_key": "!items!954d56404a43f9b2",
+  "folder": "1c0bfac73a080558",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used when handling the media in a form selected by the players, such as television, the stage, news reports, or newspaper journalism</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

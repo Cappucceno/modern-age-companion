@@ -1,0 +1,17 @@
+{
+  "name": "Uncommon Items",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "50196859f774618f",
+  "_key": "!folders!50196859f774618f",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

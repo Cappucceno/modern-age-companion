@@ -1,0 +1,90 @@
+{
+  "name": "Chapter 2: Talents and Specializations",
+  "pages": [
+    {
+      "_id": "265f2a9b3832e5c3",
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>TAlents &amp; Specializations</p><p>After focuses, talents further define a character’s abilities, expanding them as they improve in level. A Specialization fuses a talent to a social role or category of expertise that has weight in the campaign. In this chapter, you’ll not only find new talents and specializations, but ways to expand the ones found in the <em>Modern AGE Basic Rulebook</em>.</p>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!764b4e128b614bcb.265f2a9b3832e5c3",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "11763ab7bc9f9618",
+      "name": "Talents",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Talents arise from a combination of natural ability, specific training, and experience. The exact mixture of these elements varies from one character to the next. Talents never develop in a vacuum, however. They evolve in response to social conditions and personal challenges. This means a character who has developed a talent to a high degree has a social role in the campaign. They may attract students hoping to learn from a bona fide expert. They might be forced to hide the true extent of their abilities in case others see them as characteristics of a troublemaker, or something to exploit through blackmail and other forms of extortion.</p><h2>After Mastery</h2><p>The Novice, Expert, and Master degrees indicate how competent a character is within the talent’s scope, but some protagonists break boundaries and reach heights others can only dream about. These new heights are the fourth and fifth degrees in talent progression: Grandmaster and Apex.</p><ul><li>At the <strong>Grandmaster</strong> degree, a character has not only learned all there is to learn in their field, but has explored new ground within it, inventing new techniques. The character may also change the world by introducing new knowledge into academic circles, devising a new combat paradigm, or developing a new, hyperefficient programming language. At the Grandmaster degree, the talent likely becomes one of the character’s defining traits to both peers and the public at large.</li><li>The <strong>Apex</strong> degree places the character at the absolute upper limit of the talent. None are as skilled as Apex practitioners. Unless they take measures to hide their identities and exploits, Apex-degree characters become the talk of their professional circles, and others begin to use them as benchmarks for skill and quality. Only one or two people in the world possess the Apex degree in a talent at any time. These people are most likely one Player Character and one major Non-Player Character.</li></ul><p>Characters with Grandmaster and Apex talents are in great demand as teachers and problem solvers. Public figures with such talents get requests for their services from the unlikeliest sources. If anyone finds even anonymous evidence of their work, social networks eventually carry the information to someone who will seek out such characters. In these respects, a Grandmaster’s influence is limited to the general region where they live, while an Apex character will be sought by people from all over the world. Protagonists may be the objects of these searches or might be employed to find someone so skilled. Of course, not everyone seeking out a holder of these degrees wants training or services. When one</p><p>Most benefits of Grandmaster degrees build up from the benefits in previous degrees, filling in gaps or providing extensions to those benefits.</p><p>The benefits of the Apex degree should reflect a character’s unparalleled expertise. Apex benefits generally make actions that are normally costly, difficult, or lengthy into trivial efforts.</p><p>Use your judgment when coming up with new degrees for existing talents. Depending on the scope of any given talent, a benefit can be suitable for either the Grandmaster or the Apex degree.</p><p>Common benefits of Grandmaster and Apex degrees include the following:</p><ul><li>If you had to choose between options in a previous degree, you gain all the options you didn’t choose.</li><li>Numerical benefits may increase by 1 or 2 points.</li><li>If a previous benefit provided a re-roll, you can now roll twice and keep the best of the two results.</li><li>The cost of certain stunts is further reduced, usually to just 1 SP.</li><li>Automatic success in a test is provided if certain conditions are met (like a TN being equal to or lower than your level).</li><li>The number of attitude shifts in a detailed social test is increased.</li><li>The time required for tests is reduced.</li><li>An additional amount of SP is provided on a double roll, or you may even gain free SP on a simple successful test.</li></ul><p>person attains the Apex degree in a fighting style, the only other Apex holder in the same style may seek them out for a duel. Alternately, a jealous individual may play Salieri to a more talented Mozart, wishing to destroy that which they cannot attain. New Reputation honorifics, Memberships, and Relationships may flower from attaining the pinnacle of skill.</p><h2>Existing Talents</h2><p>Any talent can reach the Grandmaster and Apex degrees. This book only includes additional degrees for three existing talents: Intrigue, Knowledge, and Tactical Awareness. Use them as examples, along with the guidelines described in the sidebar above, to expand other talents to Apex and Grandmaster degrees in ways that would be relevant to your campaign.</p><h2>New Talents</h2><p>The talents in this book provide options not covered by the <em>Modern AGE Basic Rulebook</em>. New talents include Grandmaster and Apex degrees, providing further inspiration if you wish to expand talents from the core rules.</p>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!764b4e128b614bcb.11763ab7bc9f9618",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "693d0d98c46d5646",
+      "name": "Specializations",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>A character who chooses a specialization acquires a narrower set of abilities but with a much clearer focus. A specialization is not just a collection of benefits fitting a theme, but a role a character assumes.</p><h2>The Role of Specializations</h2><p>On top of the usual advantages, specializations link characters and their world. They are career paths other characters can identify by name. Public organizations or whispered conspiracies may teach a specialization’s trade, or the specialization may be rewarding enough that practitioners teach it to themselves and take on its social role.</p><p>Although specializations feature enough detail to provide clear career character concepts, they leave out certain details so they can work with the various eras and modes of <em>Modern AGE</em> campaigns. An Agent in the twenty-first century may belong to a real-world organization, such as the CIA, or an entirely fictional one (ACRONYM or KROM). In <em>Brass Lightning</em> they can be members of Golden Spiral, a secret society working in the shadows to protect the crown, or the covert Domino Division of the West’s Silver Rangers.</p><p>As a Game Master, you can use specializations to shape the campaign world. You can downplay or ban certain specializations while making others more visible, important, or prestigious. Feel free to modify existing specializations or create new ones to cater to the more unique aspects of your setting. A story of high espionage action in the early twenty-first century will give great importance to the Agent specialization, while a supernatural steampunk setting like <em>Brass Lightning</em> may need a new specialization called an “Ether-mancer” that couldn’t exist in other modern settings. Meanwhile, you may decide to adjust the Agent specialization so that, instead of the usual benefit, a Master acquires an ether-powered gadget that helps perform various espionage functions.</p><h2>Characters &amp; Specializations</h2><p>A player who wishes to add a specialization to their character must build a character who meets its requirements, investing level-based improvements where necessary. This planning should be matched by story events. The players and GM should decide how the character first learns the specialization in the game’s ongoing story. The character might join an organization that provides the required training or develop the necessary skills through research, talent, and an obsession with mastering the specialization</p><p>As an option, attaining the Grandmaster and Apex degrees in a specialization can carry additional rewards common to all specializations but tailored to how the character began (and continued) their career.</p><p>When a character first gains a Grandmaster or Apex degree in one of their specializations, the GM may award +2 Wealth, +1 Membership rank, or an additional or more widespread Reputation title.</p><p>or using it to accomplish an important goal. No character acquires a specialization trivially.</p><h2>Beyond Mastery</h2><p>Like talents, specializations can include Grandmaster and Apex degrees; the difference is in a specialization’s tighter focus and its ties to the world.</p><p>The GM can make advancing beyond the Master degree into a subplot before allowing a character to choose the Grandmaster degree. As a player, you should ask the GM if there are additional story-based requirements to progress beyond the Master degree. The rules only require that the character have the previous degrees, but in a campaign, the character may have to be initiated into a secret society, defeat a rival with the same specialization, or journey to a distant place to study certain sacred texts. These requirements might demand adventures, Memberships, Relationships, and more. None of the additional requirements are necessary, and the GM can always decide to do things the other way around so that, for example, becoming a Grandmaster Controller in <em>Brass Lightning </em>means the character has joined the Golden Spiral. See <strong>THE PERKS OF BEING THE BEST</strong> for possibilities.</p><h2>Existing Specializations</h2><p>This book only provides Grandmaster and Apex degrees for the new specializations listed here, but you can use the advice in the <strong>NEW DEGREES FOR OLD TALENTS</strong> sidebar in this chapter to create custom degrees.</p><h2>New Specializations</h2><p>The following new specializations are available for players, at the Game Master’s discretion.</p>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!764b4e128b614bcb.693d0d98c46d5646",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "764b4e128b614bcb",
+  "_key": "!journal!764b4e128b614bcb",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

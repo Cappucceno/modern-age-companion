@@ -1,0 +1,44 @@
+{
+  "name": "Grenade Launcher",
+  "_id": "4cc8f07e2b595b19",
+  "_key": "!items!4cc8f07e2b595b19",
+  "folder": "400cbabea02c1670",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>A character can fire any kind of grenade from a grenade launcher instead of throwing it. Grenade launchers come in many varieties and can stand alone or be mounted under the barrels of ordinary assault rifles. Damage</p><p>Damage is the same as the equivalent thrown grenade.</p><p>Focus: Assault Rifles. Minimum Strength 1. Range 150 yards. Reload: Major. Resources TN 14.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "assault rifles",
+    "minStr": 1,
+    "nrDice": "0",
+    "diceType": "6",
+    "extraValue": 0,
+    "dmgAbl": "no-abl",
+    "dmgType": "wound",
+    "dmgSource": "ballistic",
+    "damageFormula": "0",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 14,
+    "ranged": true,
+    "rof": "singleShot",
+    "range": 150,
+    "rangeMax": 300,
+    "capacity": 0,
+    "reload": "major"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

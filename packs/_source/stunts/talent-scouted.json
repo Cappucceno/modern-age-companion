@@ -1,0 +1,27 @@
+{
+  "name": "Talent Scouted",
+  "_id": "2383f123d99eb055",
+  "_key": "!items!2383f123d99eb055",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>A skilled and influential NPC joins the organization, reducing the cost of two Growth or Plot stunts by 1 SP each. Should the individual be killed or removed, this bonus is lost. The players should design this character.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

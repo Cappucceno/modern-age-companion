@@ -1,0 +1,210 @@
+{
+  "name": "Origin Backgrounds",
+  "pages": [
+    {
+      "_id": "0928302d6ae342de",
+      "name": "Anomaly",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Outsider</em></p><p>You grew up different, somehow. You’re a genetic mutant or a clone. You have alien blood or a mysterious destiny. You were exposed to strange radiation or ancient magic as a child, and it changed you. Whatever the case, you don’t fit in, and someone is always out to see what makes you tick. Everyone wants a piece of you, and you deal with constant attention whether you want it or not. Note that while the outsider social class is linked to this background to represent characters raised apart from society due to their unusual nature, characters who don’t grow up under those circumstances might belong to any class.</p><p><strong>Ability:</strong> +1 Willpower <strong>Focus:</strong> Communication (Persuasion) or Dexterity (Stealth) <strong>Talent:</strong> Living on the Fringe or Tactical Awareness; <em>Optional:</em> any power talent</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Constitution (Running)</td></tr><tr><td>5</td><td>Focus: Communication (Bargaining)</td></tr><tr><td>6</td><td>Focus: Perception (Hearing)</td></tr><tr><td>7–8</td><td>+1 Communication</td></tr><tr><td>9</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>10–11</td><td>Focus: Communication (Disguise)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.0928302d6ae342de",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "9f47b33e378a6eb1",
+      "name": "Jacked In",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Upper Class</em></p><p>You’ve woken up to the real world, the one most people never see. Maybe your parents were cyberwarrior freedom fighters, or you fell in early with a hacker collective and learned all the tricks. You can crack systems with the best of them, but, more than that, you’re onto the secret power behind the Man or the secret world behind the curtain. Using your abilities for personal gain, you want for nothing now. Knowing how the system works, you consider yourself above the law.</p><p><strong>Ability:</strong> +1 Intelligence <strong>Focus:</strong> Communication (Investigation) or Intelligence (Computers or Security) <strong>Talent:</strong> Affluent or Hacker</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Accuracy</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Cryptography)</td></tr><tr><td>5</td><td>Focus: Intelligence (Current Affairs)</td></tr><tr><td>6</td><td>Focus: Perception (Seeing)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>10–11</td><td>Focus: Dexterity (Sabotage)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.9f47b33e378a6eb1",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "996e526a89d06f4d",
+      "name": "Legacy",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Upper Class</em></p><p>You’re heir to a long line of powerful sorcerers, gothic princesses, or rich inventors. Fantastical magic, a creepy mystical inheritance, or the latest cutting-edge technologies defined your early life. You might have a backup clone in cryonic stasis for uploading your brain into when you die or an amulet that commands demons as a family heirloom. You’re expected to follow in the footsteps of greatness and unspeakable wonder, regardless of what you want. The default upper class grouping assumes a classic version of this background, with its Gothic mansions and other sanctums, but your campaign may assign characters a different default class instead.</p><p><strong>Ability:</strong> +1 Communication <strong>Focus:</strong> Communication (Leadership) or Intelligence (History or Occultism) <strong>Talent:</strong> Affluent or Theory and Practice; <em>Optional:</em> any arcane power talent</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Accuracy</td></tr><tr><td>3–4</td><td>Focus: Intelligence (Occultism or Research)</td></tr><tr><td>5</td><td>Focus: Intelligence (Astronomy)</td></tr><tr><td>6</td><td>Focus: Strength (Intimidation)</td></tr><tr><td>7–8</td><td>+1 Intelligence</td></tr><tr><td>9</td><td>Focus: Intelligence (Evaluation)</td></tr><tr><td>10–11</td><td>Focus: Dexterity (Piloting)</td></tr><tr><td>12</td><td>+1 Dexterity</td></tr></tbody></table>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.996e526a89d06f4d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "f40e86c1e7efdd31",
+      "name": "Outlander",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Outsider</em></p><p>You’re really not from around here. You’re a fish out of water in this country, world, or era, with origins in a parallel universe, the past, the future, or another dimension. It may or may not have been your choice to leave your home, but now you’re stuck here, and you must make the best of it. You’ve learned to adapt to local custom, to be a quick study of the behaviors of others, and to bluff and dissemble your way through unfamiliar situations.</p><p><strong>Ability:</strong> +1 Perception <strong>Focus:</strong> Communication (Deception) or Dexterity (Initiative) <strong>Talent:</strong> Linguistics or Observation</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Intelligence</td></tr><tr><td>3–4</td><td>Focus: Communication (Investigation)</td></tr><tr><td>5</td><td>Focus: Perception (Empathy)</td></tr><tr><td>6</td><td>Focus: Intelligence (Research)</td></tr><tr><td>7–8</td><td>+1 Willpower</td></tr><tr><td>9</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>10–11</td><td>Focus: Willpower (Courage)</td></tr><tr><td>12</td><td>+1 Dexterity</td></tr></tbody></table>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.f40e86c1e7efdd31",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "f59ba387841a1e72",
+      "name": "Paranormal",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Middle Class</em></p><p>You grew up in an environment where the strange was normal. Ghosts, spirits, psychics, and the otherworldly were fixtures in your early life, whether because your parents were mediums, you could see things no one else could, or your childhood home was haunted. You might not have any powers yourself, but nothing fazes you, and you’re a natural at bridging the mundane and the mystic.</p><p><strong>Ability:</strong> +1 Communication <strong>Focus:</strong> Intelligence (Occultism) or Willpower (Courage) <strong>Talent:</strong> Knowledge or Observation; <em>Optional:</em> any psychic power talent</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Intelligence</td></tr><tr><td>3–4</td><td>Focus: Willpower (Self-Discipline)</td></tr><tr><td>5</td><td>Focus: Communication (Investigation)</td></tr><tr><td>6</td><td>Focus: Dexterity (Initiative)</td></tr><tr><td>7–8</td><td>+1 Willpower</td></tr><tr><td>9</td><td>Focus: Intelligence (Theology)</td></tr><tr><td>10–11</td><td>Focus: Communication (Bargaining)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.f59ba387841a1e72",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "a2d01bacb77a4062",
+      "name": "Scavenger",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Lower Class</em></p><p>You grew up scrounging a living from other people’s abandoned technology. Maybe you lived on a derelict undersea power station, just trying to keep life support running, or a backwater island where scrap went to die, and nobody cared what happened to you. Maybe a bandit lord or luckless mechanic raised you, filching bits of salvage for coin. You’re resourceful and shrewd. Your relationships with people from other backgrounds range from the gratitude of people who use what you’ve rebuilt to conflict with well-off merchants who buy recycled materials from you.</p><p><strong>Ability:</strong> +1 Dexterity <strong>Focus:</strong> Intelligence (Tinkering) or Perception (Searching) <strong>Talent:</strong> Burglary or Living on the Fringe</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Constitution</td></tr><tr><td>3–4</td><td>Focus: Dexterity (Sleight of Hand)</td></tr><tr><td>5</td><td>Focus: Dexterity (Crafting)</td></tr><tr><td>6</td><td>Focus: Intelligence (Engineering)</td></tr><tr><td>7–8</td><td>+1 Intelligence</td></tr><tr><td>9</td><td>Focus: Strength (Machining)</td></tr><tr><td>10–11</td><td>Focus: Communication (Bargaining)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.a2d01bacb77a4062",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c161169d6a1f0413",
+      "name": "Tagalong",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Middle Class</em></p><p>Whoever raised you lived a lifestyle of travel and adventure, with the means to voyage far and wide. Perhaps you grew up on an airship, touring the world with a bird’s-eye view, or perhaps your guardian was an officer in an organization dedicated to defending Earth from alien menaces, establishing international bases, and protecting human interests. You consider yourself worldly, but you also know how to improvise and rough it when you must. While the default background is middle class, a tagalong’s social status varies depending on the people they meet and places they go.</p><p><strong>Ability:</strong> +1 Constitution <strong>Focus:</strong> Intelligence (Navigation) or Dexterity (Piloting) <strong>Talent:</strong> Contacts or Improvisation</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Communication</td></tr><tr><td>3–4</td><td>Focus: Constitution (Stamina)</td></tr><tr><td>5</td><td>Focus: Intelligence (Cartography)</td></tr><tr><td>6</td><td>Focus: Dexterity (Driving)</td></tr><tr><td>7–8</td><td>+1 Perception</td></tr><tr><td>9</td><td>Focus: Intelligence (Tinkering)</td></tr><tr><td>10–11</td><td>Focus: Communication (Etiquette)</td></tr><tr><td>12</td><td>+1 Intelligence</td></tr></tbody></table>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.c161169d6a1f0413",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "c3a4c30714d7105d",
+      "name": "Thrall",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p><em>Lower Class</em></p><p>You spent a long time—too long—in thrall to some powerful being or malevolent force. This background represents being in the service of such a power, not a mundane person or organization. You might have received subconscious commands in your dreams, been part of a hive mind, or labored under a curse. Unless you make some arrangement with the GM to the contrary, you’re now free of that oppression. Now, you’re determined never to let anyone subjugate you, your people, or your friends again.</p><p><strong>Ability:</strong> +1 Willpower <strong>Focus:</strong> Dexterity (Sabotage) or Willpower (Faith) <strong>Talent:</strong> Protect or Self-Defense Style</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Constitution</td></tr><tr><td>3–4</td><td>Focus: Strength (Intimidation)</td></tr><tr><td>5</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>6</td><td>Focus: Intelligence (Occultism)</td></tr><tr><td>7–8</td><td>+1 Fighting</td></tr><tr><td>9</td><td>Focus: Communication (Leadership)</td></tr><tr><td>10–11</td><td>Focus: Willpower (Courage)</td></tr><tr><td>12</td><td>+1 Accuracy</td></tr></tbody></table>"
+      },
+      "sort": 800000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!a721861f24e2682e.c3a4c30714d7105d",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "a721861f24e2682e",
+  "_key": "!journal!a721861f24e2682e",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

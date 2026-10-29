@@ -1,0 +1,26 @@
+{
+  "name": "Aquatic",
+  "_id": "9b9748a750174199",
+  "_key": "!items!9b9748a750174199",
+  "folder": "c9041474f977d8b8",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Biology. <strong>Cost:</strong> 1 EN.</p><p>You have gills or specially modified lungs, allowing you to breathe water as well as air. You cannot drown and are immune to drowning-related hazards.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

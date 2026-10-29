@@ -1,0 +1,27 @@
+{
+  "name": "Bank Account",
+  "_id": "d4c824d8b3416594",
+  "_key": "!items!d4c824d8b3416594",
+  "folder": "f5ec05e93ddc0560",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Easily accessible cash for purchases, bribes, paying employees, and other transactions</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

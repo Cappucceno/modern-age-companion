@@ -1,0 +1,27 @@
+{
+  "name": "Protection",
+  "_id": "95cc010d608a0afd",
+  "_key": "!items!95cc010d608a0afd",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>The next time an ally would suffer a negative consequence in this encounter, you suffer it instead.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

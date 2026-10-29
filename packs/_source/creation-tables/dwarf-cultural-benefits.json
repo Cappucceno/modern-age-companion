@@ -1,0 +1,183 @@
+{
+  "name": "Dwarf Cultural Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cultural benefits table of the Dwarf people.",
+  "results": [
+    {
+      "_id": "80936375ccd2aa24",
+      "type": "text",
+      "name": "+1 Strength",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.80936375ccd2aa24"
+    },
+    {
+      "_id": "ccebd55ba2e090ba",
+      "type": "text",
+      "name": "Focus: Strength (Machining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.ccebd55ba2e090ba"
+    },
+    {
+      "_id": "18ead3597b5bc202",
+      "type": "text",
+      "name": "Focus: Intelligence (Tinkering)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.18ead3597b5bc202"
+    },
+    {
+      "_id": "745968ab7ee428a4",
+      "type": "text",
+      "name": "Focus: Dexterity (Piloting)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.745968ab7ee428a4"
+    },
+    {
+      "_id": "f7266f3d0de48662",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.f7266f3d0de48662"
+    },
+    {
+      "_id": "a0f9047f4db60a45",
+      "type": "text",
+      "name": "Focus: Intelligence (Engineering)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.a0f9047f4db60a45"
+    },
+    {
+      "_id": "ce9ccb3d4b5aecb3",
+      "type": "text",
+      "name": "Focus: Accuracy (Assault Rifles)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.ce9ccb3d4b5aecb3"
+    },
+    {
+      "_id": "1725cdfbb90d1b4b",
+      "type": "text",
+      "name": "+1 Accuracy",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!6575f10efc277fd8.1725cdfbb90d1b4b"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "2bbb2de98f10323e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "6575f10efc277fd8",
+  "_key": "!tables!6575f10efc277fd8"
+}

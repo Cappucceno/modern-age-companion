@@ -1,0 +1,183 @@
+{
+  "name": "Paranormal Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Paranormal origin background (Middle Class).",
+  "results": [
+    {
+      "_id": "9785f6aed1c67602",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.9785f6aed1c67602"
+    },
+    {
+      "_id": "cbf2934c0846b814",
+      "type": "text",
+      "name": "Focus: Willpower (Self-Discipline)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.cbf2934c0846b814"
+    },
+    {
+      "_id": "2a5beb98e7fb0dd5",
+      "type": "text",
+      "name": "Focus: Communication (Investigation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.2a5beb98e7fb0dd5"
+    },
+    {
+      "_id": "1f4a45a42a26860d",
+      "type": "text",
+      "name": "Focus: Dexterity (Initiative)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.1f4a45a42a26860d"
+    },
+    {
+      "_id": "19ed86401aee37d5",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.19ed86401aee37d5"
+    },
+    {
+      "_id": "c5f17fc7c0e78bb9",
+      "type": "text",
+      "name": "Focus: Intelligence (Theology)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.c5f17fc7c0e78bb9"
+    },
+    {
+      "_id": "cd7777948468731b",
+      "type": "text",
+      "name": "Focus: Communication (Bargaining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.cd7777948468731b"
+    },
+    {
+      "_id": "363393195433853f",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!311b076f1534f5d2.363393195433853f"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "311b076f1534f5d2",
+  "_key": "!tables!311b076f1534f5d2"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Knowledge",
+  "_id": "59b0f0ddea2c0916",
+  "_key": "!items!59b0f0ddea2c0916",
+  "folder": "67cbab7b9f8216ae",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have an inquisitive mind and absorb facts easily.</p><p>Grandmaster and Apex degrees for the talent of the same name in the Modern AGE Basic Rulebook.</p>",
+    "shortDesc": "",
+    "requirement": "",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>Your stores of knowledge are greatly expanded. Choose a number of knowledge focuses equal to your Intelligence. These focuses cannot be the same as the ones you chose when you gained the Master degree. If you didn’t have one of the chosen focuses, you learn it now. If you already had one of your chosen focuses, you can re-roll a failed test with it. When you make a test using one of the focuses you chose at the Master and Grandmaster degrees, you can roll twice and keep the better of the two rolls.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You are the undisputed authority in your field. If the TN of a test with a knowledge focus you know is equal to or lower than half your level + your Intelligence, you automatically succeed and roll the Stunt Die to instantly gain SP.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

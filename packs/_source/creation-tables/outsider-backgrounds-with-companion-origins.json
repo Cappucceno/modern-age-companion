@@ -1,0 +1,143 @@
+{
+  "name": "Outsider Backgrounds (with Companion origins)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Background table for the Outsider social class, updated with the Companion's origin backgrounds.",
+  "results": [
+    {
+      "_id": "96a68cb1b79acbe5",
+      "type": "text",
+      "name": "Anomaly",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5387699023cbba6b.96a68cb1b79acbe5"
+    },
+    {
+      "_id": "11fb4f7398e226f7",
+      "type": "text",
+      "name": "Bohemian",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5387699023cbba6b.11fb4f7398e226f7"
+    },
+    {
+      "_id": "fd8d9a800d3be2fa",
+      "type": "text",
+      "name": "Exile",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5387699023cbba6b.fd8d9a800d3be2fa"
+    },
+    {
+      "_id": "ef25ecd441924391",
+      "type": "text",
+      "name": "Outlander",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5387699023cbba6b.ef25ecd441924391"
+    },
+    {
+      "_id": "a3b9029d041916ee",
+      "type": "text",
+      "name": "Outcast",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5387699023cbba6b.a3b9029d041916ee"
+    },
+    {
+      "_id": "7e2569f0c2108f75",
+      "type": "text",
+      "name": "(Roll again)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!5387699023cbba6b.7e2569f0c2108f75"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "584b4ccda76f538e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "5387699023cbba6b",
+  "_key": "!tables!5387699023cbba6b"
+}

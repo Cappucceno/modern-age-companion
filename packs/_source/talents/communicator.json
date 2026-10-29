@@ -1,0 +1,47 @@
+{
+  "name": "Communicator",
+  "_id": "9a68fb92a073133c",
+  "_key": "!items!9a68fb92a073133c",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have a way with words, and you target your words not at individual persons, but to a large audience. You may be an ethical communicator who only spreads truth and dispels deception, but you can craft narratives that guide public opinion in the direction of your choice. The medium you choose is of no consequence; your message will spread as you will.</p><p>You use your favorite means of expression to shape hearts and minds.</p><h3>Eras</h3><p>Bloggers, influencers, and YouTube personalities are twenty-first century communicators, but the role stretches back centuries as a vital element of any complex society. You might be a journalist revealing the misdeeds of politicians in the late twentieth century, a Victorian author whose penny dreadfuls reveal the truth about the supernatural, or a town crier in the eighteenth century.</p>",
+    "shortDesc": "",
+    "requirement": "You must have Communication 2 or higher, the Perception (Insight) focus, and either the Communication (Expression) or Communication (Persuasion) focus.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can make or break fake news. When you witness a news story or factual statement in person or over the media, you can make a Communication (Persuasion) test for spoken communications or Communication (Expression) test for other forms, such as writing, with a TN set by the GM or in an opposed roll with the person issuing the statement. If you succeed, people who witness your response believe your alternate point of view regarding that story or statement. This undoes the social effects (attitude shifts and stunts, for instance) of the original statement. When using widely distributed media, the Stunt Die result indicates how many people you reach, though without Membership in a media organization or social media firm or a Reputation that inclines people to heed your words, you won’t reach everybody. In the twenty-first century, you can’t penetrate the depths of the algorithmic “echo chamber.” In prior eras, your media coun-teroffensive doesn’t reach newspapers and other media forms whose editorial line is hostile to your opinions.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can build or destroy reputations. Pick an individual to compliment or smear, and make a Communication (Persuasion) or Communication (Expression) test depending on the medium, with a TN set by the GM or in an opposed roll with your target’s Willpower (Self-Discipline) if done in person or Communication (Expression) if done in a contest played out over the media. (If the target chooses not to oppose your efforts, the GM always sets the TN.) If you win, you can impose a Reputation honorific or remove one the target already has. This lasts a number of days equal to your Perception + the result of your Stunt Die. At the end of this period, you can reinforce the new Reputation at –2 to your roll, and if you succeed, the change sticks for a number of weeks equal to your Perception + Stunt Die result. Finally, you can do this a third time after the second period ends, this time at a –4 penalty to your roll, but if you succeed, the new Reputation lasts until the target performs a notable act to change others’ impressions of them.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Your opinion-shaping skills are strong. You may re-roll a failed Communication (Persuasion) or Communication (Expression) test but must keep the re-rolled result. Furthermore, anyone who agreed with any statements you made using prior degrees of this talent automatically shifts their attitude one step in your favor, if they know you’re the author.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>Your messages can exalt or take down entire organizations. Your Communication ability is now equivalent to an organization’s influence (see Chapter 6: Social Options), and you acquire one Influence focus of your choice. If you have Membership in an organization, it may use the higher of their influence or your Communication as its own Influence score. Once per month, you may use your Influence-equivalent Communication ability and its organizational focus to attempt a growth stunt for an organization you favor. You can also attack an organization by making a test using your Communication as an Influence opposed by the organization’s test using its highest ability. If you succeed in an attack, you inflict 2d6 + your Communication Stability damage and force a roll on the ORGANIZATION MISFORTUNES table in Chapter 6.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>Your credibility is airtight, and your impact is frighteningly profound. You can roll a failed Communication (Expression) or Communication (Persuasion) test twice and keep the highest result. Also, all tests to refute your messages must first succeed at a Communication (Expression) or Communication (Persuasion) test with a TN equal to your level. If successful, opponents can proceed with their rebuttal attempt; otherwise, they cannot try to refute you.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

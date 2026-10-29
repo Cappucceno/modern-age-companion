@@ -1,0 +1,143 @@
+{
+  "name": "Lower Class Backgrounds (with Companion origins)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Background table for the Lower Class social class, updated with the Companion's origin backgrounds.",
+  "results": [
+    {
+      "_id": "de5951e95c41a337",
+      "type": "text",
+      "name": "Laborer",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8911117f8122046c.de5951e95c41a337"
+    },
+    {
+      "_id": "dbc47650fb1f3b5a",
+      "type": "text",
+      "name": "Military",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8911117f8122046c.dbc47650fb1f3b5a"
+    },
+    {
+      "_id": "d3f0f05f242135b0",
+      "type": "text",
+      "name": "Scavenger",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8911117f8122046c.d3f0f05f242135b0"
+    },
+    {
+      "_id": "1b43eb8d1dd32b77",
+      "type": "text",
+      "name": "Thrall",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8911117f8122046c.1b43eb8d1dd32b77"
+    },
+    {
+      "_id": "a979200bc5c11f5e",
+      "type": "text",
+      "name": "Urban",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8911117f8122046c.a979200bc5c11f5e"
+    },
+    {
+      "_id": "584abf31b10147dd",
+      "type": "text",
+      "name": "(Roll again)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8911117f8122046c.584abf31b10147dd"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "584b4ccda76f538e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "8911117f8122046c",
+  "_key": "!tables!8911117f8122046c"
+}

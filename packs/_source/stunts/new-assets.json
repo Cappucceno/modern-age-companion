@@ -1,0 +1,27 @@
+{
+  "name": "New Assets",
+  "_id": "e31c5a9b8590f874",
+  "_key": "!items!e31c5a9b8590f874",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Increase any ability rated 5 or less by 1.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

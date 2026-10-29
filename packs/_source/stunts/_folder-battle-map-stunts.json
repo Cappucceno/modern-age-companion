@@ -1,0 +1,17 @@
+{
+  "name": "Battle Map Stunts",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "49bfa21f5309a8c1",
+  "_key": "!folders!49bfa21f5309a8c1",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Augmentation",
+  "_id": "e175fa9b92cd28aa",
+  "_key": "!items!e175fa9b92cd28aa",
+  "folder": "16f91dce3cc40315",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>The implementation of technology in the human body to create something better</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

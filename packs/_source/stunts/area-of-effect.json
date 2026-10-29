@@ -1,0 +1,27 @@
+{
+  "name": "Area of Effect",
+  "_id": "698362cb23f5b63f",
+  "_key": "!items!698362cb23f5b63f",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>When you make a test with a specific target, immediately make the same test again but halve your ability + focus total, rounded down. Apply this new test to everyone in your immediate vicinity or the immediate vicinity of your original target, including allies but excluding the original target. If the original target made an opposing roll or resisted the action somehow, every new target may do so also.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

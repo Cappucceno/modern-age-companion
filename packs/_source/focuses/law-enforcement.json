@@ -1,0 +1,27 @@
+{
+  "name": "Law Enforcement",
+  "_id": "d4973dd8c70888eb",
+  "_key": "!items!d4973dd8c70888eb",
+  "folder": "1c0bfac73a080558",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used when handling legal bodies, such as the courts, police, or private militias</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Well-Timed Storm",
+  "_id": "65103e344d8c8cae",
+  "_key": "!items!65103e344d8c8cae",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Gothic Horror.</em> A dramatic peal of thunder and a lightning strike accompany your action, giving everyone pause. Make a TN 13 Communication (Performance) test; if you succeed, no one present may target or affect you with the next action they take during this encounter. (General Stunt: Denial)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

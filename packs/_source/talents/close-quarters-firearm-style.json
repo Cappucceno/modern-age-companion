@@ -1,0 +1,47 @@
+{
+  "name": "Close-Quarters Firearm Style",
+  "_id": "4371e357c27a11b2",
+  "_key": "!items!4371e357c27a11b2",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Your training in close-quarters battle gives you an edge with SMGs and shotguns.</p>",
+    "shortDesc": "",
+    "requirement": "Accuracy (SMGs) or Accuracy (Shotguns) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Movement in a fire fight is second nature to you. When you use the Skirmish stunt while using an SMG or a shotgun, add 1 yard per SP to the distance you can move or that you move your target.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You know how to get out of both the frying pan and the fire. When rolling doubles on an attack roll or test involving an SMG or shotgun, you gain an additional 2 SP, but you can only spend these bonus SP on the Duck and Weave or Take Cover stunts. If you have enough SP, you can use both stunts at the same time.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You leverage your weapon’s characteristics when shooting at multiple targets. When you use the Strafe, Suppressive Fire, and Spray and Pray stunts with an SMG, you can exclude allies from the stunts’ effects. Additionally, you can use the Strafe, Suppressive Fire, and Spray and Pray stunts with a shotgun against targets standing at half the shotgun’s range and up to its maximum range, but you cannot exclude allies as with an SMG.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You move around the fire zone with peerless skill. When you use the Skirmish stunt, you gain a bonus to Defense equal to the SP you spent on Skirmish –1, up to a +3 bonus to Defense. Also, you can now spend the bonus SP gained from the Expert degree in any stunt that allows you to attack additional targets (such as Lightning Attack, Strafe, etc.), in addition to Duck and Weave and Take Cover.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You can make masterful use of cover thanks to how your weapon works. When using an SMG or a shotgun, the armor bonus from cover is increased by +1, and the penalty that cover imposes to your ranged attacks is reduced by 1. Also, you can use the Take Cover action to reach total cover, and you can make attacks with an SMG or a shotgun while behind total cover with a –3 penalty, provided there is an opening next to you through which you can fire.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

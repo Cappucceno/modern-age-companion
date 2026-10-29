@@ -1,0 +1,26 @@
+{
+  "name": "Chameleon’s Cloak",
+  "_id": "39adfd27dc574dd0",
+  "_key": "!items!39adfd27dc574dd0",
+  "folder": "29168708aa8a74ad",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Magic. <strong>Cost:</strong> 1 EN.</p><p>You have a magical ability to blend into your surroundings. When making Dexterity (Stealth) tests, you can perform a special Blend In stunt, adding +1 per SP spent to the target number for a Perception test to notice you.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

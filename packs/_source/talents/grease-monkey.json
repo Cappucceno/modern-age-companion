@@ -1,0 +1,47 @@
+{
+  "name": "Grease Monkey",
+  "_id": "35dda505e0cabdb2",
+  "_key": "!items!35dda505e0cabdb2",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have a way with machines, even those that emulate sentience.</p>",
+    "shortDesc": "",
+    "requirement": "Intelligence (Engineering) or Intelligence (Tinkering) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You don’t need to read the manual. When encountering a new machine for the first time, you can make a TN 11 Intelligence (Engineering) or Intelligence (Tinkering) test as a major action. If successful, you can operate the machine even if using it requires a focus you don’t have, and you can ignore the Complicated quality (see Chapter 7: Technology).</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Vehicles have everything to gain by having you as a part of their crew. If a vehicle you’re in is the target of an attack that uses an Anti-Vehicle stunt, you can make an Intelligence (Engineering) test with a TN equal to the attack roll. If you succeed, the vehicle gains a Hull rating equal to half your Intelligence. If the vehicle already has a Hull rating, only the higher rating applies.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>Machines are ensured a long life under your care. You can restore Health to a machine that has Health by making an Intelligence (Engineering) or Intelligence (Tinkering) test as if applying first aid (1 hour) or advanced medical attention (6 hours). If the machine doesn’t have Health, you grant it a pool of temporary Health equal to the first aid result; this pool must be reduced to 0 before the machine can be damaged.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>When you poke at a machine, you make it better. When you spend at least 10 minutes working on a machine with the appropriate tools, make a TN 11 Intelligence (Tinkering) test. If you succeed, you increase the machine’s Hull and Armor Rating (I/B) by an amount equal to your Intelligence; the new Hull Rating replaces the original if it is higher, and the Armor Rating stacks with the original. If you roll doubles on the test, you can add a positive quality (see Chapter 7: Technology) with a threshold modifier equal to or lower than the Stunt Die result. These modifications last for one encounter, and then the machine returns to normal.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>Under your touch, even broken machines come back to life. You can repair a machine in 10 minutes with an Intelligence (Engineering) test. The GM determines the TN based on the state of the machine. If successful, you can restore 1 disabled system and additional systems if you roll doubles at a rate of one disabled system per SP. spent Disabled systems can be positive qualities (see Chapter 7: Technology) that were removed or negative qualities that were installed as sabotage, in which case you make an opposed test against the saboteur.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

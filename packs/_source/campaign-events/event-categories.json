@@ -1,0 +1,143 @@
+{
+  "name": "Event Categories",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Category of a new campaign event.",
+  "results": [
+    {
+      "_id": "00b24d72a2557471",
+      "type": "text",
+      "name": "Crime and Punishment",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!15607b156fb63727.00b24d72a2557471"
+    },
+    {
+      "_id": "fc2df69fb6cd1c93",
+      "type": "text",
+      "name": "Culture",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!15607b156fb63727.fc2df69fb6cd1c93"
+    },
+    {
+      "_id": "73317ffd50588f62",
+      "type": "text",
+      "name": "Economics",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!15607b156fb63727.73317ffd50588f62"
+    },
+    {
+      "_id": "767c9e5bf95c5477",
+      "type": "text",
+      "name": "Politics",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!15607b156fb63727.767c9e5bf95c5477"
+    },
+    {
+      "_id": "f4ce8afa9eed5907",
+      "type": "text",
+      "name": "War and Peace",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!15607b156fb63727.f4ce8afa9eed5907"
+    },
+    {
+      "_id": "17436c4399c07e40",
+      "type": "text",
+      "name": "Miscellaneous Incidents",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!15607b156fb63727.17436c4399c07e40"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "17ac400a0a3aaeb2",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "15607b156fb63727",
+  "_key": "!tables!15607b156fb63727"
+}

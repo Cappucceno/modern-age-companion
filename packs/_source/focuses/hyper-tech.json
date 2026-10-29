@@ -1,0 +1,27 @@
+{
+  "name": "Hyper-Tech",
+  "_id": "6ebe814f87d35a9e",
+  "_key": "!items!6ebe814f87d35a9e",
+  "folder": "16f91dce3cc40315",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>An organization’s knowledge and utilization of ultra-futuristic technology that can barely run outside an organization’s facility</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

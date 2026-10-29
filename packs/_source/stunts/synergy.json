@@ -1,0 +1,27 @@
+{
+  "name": "Synergy",
+  "_id": "47730e2a4af84cd0",
+  "_key": "!items!47730e2a4af84cd0",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>An ally immediately makes the same test you just made or a related one before anyone else can react, with the same target if applicable.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Sword Style",
+  "_id": "dd3cc45e48ff6333",
+  "_key": "!items!dd3cc45e48ff6333",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>Whether for sport or by necessity, you trained extensively in the use of swords.</p>",
+    "shortDesc": "",
+    "requirement": "Fighting (Heavy Blades)",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You surprise your foes with a powerful lunge. You prepare to lunge as an Activate action, which is taken before anyone else acts in initiative order. You gain +3 to your initiative but must use your major action to perform a melee attack or Stunt Attack with a sword. If your initiative after the bonus is higher than your target’s, you may move up to 4 yards toward them, 4 yards away from them, or split your move 2 by 2, 3 by 1, or 1 by 3 toward them and then away. The +3 initiative bonus vanishes after you attack.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can guide opponents with your blade. On a successful attack roll with a sword, you automatically gain 1 SP that may only be used on the Disarm, Bind Weapon, Break Weapon, Parry, and Skirmish stunts (you will need extra SP to pay for some of these stunts). In addition, you gain a +1 bonus to the attack rolls for the Disarm, Bind Weapon, and Break Weapon stunts.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>The momentum of your swings can take your opponents by deadly surprise. You gain a +2 bonus to the attack rolls for the Lightning Attack, Maim, and Instant Kill stunts.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You take a deadly stance that reacts to any opening. As an Activate action, you adopt a reactive stance that lasts until the end of the encounter or until you adopt a different stance. When an attacker misses you in a melee attack, they suffer damage from a quick riposte equal to 1d6 + your Strength if you are wielding a sword. Additionally, every time a ranged attack misses you, you can move 2 yards in any direction.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You adopt an impenetrable stance to defend from any attack. As an Activate action, you adopt a defensive stance until the end of the encounter or until you adopt a different stance. You gain an additional +2 bonus to Defense when you use the Defend and Guard Up actions. Optionally, when using Defend, instead of gaining a passive bonus you can make a Fighting (Heavy Blades) test for each attack against you (even ranged attacks!), blocking the attack if you exceed the attack roll. You gain the SP indicated by the Stunt Die whether you succeed or fail. You must use these SP immediately after the Defend test, or they are lost. You can spend these SP to use stunts, to cancel point-for-point any SP your attacker may gain, to use the benefit of the Grandmaster stance (1 SP), or for any combination of these uses.</p><p>A character who chooses a specialization acquires a narrower set of abilities but with a much clearer focus. A specialization is not just a collection of benefits fitting a theme, but a role a character assumes.</p><p>On top of the usual advantages, specializations link characters and their world. They are career paths other characters can identify by name. Public organizations or whispered conspiracies may teach a specialization’s trade, or the specialization may be rewarding enough that practitioners teach it to themselves and take on its social role.</p><p>Although specializations feature enough detail to provide clear career character concepts, they leave out certain details so they can work with the various eras and modes of Modern AGE campaigns. An Agent in the twenty-first century may belong to a real-world organization, such as the CIA, or an entirely fictional one (ACRONYM or KROM). In Brass Lightning they can be members of Golden Spiral, a secret society working in the shadows to protect the crown, or the covert Domino Division of the West’s Silver Rangers.</p><p>As a Game Master, you can use specializations to shape the campaign world. You can downplay or ban certain specializations while making others more visible, important, or prestigious. Feel free to modify existing specializations or create new ones to cater to the more unique aspects of your setting. A story of high espionage action in the early twenty-first century will give great importance to the Agent specialization, while a supernatural steampunk setting like Brass Lightning may need a new specialization called an “Ether-mancer” that couldn’t exist in other modern settings. Meanwhile, you may decide to adjust the Agent specialization so that, instead of the usual benefit, a Master acquires an ether-powered gadget that helps perform various espionage functions.</p><p>A player who wishes to add a specialization to their character must build a character who meets its requirements, investing level-based improvements where necessary. This planning should be matched by story events. The players and GM should decide how the character first learns the specialization in the game’s ongoing story. The character might join an organization that provides the required training or develop the necessary skills through research, talent, and an obsession with mastering the specialization</p><p>As an option, attaining the Grandmaster and Apex degrees in a specialization can carry additional rewards common to all specializations but tailored to how the character began (and continued) their career.</p><p>When a character first gains a Grandmaster or Apex degree in one of their specializations, the GM may award +2 Wealth, +1 Membership rank, or an additional or more widespread Reputation title.</p><p>or using it to accomplish an important goal. No character acquires a specialization trivially.</p><p>Like talents, specializations can include Grandmaster and Apex degrees; the difference is in a specialization’s tighter focus and its ties to the world.</p><p>The GM can make advancing beyond the Master degree into a subplot before allowing a character to choose the Grandmaster degree. As a player, you should ask the GM if there are additional story-based requirements to progress beyond the Master degree. The rules only require that the character have the previous degrees, but in a campaign, the character may have to be initiated into a secret society, defeat a rival with the same specialization, or journey to a distant place to study certain sacred texts. These requirements might demand adventures, Memberships, Relationships, and more. None of the additional requirements are necessary, and the GM can always decide to do things the other way around so that, for example, becoming a Grandmaster Controller in Brass Lightning means the character has joined the Golden Spiral. See THE PERKS OF BEING THE BEST for possibilities.</p><p>This book only provides Grandmaster and Apex degrees for the new specializations listed here, but you can use the advice in the NEW DEGREES FOR OLD TALENTS sidebar in this chapter to create custom degrees.</p><p>The following new specializations are available for players, at the Game Master’s discretion.</p><p>You have a knack for helping others, either by giving the right advice or providing the right aid at the right time, but you may not be up to chasing and trading bullets with the enemy. You may not be action-hero material, but you can make sure your allies have the right tools and information to make it back home alive having accomplished their mission.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

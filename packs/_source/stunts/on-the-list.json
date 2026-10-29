@@ -1,0 +1,27 @@
+{
+  "name": "On the List",
+  "_id": "9bca62ed7db19232",
+  "_key": "!items!9bca62ed7db19232",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Masquerade Ball Stunts.</em> Specify a kind of honorific or organization. An NPC of the GM’s choice with Reputation or Membership to match happens to be attending the ball, and you run into them within a few minutes, or a few rounds if your action leads directly to action time. The GM determines their identity, abilities, attitude, and situation. (General Stunt: Good Fortune)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

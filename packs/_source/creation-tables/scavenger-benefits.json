@@ -1,0 +1,183 @@
+{
+  "name": "Scavenger Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Scavenger origin background (Lower Class).",
+  "results": [
+    {
+      "_id": "a7897b5d1e238679",
+      "type": "text",
+      "name": "+1 Constitution",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.a7897b5d1e238679"
+    },
+    {
+      "_id": "4c751a9b9a269b3c",
+      "type": "text",
+      "name": "Focus: Dexterity (Sleight of Hand)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.4c751a9b9a269b3c"
+    },
+    {
+      "_id": "376f07bd076c7d29",
+      "type": "text",
+      "name": "Focus: Dexterity (Crafting)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.376f07bd076c7d29"
+    },
+    {
+      "_id": "4c6134e3d287add7",
+      "type": "text",
+      "name": "Focus: Intelligence (Engineering)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.4c6134e3d287add7"
+    },
+    {
+      "_id": "ac1120b1ac90ce47",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.ac1120b1ac90ce47"
+    },
+    {
+      "_id": "57a7183031a72b35",
+      "type": "text",
+      "name": "Focus: Strength (Machining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.57a7183031a72b35"
+    },
+    {
+      "_id": "d7acb56268b28d59",
+      "type": "text",
+      "name": "Focus: Communication (Bargaining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.d7acb56268b28d59"
+    },
+    {
+      "_id": "3ad2dc892bcd1316",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!088e32152f8ed066.3ad2dc892bcd1316"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "088e32152f8ed066",
+  "_key": "!tables!088e32152f8ed066"
+}

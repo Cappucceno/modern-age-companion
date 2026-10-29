@@ -1,0 +1,27 @@
+{
+  "name": "Provocation",
+  "_id": "91fcf3211f919601",
+  "_key": "!items!91fcf3211f919601",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>One present NPC of your choice targets you instead of someone else with their next action during this encounter.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

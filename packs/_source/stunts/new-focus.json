@@ -1,0 +1,27 @@
+{
+  "name": "New Focus",
+  "_id": "e33919cdf6f04a0e",
+  "_key": "!items!e33919cdf6f04a0e",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Add a focus.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Common Items",
+  "type": "Item",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "ac19eddff97b06b9",
+  "_key": "!folders!ac19eddff97b06b9",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

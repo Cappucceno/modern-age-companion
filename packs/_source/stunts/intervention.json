@@ -1,0 +1,27 @@
+{
+  "name": "Intervention",
+  "_id": "6760a5d982d5f2d4",
+  "_key": "!items!6760a5d982d5f2d4",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Another character may use your ability + focus total instead of their own on their next test related to this one during this encounter.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

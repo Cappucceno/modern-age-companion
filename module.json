@@ -44,6 +44,13 @@
       "system": "age-system"
     },
     {
+      "name": "focuses",
+      "label": "Organization Focuses",
+      "path": "packs/focuses",
+      "type": "Item",
+      "system": "age-system"
+    },
+    {
       "name": "enhancements",
       "label": "Enhancements",
       "path": "packs/enhancements",

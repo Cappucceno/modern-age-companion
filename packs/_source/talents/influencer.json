@@ -1,0 +1,47 @@
+{
+  "name": "Influencer",
+  "_id": "4c4c2a05947bf883",
+  "_key": "!items!4c4c2a05947bf883",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have a say in what other people think and do.</p>",
+    "shortDesc": "",
+    "requirement": "Communication 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can craft the most effective messages. Choose one of the following Communication focuses: Expression, Deception, or Persuasion. Add +1 to the Stunt Die result when you make a successful test with your chosen focus for the purposes of determining degrees of success and gaining SP. In addition to paying for stunts, you may use any SP gained from a test with your chosen focus to reduce the result of an opposed roll’s Stunt Die.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can shape public opinion by spreading truths and falsehoods. You can take some time before a social encounter to spread or dispel rumors and false information. You must use a medium accessible by the people involved in the social encounter, such as social media, word of mouth, letters to the editor, etc. The GM determines how much anticipation you need depending on the medium you use. Before the social encounter, make a Communication test with the focus most appropriate to your medium (for example, Expression for media or Persuasion for word of mouth), with a TN determined by the size of the gathering, from TN 7 for a small gathering of a couple dozen people to TN 17 for a massive event involving thousands. If successful, you shift the starting attitude of the crowd toward any character or topic by one step in either direction.</p><p>You may spend any SP gained in the test to shift the attitude by 1 additional step per SP spent or to make the shifted attitude be the starting attitude for any further interactions toward your target character or topic for 1 day per SP spent.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You have a silver tongue and an influential pen. When you make a successful Communication test with the focus chosen in the Novice degree, you gain +2 SP, but you can only spend these SP on Attitude stunts or the Sway the Crowd, Objection!, Enrage, Click “Share,” and Oozing Confidence stunts. Alternatively, you can use any SP gained to plant a suggestion in characters with a Friendly attitude who can receive your message. This suggestion can be a piece of information your targets believe to be true without the need for evidence, or a course of action that will not put the targets at risk. The suggestion remains fresh in your targets’ minds for 1 day per SP spent, but the GM determines the likeliness of your targets following up on your suggestion.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You can expect even your offhand comments to have a deep impact. The bonus to the Stunt Die result in the Novice degree increases to +2 for your chosen focus, and +1 for the two focuses you didn’t choose. Also, when you plant a suggestion as per the Master degree, you can also target characters with an Open attitude.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>The world looks to you for how it should think about something. When you want to sway the starting attitude of a group as per the Expert degree, if the TN is equal to or lower than half your level + your Communication, you automatically succeed and roll the Stunt Die to gain SP, adding the bonus from the Grandmaster degree as applicable. You can now extend the duration of this starting attitude by 1 week per SP spent or 1 month per 2 SP spent, or you can make it permanent if you spend 5 SP. Also, the suggestion you plant on Friendly targets as per the Master degree now lasts for 1 week per SP spent or 1 month per 2 SP spent.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

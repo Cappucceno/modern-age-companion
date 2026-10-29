@@ -1,0 +1,44 @@
+{
+  "name": "Flintlock Pistol",
+  "_id": "6fbc92144e2ddf92",
+  "_key": "!items!6fbc92144e2ddf92",
+  "folder": "2d1276263e2ce0c1",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "weapon",
+  "img": "systems/age-system/resources/imgs/item-icon/fist.svg",
+  "system": {
+    "longDesc": "<p>This pistol is useful for close-quarters combat but as hard to reload as its longer cousin. Thus, soldiers may carry two or more to fire in rapid succession before closing in for hand-to-hand combat.</p><p>Focus: Black Powder Weapons. Minimum Strength 0. Resources TN 11. Range 10 yards yards. Reload: 1d6 minor actions.</p>",
+    "shortDesc": "",
+    "useAbl": "acc",
+    "useFocus": "black powder weapons",
+    "minStr": 0,
+    "nrDice": "1",
+    "diceType": "6",
+    "extraValue": 2,
+    "dmgAbl": "per",
+    "dmgType": "wound",
+    "dmgSource": "impact",
+    "damageFormula": "1d6+2",
+    "weight": 0,
+    "cost": 0,
+    "quantity": 1,
+    "equiped": false,
+    "purchaseTN": 11,
+    "ranged": true,
+    "rof": "singleShot",
+    "range": 10,
+    "rangeMax": 20,
+    "capacity": 0,
+    "reload": "minor"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

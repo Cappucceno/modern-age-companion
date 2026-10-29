@@ -1,0 +1,163 @@
+{
+  "name": "Organization Misfortunes",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Misfortune that befalls an organization after a failed growth check.",
+  "results": [
+    {
+      "_id": "d3e470263dc65446",
+      "type": "text",
+      "name": "Hacker Attack: Hackers access and damage organization resources, maybe through theft, maybe through a release of sensitive information.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!24e4cb8764b49ebf.d3e470263dc65446"
+    },
+    {
+      "_id": "aac9617c470e516c",
+      "type": "text",
+      "name": "New Organization: A new group occupying a similar trade to the protagonists’ organization arrives from elsewhere and draws resources and recruits away.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!24e4cb8764b49ebf.aac9617c470e516c"
+    },
+    {
+      "_id": "667540847e87d161",
+      "type": "text",
+      "name": "Betrayal: Turncoat operatives within the organization defraud it of wealth or launch an attack on loyal members to destabilize the organization.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        5,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!24e4cb8764b49ebf.667540847e87d161"
+    },
+    {
+      "_id": "448f5b999bc6a479",
+      "type": "text",
+      "name": "Rival Maneuvering: A rival organization undercuts the group’s power with their own actions.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!24e4cb8764b49ebf.448f5b999bc6a479"
+    },
+    {
+      "_id": "5d316aef36a7ef4f",
+      "type": "text",
+      "name": "Political Upheaval: A shift in leadership within the local government weakens the organization’s power base.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        9,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!24e4cb8764b49ebf.5d316aef36a7ef4f"
+    },
+    {
+      "_id": "f658b019f1be404a",
+      "type": "text",
+      "name": "Out of Our Hands: Something occurs far away, maybe a war, economic crisis, or public tragedy, that somehow negatively impacts the organization.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!24e4cb8764b49ebf.f658b019f1be404a"
+    },
+    {
+      "_id": "7b41e1eb7d564c82",
+      "type": "text",
+      "name": "Law Involvement: Whether the protagonists were aware or not, something in the organization is illegal, and the law has just taken notice.",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!24e4cb8764b49ebf.7b41e1eb7d564c82"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "91057edc5c4e6ebc",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "24e4cb8764b49ebf",
+  "_key": "!tables!24e4cb8764b49ebf"
+}

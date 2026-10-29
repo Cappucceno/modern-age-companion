@@ -1,0 +1,47 @@
+{
+  "name": "Special Forces",
+  "_id": "d9fdbb215a96fa87",
+  "_key": "!items!d9fdbb215a96fa87",
+  "folder": "80ce7cbdc4864d90",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You received training above and beyond regular soldiers. You learned unconventional warfare methods, how to endure hardship beyond the conditions of ordinary military service, and how to counter the tactics of both guerillas and conventional soldiers. Special forces members aren’t just better at shooting, but must endure difficult conditions to perform unusual missions, with minimal support from regular forces.</p><p>You’re a creative, tough, and well-trained warrior.</p><h3>Eras</h3><p>Special forces belong to all eras plagued by organized warfare. While highly trained groups such as the Navy SEALs and SAS certainly fit the part, the best fighters in irregular forces also qualify. Fighters from any area can develop the required training and endurance.</p>",
+    "shortDesc": "",
+    "requirement": "You must have 1 or higher in Accuracy or Fighting and the Intelligence (Tactics) focus. You must also have at least one of the following: the Military background, the Soldier or Commander profession, or the Tactical Awareness talent.",
+    "type": "spec",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Forced marches, sleepless battles, and minor injuries are part of the job. You may have even been exposed to pain in a methodical fashion to better resist it. You gain +5 Health points. Furthermore, you may re-roll any Willpower or Constitution-based test to resist penalties or special effects for pain, discomfort, or mental stress created by combat, but you must keep the results of the second roll.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>Your training enables you to act efficiently and seize opportunities in combat automatically. Whenever you gain SP from rolling doubles, you gain 1 bonus SP, which you must spend on one of the following stunts: Take Cover, Skirmish, or Rapid Reload.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You improvise tactics to turn the tide of battle. At the beginning of the round but before going through actions turn by turn, you may use your major action to make an Intelligence (Tactics) test with a TN equal to the highest initiative rating among all your enemies. If you succeed, your Stunt Die generates SP whether you roll doubles or not, but this SP can only be divided among allies you can communicate with so they can perform the following stunts: Duck and Weave, Take Cover, and Skirmish. They choose which of these stunts to perform using the granted SP on their turns. They can spend their own SP as well. If you roll doubles, you may spend some of this SP on other stunts for yourself. (You are not attacking, however, and may not use these stunts to inflict damage.) You may do this once per encounter.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>Your ferocity, tenacity, and presence of mind expand what you can do reflexively. Your Expert degree ability expands. Whenever you roll doubles you gain 2 bonus SP instead of 1 to spend on specific stunts, and the list of stunts you may spend this bonus SP on expands to include the following: Adrenaline Rush, Take Cover, Double Team, Skirmish, Overwatch, and Rapid Reload.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>Your tactics lead your allies to victory despite the odds. When you use the Master ability, you no longer need to meet a TN equal to the highest enemy initiative, and you generate as many SP as your Intelligence (Tactics) roll, though no single ally can spend more of this bonus SP than your Stunt Die result. If you roll doubles, you gain SP equal to the Stunt Die result to spend on stunts for yourself, on top of the SP you grant to allies.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

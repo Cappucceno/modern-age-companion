@@ -1,0 +1,27 @@
+{
+  "name": "Needling Talk",
+  "_id": "8770fd857c897c6c",
+  "_key": "!items!8770fd857c897c6c",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your words get under the skin of a target you share a Relationship with, causing uncertainty due to paranoia or an eagerness to please you, depending on the nature of the Relationship. You gain a +2 bonus to the next roll in which you take advantage of the target’s self-doubt, while the target suffers a –2 to all Willpower rolls for the remainder of the encounter.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Esoterica",
+  "_id": "f03ae5794443ac30",
+  "_key": "!items!f03ae5794443ac30",
+  "folder": "16f91dce3cc40315",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>The players may choose an obscure vein of occultism and state their organization is focused in understanding this bizarre path.</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

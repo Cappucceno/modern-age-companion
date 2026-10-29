@@ -1,0 +1,27 @@
+{
+  "name": "Empathic Link",
+  "_id": "53ce414d77279512",
+  "_key": "!items!53ce414d77279512",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You know someone you share a Relationship with so well you can sense their thoughts and feelings with uncanny accuracy. You may ask, “What is my target thinking and feeling?” and the GM must provide an accurate answer.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

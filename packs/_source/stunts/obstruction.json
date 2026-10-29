@@ -1,0 +1,27 @@
+{
+  "name": "Obstruction",
+  "_id": "9aef965d56fe6119",
+  "_key": "!items!9aef965d56fe6119",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Inflict -1 per SP spent to the next test an opponent makes related to this one before the end of their next turn (in action time) or the encounter (in narrative time).</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

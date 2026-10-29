@@ -1,0 +1,27 @@
+{
+  "name": "Rivalry",
+  "_id": "d853270ab50bd9cf",
+  "_key": "!items!d853270ab50bd9cf",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Gain a +1 to all opposed tests vs. one character of your choice for the rest of the encounter. For 4 SP, gain the bonus vs. all characters present at the time of this test instead.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Perfect Timing",
+  "_id": "2b2d5e301872a864",
+  "_key": "!items!2b2d5e301872a864",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Clockwork Engine Stunts.</em> You time your test just so, at a moment when the turning gears, dangling ropes, and clanging bells work in your allies’ favor. For each SP spent, an ally gains +1 SP on their next attempt to navigate, attack, or survive. You may choose Perfect Timing multiple times per test for different allies. (General Stunt: Boost)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 1,
+    "stuntPointsMax": 3,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

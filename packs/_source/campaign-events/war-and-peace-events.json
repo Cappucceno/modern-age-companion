@@ -1,0 +1,143 @@
+{
+  "name": "War and Peace Events",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Specific event of the War and Peace category. See the Campaign Event Listings journal for the intensity levels and campaign hooks of each.",
+  "results": [
+    {
+      "_id": "0c41e54f31fe10da",
+      "type": "text",
+      "name": "Coup",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!de046e7323a79984.0c41e54f31fe10da"
+    },
+    {
+      "_id": "b09aa0689f9ca8cf",
+      "type": "text",
+      "name": "Espionage",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!de046e7323a79984.b09aa0689f9ca8cf"
+    },
+    {
+      "_id": "09572216ba417ebc",
+      "type": "text",
+      "name": "Military Action",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!de046e7323a79984.09572216ba417ebc"
+    },
+    {
+      "_id": "c8a0c404af2c6d60",
+      "type": "text",
+      "name": "Militant Politics",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!de046e7323a79984.c8a0c404af2c6d60"
+    },
+    {
+      "_id": "8873b012235448cd",
+      "type": "text",
+      "name": "Peacemaking",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!de046e7323a79984.8873b012235448cd"
+    },
+    {
+      "_id": "90edf3f6be56ea12",
+      "type": "text",
+      "name": "Terrorist Attack",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!de046e7323a79984.90edf3f6be56ea12"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "e52645d109d8620d",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "de046e7323a79984",
+  "_key": "!tables!de046e7323a79984"
+}

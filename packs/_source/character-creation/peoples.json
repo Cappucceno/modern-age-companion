@@ -1,0 +1,186 @@
+{
+  "name": "Peoples",
+  "pages": [
+    {
+      "_id": "8f3cdad71a308170",
+      "name": "Artificial Intelligence",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>An artificial intelligence, or AI, is a fully sapient technological person with a physical body, whom organic hands built or created. Some AIs don’t have mobile bodies, but this background assumes a character who does. An AI hero might be an android, a clockwork person, a cyborg, a solid hologram, a humanoid collection of nanomachines, or some other wondrous feat of engineering. An AI hero typically has a strong relationship with their primary creator, even if a corporation built them as part of an assembly line. Some AIs were once organic but had their consciousness or brains transferred to mechanical bodies. Others were built from scratch; they achieved sapience through their own efforts or were designed that way.</p><p>Organic people sometimes view AIs as immortal, but they aren’t—their bodies require maintenance, and eventually they shut down entirely unless they go to great lengths to repeat (or upgrade) the original process that created them. Organic people also sometimes view AIs with distrust, ascribing all manner of sinister plans to them, but this is purely a knee-jerk reaction born from fear. An artificial intelligence has the same free will as anyone else.</p><p>An AI is sturdy, fast, and strong and can process information at dizzying speeds. The subtleties of social interactions elude them, though, and while they do experience true emotions, they also think like a machine—they’re detail oriented and goal focused and tend to appreciate function over form. AIs don’t often have cultures of their own, as unique creations or those purpose-built for a job, so they adopt their parent cultures and train for specific fields of expertise. Some cyborg communities thrive in wealthy cities or isolated communes, and these emphasize self-improvement and philosophical debate.</p><h2>Inherited Benefits</h2><p><strong>Ability:</strong> +1 Intelligence <strong>Focus:</strong> Intelligence (Computers) or Strength (Might); <em>Optional:</em> the Digital Arcana power talent <strong>Advantages:</strong> Information Processor: actions you take to research something or otherwise absorb information in narrative time take half the usual time. Your Speed is 12 + Dexterity. You can speak and read your creator’s native language plus any one additional language. <strong>Talent:</strong> Hacker or Pinpoint Attack</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Strength</td></tr><tr><td>3–4</td><td>Focus: Dexterity (Running)</td></tr><tr><td>5</td><td>Focus: Strength (Jumping)</td></tr><tr><td>6</td><td>Focus: Fighting (Grappling)</td></tr><tr><td>7–8</td><td>+1 Constitution</td></tr><tr><td>9</td><td>Focus: Intelligence (Cryptography)</td></tr><tr><td>10–11</td><td>Focus: Intelligence (Research)</td></tr><tr><td>12</td><td>+1 Dexterity</td></tr></tbody></table>"
+      },
+      "sort": 100000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!86b591efd4ebaf44.8f3cdad71a308170",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "afae51a38d69cbdc",
+      "name": "Dwarf",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Dwarves are stalwart, assertive, and long-lived. They make steadfast allies and daunting enemies. They organize in familial clans, making inheritance a primary concern for their cultures, and they prize skills that lend themselves to stability and permanence. Many schools with dwarven founders teach constructive trades like engineering, manufacturing, mechanics, and architecture; more scholarly or civically minded dwarves often become historians, archivists, museum curators, lawyers, or journalists. Many dwarves join the military as well, finding disciplined outlets for their bravery. Dwarves hold grudges for a long time, partially because their memories are superb and partially because clan feuds are a time-honored tradition that spills over into daily life. Even though dwarves usually don’t take insults lying down, they are nonetheless inclined toward patience and taking the long view. They excel at fields that require years to perfect, but sometimes prefer tried and true methods to the latest technology.</p><p>In classic fantasy manifestations, dwarves stand between four and five feet tall, with sturdy, brawny builds. Note, however, that medical dwarfism is related to these fantasy people only by virtue of etymology. In older Norse sources, dwarves are not said to be any particular height. Dwarves are well-known for their beards. Their hair grows remarkably quickly compared to other peoples’, so their cultures embrace beard fashion as an art; the most famous hairstylists in the world are dwarves.</p><p>Dwarves have a penchant for vehicles, machinery, and ordnance. They make the best enchanted guns and the sturdiest airships. Dwarves value well-made things, and display wealth in the form of the finest works of artisanship—better a perfectly-cut crystal than a dozen average rubies. They’re rarely found in upper-class professions; even rich dwarves consider it gauche to lord it over other people by having</p><p>Some of the peoples of <em>Modern AGE</em> are adaptations of the races in <em>Fantasy AGE</em>; you can use those given here as a template for adapting others, like gnomes and halflings.</p><p>However, in <em>Fantasy AGE</em>, players roll <em>twice</em> on their character’s racial benefits table; in <em>Modern AGE</em>, they normally only roll once for their background’s benefits.</p><p>If the GM would like the peoples in this book to work more like the races from <em>Fantasy AGE</em>, they may allow players to roll twice for backgrounds: once on an origin’s table and once on a cultural table, twice on a single cultural table, or once on one cultural table and once on another, depending on the character’s circumstances and the player’s preferences. Be aware that this represents a slight increase in power for starting characters from the usual <em>Modern AGE</em> experience, on top of the small advantages peoples already gain.</p><p>high-rise corner offices (and they don’t like heights, anyway). Urban areas are famous for their dwarven biker gangs— some are criminal gangs, but others ride for charity, vigilante justice, or just to show off their sweet custom mods.</p><h2>Inherited Benefits</h2><p><strong>Ability:</strong> +1 Constitution <strong>Focus:</strong> Intelligence (History or Law) or Willpower (Courage) <strong>Advantages:</strong> Dark Sight: you can see up to 20 yards in darkness without a light source. Your Speed is 8 + Dexterity. You can speak and read Dwarven and a common local language. <strong>Talent:</strong> Expertise or Maker</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Strength</td></tr><tr><td>3–4</td><td>Focus: Strength (Machining)</td></tr><tr><td>5</td><td>Focus: Intelligence (Tinkering)</td></tr><tr><td>6</td><td>Focus: Dexterity (Piloting)</td></tr><tr><td>7–8</td><td>+1 Willpower</td></tr><tr><td>9</td><td>Focus: Intelligence (Engineering)</td></tr><tr><td>10–11</td><td>Focus: Accuracy (Assault Rifles)</td></tr><tr><td>12</td><td>+1 Accuracy</td></tr></tbody></table>"
+      },
+      "sort": 200000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!86b591efd4ebaf44.afae51a38d69cbdc",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "cf8e5a9e1258f0c7",
+      "name": "Elf",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Elves may appear highly empathetic, commanding, or arrogant, even when they don’t wish to make any particular impression. They’re given to grace, athleticism, and philosophical leanings. Their cultures emphasize harmony and enlightenment, sometimes to the point of discriminating against so-called “discordant” members of their culture. Elves eschewed urban living for centuries, preferring stone to streets and trees to trains. Eventually, though, their love of travel and discovery overcame their wish for privacy, and the world’s wildernesses grew smaller and harder to find every day. The elves embraced the city, with its glitz and glitter, and their affinity for creative works spawned an artistic revolution once they did. They gravitate toward industries like fashion, beauty, and entertainment among the upper classes, while others become renowned street artists, mystics for hire, subversive authors, counterculture icons, or world-class chefs. Elves tend to assume their ways, refined by long lives and ancient traditions, are superior, and may display confusion or frustration when outsiders don’t agree.</p><p>Elves live longer than many peoples. In classic fantasy campaigns, they stand between five and six feet tall, with slim and wiry builds. In source mythology, elves often have traits tale-tellers associate with beauty, nobility, and magic, though this may be a function of their signature charisma, not physical reality, as elves vary in appearances as much as mundane humans. Their cultures value elders for their wisdom and accumulated years of skills and knowledge. Teachers and mentors occupy a revered place in elven society, as do explorers and scholars in fields such as anthropology, archaeology, linguistics, and astronomy.</p><p>Elves believe in self-development. The product of a skill is less important than the skill itself, and how it transforms the one who masters it. Thus, many elves cultivate physical disciplines such as dance and martial arts. Despite their reputation for being diplomats and socialites, skilled elven fighters are a force of daring and prowess. Their sharp eyes and quick reflexes lend themselves well to precision weapons, such as bows or pistols, and hand-to-hand combat.</p><h2>Inherited Benefits</h2><p><strong>Ability:</strong> +1 Dexterity <strong>Focus:</strong> Dexterity (Acrobatics) or Perception (Seeing) <strong>Advantages:</strong> Dark Sight: you can see up to 20 yards in darkness without a light source. Your Speed is 12 + Dexterity. You can speak and read Elven and any common language. <strong>Talent:</strong> Freerunning or Intrigue</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Fighting</td></tr><tr><td>3–4</td><td>Focus: Communication (Performing)</td></tr><tr><td>5</td><td>Focus: Intelligence (Navigation)</td></tr><tr><td>6</td><td>Focus: Intelligence (Art)</td></tr><tr><td>7–8</td><td>+1 Communication</td></tr><tr><td>9</td><td>Focus: Communication (Etiquette)</td></tr><tr><td>10–11</td><td>Focus: Perception (Empathy)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
+      },
+      "sort": 300000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!86b591efd4ebaf44.cf8e5a9e1258f0c7",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "804ce838acfbba12",
+      "name": "Human",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Normally, <em>Modern AGE</em> assumes the default protagonists are humans, so this background is unnecessary. In a setting where other peoples are common, use it for human characters to contrast the others. Anyone from Earth might consider themselves “human,” even if they happen to be an elf, but this background represents real-world-style human beings.</p><p>Humans are the most far-flung people and thrive as underdogs better than anyone. Elves like to visit remote corners of the world, but only humans are brave and foolhardy enough to live there. They’re resourceful and bold, ready to adjust to new circumstances and hardships. Cities abound with them in every social class and industry, but it’s usually humans who found isolated places in harsh environments with fierce predators besetting them on every side. Because of this adaptability, humans are prone to letting problems persist, including war. They’re not naturally aggressive, but they band together easily and throw themselves fully into causes. It’s great for fighting rebellions and building a brighter world, but it breeds messy conflict when there’s no obvious tyrant to overthrow.</p><p>Humans vary in physical size and build, ranging from five to six feet tall, with some outliers in both directions. Their life spans are comparatively short, but their willingness to face down peril and misery to forge something better makes them a force to reckon with.</p><p>Humanity is capable of radical heights of compassion and depths of cruelty, sometimes in the same individual. Humans learn more quickly and can change their stripes more readily than most, making diplomacy with them unpredictable but never impossible. However, a human with strong opinions can defend them as solidly as any dwarf.</p><h2>Inherited Benefits</h2><p><strong>Ability:</strong> +1 Willpower <strong>Focus:</strong> Dexterity (Initiative) or Intelligence (Current Affairs) <strong>Advantages:</strong> Underdog: reduce all penalties for adverse circumstances by 1. Your Speed is 10 + Dexterity. You can speak and read any two common local languages. <strong>Talent:</strong> Contacts or Improvisation</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Intelligence</td></tr><tr><td>3–4</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>5</td><td>Focus: Intelligence (Tactics)</td></tr><tr><td>6</td><td>Focus: Constitution (Stamina)</td></tr><tr><td>7–8</td><td>+1 Fighting</td></tr><tr><td>9</td><td>Focus: Constitution (Tolerance)</td></tr><tr><td>10–11</td><td>Focus: Willpower (Courage)</td></tr><tr><td>12</td><td>+1 Accuracy</td></tr></tbody></table>"
+      },
+      "sort": 400000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!86b591efd4ebaf44.804ce838acfbba12",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "ea23c649319afbc4",
+      "name": "Orc",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Orcs are a proud, strong people. They have a reputation for being meatheads and troublemakers, but they don’t provoke conflict without cause. Most grew up under a leader who proved themselves capable by defeating all rivals in a fight, a battle of wits, a mystical challenge, a game, or a sports competition, or who simply used a campaign to win the hearts of the people through heroic deeds. In orc communities, members have each other’s backs, but each community is expected to be self-sufficient. A community that fails deserves whatever befalls it. Those who forsake their people are left to hack it alone. Many orc societies run athletic clubs, schools, or mercenary companies, though others are less cohesive and may simply get together for a party once a week.</p><p>Loyalty, dignity, and pride are paramount in orc cultures. They take a dim view of traitors, deceivers, and career politicians. Many approve of violent retribution because it’s honest. In battle, enemies show their true motives and abilities. They see weakness as a vice, though strength needn’t be in body; a scholarly orc with a backbone of steel commands just as much respect as a peerless soldier. Orcs are blunt and straightforward, eschewing social niceties as meaningless platitudes meant to soothe egos.</p><p>In classic fantasy sources, orcs are sturdy and muscular, ranging from five to seven feet tall with broad builds, robust features, and sharp teeth. Orcs are mostly a contemporary fantasy phenomenon, but draw inspiration from earlier legends of hidden, monstrous folk. To demonstrate their strength and bravery, many orcs join the military, law enforcement, sports teams, and other professions. Less athletically inclined orcs make good tacticians, detectives, and project managers—they do well at any job that rewards straightfor-wardness and determination.</p><h2>Inherited Benefits</h2><p><strong>Ability:</strong> +1 Strength <strong>Focus:</strong> Communication (Leadership) or Strength (Might) <strong>Advantages:</strong> Dark Sight: you can see up to 20 yards in darkness without a light source. Your Speed is 10 + Dexterity. You can speak and read Orcish and a common local language. <strong>Talent:</strong> Command or Overwhelm</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Constitution</td></tr><tr><td>3–4</td><td>Focus: Strength (Intimidation)</td></tr><tr><td>5</td><td>Focus: Constitution (Stamina)</td></tr><tr><td>6</td><td>Focus: Perception (Smelling)</td></tr><tr><td>7–8</td><td>+1 Fighting</td></tr><tr><td>9</td><td>Focus: Constitution (Running)</td></tr><tr><td>10–11</td><td>Focus: Fighting (Brawling)</td></tr><tr><td>12</td><td>+1 Willpower</td></tr></tbody></table>"
+      },
+      "sort": 500000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!86b591efd4ebaf44.ea23c649319afbc4",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "0ed20af589064368",
+      "name": "Shapeshifter",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>Shapeshifters may come from another planet or have mystical origins, such as a blessing or curse. Some shifters only have two forms, a humanoid one and something else. Others are more fluid and can take any shape, and still others are always humanoid but can rearrange their features. Shapeshifter cultures are insular and reactive, defaulting to espionage,</p><p>The Shapeshifter background encompasses several different potential kinds of character concepts, from the lycanthrope to the alien who can perfectly infiltrate other worlds to the sapient blob that can assume any form. If the GM wants a less obviously fantas-tical setting, they can default to the subtler side of the Shapeshifter talent, which represents smaller changes to individual features to simply aid disguise. Otherwise, the player may choose either the subtle or extra form benefit at each degree of the talent.</p><p>If a shapeshifter character does have access to additional shapes, the GM should treat them like any other character whose background allows some narrative edge in specific circumstances or provides justification to take arcane or psychic talents. Turning into a bird may occasionally allow them to take certain kinds of actions in ways a non-flying character can’t, but it doesn’t bypass the need to make rolls to accomplish important things.</p><p>observation, and cryptic plots when they interact with other realms or peoples. This is partially because of their innate ability to blend in and partially a survival mechanism against the mistrust they garner from others, deserved or not.</p><p>Shapeshifters explore questions of identity and juggle complicated relationships; they have a knack for knowing what makes people tick. They play roles ranging from secret police to peerless actors and performers to guerilla combatants. Shifter mercenaries, spies, and assassins are common. When they go to war as a people, they wage shadow battles of paranoia and infiltration, trying to take down the enemy from within before it learns their vulnerabilities. Some shapeshifters eschew conflict and intrigue, though, preferring to study living things and their environments. They often become scientists, counselors, anthropologists, and physicians.</p><p>Shapeshifters have one natural form they default to when they’re asleep or in a neutral state. It’s usually humanoid, but some shifters exist naturally as fluids or unusual beasts. Some may not have “true” faces, existing as blank slates until they choose to look like someone specific. Those whose talents lie on the subtler end of the spectrum don’t have alternate forms at all, simply excelling at disguise and deception beyond others’ ability to match.</p><h2>Inherited Benefits</h2><p><strong>Ability:</strong> +1 Communication <strong>Focus:</strong> Communication (Disguise) or Perception (Empathy) <strong>Advantages:</strong> Camouflage: you can always make tests to conceal yourself without penalty even if there’s nowhere to hide. Your Speed is 10 + Dexterity. You can speak and read Shiftertongue and any one additional language. You may take or improve the Shapeshifting talent (see sidebar) as you advance, even if you don’t select it at character creation. <strong>Talent: </strong>Intrigue or Shapeshifting (see sidebar); <em>Optional:</em> the Empathy psychic power talent</p><p><strong>Requirement:</strong> Shapeshifter background</p><p>You can change your physical form, either drastically or subtly. This talent has Subtle and Extra Form paths. You progress in each separately, with the previous degree required to get the next one in the same path. The Game Master determines whether you can take one or both paths.</p><p><strong>Novice, Subtle:</strong> You can shift your features to more closely resemble someone else. When disguising yourself as someone specific you’ve seen in person or in a clear photograph recently, you can re-roll any dice with a result of 1 or 2 when making <strong>Communication (Disguise)</strong> tests. Additionally, you can use that person’s Membership and Reputation benefits as though they were your own (but, of course, you can’t use your own at the same time). If you do, that character loses access to those benefits for the rest of the game session.</p><p><strong>Novice, Extra Form:</strong> You have one additional form besides your default one. While you’re in this form, all stunts that align particularly well with the form cost one fewer SP than usual, but those that don’t cost one SP more. The GM is the final arbiter of which stunts are which.</p><p><strong>Expert, Subtle:</strong> Once you’ve successfully disguised yourself as someone specific, for the rest of that scene you can perform the It Wasn’t Me stunt for 2 SP instead of 4 when you implicate the person you look like, and attempts to investigate the truth suffer a -3 instead of a -2.</p><p><strong>Expert, Extra Form:</strong> This has the same guidelines as Novice, Extra Form, but you now have one more additional form than you had already.</p><p><strong>Master, Subtle:</strong> While you’re disguised as someone specific, you gain access to the following unique stunt: for 2 SP, if your test shifted a character’s attitude toward the person you’re pretending to be, shift it by an additional degree in the same direction. Additionally, whenever you use another character’s Membership or Reputation benefits instead of your own, increase all bonuses and inflicted penalties from them by 1.</p><p><strong>Master, Extra Form:</strong> This has the same guidelines as Expert, Extra Form, but you now have one more additional form than you had already.</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Intelligence</td></tr><tr><td>3–4</td><td>Focus: Communication (Deception)</td></tr><tr><td>5</td><td>Focus: Dexterity (Sleight of Hand)</td></tr><tr><td>6</td><td>Focus: Fighting (Light Blades)</td></tr><tr><td>7–8</td><td>+1 Dexterity</td></tr><tr><td>9</td><td>Focus: Intelligence (Biology or Medicine)</td></tr><tr><td>10–11</td><td>Focus: Dexterity (Stealth)</td></tr><tr><td>12</td><td>+1 Perception</td></tr></tbody></table>"
+      },
+      "sort": 600000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!86b591efd4ebaf44.0ed20af589064368",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    },
+    {
+      "_id": "df7946ab196565c8",
+      "name": "Spirit-Blood",
+      "type": "text",
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<p>“Spirit” is a catchall term for various otherworldly beings: ghosts, faeries, demons, animistic phenomena, extradi-mensional visitors composed of energy or dark matter, and stranger things. A spirit-blood is anyone who is half-spirit. Perhaps one of their parents was one, they were infused with unearthly essence or stolen away to another realm as an infant, they suffered a botched possession that changed them, or they experienced a unique transformation. Spirit-bloods come from another people originally, but they’re so changed as to be unrecognizable.</p><p>Spirit-bloods don’t have their own cultures. Some live in defiance of any culture that would have them; others desperately try to fit in, a herculean task for those who stand out so easily. All spirit-bloods have uncanny intuition—even those who don’t inherit fantastic abilities have absurd luck, preternatural instincts, and a nose for trouble. Many hire themselves out as fortune-tellers or ghost hunters, and rarely does a spirit-blood lead a quiet life. Adventure finds them, whether they seek it or not. Perhaps their unearthly parent returns to pass on some bizarre bequest, task them with solving a mysterious puzzle, or reclaim them and take them away. Perhaps they manifest uncontrollable gifts and must find a teacher before disaster strikes. Perhaps they’re the unknowing epicenter of a cosmic disturbance.</p><p>Spirit-bloods learn that making lots of friends helps them survive. They gather bands of misfits and unlikely companions, connecting easily across aisles of hostility and planes of existence. Those who embrace the spotlight make waves as daring ship captains, flashy rock stars, and other bombastic public figures who trail admirers, paparazzi, and resentful rivals. Those who try to lead more subtle lives attract the fascination and suspicion of government agencies, mystical investigators, and the power hungry.</p><h2>Inherited Benefits</h2><p><strong>Ability:</strong> +1 Perception <strong>Focus:</strong> Intelligence (Physics or Occultism) or Communication (Investigation) <strong>Advantages:</strong> Danger Sense: you may take a minor action during the first round of combat even when surprised. Your Speed is 10 + Dexterity. You can speak and read one occult or otherworldly language, plus one common local language. <strong>Talent:</strong> Attractive or Quick Reflexes; <em>Optional:</em> the Extrasensory Perception power talent</p><table><thead><tr><th>2d6 Roll</th><th>Benefit</th></tr></thead><tbody><tr><td>2</td><td>+1 Dexterity</td></tr><tr><td>3–4</td><td>Focus: Dexterity (Initiative)</td></tr><tr><td>5</td><td>Focus: Communication (Persuasion)</td></tr><tr><td>6</td><td>Focus: Perception (Searching)</td></tr><tr><td>7–8</td><td>+1 Communication</td></tr><tr><td>9</td><td>Focus: Communication (Seduction)</td></tr><tr><td>10–11</td><td>Focus: Communication (Gambling)</td></tr><tr><td>12</td><td>+1 Intelligence</td></tr></tbody></table>"
+      },
+      "sort": 700000,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "_key": "!journal.pages!86b591efd4ebaf44.df7946ab196565c8",
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      }
+    }
+  ],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_id": "86b591efd4ebaf44",
+  "_key": "!journal!86b591efd4ebaf44",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

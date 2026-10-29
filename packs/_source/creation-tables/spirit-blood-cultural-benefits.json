@@ -1,0 +1,183 @@
+{
+  "name": "Spirit-Blood Cultural Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Cultural benefits table of the Spirit-Blood people.",
+  "results": [
+    {
+      "_id": "2c47111f13c4a3b7",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.2c47111f13c4a3b7"
+    },
+    {
+      "_id": "8c24651c4924f476",
+      "type": "text",
+      "name": "Focus: Dexterity (Initiative)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.8c24651c4924f476"
+    },
+    {
+      "_id": "50a0f936b8a195e3",
+      "type": "text",
+      "name": "Focus: Communication (Persuasion)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.50a0f936b8a195e3"
+    },
+    {
+      "_id": "62228d91f41f7175",
+      "type": "text",
+      "name": "Focus: Perception (Searching)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.62228d91f41f7175"
+    },
+    {
+      "_id": "3daeeae883afa303",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.3daeeae883afa303"
+    },
+    {
+      "_id": "ffd8d7e8ed639725",
+      "type": "text",
+      "name": "Focus: Communication (Seduction)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.ffd8d7e8ed639725"
+    },
+    {
+      "_id": "7c48c50340a7a0a3",
+      "type": "text",
+      "name": "Focus: Communication (Gambling)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.7c48c50340a7a0a3"
+    },
+    {
+      "_id": "659c38e8bd6b4a19",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!fe6f5f4b91ed7c73.659c38e8bd6b4a19"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "2bbb2de98f10323e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "fe6f5f4b91ed7c73",
+  "_key": "!tables!fe6f5f4b91ed7c73"
+}

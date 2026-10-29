@@ -1,0 +1,27 @@
+{
+  "name": "Greater Assets",
+  "_id": "76fcf964a880a4bf",
+  "_key": "!items!76fcf964a880a4bf",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Increase any ability rated 6 or more by 1.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 6,
+    "stuntPointsMax": 6,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

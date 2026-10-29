@@ -1,0 +1,47 @@
+{
+  "name": "Impersonator",
+  "_id": "c3ca066225c858a8",
+  "_key": "!items!c3ca066225c858a8",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>What others call pretense, you call a tool of the trade.</p>",
+    "shortDesc": "",
+    "requirement": "Communication (Deception) and Communication (Disguise) focuses",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>You can adopt the mannerisms of other ways of life. Pick a number of backgrounds equal to your Intelligence (see Chapter 1: Character Creation in the Modern AGE rulebook). When pretending to be someone from those backgrounds, you gain a +2 bonus to Communication (Deception) and Communication (Disguise) tests.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You excel at imitating someone else. If you study a person for at least 1 minute, you gain a +1 bonus to Communication (Deception) and Communication (Disguise) tests when pretending to be that person. This bonus stacks with the bonus from the Novice degree. In addition, you create a fake identity, complete with forged documents. Choose a background and profession; when you act as your fake identity, if one of your focuses is a tangential focus for an ability test, you can use it as a primary focus if the background or profession of your fake identity grants a focus the test considers a primary focus. Also, you can always make ability tests with required focuses listed in your fake identity’s background or profession, even if you don’t have those focuses.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can convince anyone that you are someone you are not. Add Dexterity (Forgery) to the focuses that benefit from the Novice and Expert degrees. Additionally, you can make a Communication (Deception), Communication (Disguise), or Dexterity (Forgery) test, as appropriate, to impersonate a profession, Membership, or Reputation. Depending on the interaction, the GM can decide if this is a simple or an advanced test against a set TN or opposed by another character’s Perception (Insight) or other tests. If you prepared beforehand, such as by procuring false documents or uniforms or studying your mark, you gain a +2 to the tests.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>You are a true social chameleon. You gain a +1 bonus to Communication (Deception), Communication (Disguise), and Dexterity (Forgery) tests when pretending to be from any background you did not choose for the Novice degree. Also, when you study a particular person to impersonate, you add your Perception as a bonus to Communication (Deception) tests to fake the use of any Communication or Intelligence focus your mark is supposed to know. These tests provide no real results; you only speak credible gibberish to give the appearance you know what you’re talking about.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You slip into different identities with the same ease as you change clothes. When pretending to be someone else, subtract your Communication from the Stunt Die result of any character making an opposed test against you. The Stunt Die result may not go lower than 0, and this may cause your opponent’s test to fail. Also, when you use your Perception as a bonus as per the Grandmaster degree, you can spend 2 SP to actually learn an item of true information your mark knows that relates to the test you are faking.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

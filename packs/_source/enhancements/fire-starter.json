@@ -1,0 +1,26 @@
+{
+  "name": "Fire-Starter",
+  "_id": "d9d71f39665fa0d1",
+  "_key": "!items!d9d71f39665fa0d1",
+  "folder": "c9041474f977d8b8",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Biology. <strong>Cost:</strong> 1 EN.</p><p>Able to start fires with your mind, you have the Ignite Fire power (<em>Modern AGE</em>, <strong>Chapter 6</strong>) and 10 + 1d6 + Willpower power points to fuel it, if you do not already have a power points score.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

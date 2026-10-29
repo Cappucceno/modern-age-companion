@@ -1,0 +1,27 @@
+{
+  "name": "Positioning",
+  "_id": "4bf9120afd00d143",
+  "_key": "!items!4bf9120afd00d143",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>The action that generated this stunt moves its target into a position you choose relative to other characters or objects in the target’s immediate vicinity. If this movement would obviously disadvantage the target, such as leading them into a trap, you must make an appropriate test vs. one the target makes to resist.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

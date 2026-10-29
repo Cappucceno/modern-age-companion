@@ -1,0 +1,27 @@
+{
+  "name": "Familiar Trail",
+  "_id": "06c68c216e85af96",
+  "_key": "!items!06c68c216e85af96",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Your understanding of someone you share a Relationship with is strong enough that you automatically know where they are for the rest of the session, unless they are trying to hide from you specifically. Even if they’re trying to hide from you, you gain a +2 bonus to tests related to finding them.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

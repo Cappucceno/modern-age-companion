@@ -1,0 +1,27 @@
+{
+  "name": "Investments",
+  "_id": "06df04e3c9a3f5b4",
+  "_key": "!items!06df04e3c9a3f5b4",
+  "folder": "f5ec05e93ddc0560",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Hard to access, but important collateral for an organization for sale or aiming to boost its market share</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

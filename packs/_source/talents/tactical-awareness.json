@@ -1,0 +1,47 @@
+{
+  "name": "Tactical Awareness",
+  "_id": "27205a8dabff99ef",
+  "_key": "!items!27205a8dabff99ef",
+  "folder": "67cbab7b9f8216ae",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You move in combat calmly and expertly.</p><p>Grandmaster and Apex degrees for the talent of the same name in the Modern AGE Basic Rulebook.</p>",
+    "shortDesc": "",
+    "requirement": "",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>Your complete sense of the battlefield makes it impossible to ambush you. When you make an opposed test to detect hidden enemies, if the Dexterity (Stealth) result of your enemies is equal to or lower than half your level + your Perception, you automatically succeed and roll the Stunt Die to immediately gain SP. Otherwise, you make a normal Perception test, but you gain a bonus equal to your Intelligence. Also, if you spend a minor action, any of your allies who can hear you are aware of any enemy who failed the opposed test against you.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>Your allies and enemies are exactly where you want them. If you take a minor action to give instructions, a number of allies equal to your Perception gain the benefit of the Novice degree on their next turn. Alternatively, when you move on your turn as a minor action, you can make a Communication (Deception), Dexterity (Acrobatics), or Intelligence (Tactics) test, opposed by a Willpower (Self-Discipline) test by any enemy who can see you. Enemies who fail this test move half their Speed during your turn; you choose the direction and final position of each of these movements.</p><p>The talents in this book provide options not covered by the Modern AGE Basic Rulebook. New talents include Grandmaster and Apex degrees, providing further inspiration if you wish to expand talents from the core rules.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

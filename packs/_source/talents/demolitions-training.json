@@ -1,0 +1,47 @@
+{
+  "name": "Demolitions Training",
+  "_id": "7d51d2dcf146ecac",
+  "_key": "!items!7d51d2dcf146ecac",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You know how to place or aim explosives to their best effect.</p>",
+    "shortDesc": "",
+    "requirement": "Dexterity (Sabotage) or Intelligence (Explosives) focus",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>Your accuracy with explosives makes them more effective. You may add the Stunt Die result of the attack roll with any grenade or the Intelligence (Explosives) test for other explosives as a bonus to damage. This bonus only applies to the initial damage for fuel ignitions (see Chapter 7: Technology).</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You can recognize the stress points and weaknesses in armored targets and structures. The damage you deal with grenades and missiles against targets with an impact or ballistic Armor Rating increases by +3. If the target is a vehicle, the damage increases by 1d6 instead (+1 hazard category). If the target is a building, fixed structure, or very large vehicle such as a cruise ship or transport plane, the damage increases by 2d6 instead (+2 hazard categories). If using Anti-Vehicle stunts to damage your target, you gain +1 SP against typical vehicles or +2 SP against very large vehicles.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can recognize where an explosion will make the most damage. When you use a grenade or missile, add your</p><p>Dexterity in yards to the radius of the explosion (grenades have a 2-yard radius). You can add twice your Intelligence to the blast radius of a large-scale explosive.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>Your familiarity with explosions helps you predict their effects. When you deal damage with any explosive, choose one of the damage dice before rolling damage; that die becomes a Stunt Die. The SP gained from the damage Stunt Die is added to any SP you may have gained from rolling doubles on the attack or test. You can use your total SP to make the explosion create a hazard of the same category as the explosion or lower (see Chapter 3: Rules and Chapter 7: Technology for guidelines about the damage and effects of hazards). Creating a hazard costs 3 SP, +1 SP for each additional hazard effect. You can also mimic non-combat stunts within reason (such as the Cover Your Tracks infiltration stunt or the A Stitch in Time exploration stunt).</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>Your experience removes the factor of chance from your explosions. Rather than rolling the bonus damage granted by the Expert degree, you can decide the result up to its maximum (0 to 6 against vehicles and 0 to 12 against structures). This also applies to the die considered a Stunt Die by the Grandmaster degree. Also, the maximum radius of an explosion with a grenade or explosive is increased by both your Dexterity and Intelligence in yards (ignore a negative score), and you can decide the exact blast radius before making the attack or test.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

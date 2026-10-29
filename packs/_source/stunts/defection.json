@@ -1,0 +1,27 @@
+{
+  "name": "Defection",
+  "_id": "04354bf51529e152",
+  "_key": "!items!04354bf51529e152",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>An important individual in an opponent organization changes sides and brings significant resources with them. The protagonists’ organization gains a focus the opponent possesses (they still retain their focus).</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Prophecy Fulfilled",
+  "_id": "2a44073351e52520",
+  "_key": "!items!2a44073351e52520",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Urban Fantasy.</em> Your actions were foretold centuries before you were born. This action was the portent; what happens next is destined. Your target must succeed at a Willpower (Courage) test opposed by your Willpower (Faith). If you win, choose a consequence that will result from your target’s next action related to this one. It can’t negate the effects of their success or cause their death, but it can be otherwise dire. On their next action, they choose whether to succeed without rolling and suffer the consequence or fail automatically. (General Stunt: Disadvantage)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Datajack",
+  "_id": "3aaeab97ba3323b3",
+  "_key": "!items!3aaeab97ba3323b3",
+  "folder": "b478cf5579f42758",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Technology. <strong>Cost:</strong> 1 EN.</p><p>You have an implanted jack or data-port, allowing you to plug a computer directly into your brain when you use it. This gives you a Force Multiplier of x2 when making Intelligence (Computers) tests.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

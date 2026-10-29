@@ -1,0 +1,26 @@
+{
+  "name": "Targeting System",
+  "_id": "9fac6ce98d8cfd06",
+  "_key": "!items!9fac6ce98d8cfd06",
+  "folder": "b478cf5579f42758",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Technology. <strong>Cost:</strong> 1 EN.</p><p>You have a built-in Targeting System usable for ranged attacks, allowing you to perform the Precision Marksmanship stunt for –1 SP cost. If you make an attack with a firearm that benefits from an aim bonus before the end of your next turn, you automatically gain a +1 bonus, even without spending SP.</p>",
+    "shortDesc": "1 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

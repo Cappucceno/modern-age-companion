@@ -1,0 +1,27 @@
+{
+  "name": "Multiply",
+  "_id": "663f097b8652a27e",
+  "_key": "!items!663f097b8652a27e",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Make the same roll that generated this stunt again immediately, and apply the original test’s effects to one additional target, or if the GM approves, on a number of other valid targets up to the value on the Stunt Die of this new roll. If the original test’s target made an opposing roll or applied resistance of some kind, the new targets may do so also.</p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

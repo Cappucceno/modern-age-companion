@@ -1,0 +1,27 @@
+{
+  "name": "Disadvantage",
+  "_id": "fd097734b3b46524",
+  "_key": "!items!fd097734b3b46524",
+  "folder": "e4502f3a6570f5f7",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>You and your target make opposed rolls with the same ability + focus as the action that generated this stunt; if you win, the opponent suffers a minor disadvantage, such as falling down or briefly losing access to a resource or piece of equipment at hand. For 3 SP, this disadvantage lasts for the rest of the encounter or until the opponent successfully takes a TN 15 action to remedy it. For 5 SP, it’s permanent—such as destroying a piece of equipment completely or turning a friend into a foe. <em>(Cost 2+ SP.)</em></p>",
+    "shortDesc": "",
+    "type": "General Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Hacking",
+  "_id": "5aa6bc2f0f7fed3f",
+  "_key": "!items!5aa6bc2f0f7fed3f",
+  "folder": "e5f2a0037b6e2262",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used when attempting to steal information or access the computer records of other organizations</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

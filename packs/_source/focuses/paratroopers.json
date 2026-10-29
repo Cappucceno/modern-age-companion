@@ -1,0 +1,27 @@
+{
+  "name": "Paratroopers",
+  "_id": "69d9bcfcbe2e6268",
+  "_key": "!items!69d9bcfcbe2e6268",
+  "folder": "6b70b3472b97090b",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Trained in attacking from the sky and behind-enemy-lines maneuvers</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Campaign Events",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 100000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "17ac400a0a3aaeb2",
+  "_key": "!folders!17ac400a0a3aaeb2",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Power Shift",
+  "_id": "3eea00f96a29f502",
+  "_key": "!items!3eea00f96a29f502",
+  "folder": "321ab75b97fdb152",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Lower one of the target organization’s ability scores by 1, and raise the protagonists’ organization’s rating in the same ability by 1.</p>",
+    "shortDesc": "",
+    "type": "Organization Stunts",
+    "stuntPoints": 6,
+    "stuntPointsMax": 6,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

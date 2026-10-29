@@ -1,0 +1,27 @@
+{
+  "name": "Food and Living Goods Inventory",
+  "_id": "99bb9e409f31ebf9",
+  "_key": "!items!99bb9e409f31ebf9",
+  "folder": "f5ec05e93ddc0560",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>An organization’s access to basic and elaborate foodstuffs, for consumption or distribution to others.</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

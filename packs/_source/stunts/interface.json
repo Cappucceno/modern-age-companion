@@ -1,0 +1,27 @@
+{
+  "name": "Interface",
+  "_id": "b9af89ed5d74b993",
+  "_key": "!items!b9af89ed5d74b993",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Cyberpunk.</em> When making any Communication or Intelligence test, you make a direct link between your mind and a computer. For the rest of the encounter, you can take actions with these abilities in action time that would normally require narrative time to perform; each basic or opposed test takes a number of turns equal to 4 – 1 per 2 SP spent, minimum 1. Individual rolls of advanced tests with these abilities take one turn each. (General Stunt: Speed) <em>(Cost 2+ SP.)</em></p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "variable"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

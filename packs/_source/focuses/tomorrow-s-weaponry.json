@@ -1,0 +1,27 @@
+{
+  "name": "Tomorrow’s Weaponry",
+  "_id": "d3c3f643cf27f122",
+  "_key": "!items!d3c3f643cf27f122",
+  "folder": "16f91dce3cc40315",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used when developing and using weapons of near-future design, such as effective gauss coilguns, plasma rifles, laser pistols, and atomic grenades</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

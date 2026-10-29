@@ -1,0 +1,27 @@
+{
+  "name": "Controlled Mayhem",
+  "_id": "a8224aa1e13b2060",
+  "_key": "!items!a8224aa1e13b2060",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Caper.</em> On a test that uses a focus you possess and an ability you have at 3 or higher, an ally immediately makes a different test that builds on the one you just made before anyone else can react, as long as you and your ally pursue the same goal. (General Stunt: Synergy)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

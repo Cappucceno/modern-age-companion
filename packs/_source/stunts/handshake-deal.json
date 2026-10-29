@@ -1,0 +1,27 @@
+{
+  "name": "Handshake Deal",
+  "_id": "f89fb633088073fa",
+  "_key": "!items!f89fb633088073fa",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>A shared understanding leads to an ironclad agreement with a target you share a Relationship with. If either party betrays this word, they suffer –2 to all social dice rolls when interacting with each other and the Relationship experiences a complication (see Relationship Complications.)</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 2,
+    "stuntPointsMax": 2,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

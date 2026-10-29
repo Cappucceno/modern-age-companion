@@ -1,0 +1,27 @@
+{
+  "name": "From Hell’s Heart (Pulpy, Cinematic)",
+  "_id": "db0bd47b58afa699",
+  "_key": "!items!db0bd47b58afa699",
+  "folder": "fe8e60768b6a0fdb",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p>Channeling your resentment for someone you share a negative Relationship with, you gain 3 points of armor vs. impact, ballistic, and penetrating damage and cannot be incapacitated. This lasts for the rest of the encounter.</p>",
+    "shortDesc": "",
+    "type": "Intensity Stunts",
+    "stuntPoints": 6,
+    "stuntPointsMax": 6,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

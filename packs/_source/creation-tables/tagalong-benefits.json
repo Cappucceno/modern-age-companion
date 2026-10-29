@@ -1,0 +1,183 @@
+{
+  "name": "Tagalong Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Tagalong origin background (Middle Class).",
+  "results": [
+    {
+      "_id": "7962f5b0b76eff3a",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.7962f5b0b76eff3a"
+    },
+    {
+      "_id": "3f3796c5081bc73c",
+      "type": "text",
+      "name": "Focus: Constitution (Stamina)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.3f3796c5081bc73c"
+    },
+    {
+      "_id": "a723731f8dda4330",
+      "type": "text",
+      "name": "Focus: Intelligence (Cartography)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.a723731f8dda4330"
+    },
+    {
+      "_id": "1a68bc12c611530f",
+      "type": "text",
+      "name": "Focus: Dexterity (Driving)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.1a68bc12c611530f"
+    },
+    {
+      "_id": "5a995fa7081bfeca",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.5a995fa7081bfeca"
+    },
+    {
+      "_id": "db02a4f23ddaea7d",
+      "type": "text",
+      "name": "Focus: Intelligence (Tinkering)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.db02a4f23ddaea7d"
+    },
+    {
+      "_id": "6f57e77c94c366cf",
+      "type": "text",
+      "name": "Focus: Communication (Etiquette)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.6f57e77c94c366cf"
+    },
+    {
+      "_id": "84c5d15ea8f185ab",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!571e4d48b2327a69.84c5d15ea8f185ab"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "571e4d48b2327a69",
+  "_key": "!tables!571e4d48b2327a69"
+}

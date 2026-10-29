@@ -1,0 +1,26 @@
+{
+  "name": "Wind-Rider",
+  "_id": "3abcafce300cbb2b",
+  "_key": "!items!3abcafce300cbb2b",
+  "folder": "29168708aa8a74ad",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Magic. <strong>Cost:</strong> 2 EN.</p><p>You can magically glide on the winds, safely descending from heights that would be fatal to others. So long as you are conscious and capable of action, you are immune to falling hazards, able to glide safely to the ground. You can also move laterally while gliding, moving up to the same distance you descend vertically before you touch down.</p>",
+    "shortDesc": "2 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

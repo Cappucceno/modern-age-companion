@@ -1,0 +1,183 @@
+{
+  "name": "Anomaly Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Anomaly origin background (Outsider).",
+  "results": [
+    {
+      "_id": "8ad9bd42c462aa67",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.8ad9bd42c462aa67"
+    },
+    {
+      "_id": "dbaf47a9095840b0",
+      "type": "text",
+      "name": "Focus: Constitution (Running)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.dbaf47a9095840b0"
+    },
+    {
+      "_id": "a6f5c53795670359",
+      "type": "text",
+      "name": "Focus: Communication (Bargaining)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.a6f5c53795670359"
+    },
+    {
+      "_id": "9814b87c914f401b",
+      "type": "text",
+      "name": "Focus: Perception (Hearing)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.9814b87c914f401b"
+    },
+    {
+      "_id": "a357010e2efe6717",
+      "type": "text",
+      "name": "+1 Communication",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.a357010e2efe6717"
+    },
+    {
+      "_id": "2fcd411eccd54c86",
+      "type": "text",
+      "name": "Focus: Willpower (Self-Discipline)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.2fcd411eccd54c86"
+    },
+    {
+      "_id": "dd0653f9e9bd8494",
+      "type": "text",
+      "name": "Focus: Communication (Disguise)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.dd0653f9e9bd8494"
+    },
+    {
+      "_id": "206d53914343a702",
+      "type": "text",
+      "name": "+1 Perception",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!8daef5f6f0e9b4fc.206d53914343a702"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "8daef5f6f0e9b4fc",
+  "_key": "!tables!8daef5f6f0e9b4fc"
+}

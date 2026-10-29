@@ -1,0 +1,27 @@
+{
+  "name": "Mysterious Stranger",
+  "_id": "1dbcd54546148b6a",
+  "_key": "!items!1dbcd54546148b6a",
+  "folder": "2e902e835d35df40",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Masquerade Ball Stunts.</em> The object of your test becomes fascinated with you and follows you anywhere you lead during this encounter, until you fail a test that targets them. (General Stunt: Manipulation)</p>",
+    "shortDesc": "",
+    "type": "Environmental Stunts",
+    "stuntPoints": 4,
+    "stuntPointsMax": 4,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

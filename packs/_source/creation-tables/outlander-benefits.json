@@ -1,0 +1,183 @@
+{
+  "name": "Outlander Benefits",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Benefits table of the Outlander origin background (Outsider).",
+  "results": [
+    {
+      "_id": "096e680452031aae",
+      "type": "text",
+      "name": "+1 Intelligence",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.096e680452031aae"
+    },
+    {
+      "_id": "519a784c6baf860e",
+      "type": "text",
+      "name": "Focus: Communication (Investigation)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.519a784c6baf860e"
+    },
+    {
+      "_id": "a9d8932fcf2204b1",
+      "type": "text",
+      "name": "Focus: Perception (Empathy)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.a9d8932fcf2204b1"
+    },
+    {
+      "_id": "14088b0aea761aa8",
+      "type": "text",
+      "name": "Focus: Intelligence (Research)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.14088b0aea761aa8"
+    },
+    {
+      "_id": "0d6624dd4838171b",
+      "type": "text",
+      "name": "+1 Willpower",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        7,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.0d6624dd4838171b"
+    },
+    {
+      "_id": "2e663e160ab47d45",
+      "type": "text",
+      "name": "Focus: Willpower (Self-Discipline)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.2e663e160ab47d45"
+    },
+    {
+      "_id": "4d5b2c9312939a7c",
+      "type": "text",
+      "name": "Focus: Willpower (Courage)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 2,
+      "range": [
+        10,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.4d5b2c9312939a7c"
+    },
+    {
+      "_id": "0c2caf5a7162fb92",
+      "type": "text",
+      "name": "+1 Dexterity",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!64736eb008942023.0c2caf5a7162fb92"
+    }
+  ],
+  "formula": "2d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "cb0f771023cb438b",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "64736eb008942023",
+  "_key": "!tables!64736eb008942023"
+}

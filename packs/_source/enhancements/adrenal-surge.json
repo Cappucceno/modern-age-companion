@@ -1,0 +1,26 @@
+{
+  "name": "Adrenal Surge",
+  "_id": "a8f2be662a8c9d03",
+  "_key": "!items!a8f2be662a8c9d03",
+  "folder": "c9041474f977d8b8",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "power",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p><strong>Source:</strong> Biology. <strong>Cost:</strong> 2 EN.</p><p>Your overactive adrenal glands cause a surge in times of stress. You can perform the Adrenaline Rush stunt for –1 SP cost and gain access to a special Adrenaline Surge stunt that grants you a Force Multiplier on your Strength (Might) tests: ×2 for 2 SP, ×5 for 4 SP, and ×10 for 6 SP.</p>",
+    "shortDesc": "2 EN",
+    "activate": false,
+    "hasRoll": false,
+    "modifiers": {}
+  },
+  "ownership": {
+    "default": 0
+  }
+}

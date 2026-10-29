@@ -1,0 +1,143 @@
+{
+  "name": "Middle Class Backgrounds (with Companion origins)",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "Background table for the Middle Class social class, updated with the Companion's origin backgrounds.",
+  "results": [
+    {
+      "_id": "970d6437e20585c2",
+      "type": "text",
+      "name": "Academic",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!896c8ab417a42c6c.970d6437e20585c2"
+    },
+    {
+      "_id": "f7bc1976285b63fa",
+      "type": "text",
+      "name": "Paranormal",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!896c8ab417a42c6c.f7bc1976285b63fa"
+    },
+    {
+      "_id": "0583bff7e503d305",
+      "type": "text",
+      "name": "Suburban",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!896c8ab417a42c6c.0583bff7e503d305"
+    },
+    {
+      "_id": "bd66139236027f89",
+      "type": "text",
+      "name": "Tagalong",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!896c8ab417a42c6c.bd66139236027f89"
+    },
+    {
+      "_id": "4f89e0c33989a26f",
+      "type": "text",
+      "name": "Trade",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!896c8ab417a42c6c.4f89e0c33989a26f"
+    },
+    {
+      "_id": "563cc1300883dfae",
+      "type": "text",
+      "name": "(Roll again)",
+      "description": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14",
+        "systemId": "age-system",
+        "systemVersion": "5.0.0"
+      },
+      "_key": "!tables.results!896c8ab417a42c6c.563cc1300883dfae"
+    }
+  ],
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {},
+  "folder": "584b4ccda76f538e",
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "_id": "896c8ab417a42c6c",
+  "_key": "!tables!896c8ab417a42c6c"
+}

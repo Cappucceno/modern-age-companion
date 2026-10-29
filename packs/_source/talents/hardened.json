@@ -1,0 +1,47 @@
+{
+  "name": "Hardened",
+  "_id": "0e80bfc35a95fc08",
+  "_key": "!items!0e80bfc35a95fc08",
+  "folder": "b9e9d42ddcbba321",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "talent",
+  "img": "systems/age-system/resources/imgs/item-icon/skills.svg",
+  "system": {
+    "longDesc": "<p>You have nerves of steel.</p>",
+    "shortDesc": "",
+    "requirement": "Willpower 2 or higher",
+    "type": "talent",
+    "degree": 0,
+    "activate": true,
+    "degree0": {
+      "desc": "<p>There is little that can faze you. You can re-roll any dice with a result of 1 or 2 when making a Willpower test.</p>",
+      "isActive": true
+    },
+    "degree1": {
+      "desc": "<p>You remain calm under peer pressure. During a social situation, you can use your Willpower instead of Perception or Communication when making opposed tests to resist manipulation or intimidation or see through lies and deception. You must still use the focuses required by the test.</p>",
+      "isActive": true
+    },
+    "degree2": {
+      "desc": "<p>You can react with aplomb to unexpected circumstances. You can act during the first round of combat even if you are surprised. You still fail to notice any foes that successfully hide from you, but you have all your actions available and know you’re in trouble. Furthermore, if you’re using the fear rules in Chapter 3 you may re-roll a failed Fear Test, but must keep the result of the second roll.</p>",
+      "isActive": true
+    },
+    "degree3": {
+      "desc": "<p>With a steady hand and a cool head, you can turn the tables on any situation. Roll a Stunt Die when you are surprised in combat; you gain the resulting SP until the end of your next turn. Also, when you succeed at an opposed test using Willpower in a social situation, you gain the number of SP indicated on the Stunt Die if you didn’t roll doubles and twice the result if you rolled doubles. Furthermore, if you’re using the fear rules in Chapter 3 you may always choose to fight instead of flee whenever you fail a Fear Test.</p>",
+      "isActive": true
+    },
+    "degree4": {
+      "desc": "<p>You are an eye of tranquility in a hurricane of turmoil. When re-rolling dice as per the Novice degree, you can re-roll any dice with a result of 1, 2, or 3. Also, you can use a major action to provide comfort or encouragement to all persons you decide who can see or hear you; for the rest of the encounter, they enjoy the benefits of the Novice degree of this talent.</p>",
+      "isActive": true
+    }
+  },
+  "ownership": {
+    "default": 0
+  }
+}

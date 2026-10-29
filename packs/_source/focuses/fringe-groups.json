@@ -1,0 +1,27 @@
+{
+  "name": "Fringe Groups",
+  "_id": "bd61ce5148e01f10",
+  "_key": "!items!bd61ce5148e01f10",
+  "folder": "1c0bfac73a080558",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "focus",
+  "img": "systems/age-system/resources/imgs/item-icon/gift-of-knowledge.svg",
+  "system": {
+    "longDesc": "<p>Used when influencing a fringe group of the players’ choice, present within the organization’s Scope</p>",
+    "shortDesc": "",
+    "useAbl": "",
+    "initialValue": 2,
+    "improved": false,
+    "isOrg": true
+  },
+  "ownership": {
+    "default": 0
+  }
+}

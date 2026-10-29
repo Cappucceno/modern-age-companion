@@ -1,0 +1,27 @@
+{
+  "name": "I Meant to Do That",
+  "_id": "bb0879376c2c3f47",
+  "_key": "!items!bb0879376c2c3f47",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Steampunk.</em> As part of your test, you meddle with one of your opponent’s devices. You and your target make opposed Intelligence (Tinkering) rolls. If you win, the next time the opponent fails a roll while using or interacting with the device, it explodes. This destroys the device permanently and deals 1d6 damage to the opponent. (General Stunt: Disadvantage)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 5,
+    "stuntPointsMax": 5,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}

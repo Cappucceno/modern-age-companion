@@ -1,0 +1,17 @@
+{
+  "name": "Event Tables",
+  "type": "RollTable",
+  "folder": null,
+  "sorting": "a",
+  "sort": 200000,
+  "color": null,
+  "description": "",
+  "flags": {},
+  "_id": "e52645d109d8620d",
+  "_key": "!folders!e52645d109d8620d",
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  }
+}

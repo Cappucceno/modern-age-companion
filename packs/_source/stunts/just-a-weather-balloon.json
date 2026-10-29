@@ -1,0 +1,27 @@
+{
+  "name": "Just a Weather Balloon",
+  "_id": "b8c94a1d4bb73701",
+  "_key": "!items!b8c94a1d4bb73701",
+  "folder": "d08aadf6d5730a42",
+  "sort": 0,
+  "flags": {},
+  "effects": [],
+  "_stats": {
+    "coreVersion": "14",
+    "systemId": "age-system",
+    "systemVersion": "5.0.0"
+  },
+  "type": "stunts",
+  "img": "systems/age-system/resources/imgs/item-icon/split-cross.svg",
+  "system": {
+    "longDesc": "<p><em>Alien Conspiracy.</em> You step in to cover up someone else’s blunder. Another character may use your Communication (Deception) total instead of their own on their next test related to this one during this encounter. (General Stunt: Intervention)</p>",
+    "shortDesc": "",
+    "type": "Thematic Stunts",
+    "stuntPoints": 3,
+    "stuntPointsMax": 3,
+    "costType": "fixed"
+  },
+  "ownership": {
+    "default": 0
+  }
+}
