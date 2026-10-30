@@ -34,7 +34,7 @@ The converter reads PDF pages directly, so it is tied to the GRR6304 edition of 
 
 ## Install
 Manifest URL (once release `v0.1.0` with `module.zip` exists):
-`https://raw.githubusercontent.com/Cappucceno/modern-age-companion-compendium/main/module.json`
+`https://raw.githubusercontent.com/Cappucceno/modern-age-companion/main/module.json`
 
 Manual install: put this folder in `Data/modules/` **named `modern-age-companion-compendium`**.
 

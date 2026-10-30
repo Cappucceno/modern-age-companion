@@ -121,9 +121,9 @@
       "system": "age-system"
     }
   ],
-  "url": "https://github.com/Cappucceno/modern-age-companion-compendium",
+  "url": "https://github.com/Cappucceno/modern-age-companion",
   "license": "LICENSE.txt",
-  "manifest": "https://raw.githubusercontent.com/Cappucceno/modern-age-companion-compendium/main/module.json",
-  "download": "https://github.com/Cappucceno/modern-age-companion-compendium/releases/download/v0.1.0/module.zip",
-  "bugs": "https://github.com/Cappucceno/modern-age-companion-compendium/issues"
+  "manifest": "https://raw.githubusercontent.com/Cappucceno/modern-age-companion/main/module.json",
+  "download": "https://github.com/Cappucceno/modern-age-companion/releases/download/v0.1.0/module.zip",
+  "bugs": "https://github.com/Cappucceno/modern-age-companion/issues"
 }
